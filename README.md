@@ -1,4 +1,4 @@
-# Efficient Difussion Model: A Survey
+# Efficient Diffussion Model: A Survey
 
 ddl: September 2024
 
