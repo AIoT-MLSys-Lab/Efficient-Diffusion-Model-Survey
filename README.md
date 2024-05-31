@@ -142,6 +142,9 @@ ddl: September 2024
 - Adding Conditional Control to Text-to-Image Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Adding_Conditional_Control_to_Text-to-Image_Diffusion_Models_ICCV_2023_paper.pdf)
 - Unleashing Text-to-Image Diffusion Models for Visual Perception, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhao_Unleashing_Text-to-Image_Diffusion_Models_for_Visual_Perception_ICCV_2023_paper.pdf)
 - FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yu_FreeDoM_Training-Free_Energy-Guided_Conditional_Diffusion_Model_ICCV_2023_paper.pdf)
+- 3D Shape Generation and Completion Through Point-Voxel Diffusion, ICCV 21 [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhou_3D_Shape_Generation_and_Completion_Through_Point-Voxel_Diffusion_ICCV_2021_paper.pdf)
+- ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models, ICCV 21 [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Choi_ILVR_Conditioning_Method_for_Denoising_Diffusion_Probabilistic_Models_ICCV_2021_paper.pdf)
+- Conditional Diffusion for Interactive Segmentation, ICCV 21 [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Conditional_Diffusion_for_Interactive_Segmentation_ICCV_2021_paper.pdf)
 
 
 ### ECCV:
