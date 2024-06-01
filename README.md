@@ -698,11 +698,14 @@ https://arxiv.org/pdf/2210.09292
 
 
 
-
-
-
 ### EMNLP:
-
+- A Cheaper and Better Diffusion Language Model with Soft-Masked Noise, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2304.04746)
+- A Diffusion Weighted Graph Framework for New Intent Discovery, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2310.15836)
+- STINMatch: Semi-Supervised Semantic-Topological Iteration Network for Financial Risk Detection via News Label Diffusion, EMNLP 23 [[Paper]](https://aclanthology.org/2023.emnlp-main.578.pdf)
+- DiffS2UT: A Semantic Preserving Diffusion Model for Textless Direct Speech-to-Speech Translation, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2310.17570)
+- ScanDL: A Diffusion Model for Generating Synthetic Scanpaths on Texts, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2310.15587)
+- ViT-TTS: Visual Text-to-Speech with Scalable Diffusion Transformer, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2305.12708)
+- CodeFusion: A Pre-trained Diffusion Model for Code Generation, EMNLP 23 [[Paper]](https://aclanthology.org/2023.emnlp-main.716.pdf)
 
 ### ACL:
 - DiffusEmp: A Diffusion Model-Based Framework with Multi-Grained Control for Empathetic Response Generation, ACL 23 [[Paper]](https://arxiv.org/pdf/2306.01657)
