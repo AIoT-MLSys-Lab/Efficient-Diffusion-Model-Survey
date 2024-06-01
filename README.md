@@ -706,4 +706,11 @@ https://arxiv.org/pdf/2210.09292
 ### ACL:
 
 ### NAACL:
-
+- Text Diffusion Model with Encoder-Decoder Transformers for Sequence-to-Sequence Generation, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.10325)
+- IPED: An Implicit Perspective for Relational Triple Extraction based on Diffusion Model, NAACL 24 [[Paper]](https://arxiv.org/pdf/2403.00808)
+- P^3SUM: Preserving Author's Perspective in News Summarization with Diffusion Language Models, NAACL 24 [[Paper]](https://arxiv.org/pdf/2311.09741)
+- LanguageFlow: Advancing Diffusion Language Generation with Probabilistic Flows, NAACL 24 [[Paper]](https://arxiv.org/pdf/2403.16995)
+- Empowering Diffusion Models on the Embedding Space for Text Generation, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.09412)
+- Diffusion Glancing Transformer for Parallel Sequence-to-Sequence Learning, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.10240)
+- LaDiC: Are Diffusion Models Really Inferior to Autoregressive Counterparts for Image-to-Text Generation?, NAACL 24 [[Paper]](https://arxiv.org/pdf/2404.10763)
+- David helps Goliath: Inference-Time Collaboration Between Small Specialized and Large General Diffusion LMs, NAACL 24 [[Paper]](https://arxiv.org/pdf/2305.14771)
