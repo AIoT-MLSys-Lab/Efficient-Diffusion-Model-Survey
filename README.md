@@ -347,9 +347,17 @@ ddl: September 2024
 
 
 ### ECCV:
+- Compositional Visual Generation with Composable Diffusion Models, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136770426.pdf)
+- Time-rEversed diffusioN tEnsor Transformer: A New TENET of Few-Shot Object Detection, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136800300.pdf)
+- Entropy-Driven Sampling and Training Scheme for Conditional Diffusion Generation, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820730.pdf)
+- Accelerating Score-Based Generative Models with Preconditioned Diffusion Sampling, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830001.pdf)
+- Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830171.pdf)
+- Subspace Diffusion Generative Models, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830274.pdf)
+- DiffuseMorph: Unsupervised Deformable Image Registration Using Diffusion Model, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136910336.pdf)
+- DiffuStereo: High Quality Human Reconstruction via Diffusion-Based Stereo Using Sparse Cameras, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136920697.pdf)
+- Variational Diffusion Autoencoders with Random Walk Sampling, ECCV 20 [[Paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680358.pdf)
 
 ### NeurIPS:
-
 
 - PDF: Point Diffusion Implicit Function for Large-scale Scene Neural Representation, NIPS 23 [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/0073cc73e1873b35345209b50a3dab66-Abstract-Conference.html)
 - Ambient Diffusion: Learning Clean Distributions from Corrupted Data, NIPS 23 [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/012af729c5d14d279581fc8a5db975a1-Abstract-Conference.html)
