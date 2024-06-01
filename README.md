@@ -5,7 +5,18 @@ ddl: September 2024
 # Todo List
 - Collect diffusion papers from **CVPR** **ICLR** **NeurIPS** **ICML** **ECCV** **ICCV** **EMNLP** **ACL** **NAACL**
 - Read existing survey papers related to diffusion
-- 
+
+
+
+
+# Reference:
+
+
+Efficient LLM survey
+https://arxiv.org/pdf/2312.03863
+
+Efficient Diffusion Model for Vision
+https://arxiv.org/pdf/2210.09292
 
 # Paper List
 
