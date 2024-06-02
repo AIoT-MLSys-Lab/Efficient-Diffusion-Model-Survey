@@ -20,9 +20,13 @@ https://arxiv.org/pdf/2210.09292
 
 # Paper List
 
+## Related to Efficient
+- LAVIE: HIGH-QUALITY VIDEO GENERATION WITH CASCADED LATENT DIFFUSION MODELS,CVPR 23 [paper](https://arxiv.org/pdf/2309.15103)
+
+
 ### CVPR:
 
-- LAVIE: HIGH-QUALITY VIDEO GENERATION WITH CASCADED LATENT DIFFUSION MODELS,CVPR 23 [paper](https://arxiv.org/pdf/2309.15103)
+
 - MVDREAM: MULTI-VIEW DIFFUSION FOR 3D GENERATION,CVPR 23 [paper](https://arxiv.org/pdf/2308.16512)
 - Effective Data Augmentation With Diffusion Models,CVPR 23 [paper](https://arxiv.org/pdf/2302.07944)
 
