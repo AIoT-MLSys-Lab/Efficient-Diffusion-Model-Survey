@@ -20,8 +20,24 @@ https://arxiv.org/pdf/2210.09292
 
 # Paper List
 
+## Paper Related to Efficient
+
+### Boning
+1. LAVIE: HIGH-QUALITY VIDEO GENERATION WITH CASCADED LATENT DIFFUSION MODELS,CVPR 23 [[Paper]](https://arxiv.org/pdf/2309.15103)
+
+### Hui
+1. Stochastic Segmentation with Conditional Categorical Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zbinden_Stochastic_Segmentation_with_Conditional_Categorical_Diffusion_Models_ICCV_2023_paper.pdf)
+2. 
+
+
+### Rui
+
+
+### Jingxuan
+
+
 ### CVPR:
-- LAVIE: HIGH-QUALITY VIDEO GENERATION WITH CASCADED LATENT DIFFUSION MODELS,CVPR 23 [[Paper]](https://arxiv.org/pdf/2309.15103)
+
 - MVDREAM: MULTI-VIEW DIFFUSION FOR 3D GENERATION,CVPR 23 [[Paper]](https://arxiv.org/pdf/2308.16512)
 - Effective Data Augmentation With Diffusion Models,CVPR 23 [[Paper]](https://arxiv.org/pdf/2302.07944)
 - Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)
@@ -140,7 +156,7 @@ https://arxiv.org/pdf/2210.09292
 - Diffusion Probabilistic Models for 3D Point Cloud Generation, CVPR 21 [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Luo_Diffusion_Probabilistic_Models_for_3D_Point_Cloud_Generation_CVPR_2021_paper.pdf)
 
 ### ICCV:
-- Stochastic Segmentation with Conditional Categorical Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zbinden_Stochastic_Segmentation_with_Conditional_Categorical_Diffusion_Models_ICCV_2023_paper.pdf)
+- 
 - Diff-Retinex: Rethinking Low-light Image Enhancement with A Generative Diffusion Model, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yi_Diff-Retinex_Rethinking_Low-light_Image_Enhancement_with_A_Generative_Diffusion_Model_ICCV_2023_paper.pdf)
 - Texture Generation on 3D Meshes with Point-UV Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yu_Texture_Generation_on_3D_Meshes_with_Point-UV_Diffusion_ICCV_2023_paper.pdf)
 - LD-ZNet: A Latent Diffusion Approach for Text-Based Image Segmentation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/PNVR_LD-ZNet_A_Latent_Diffusion_Approach_for_Text-Based_Image_Segmentation_ICCV_2023_paper.pdf)
