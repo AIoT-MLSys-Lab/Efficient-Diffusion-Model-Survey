@@ -20,215 +20,124 @@ https://arxiv.org/pdf/2210.09292
 
 # Paper List
 
-## Related to Efficient
-- LAVIE: HIGH-QUALITY VIDEO GENERATION WITH CASCADED LATENT DIFFUSION MODELS,CVPR 23 [paper](https://arxiv.org/pdf/2309.15103)
-
-
 ### CVPR:
-
-
-- MVDREAM: MULTI-VIEW DIFFUSION FOR 3D GENERATION,CVPR 23 [paper](https://arxiv.org/pdf/2308.16512)
-- Effective Data Augmentation With Diffusion Models,CVPR 23 [paper](https://arxiv.org/pdf/2302.07944)
-
-- Post-Training Quantization on Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- Paint by Example: Exemplar-Based Image Editing With Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Paint_by_Example_Exemplar-Based_Image_Editing_With_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- SparseFusion: Distilling View-Conditioned Diffusion for 3D Reconstruction, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_SparseFusion_Distilling_View-Conditioned_Diffusion_for_3D_Reconstruction_CVPR_2023_paper.pdf)
-
-- Leapfrog Diffusion Model for Stochastic Trajectory Prediction, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Mao_Leapfrog_Diffusion_Model_for_Stochastic_Trajectory_Prediction_CVPR_2023_paper.pdf)
-
-- Wavelet Diffusion Models Are Fast and Scalable Image Generators, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Phung_Wavelet_Diffusion_Models_Are_Fast_and_Scalable_Image_Generators_CVPR_2023_paper.pdf)
-
-- How to Backdoor Diffusion Models?, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Chou_How_to_Backdoor_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- ERNIE-ViLG 2.0: Improving Text-to-Image Diffusion Model With Knowledge-Enhanced Mixture-of-Denoising-Experts, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Feng_ERNIE-ViLG_2.0_Improving_Text-to-Image_Diffusion_Model_With_Knowledge-Enhanced_Mixture-of-Denoising-Experts_CVPR_2023_paper.pdf)
-
-- Open-Vocabulary Panoptic Segmentation With Text-to-Image Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Xu_Open-Vocabulary_Panoptic_Segmentation_With_Text-to-Image_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- Executing Your Commands via Motion Diffusion in Latent Space, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Executing_Your_Commands_via_Motion_Diffusion_in_Latent_Space_CVPR_2023_paper.pdf)
-
-- TryOnDiffusion: A Tale of Two UNets, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_TryOnDiffusion_A_Tale_of_Two_UNets_CVPR_2023_paper.pdf)
-
-- 3D Neural Field Generation Using Triplane Diffusion, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Shue_3D_Neural_Field_Generation_Using_Triplane_Diffusion_CVPR_2023_paper.pdf)
-
-- On Distillation of Guided Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Meng_On_Distillation_of_Guided_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- HOLODIFFUSION: Training a 3D Diffusion Model Using 2D Images, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Karnewar_HOLODIFFUSION_Training_a_3D_Diffusion_Model_Using_2D_Images_CVPR_2023_paper.pdf)
-
-- Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Rempe_Trace_and_Pace_Controllable_Pedestrian_Animation_via_Guided_Trajectory_Diffusion_CVPR_2023_paper.pdf)
-
-- Inversion-Based Style Transfer With Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Inversion-Based_Style_Transfer_With_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- Diffusion Video Autoencoders: Toward Temporally Consistent Face Video Editing via Disentangled Video Encoding, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Kim_Diffusion_Video_Autoencoders_Toward_Temporally_Consistent_Face_Video_Editing_via_CVPR_2023_paper.pdf)
-
-- Conditional Text Image Generation With Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Conditional_Text_Image_Generation_With_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- DiffCollage: Parallel Generation of Large Content With Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_DiffCollage_Parallel_Generation_of_Large_Content_With_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- Guided Depth Super-Resolution by Deep Anisotropic Diffusion, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Metzger_Guided_Depth_Super-Resolution_by_Deep_Anisotropic_Diffusion_CVPR_2023_paper.pdf)
-
-- Mofusion: A Framework for Denoising-Diffusion-Based Motion Synthesis, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Dabral_Mofusion_A_Framework_for_Denoising-Diffusion-Based_Motion_Synthesis_CVPR_2023_paper.pdf)
-
-- DiffusioNeRF: Regularizing Neural Radiance Fields With Denoising Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wynn_DiffusioNeRF_Regularizing_Neural_Radiance_Fields_With_Denoising_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- MotionDiffuser: Controllable Multi-Agent Motion Prediction Using Diffusion, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_MotionDiffuser_Controllable_Multi-Agent_Motion_Prediction_Using_Diffusion_CVPR_2023_paper.pdf)
-
-- EDICT: Exact Diffusion Inversion via Coupled Transformations, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wallace_EDICT_Exact_Diffusion_Inversion_via_Coupled_Transformations_CVPR_2023_paper.pdf)
-
-- Safe Latent Diffusion: Mitigating Inappropriate Degeneration in Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Schramowski_Safe_Latent_Diffusion_Mitigating_Inappropriate_Degeneration_in_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- MM-Diffusion: Learning Multi-Modal Diffusion Models for Joint Audio and Video Generation, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Ruan_MM-Diffusion_Learning_Multi-Modal_Diffusion_Models_for_Joint_Audio_and_Video_CVPR_2023_paper.pdf)
-
-- Constrained Evolutionary Diffusion Filter for Monocular Endoscope Tracking, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Luo_Constrained_Evolutionary_Diffusion_Filter_for_Monocular_Endoscope_Tracking_CVPR_2023_paper.pdf)
-
-- Implicit Diffusion Models for Continuous Super-Resolution, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Implicit_Diffusion_Models_for_Continuous_Super-Resolution_CVPR_2023_paper.pdf)
-
-- Physics-Driven Diffusion Models for Impact Sound Synthesis From Videos, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Su_Physics-Driven_Diffusion_Models_for_Impact_Sound_Synthesis_From_Videos_CVPR_2023_paper.pdf)
-
-- Binary Latent Diffusion, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Binary_Latent_Diffusion_CVPR_2023_paper.pdf)
-
-- Person Image Synthesis via Denoising Diffusion Model, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Bhunia_Person_Image_Synthesis_via_Denoising_Diffusion_Model_CVPR_2023_paper.pdf)
-
-- NeuralField-LDM: Scene Generation With Hierarchical Latent Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Kim_NeuralField-LDM_Scene_Generation_With_Hierarchical_Latent_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- Controllable Mesh Generation Through Sparse Latent Point Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Lyu_Controllable_Mesh_Generation_Through_Sparse_Latent_Point_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- RODIN: A Generative Model for Sculpting 3D Digital Avatars Using Diffusion, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_RODIN_A_Generative_Model_for_Sculpting_3D_Digital_Avatars_Using_CVPR_2023_paper.pdf)
-
-- High-Fidelity Guided Image Synthesis With Latent Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Singh_High-Fidelity_Guided_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- PDPP:Projected Diffusion for Procedure Planning in Instructional Videos, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_PDPPProjected_Diffusion_for_Procedure_Planning_in_Instructional_Videos_CVPR_2023_paper.pdf)
-
-- Diffusion-SDF: Text-To-Shape via Voxelized Diffusion, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Diffusion-SDF_Text-To-Shape_via_Voxelized_Diffusion_CVPR_2023_paper.pdf)
-
-- Semantic-Conditional Diffusion Networks for Image Captioning, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Luo_Semantic-Conditional_Diffusion_Networks_for_Image_Captioning_CVPR_2023_paper.pdf)
-
-- Unite and Conquer: Plug & Play Multi-Modal Synthesis Using Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Nair_Unite_and_Conquer_Plug__Play_Multi-Modal_Synthesis_Using_Diffusion_CVPR_2023_paper.pdf)
-
-- All Are Worth Words: A ViT Backbone for Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Bao_All_Are_Worth_Words_A_ViT_Backbone_for_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Taming_Diffusion_Models_for_Audio-Driven_Co-Speech_Gesture_Generation_CVPR_2023_paper.pdf)
-
-- Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Score_Jacobian_Chaining_Lifting_Pretrained_2D_Diffusion_Models_for_3D_CVPR_2023_paper.pdf)
-
-- DiffusionRig: Learning Personalized Priors for Facial Appearance Editing, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Ding_DiffusionRig_Learning_Personalized_Priors_for_Facial_Appearance_Editing_CVPR_2023_paper.pdf)
-
-- Towards Practical Plug-and-Play Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Go_Towards_Practical_Plug-and-Play_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- NeRDi: Single-View NeRF Synthesis With Language-Guided Diffusion As General Image Priors, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Deng_NeRDi_Single-View_NeRF_Synthesis_With_Language-Guided_Diffusion_As_General_Image_CVPR_2023_paper.pdf)
-
-- Uncovering the Disentanglement Capability in Text-to-Image Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wu_Uncovering_the_Disentanglement_Capability_in_Text-to-Image_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- TrojDiff: Trojan Attacks on Diffusion Models With Diverse Targets, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_TrojDiff_Trojan_Attacks_on_Diffusion_Models_With_Diverse_Targets_CVPR_2023_paper.pdf)
-
-- LayoutDiffusion: Controllable Diffusion Model for Layout-to-Image Generation, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_LayoutDiffusion_Controllable_Diffusion_Model_for_Layout-to-Image_Generation_CVPR_2023_paper.pdf)
-
-- BBDM: Image-to-Image Translation With Brownian Bridge Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_BBDM_Image-to-Image_Translation_With_Brownian_Bridge_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- DR2: Diffusion-Based Robust Degradation Remover for Blind Face Restoration, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_DR2_Diffusion-Based_Robust_Degradation_Remover_for_Blind_Face_Restoration_CVPR_2023_paper.pdf)
-
-- HouseDiffusion: Vector Floorplan Generation via a Diffusion Model With Discrete and Continuous Denoising, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Shabani_HouseDiffusion_Vector_Floorplan_Generation_via_a_Diffusion_Model_With_Discrete_CVPR_2023_paper.pdf)
-
-- Unifying Layout Generation With a Decoupled Diffusion Model, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Hui_Unifying_Layout_Generation_With_a_Decoupled_Diffusion_Model_CVPR_2023_paper.pdf)
-
-- Dimensionality-Varying Diffusion Process, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Dimensionality-Varying_Diffusion_Process_CVPR_2023_paper.pdf)
-
-- RenderDiffusion: Image Diffusion for 3D Reconstruction, Inpainting and Generation, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Anciukevicius_RenderDiffusion_Image_Diffusion_for_3D_Reconstruction_Inpainting_and_Generation_CVPR_2023_paper.pdf)
-
-- Back to the Source: Diffusion-Driven Adaptation To Test-Time Corruption, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Back_to_the_Source_Diffusion-Driven_Adaptation_To_Test-Time_Corruption_CVPR_2023_paper.pdf)
-
-- LayoutDM: Discrete Diffusion Model for Controllable Layout Generation, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Inoue_LayoutDM_Discrete_Diffusion_Model_for_Controllable_Layout_Generation_CVPR_2023_paper.pdf)
-
-- RGBD2: Generative Scene Synthesis via Incremental View Inpainting Using RGBD Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Lei_RGBD2_Generative_Scene_Synthesis_via_Incremental_View_Inpainting_Using_RGBD_CVPR_2023_paper.pdf)
-
-- Parallel Diffusion Models of Operator and Image for Blind Inverse Problems, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Chung_Parallel_Diffusion_Models_of_Operator_and_Image_for_Blind_Inverse_CVPR_2023_paper.pdf)
-
-- Lookahead Diffusion Probabilistic Models for Refining Mean Estimation, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Lookahead_Diffusion_Probabilistic_Models_for_Refining_Mean_Estimation_CVPR_2023_paper.pdf)
-
-- Shifted Diffusion for Text-to-Image Generation, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_Shifted_Diffusion_for_Text-to-Image_Generation_CVPR_2023_paper.pdf)
-
-- High-Resolution Image Reconstruction With Latent Diffusion Models From Human Brain Activity, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Takagi_High-Resolution_Image_Reconstruction_With_Latent_Diffusion_Models_From_Human_Brain_CVPR_2023_paper.pdf)
-
-- SINE: SINgle Image Editing With Text-to-Image Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_SINE_SINgle_Image_Editing_With_Text-to-Image_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- Solving 3D Inverse Problems Using Pre-Trained 2D Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Chung_Solving_3D_Inverse_Problems_Using_Pre-Trained_2D_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- Heat Diffusion Based Multi-Scale and Geometric Structure-Aware Transformer for Mesh Segmentation, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wong_Heat_Diffusion_Based_Multi-Scale_and_Geometric_Structure-Aware_Transformer_for_Mesh_CVPR_2023_paper.pdf)
-
-- Diffusion-Based Signed Distance Fields for 3D Shape Generation, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Shim_Diffusion-Based_Signed_Distance_Fields_for_3D_Shape_Generation_CVPR_2023_paper.pdf)
-
-- DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Ruiz_DreamBooth_Fine_Tuning_Text-to-Image_Diffusion_Models_for_Subject-Driven_Generation_CVPR_2023_paper.pdf)
-
-- Ambiguous Medical Image Segmentation Using Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Rahman_Ambiguous_Medical_Image_Segmentation_Using_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- Diffusion-Based Generation, Optimization, and Planning in 3D Scenes, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Diffusion-Based_Generation_Optimization_and_Planning_in_3D_Scenes_CVPR_2023_paper.pdf)
-
-- Diffusion Probabilistic Model Made Slim, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Diffusion_Probabilistic_Model_Made_Slim_CVPR_2023_paper.pdf)
-
-- Specialist Diffusion: Plug-and-Play Sample-Efficient Fine-Tuning of Text-to-Image Diffusion Models To Learn Any Unseen Style, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Lu_Specialist_Diffusion_Plug-and-Play_Sample-Efficient_Fine-Tuning_of_Text-to-Image_Diffusion_Models_To_CVPR_2023_paper.pdf)
-
-- VectorFusion: Text-to-SVG by Abstracting Pixel-Based Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Jain_VectorFusion_Text-to-SVG_by_Abstracting_Pixel-Based_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- Diffusion Art or Digital Forgery? Investigating Data Replication in Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Somepalli_Diffusion_Art_or_Digital_Forgery_Investigating_Data_Replication_in_Diffusion_CVPR_2023_paper.pdf)
-
-- Generative Diffusion Prior for Unified Image Restoration and Enhancement, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Fei_Generative_Diffusion_Prior_for_Unified_Image_Restoration_and_Enhancement_CVPR_2023_paper.pdf)
-
-- Seeing Beyond the Brain: Conditional Diffusion Model With Sparse Masked Modeling for Vision Decoding, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Seeing_Beyond_the_Brain_Conditional_Diffusion_Model_With_Sparse_Masked_CVPR_2023_paper.pdf)
-
-- Imagic: Text-Based Real Image Editing With Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Kawar_Imagic_Text-Based_Real_Image_Editing_With_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- Generalized Deep 3D Shape Prior via Part-Discretized Diffusion Process, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Generalized_Deep_3D_Shape_Prior_via_Part-Discretized_Diffusion_Process_CVPR_2023_paper.pdf)
-
-- DCFace: Synthetic Face Generation With Dual Condition Diffusion Model, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Kim_DCFace_Synthetic_Face_Generation_With_Dual_Condition_Diffusion_Model_CVPR_2023_paper.pdf)
-
-- Video Probabilistic Diffusion Models in Projected Latent Space, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Video_Probabilistic_Diffusion_Models_in_Projected_Latent_Space_CVPR_2023_paper.pdf)
-
-- Self-Guided Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Hu_Self-Guided_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- Conditional Image-to-Video Generation With Latent Flow Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Ni_Conditional_Image-to-Video_Generation_With_Latent_Flow_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- Consistent View Synthesis With Pose-Guided Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tseng_Consistent_View_Synthesis_With_Pose-Guided_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- DATID-3D: Diversity-Preserved Domain Adaptation Using Text-to-Image Diffusion for 3D Generative Model, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Kim_DATID-3D_Diversity-Preserved_Domain_Adaptation_Using_Text-to-Image_Diffusion_for_3D_Generative_CVPR_2023_paper.pdf)
-
-- ShadowDiffusion: When Degradation Prior Meets Diffusion Model for Shadow Removal, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Guo_ShadowDiffusion_When_Degradation_Prior_Meets_Diffusion_Model_for_Shadow_Removal_CVPR_2023_paper.pdf)
-
-- Affordance Diffusion: Synthesizing Hand-Object Interactions, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Ye_Affordance_Diffusion_Synthesizing_Hand-Object_Interactions_CVPR_2023_paper.pdf)
-
-- Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tumanyan_Plug-and-Play_Diffusion_Features_for_Text-Driven_Image-to-Image_Translation_CVPR_2023_paper.pdf)
-
-- DiffTalk: Crafting Diffusion Models for Generalized Audio-Driven Portraits Animation, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Shen_DiffTalk_Crafting_Diffusion_Models_for_Generalized_Audio-Driven_Portraits_Animation_CVPR_2023_paper.pdf)
-
-- DiffRF: Rendering-Guided 3D Radiance Field Diffusion, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Muller_DiffRF_Rendering-Guided_3D_Radiance_Field_Diffusion_CVPR_2023_paper.pdf)
-
-- LayoutDM: Transformer-Based Diffusion Model for Layout Generation, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Chai_LayoutDM_Transformer-Based_Diffusion_Model_for_Layout_Generation_CVPR_2023_paper.pdf)
-
-- Collaborative Diffusion for Multi-Modal Face Generation and Editing, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Collaborative_Diffusion_for_Multi-Modal_Face_Generation_and_Editing_CVPR_2023_paper.pdf)
-
-- SmartBrush: Text and Shape Guided Object Inpainting With Diffusion Model, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_SmartBrush_Text_and_Shape_Guided_Object_Inpainting_With_Diffusion_Model_CVPR_2023_paper.pdf)
-
-- Multi-Concept Customization of Text-to-Image Diffusion, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Kumari_Multi-Concept_Customization_of_Text-to-Image_Diffusion_CVPR_2023_paper.pdf)
-
-- Controllable Light Diffusion for Portraits, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Futschik_Controllable_Light_Diffusion_for_Portraits_CVPR_2023_paper.pdf)
-
-- DiffSwap: High-Fidelity and Controllable Face Swapping via 3D-Aware Masked Diffusion, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_DiffSwap_High-Fidelity_and_Controllable_Face_Swapping_via_3D-Aware_Masked_Diffusion_CVPR_2023_paper.pdf)
-
-- Dream3D: Zero-Shot Text-to-3D Synthesis Using 3D Shape Prior and Text-to-Image Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Xu_Dream3D_Zero-Shot_Text-to-3D_Synthesis_Using_3D_Shape_Prior_and_Text-to-Image_CVPR_2023_paper.pdf)
-
-- ObjectStitch: Object Compositing With Diffusion Model, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Song_ObjectStitch_Object_Compositing_With_Diffusion_Model_CVPR_2023_paper.pdf)
-
-- Class-Balancing Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Qin_Class-Balancing_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- Avatars Grow Legs: Generating Smooth Human Motion From Sparse Tracking Inputs With Diffusion Model, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Du_Avatars_Grow_Legs_Generating_Smooth_Human_Motion_From_Sparse_Tracking_CVPR_2023_paper.pdf)
-
-- PC2: Projection-Conditioned Point Cloud Diffusion for Single-Image 3D Reconstruction, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Melas-Kyriazi_PC2_Projection-Conditioned_Point_Cloud_Diffusion_for_Single-Image_3D_Reconstruction_CVPR_2023_paper.pdf)
-
-- Align Your Latents: High-Resolution Video Synthesis With Latent Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Blattmann_Align_Your_Latents_High-Resolution_Video_Synthesis_With_Latent_Diffusion_Models_CVPR_2023_paper.pdf)
-
-- NULL-Text Inversion for Editing Real Images Using Guided Diffusion Models, CVPR 23 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Mokady_NULL-Text_Inversion_for_Editing_Real_Images_Using_Guided_Diffusion_Models_CVPR_2023_paper.pdf)
-
-
+- LAVIE: HIGH-QUALITY VIDEO GENERATION WITH CASCADED LATENT DIFFUSION MODELS,CVPR 23 [[Paper]](https://arxiv.org/pdf/2309.15103)
+- MVDREAM: MULTI-VIEW DIFFUSION FOR 3D GENERATION,CVPR 23 [[Paper]](https://arxiv.org/pdf/2308.16512)
+- Effective Data Augmentation With Diffusion Models,CVPR 23 [[Paper]](https://arxiv.org/pdf/2302.07944)
+- Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)
+- Paint by Example: Exemplar-Based Image Editing With Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Paint_by_Example_Exemplar-Based_Image_Editing_With_Diffusion_Models_CVPR_2023_paper.pdf)
+- SparseFusion: Distilling View-Conditioned Diffusion for 3D Reconstruction, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_SparseFusion_Distilling_View-Conditioned_Diffusion_for_3D_Reconstruction_CVPR_2023_paper.pdf)
+- Leapfrog Diffusion Model for Stochastic Trajectory Prediction, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Mao_Leapfrog_Diffusion_Model_for_Stochastic_Trajectory_Prediction_CVPR_2023_paper.pdf)
+- Wavelet Diffusion Models Are Fast and Scalable Image Generators, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Phung_Wavelet_Diffusion_Models_Are_Fast_and_Scalable_Image_Generators_CVPR_2023_paper.pdf)
+- How to Backdoor Diffusion Models?, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chou_How_to_Backdoor_Diffusion_Models_CVPR_2023_paper.pdf)
+- ERNIE-ViLG 2.0: Improving Text-to-Image Diffusion Model With Knowledge-Enhanced Mixture-of-Denoising-Experts, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Feng_ERNIE-ViLG_2.0_Improving_Text-to-Image_Diffusion_Model_With_Knowledge-Enhanced_Mixture-of-Denoising-Experts_CVPR_2023_paper.pdf)
+- Open-Vocabulary Panoptic Segmentation With Text-to-Image Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Xu_Open-Vocabulary_Panoptic_Segmentation_With_Text-to-Image_Diffusion_Models_CVPR_2023_paper.pdf)
+- Executing Your Commands via Motion Diffusion in Latent Space, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Executing_Your_Commands_via_Motion_Diffusion_in_Latent_Space_CVPR_2023_paper.pdf)
+- TryOnDiffusion: A Tale of Two UNets, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_TryOnDiffusion_A_Tale_of_Two_UNets_CVPR_2023_paper.pdf)
+- 3D Neural Field Generation Using Triplane Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shue_3D_Neural_Field_Generation_Using_Triplane_Diffusion_CVPR_2023_paper.pdf)
+- On Distillation of Guided Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Meng_On_Distillation_of_Guided_Diffusion_Models_CVPR_2023_paper.pdf)
+- HOLODIFFUSION: Training a 3D Diffusion Model Using 2D Images, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Karnewar_HOLODIFFUSION_Training_a_3D_Diffusion_Model_Using_2D_Images_CVPR_2023_paper.pdf)
+- Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Rempe_Trace_and_Pace_Controllable_Pedestrian_Animation_via_Guided_Trajectory_Diffusion_CVPR_2023_paper.pdf)
+- Inversion-Based Style Transfer With Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Inversion-Based_Style_Transfer_With_Diffusion_Models_CVPR_2023_paper.pdf)
+- Diffusion Video Autoencoders: Toward Temporally Consistent Face Video Editing via Disentangled Video Encoding, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Kim_Diffusion_Video_Autoencoders_Toward_Temporally_Consistent_Face_Video_Editing_via_CVPR_2023_paper.pdf)
+- Conditional Text Image Generation With Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Conditional_Text_Image_Generation_With_Diffusion_Models_CVPR_2023_paper.pdf)
+- DiffCollage: Parallel Generation of Large Content With Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_DiffCollage_Parallel_Generation_of_Large_Content_With_Diffusion_Models_CVPR_2023_paper.pdf)
+- Guided Depth Super-Resolution by Deep Anisotropic Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Metzger_Guided_Depth_Super-Resolution_by_Deep_Anisotropic_Diffusion_CVPR_2023_paper.pdf)
+- Mofusion: A Framework for Denoising-Diffusion-Based Motion Synthesis, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Dabral_Mofusion_A_Framework_for_Denoising-Diffusion-Based_Motion_Synthesis_CVPR_2023_paper.pdf)
+- DiffusioNeRF: Regularizing Neural Radiance Fields With Denoising Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wynn_DiffusioNeRF_Regularizing_Neural_Radiance_Fields_With_Denoising_Diffusion_Models_CVPR_2023_paper.pdf)
+- MotionDiffuser: Controllable Multi-Agent Motion Prediction Using Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_MotionDiffuser_Controllable_Multi-Agent_Motion_Prediction_Using_Diffusion_CVPR_2023_paper.pdf)
+- EDICT: Exact Diffusion Inversion via Coupled Transformations, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wallace_EDICT_Exact_Diffusion_Inversion_via_Coupled_Transformations_CVPR_2023_paper.pdf)
+- Safe Latent Diffusion: Mitigating Inappropriate Degeneration in Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Schramowski_Safe_Latent_Diffusion_Mitigating_Inappropriate_Degeneration_in_Diffusion_Models_CVPR_2023_paper.pdf)
+- MM-Diffusion: Learning Multi-Modal Diffusion Models for Joint Audio and Video Generation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Ruan_MM-Diffusion_Learning_Multi-Modal_Diffusion_Models_for_Joint_Audio_and_Video_CVPR_2023_paper.pdf)
+- Constrained Evolutionary Diffusion Filter for Monocular Endoscope Tracking, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Luo_Constrained_Evolutionary_Diffusion_Filter_for_Monocular_Endoscope_Tracking_CVPR_2023_paper.pdf)
+- Implicit Diffusion Models for Continuous Super-Resolution, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Implicit_Diffusion_Models_for_Continuous_Super-Resolution_CVPR_2023_paper.pdf)
+- Physics-Driven Diffusion Models for Impact Sound Synthesis From Videos, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Su_Physics-Driven_Diffusion_Models_for_Impact_Sound_Synthesis_From_Videos_CVPR_2023_paper.pdf)
+- Binary Latent Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Binary_Latent_Diffusion_CVPR_2023_paper.pdf)
+- Person Image Synthesis via Denoising Diffusion Model, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Bhunia_Person_Image_Synthesis_via_Denoising_Diffusion_Model_CVPR_2023_paper.pdf)
+- NeuralField-LDM: Scene Generation With Hierarchical Latent Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Kim_NeuralField-LDM_Scene_Generation_With_Hierarchical_Latent_Diffusion_Models_CVPR_2023_paper.pdf)
+- Controllable Mesh Generation Through Sparse Latent Point Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lyu_Controllable_Mesh_Generation_Through_Sparse_Latent_Point_Diffusion_Models_CVPR_2023_paper.pdf)
+- RODIN: A Generative Model for Sculpting 3D Digital Avatars Using Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_RODIN_A_Generative_Model_for_Sculpting_3D_Digital_Avatars_Using_CVPR_2023_paper.pdf)
+- High-Fidelity Guided Image Synthesis With Latent Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Singh_High-Fidelity_Guided_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2023_paper.pdf)
+- PDPP:Projected Diffusion for Procedure Planning in Instructional Videos, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_PDPPProjected_Diffusion_for_Procedure_Planning_in_Instructional_Videos_CVPR_2023_paper.pdf)
+- Diffusion-SDF: Text-To-Shape via Voxelized Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Diffusion-SDF_Text-To-Shape_via_Voxelized_Diffusion_CVPR_2023_paper.pdf)
+- Semantic-Conditional Diffusion Networks for Image Captioning, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Luo_Semantic-Conditional_Diffusion_Networks_for_Image_Captioning_CVPR_2023_paper.pdf)
+- Unite and Conquer: Plug & Play Multi-Modal Synthesis Using Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Nair_Unite_and_Conquer_Plug__Play_Multi-Modal_Synthesis_Using_Diffusion_CVPR_2023_paper.pdf)
+- All Are Worth Words: A ViT Backbone for Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Bao_All_Are_Worth_Words_A_ViT_Backbone_for_Diffusion_Models_CVPR_2023_paper.pdf)
+- Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Taming_Diffusion_Models_for_Audio-Driven_Co-Speech_Gesture_Generation_CVPR_2023_paper.pdf)
+- Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Score_Jacobian_Chaining_Lifting_Pretrained_2D_Diffusion_Models_for_3D_CVPR_2023_paper.pdf)
+- DiffusionRig: Learning Personalized Priors for Facial Appearance Editing, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Ding_DiffusionRig_Learning_Personalized_Priors_for_Facial_Appearance_Editing_CVPR_2023_paper.pdf)
+- Towards Practical Plug-and-Play Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Go_Towards_Practical_Plug-and-Play_Diffusion_Models_CVPR_2023_paper.pdf)
+- NeRDi: Single-View NeRF Synthesis With Language-Guided Diffusion As General Image Priors, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Deng_NeRDi_Single-View_NeRF_Synthesis_With_Language-Guided_Diffusion_As_General_Image_CVPR_2023_paper.pdf)
+- Uncovering the Disentanglement Capability in Text-to-Image Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wu_Uncovering_the_Disentanglement_Capability_in_Text-to-Image_Diffusion_Models_CVPR_2023_paper.pdf)
+- TrojDiff: Trojan Attacks on Diffusion Models With Diverse Targets, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_TrojDiff_Trojan_Attacks_on_Diffusion_Models_With_Diverse_Targets_CVPR_2023_paper.pdf)
+- LayoutDiffusion: Controllable Diffusion Model for Layout-to-Image Generation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_LayoutDiffusion_Controllable_Diffusion_Model_for_Layout-to-Image_Generation_CVPR_2023_paper.pdf)
+- BBDM: Image-to-Image Translation With Brownian Bridge Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_BBDM_Image-to-Image_Translation_With_Brownian_Bridge_Diffusion_Models_CVPR_2023_paper.pdf)
+- DR2: Diffusion-Based Robust Degradation Remover for Blind Face Restoration, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_DR2_Diffusion-Based_Robust_Degradation_Remover_for_Blind_Face_Restoration_CVPR_2023_paper.pdf)
+- HouseDiffusion: Vector Floorplan Generation via a Diffusion Model With Discrete and Continuous Denoising, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shabani_HouseDiffusion_Vector_Floorplan_Generation_via_a_Diffusion_Model_With_Discrete_CVPR_2023_paper.pdf)
+- Unifying Layout Generation With a Decoupled Diffusion Model, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Hui_Unifying_Layout_Generation_With_a_Decoupled_Diffusion_Model_CVPR_2023_paper.pdf)
+- Dimensionality-Varying Diffusion Process, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Dimensionality-Varying_Diffusion_Process_CVPR_2023_paper.pdf)
+- RenderDiffusion: Image Diffusion for 3D Reconstruction, Inpainting and Generation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Anciukevicius_RenderDiffusion_Image_Diffusion_for_3D_Reconstruction_Inpainting_and_Generation_CVPR_2023_paper.pdf)
+- Back to the Source: Diffusion-Driven Adaptation To Test-Time Corruption, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Back_to_the_Source_Diffusion-Driven_Adaptation_To_Test-Time_Corruption_CVPR_2023_paper.pdf)
+- LayoutDM: Discrete Diffusion Model for Controllable Layout Generation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Inoue_LayoutDM_Discrete_Diffusion_Model_for_Controllable_Layout_Generation_CVPR_2023_paper.pdf)
+- RGBD2: Generative Scene Synthesis via Incremental View Inpainting Using RGBD Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lei_RGBD2_Generative_Scene_Synthesis_via_Incremental_View_Inpainting_Using_RGBD_CVPR_2023_paper.pdf)
+- Parallel Diffusion Models of Operator and Image for Blind Inverse Problems, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chung_Parallel_Diffusion_Models_of_Operator_and_Image_for_Blind_Inverse_CVPR_2023_paper.pdf)
+- Lookahead Diffusion Probabilistic Models for Refining Mean Estimation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Lookahead_Diffusion_Probabilistic_Models_for_Refining_Mean_Estimation_CVPR_2023_paper.pdf)
+- Shifted Diffusion for Text-to-Image Generation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_Shifted_Diffusion_for_Text-to-Image_Generation_CVPR_2023_paper.pdf)
+- High-Resolution Image Reconstruction With Latent Diffusion Models From Human Brain Activity, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Takagi_High-Resolution_Image_Reconstruction_With_Latent_Diffusion_Models_From_Human_Brain_CVPR_2023_paper.pdf)
+- SINE: SINgle Image Editing With Text-to-Image Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_SINE_SINgle_Image_Editing_With_Text-to-Image_Diffusion_Models_CVPR_2023_paper.pdf)
+- Solving 3D Inverse Problems Using Pre-Trained 2D Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chung_Solving_3D_Inverse_Problems_Using_Pre-Trained_2D_Diffusion_Models_CVPR_2023_paper.pdf)
+- Heat Diffusion Based Multi-Scale and Geometric Structure-Aware Transformer for Mesh Segmentation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wong_Heat_Diffusion_Based_Multi-Scale_and_Geometric_Structure-Aware_Transformer_for_Mesh_CVPR_2023_paper.pdf)
+- Diffusion-Based Signed Distance Fields for 3D Shape Generation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shim_Diffusion-Based_Signed_Distance_Fields_for_3D_Shape_Generation_CVPR_2023_paper.pdf)
+- DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Ruiz_DreamBooth_Fine_Tuning_Text-to-Image_Diffusion_Models_for_Subject-Driven_Generation_CVPR_2023_paper.pdf)
+- Ambiguous Medical Image Segmentation Using Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Rahman_Ambiguous_Medical_Image_Segmentation_Using_Diffusion_Models_CVPR_2023_paper.pdf)
+- Diffusion-Based Generation, Optimization, and Planning in 3D Scenes, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Diffusion-Based_Generation_Optimization_and_Planning_in_3D_Scenes_CVPR_2023_paper.pdf)
+- Diffusion Probabilistic Model Made Slim, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Diffusion_Probabilistic_Model_Made_Slim_CVPR_2023_paper.pdf)
+- Specialist Diffusion: Plug-and-Play Sample-Efficient Fine-Tuning of Text-to-Image Diffusion Models To Learn Any Unseen Style, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lu_Specialist_Diffusion_Plug-and-Play_Sample-Efficient_Fine-Tuning_of_Text-to-Image_Diffusion_Models_To_CVPR_2023_paper.pdf)
+- VectorFusion: Text-to-SVG by Abstracting Pixel-Based Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Jain_VectorFusion_Text-to-SVG_by_Abstracting_Pixel-Based_Diffusion_Models_CVPR_2023_paper.pdf)
+- Diffusion Art or Digital Forgery? Investigating Data Replication in Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Somepalli_Diffusion_Art_or_Digital_Forgery_Investigating_Data_Replication_in_Diffusion_CVPR_2023_paper.pdf)
+- Generative Diffusion Prior for Unified Image Restoration and Enhancement, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Fei_Generative_Diffusion_Prior_for_Unified_Image_Restoration_and_Enhancement_CVPR_2023_paper.pdf)
+- Seeing Beyond the Brain: Conditional Diffusion Model With Sparse Masked Modeling for Vision Decoding, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Seeing_Beyond_the_Brain_Conditional_Diffusion_Model_With_Sparse_Masked_CVPR_2023_paper.pdf)
+- Imagic: Text-Based Real Image Editing With Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Kawar_Imagic_Text-Based_Real_Image_Editing_With_Diffusion_Models_CVPR_2023_paper.pdf)
+- Generalized Deep 3D Shape Prior via Part-Discretized Diffusion Process, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Generalized_Deep_3D_Shape_Prior_via_Part-Discretized_Diffusion_Process_CVPR_2023_paper.pdf)
+- DCFace: Synthetic Face Generation With Dual Condition Diffusion Model, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Kim_DCFace_Synthetic_Face_Generation_With_Dual_Condition_Diffusion_Model_CVPR_2023_paper.pdf)
+- Video Probabilistic Diffusion Models in Projected Latent Space, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Video_Probabilistic_Diffusion_Models_in_Projected_Latent_Space_CVPR_2023_paper.pdf)
+- Self-Guided Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Hu_Self-Guided_Diffusion_Models_CVPR_2023_paper.pdf)
+- Conditional Image-to-Video Generation With Latent Flow Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Ni_Conditional_Image-to-Video_Generation_With_Latent_Flow_Diffusion_Models_CVPR_2023_paper.pdf)
+- Consistent View Synthesis With Pose-Guided Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Tseng_Consistent_View_Synthesis_With_Pose-Guided_Diffusion_Models_CVPR_2023_paper.pdf)
+- DATID-3D: Diversity-Preserved Domain Adaptation Using Text-to-Image Diffusion for 3D Generative Model, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Kim_DATID-3D_Diversity-Preserved_Domain_Adaptation_Using_Text-to-Image_Diffusion_for_3D_Generative_CVPR_2023_paper.pdf)
+- ShadowDiffusion: When Degradation Prior Meets Diffusion Model for Shadow Removal, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Guo_ShadowDiffusion_When_Degradation_Prior_Meets_Diffusion_Model_for_Shadow_Removal_CVPR_2023_paper.pdf)
+- Affordance Diffusion: Synthesizing Hand-Object Interactions, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Ye_Affordance_Diffusion_Synthesizing_Hand-Object_Interactions_CVPR_2023_paper.pdf)
+- Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Tumanyan_Plug-and-Play_Diffusion_Features_for_Text-Driven_Image-to-Image_Translation_CVPR_2023_paper.pdf)
+- DiffTalk: Crafting Diffusion Models for Generalized Audio-Driven Portraits Animation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shen_DiffTalk_Crafting_Diffusion_Models_for_Generalized_Audio-Driven_Portraits_Animation_CVPR_2023_paper.pdf)
+- DiffRF: Rendering-Guided 3D Radiance Field Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Muller_DiffRF_Rendering-Guided_3D_Radiance_Field_Diffusion_CVPR_2023_paper.pdf)
+- LayoutDM: Transformer-Based Diffusion Model for Layout Generation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chai_LayoutDM_Transformer-Based_Diffusion_Model_for_Layout_Generation_CVPR_2023_paper.pdf)
+- Collaborative Diffusion for Multi-Modal Face Generation and Editing, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Collaborative_Diffusion_for_Multi-Modal_Face_Generation_and_Editing_CVPR_2023_paper.pdf)
+- SmartBrush: Text and Shape Guided Object Inpainting With Diffusion Model, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_SmartBrush_Text_and_Shape_Guided_Object_Inpainting_With_Diffusion_Model_CVPR_2023_paper.pdf)
+- Multi-Concept Customization of Text-to-Image Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Kumari_Multi-Concept_Customization_of_Text-to-Image_Diffusion_CVPR_2023_paper.pdf)
+- Controllable Light Diffusion for Portraits, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Futschik_Controllable_Light_Diffusion_for_Portraits_CVPR_2023_paper.pdf)
+- DiffSwap: High-Fidelity and Controllable Face Swapping via 3D-Aware Masked Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_DiffSwap_High-Fidelity_and_Controllable_Face_Swapping_via_3D-Aware_Masked_Diffusion_CVPR_2023_paper.pdf)
+- Dream3D: Zero-Shot Text-to-3D Synthesis Using 3D Shape Prior and Text-to-Image Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Xu_Dream3D_Zero-Shot_Text-to-3D_Synthesis_Using_3D_Shape_Prior_and_Text-to-Image_CVPR_2023_paper.pdf)
+- ObjectStitch: Object Compositing With Diffusion Model, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Song_ObjectStitch_Object_Compositing_With_Diffusion_Model_CVPR_2023_paper.pdf)
+- Class-Balancing Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Qin_Class-Balancing_Diffusion_Models_CVPR_2023_paper.pdf)
+- Avatars Grow Legs: Generating Smooth Human Motion From Sparse Tracking Inputs With Diffusion Model, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Du_Avatars_Grow_Legs_Generating_Smooth_Human_Motion_From_Sparse_Tracking_CVPR_2023_paper.pdf)
+- PC2: Projection-Conditioned Point Cloud Diffusion for Single-Image 3D Reconstruction, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Melas-Kyriazi_PC2_Projection-Conditioned_Point_Cloud_Diffusion_for_Single-Image_3D_Reconstruction_CVPR_2023_paper.pdf)
+- Align Your Latents: High-Resolution Video Synthesis With Latent Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Blattmann_Align_Your_Latents_High-Resolution_Video_Synthesis_With_Latent_Diffusion_Models_CVPR_2023_paper.pdf)
+- NULL-Text Inversion for Editing Real Images Using Guided Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Mokady_NULL-Text_Inversion_for_Editing_Real_Images_Using_Guided_Diffusion_Models_CVPR_2023_paper.pdf)
+- Stochastic Trajectory Prediction via Motion Indeterminacy Diffusion, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Gu_Stochastic_Trajectory_Prediction_via_Motion_Indeterminacy_Diffusion_CVPR_2022_paper.pdf)
+- Dynamic Dual-Output Diffusion Models, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Benny_Dynamic_Dual-Output_Diffusion_Models_CVPR_2022_paper.pdf)
+- Global Context With Discrete Diffusion in Vector Quantised Modelling for Image Generation, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Hu_Global_Context_With_Discrete_Diffusion_in_Vector_Quantised_Modelling_for_CVPR_2022_paper.pdf)
+- High-Resolution Image Synthesis With Latent Diffusion Models, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf)
+- Generating High Fidelity Data From Low-Density Regions Using Diffusion Models, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Sehwag_Generating_High_Fidelity_Data_From_Low-Density_Regions_Using_Diffusion_Models_CVPR_2022_paper.pdf)
+- Feature Erasing and Diffusion Network for Occluded Person Re-Identification, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Feature_Erasing_and_Diffusion_Network_for_Occluded_Person_Re-Identification_CVPR_2022_paper.pdf)
+- Diffusion Autoencoders: Toward a Meaningful and Decodable Representation, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Preechakul_Diffusion_Autoencoders_Toward_a_Meaningful_and_Decodable_Representation_CVPR_2022_paper.pdf)
+- Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems Through Stochastic Contraction, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Chung_Come-Closer-Diffuse-Faster_Accelerating_Conditional_Diffusion_Models_for_Inverse_Problems_Through_Stochastic_CVPR_2022_paper.pdf)
+- Perception Prioritized Training of Diffusion Models, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Choi_Perception_Prioritized_Training_of_Diffusion_Models_CVPR_2022_paper.pdf)
+- DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_DiffusionCLIP_Text-Guided_Diffusion_Models_for_Robust_Image_Manipulation_CVPR_2022_paper.pdf)
+- RePaint: Inpainting Using Denoising Diffusion Probabilistic Models, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Lugmayr_RePaint_Inpainting_Using_Denoising_Diffusion_Probabilistic_Models_CVPR_2022_paper.pdf)
+- Vector Quantized Diffusion Model for Text-to-Image Synthesis, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Gu_Vector_Quantized_Diffusion_Model_for_Text-to-Image_Synthesis_CVPR_2022_paper.pdf)
+- Blended Diffusion for Text-Driven Editing of Natural Images, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Avrahami_Blended_Diffusion_for_Text-Driven_Editing_of_Natural_Images_CVPR_2022_paper.pdf)
+- Differentiable Diffusion for Dense Depth Estimation From Multi-View Images, CVPR 21 [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Khan_Differentiable_Diffusion_for_Dense_Depth_Estimation_From_Multi-View_Images_CVPR_2021_paper.pdf)
+- Diffusion Probabilistic Models for 3D Point Cloud Generation, CVPR 21 [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Luo_Diffusion_Probabilistic_Models_for_3D_Point_Cloud_Generation_CVPR_2021_paper.pdf)
 
 ### ICCV:
 - Stochastic Segmentation with Conditional Categorical Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zbinden_Stochastic_Segmentation_with_Conditional_Categorical_Diffusion_Models_ICCV_2023_paper.pdf)
