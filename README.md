@@ -22,9 +22,9 @@ https://arxiv.org/pdf/2210.09292
 
 ### CVPR:
 
-- LAVIE: HIGH-QUALITY VIDEO GENERATION WITH CASCADED LATENT DIFFUSION MODELS,CVPR 23 [paper](https://arxiv.org/pdf/2309.15103)
-- MVDREAM: MULTI-VIEW DIFFUSION FOR 3D GENERATION,CVPR 23 [paper](https://arxiv.org/pdf/2308.16512)
-- Effective Data Augmentation With Diffusion Models,CVPR 23 [paper](https://arxiv.org/pdf/2302.07944)
+- LAVIE: HIGH-QUALITY VIDEO GENERATION WITH CASCADED LATENT DIFFUSION MODELS,CVPR 23 [[Paper]](https://arxiv.org/pdf/2309.15103)
+- MVDREAM: MULTI-VIEW DIFFUSION FOR 3D GENERATION,CVPR 23 [[Paper]](https://arxiv.org/pdf/2308.16512)
+- Effective Data Augmentation With Diffusion Models,CVPR 23 [[Paper]](https://arxiv.org/pdf/2302.07944)
 - Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)
 - Paint by Example: Exemplar-Based Image Editing With Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Paint_by_Example_Exemplar-Based_Image_Editing_With_Diffusion_Models_CVPR_2023_paper.pdf)
 - SparseFusion: Distilling View-Conditioned Diffusion for 3D Reconstruction, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_SparseFusion_Distilling_View-Conditioned_Diffusion_for_3D_Reconstruction_CVPR_2023_paper.pdf)
