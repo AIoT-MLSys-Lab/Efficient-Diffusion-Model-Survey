@@ -910,6 +910,21 @@ https://arxiv.org/pdf/2210.09292
 - Exploring Chemical Space with Score-based Out-of-distribution Generation, ICML 23 [[Paper]](https://openreview.net/attachment?id=WP07wAWxty&name=pdf)
 - Non-autoregressive Conditional Diffusion Models for Time Series Prediction, ICML 23 [[Paper]](https://openreview.net/attachment?id=wZsnZkviro&name=pdf)
 
+- *Efficient and Degree-Guided Graph Generation via Discrete Diffusion Modeling, ICML 23 [[Paper]](https://openreview.net/attachment?id=vn9O1N5ZOw&name=pdf)
+- RLEG: Vision-Language Representation Learning with Diffusion-based Embedding Generation, ICML 23 [[Paper]](https://openreview.net/attachment?id=zBShO1Vmf0&name=pdf)
+- AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners, ICML 23 [[Paper]](https://openreview.net/attachment?id=3ETNXs54HB&name=pdf)
+- Composer: Creative and Controllable Image Synthesis with Composable Conditions, ICML 23 [[Paper]](https://openreview.net/attachment?id=23Bmw3B1xJ&name=pdf)
+- Optimizing DDPM Sampling with Shortcut Fine-Tuning, ICML 23 [[Paper]](https://openreview.net/attachment?id=3SiELE1Wzl&name=pdf)
+
+- Diffusion Priors In Variational Autoencoders, ICML 23 [[Paper]](https://openreview.net/attachment?id=DoGRjqtgjph&name=pdf)
+- Beyond In-Place Corruption: Insertion and Deletion In Denoising Probabilistic Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=cAsVBUe1Rnj&name=pdf)
+- Interpreting diffusion score matching using normalizing flow, ICML 23 [[Paper]](https://openreview.net/attachment?id=jxsmOXCDv9l&name=pdf)
+- A Variational Perspective on Diffusion-Based Generative Models and Score Matching, ICML 23 [[Paper]](https://openreview.net/attachment?id=qj07D8bPt89&name=pdf)
+- Representation Learning in Continuous-Time Score-Based Generative Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=QFbpSF6DBB&name=pdf)
+- Diffusion-Based Approximate Value Functions, ICML 23 [[Paper]](https://openreview.net/attachment?id=BkgkoToZZ7&name=pdf)
+
+
+
 
 
 ### EMNLP:
