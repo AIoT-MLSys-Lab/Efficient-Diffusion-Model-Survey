@@ -104,6 +104,76 @@ https://arxiv.org/pdf/2210.09292
 
 ### Jingxuan
 
+1. *Expensive Multi-Objective Bayesian Optimization Based on Diffusion Models,ICML 24 [[Paper]](https://arxiv.org/pdf/2405.08674)
+
+2. *Diffusion on the Probability Simplex,ICML 23[[Paper]](https://openreview.net/pdf?id=bxpdikUxrb)
+
+3. *Constrained Sampling of Discrete Geometric Manifolds using Denoising Diffusion Probabilistic Models,ICML 23 [[Paper]](https://openreview.net/pdf?id=YxRfWd1sYe)
+
+4. *Accelerating Diffusion-based Combinatorial Optimization Solvers by Progressive Distillation,ICML 23[[Paper]](https://openreview.net/pdf?id=AbMj31okE4)
+
+5. *Protein Design with Guided Discrete Diffusion,ICML 23[[Paper]](https://openreview.net/pdf?id=YaFTu8nDbV)
+
+6. BK-SDM: Architecturally Compressed Stable Diffusion for Efficient Text-to-Image Generation,ICML 23 [[Paper]](https://openreview.net/pdf?id=bOVydU0XKC)
+
+7. *One Transformer Fits All Distributions in Multi-Modal Diffusion at Scale,ICML 23 [[Paper]](https://openreview.net/pdf?id=Urp3atR1Z3)
+
+8. *Test-time Adaptation with Diffusion Models,ICML 23 [[Paper]](https://openreview.net/pdf?id=wVDb3Sra2l)
+
+9. Diffusion map particle systems for generative modeling, ICML 23 [[Paper]](https://openreview.net/attachment?id=PBAdIzncpq&name=pdf)
+
+10. *BOOT: Data-free Distillation of Denoising Diffusion Models with Bootstrapping, ICML 23 [[Paper]](https://openreview.net/attachment?id=ZeM7S01Xi8&name=pdf)
+
+11. *Solving Inverse Physics Problems with Score Matching, ICML 23 [[Paper]](https://openreview.net/attachment?id=OMV64Eg9MF&name=pdf)
+
+12. *Diffusion Based Causal Representation Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=kcNI8hsBLY&name=pdf)
+
+13. *Nested Diffusion Processes for Anytime Image Generation, ICML 23 [[Paper]](https://openreview.net/attachment?id=zmG0rqXeGu&name=pdf)
+
+14. Scaling Graphically Structured Diffusion Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=pzH65nCyCN&name=pdf)
+
+15. Your Diffusion Model is Secretly a Zero-Shot Classifier, ICML 23 [[Paper\]](https://openreview.net/attachment?id=Ck3yXRdQXD&name=pdf)
+
+16. Practical and Asymptotically Exact Conditional Sampling in Diffusion Models,ICML 23 [[Paper\]](https://openreview.net/pdf?id=r9s3Gbxz7g)
+
+17. DiffScene: Diffusion-Based Safety-Critical Scenario Generation for Autonomous Vehicles,ICML 23 [[Paper\]](https://openreview.net/pdf?id=hclEbdHida)
+
+18. *Your Diffusion Model is Secretly a Zero-Shot Classifier, ICML 23 [[Paper]](https://openreview.net/attachment?id=Ck3yXRdQXD&name=pdf)
+
+19. *Scaling Graphically Structured Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=pzH65nCyCN&name=pdf)
+
+20. Collaborative Score Distillation for Consistent Visual Synthesis, ICML 23 [[Paper]](https://openreview.net/attachment?id=oNKISC5v3I&name=pdf)
+
+21. Early Exiting for Accelerated Inference in Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=nhGdjo9Xed&name=pdf)
+
+22. CM-GAN: Stabilizing GAN Training with Consistency Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=Uh2WwUyiAv&name=pdf)
+
+23. Diffusion Generative Inverse Design, ICML 23 [[Paper]](https://openreview.net/attachment?id=SMlQR8mVR4&name=pdf)
+
+24. Autoregressive Diffusion Models with non-Uniform Generation Order, ICML 23 [[Paper]](https://openreview.net/attachment?id=VtSmxXWcWV&name=pdf)
+
+25. On the Equivalence of Consistency-Type Models: Consistency Models, Consistent Diffusion Models, and Fokker-Planck Regularization, ICML 23 [[Paper]](https://openreview.net/attachment?id=wjtGsScvAO&name=pdf)
+
+26. （DS and ML）Fit Like You Sample: Sample-Efficient Generalized Score Matching from Fast Mixing Markov Chains, ICML 23 [[Paper]](https://openreview.net/attachment?id=HOywNTzUrs&name=pdf)
+
+27. （chemisty and medicine）DiffMol: 3D Structured Molecule Generation with Discrete Denoising Diffusion Probabilistic Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=x43ZyXJC9q&name=pdf)
+
+28. (ML and Graph)DiffMol: 3D Structured Molecule Generation with Discrete Denoising Diffusion Probabilistic Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=x43ZyXJC9q&name=pdf)
+
+29. (biostatisticsGeometric Constraints in Probabilistic Manifolds: A Bridge from Molecular Dynamics to Structured Diffusion Processes, ICML 23 [[Paper]](https://openreview.net/attachment?id=bu2xaLCILr&name=pdf)
+
+30. (Computational Robotics and Computer Visio)Parallel Sampling of Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=b8JSZcI4ne&name=pdf)
+
+31. (ML and Statistics)Robust and Scalable Bayesian Online Changepoint Detection, ICML 23 [[Paper]](https://openreview.net/attachment?id=Dg20tpmMVz&name=pdf)
+
+32. (ML and AI)GSURE-Based Diffusion Model Training with Corrupted Data, ICML 23 [[Paper]](https://openreview.net/attachment?id=aCZHALmKNt&name=pdf)
+
+33. (CV)Diffusion Models with Grouped Latents for Interpretable Latent Space, ICML 23 [[Paper]](https://openreview.net/attachment?id=hLeh6b0vlt&name=pdf)
+
+34. (ML)Concept Algebra for Score-based Conditional Model, ICML 23 [[Paper]](https://openreview.net/attachment?id=ADnYrEX28C&name=pdf)
+
+    
+
 
 ### CVPR:
 
@@ -244,7 +314,7 @@ https://arxiv.org/pdf/2210.09292
 - Boundary-Aware Divide and Conquer: A Diffusion-Based Solution for Unsupervised Shadow Removal, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Guo_Boundary-Aware_Divide_and_Conquer_A_Diffusion-Based_Solution_for_Unsupervised_Shadow_ICCV_2023_paper.pdf)
 - Feature Prediction Diffusion Model for Video Anomaly Detection, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yan_Feature_Prediction_Diffusion_Model_for_Video_Anomaly_Detection_ICCV_2023_paper.pdf)
 - DIRE for Diffusion-Generated Image Detection, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_DIRE_for_Diffusion-Generated_Image_Detection_ICCV_2023_paper.pdf)
-- AdvDiffuser: Natural Adversarial Example Synthesis with Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_AdvDiffuser_Natural_Adversarial_Example_Synthesis_with_Diffusion_Models_ICCV_2023_paper.pdf)
+
 
 
 
@@ -253,6 +323,8 @@ https://arxiv.org/pdf/2210.09292
 
 
 
+- 
+- AdvDiffuser: Natural Adversarial Example Synthesis with Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_AdvDiffuser_Natural_Adversarial_Example_Synthesis_with_Diffusion_Models_ICCV_2023_paper.pdf)
 - Text2Tex: Text-driven Texture Synthesis via Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Text2Tex_Text-driven_Texture_Synthesis_via_Diffusion_Models_ICCV_2023_paper.pdf)
 - Not All Steps are Created Equal: Selective Diffusion Distillation for Image Manipulation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Not_All_Steps_are_Created_Equal_Selective_Diffusion_Distillation_for_ICCV_2023_paper.pdf)
 - Denoising Diffusion Autoencoders are Unified Self-supervised Learners, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xiang_Denoising_Diffusion_Autoencoders_are_Unified_Self-supervised_Learners_ICCV_2023_paper.pdf)
@@ -622,12 +694,12 @@ https://arxiv.org/pdf/2210.09292
 ### ICML:
 <<<<<<< HEAD
 
-- Expensive Multi-Objective Bayesian Optimization Based on Diffusion Models,ICML 24 [[Paper]](https://arxiv.org/pdf/2405.08674)
+- *Expensive Multi-Objective Bayesian Optimization Based on Diffusion Models,ICML 24 [[Paper]](https://arxiv.org/pdf/2405.08674)
 
-- Diffusion on the Probability Simplex,ICML 23[[Paper]](https://openreview.net/pdf?id=bxpdikUxrb)
-- Constrained Sampling of Discrete Geometric Manifolds using Denoising Diffusion Probabilistic Models,ICML 23 [[Paper]](Constrained Sampling of Discrete Geometric Manifolds using Denoising Diffusion Probabilistic Models)
-- Accelerating Diffusion-based Combinatorial Optimization Solvers by Progressive Distillation,ICML 23[[Paper]](https://openreview.net/pdf?id=AbMj31okE4)
-- Protein Design with Guided Discrete Diffusion,ICML 23[[Paper]](https://openreview.net/pdf?id=YaFTu8nDbV)
+- *Diffusion on the Probability Simplex,ICML 23[[Paper]](https://openreview.net/pdf?id=bxpdikUxrb)
+- *Constrained Sampling of Discrete Geometric Manifolds using Denoising Diffusion Probabilistic Models,ICML 23 [[Paper]](https://openreview.net/pdf?id=YxRfWd1sYe)
+- *Accelerating Diffusion-based Combinatorial Optimization Solvers by Progressive Distillation,ICML 23[[Paper]](https://openreview.net/pdf?id=AbMj31okE4)
+- *Protein Design with Guided Discrete Diffusion,ICML 23[[Paper]](https://openreview.net/pdf?id=YaFTu8nDbV)
 - Discrete Diffusion Reward Guidance Methods for Offline Reinforcement Learning,ICML [[Paper]](https://openreview.net/pdf?id=s4cSgzGudq)
 - Categorical SDEs with Simplex Diffusion,ICML 23[[Paper]](https://openreview.net/pdf?id=6rETbXxGX5)
 - *BK-SDM: Architecturally Compressed Stable Diffusion for Efficient Text-to-Image Generation,ICML 23 [[Paper]](https://openreview.net/pdf?id=bOVydU0XKC)
@@ -636,27 +708,27 @@ https://arxiv.org/pdf/2210.09292
 - Zeroth-Order Optimization Meets Human Feedback: Provable Learning via Ranking Oracles,ICML 23 [[Paper]](https://openreview.net/pdf?id=SHsf2Fdw7E)
 - Training Diffusion Models with Reinforcement Learning,ICML 23 [[Paper]](https://openreview.net/pdf?id=w5QmbPyzfg)
 - Extracting Reward Functions from Diffusion Models,ICML 23   [[Paper]](https://openreview.net/pdf?id=nfxIqYszc1)
-- *Diffusion model based data generation for partial differential equations,23 PF [[Paper]](https://arxiv.org/pdf/2306.11075)
-- DiffScene: Diffusion-Based Safety-Critical Scenario Generation for Autonomous Vehicles,ICML 23 [[Paper]](https://openreview.net/pdf?id=hclEbdHida)
-- Exposing the Fake: Effective Diffusion-Generated Images Detection,ICML 23 [[Paper]](https://openreview.net/pdf?id=7R62e4Wgim)
+- Diffusion model based data generation for partial differential equations,23 PF [[Paper]](https://arxiv.org/pdf/2306.11075)
+- *DiffScene: Diffusion-Based Safety-Critical Scenario Generation for Autonomous Vehicles,ICML 23 [[Paper]](https://openreview.net/pdf?id=hclEbdHida)
+- *Exposing the Fake: Effective Diffusion-Generated Images Detection,ICML 23 [[Paper]](https://openreview.net/pdf?id=7R62e4Wgim)
 - On Convergence of Approximate Schrodinger Bridge with Bounded Cost,ICML 23 [[Paper]](https://openreview.net/pdf?id=WQNG9CLSk4)
 - Anomaly Detection in Networks via Score-Based Generative Models,ICML 23 [[Paper]](https://openreview.net/pdf?id=9s8Lu9hoSu)
-- Practical and Asymptotically Exact Conditional Sampling in Diffusion Models,ICML 23 [[Paper]](https://openreview.net/pdf?id=r9s3Gbxz7g)
+- *Practical and Asymptotically Exact Conditional Sampling in Diffusion Models,ICML 23 [[Paper]](https://openreview.net/pdf?id=r9s3Gbxz7g)
 - Plug-and-Play Controllable Graph Generation with Diffusion Models,ICML 23 [[Paper]](https://openreview.net/pdf?id=f9sWbAJtCK)
 - Non-Normal Diffusion Models,ICML 23 [[Paper]](https://openreview.net/pdf?id=6N8L9D5M9L)
 - Visual Chain-of-Thought Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=PqYDHZctBP&name=pdf)
-- Your Diffusion Model is Secretly a Zero-Shot Classifier, ICML 23 [[Paper]](https://openreview.net/attachment?id=Ck3yXRdQXD&name=pdf)
-- Scaling Graphically Structured Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=pzH65nCyCN&name=pdf)
-- Diffusion map particle systems for generative modeling, ICML 23 [[Paper]](https://openreview.net/attachment?id=PBAdIzncpq&name=pdf)
-- BOOT: Data-free Distillation of Denoising Diffusion Models with Bootstrapping, ICML 23 [[Paper]](https://openreview.net/attachment?id=ZeM7S01Xi8&name=pdf)
-- Diffusion Probabilistic Models Generalize when They Fail to Memorize, ICML 23 [[Paper]](https://openreview.net/attachment?id=OMV64Eg9MF&name=pdf)
+- *Your Diffusion Model is Secretly a Zero-Shot Classifier, ICML 23 [[Paper]](https://openreview.net/attachment?id=Ck3yXRdQXD&name=pdf)
+- *Scaling Graphically Structured Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=pzH65nCyCN&name=pdf)
+- *Diffusion map particle systems for generative modeling, ICML 23 [[Paper]](https://openreview.net/attachment?id=PBAdIzncpq&name=pdf)
+- *BOOT: Data-free Distillation of Denoising Diffusion Models with Bootstrapping, ICML 23 [[Paper]](https://openreview.net/attachment?id=ZeM7S01Xi8&name=pdf)
+- *Solving Inverse Physics Problems with Score Matching, ICML 23 [[Paper]](https://openreview.net/attachment?id=OMV64Eg9MF&name=pdf)
 
-- Diffusion Based Causal Representation Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=kcNI8hsBLY&name=pdf)
-- Nested Diffusion Processes for Anytime Image Generation, ICML 23 [[Paper]](https://openreview.net/attachment?id=zmG0rqXeGu&name=pdf)
+- *Diffusion Based Causal Representation Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=kcNI8hsBLY&name=pdf)
+- *Nested Diffusion Processes for Anytime Image Generation, ICML 23 [[Paper]](https://openreview.net/attachment?id=zmG0rqXeGu&name=pdf)
 - Training Diffusion Models with Reinforcement Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=nMkdvj7BF8&name=pdf)
-- Collaborative Score Distillation for Consistent Visual Synthesis, ICML 23 [[Paper]](https://openreview.net/attachment?id=oNKISC5v3I&name=pdf)
+- *Collaborative Score Distillation for Consistent Visual Synthesis, ICML 23 [[Paper]](https://openreview.net/attachment?id=oNKISC5v3I&name=pdf)
 - Early Exiting for Accelerated Inference in Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=nhGdjo9Xed&name=pdf)
-- MissDiff: Training Diffusion Models on Tabular Data with Missing Values, ICML 23 [[Paper]](https://openreview.net/attachment?id=S435pkeAdT&name=pdf)
+- *MissDiff: Training Diffusion Models on Tabular Data with Missing Values, ICML 23 [[Paper]](https://openreview.net/attachment?id=S435pkeAdT&name=pdf)
 - CM-GAN: Stabilizing GAN Training with Consistency Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=Uh2WwUyiAv&name=pdf)
 - Flow Matching for Scalable Simulation-Based Inference, ICML 23 [[Paper]](https://openreview.net/attachment?id=LdGjxxjfh8&name=pdf)
 - Diffusion Generative Inverse Design, ICML 23 [[Paper]](https://openreview.net/attachment?id=SMlQR8mVR4&name=pdf)
@@ -680,7 +752,7 @@ https://arxiv.org/pdf/2210.09292
 - Diffusion model based data generation for partial differential equations, ICML 23 [[Paper]](https://openreview.net/attachment?id=w3OZKczCAt&name=pdf)
 
 - Generating observation guided ensembles for data assimilation with denoising diffusion probabilistic model, ICML 23 [[Paper]](https://openreview.net/attachment?id=SBdmaftNdy&name=pdf)
-- Concept Algebra for Score-based Conditional Model, ICML 23 [[Paper]](https://openreview.net/attachment?id=ADnYrEX28C&name=pdf)
+- **Concept Algebra for Score-based Conditional Model**, ICML 23 [[Paper]](https://openreview.net/attachment?id=ADnYrEX28C&name=pdf)
 - Algorithms for Optimal Adaptation of Diffusion Models to Reward Functions, ICML 23 [[Paper]](https://openreview.net/attachment?id=WRpRPsU0VT&name=pdf)
 - Seeing Through the Facade: Understanding the Realism, Expressivity, and Limitations of Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=wOC0BELg7g&name=pdf)
 - Conditional Diffusion Replay for Continual Learning in Medical Settings, ICML 23 [[Paper]](https://openreview.net/attachment?id=avmAZiWarU&name=pdf)
