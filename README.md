@@ -20,6 +20,18 @@ https://arxiv.org/pdf/2210.09292
 
 # Paper List
 
+#### LDM for xxx
+- LD-ZNet: A Latent Diffusion Approach for Text-Based Image Segmentation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/PNVR_LD-ZNet_A_Latent_Diffusion_Approach_for_Text-Based_Image_Segmentation_ICCV_2023_paper.pdf)
+- Multimodal Garment Designer: Human-Centric Latent Diffusion Models for Fashion Image Editing, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Baldrati_Multimodal_Garment_Designer_Human-Centric_Latent_Diffusion_Models_for_Fashion_Image_ICCV_2023_paper.pdf)
+- SALAD: Part-Level Latent Diffusion for 3D Shape Generation and Manipulation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Koo_SALAD_Part-Level_Latent_Diffusion_for_3D_Shape_Generation_and_Manipulation_ICCV_2023_paper.pdf)
+- A Latent Space of Stochastic Diffusion Models for Zero-Shot Image Editing and Guidance, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_A_Latent_Space_of_Stochastic_Diffusion_Models_for_Zero-Shot_Image_ICCV_2023_paper.pdf)
+- BeLFusion: Latent Diffusion for Behavior-Driven Human Motion Prediction, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Barquero_BeLFusion_Latent_Diffusion_for_Behavior-Driven_Human_Motion_Prediction_ICCV_2023_paper.pdf)
+
+#### SD for xxx
+- DreamPose: Fashion Video Synthesis with Stable Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Karras_DreamPose_Fashion_Video_Synthesis_with_Stable_Diffusion_ICCV_2023_paper.pdf)
+- 
+
+
 ## Paper Related to Efficient
 
 ### Boning
@@ -56,7 +68,7 @@ https://arxiv.org/pdf/2210.09292
 9. Make-It-3D: High-fidelity 3D Creation from A Single Image with Diffusion Prior, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Tang_Make-It-3D_High-fidelity_3D_Creation_from_A_Single_Image_with_Diffusion_ICCV_2023_paper.pdf)
 10. DiffTAD: Temporal Action Detection with Proposal Denoising Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Nag_DiffTAD_Temporal_Action_Detection_with_Proposal_Denoising_Diffusion_ICCV_2023_paper.pdf)
 11. TexFusion: Synthesizing 3D Textures with Text-Guided Image Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Cao_TexFusion_Synthesizing_3D_Textures_with_Text-Guided_Image_Diffusion_Models_ICCV_2023_paper.pdf)
-12. - Viewset Diffusion: (0-)Image-Conditioned 3D Generative Models from 2D Data, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Szymanowicz_Viewset_Diffusion_0-Image-Conditioned_3D_Generative_Models_from_2D_Data_ICCV_2023_paper.pdf)
+12. Viewset Diffusion: (0-)Image-Conditioned 3D Generative Models from 2D Data, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Szymanowicz_Viewset_Diffusion_0-Image-Conditioned_3D_Generative_Models_from_2D_Data_ICCV_2023_paper.pdf)
 13. DiffV2S: Diffusion-Based Video-to-Speech Synthesis with Vision-Guided Speaker Embedding, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Choi_DiffV2S_Diffusion-Based_Video-to-Speech_Synthesis_with_Vision-Guided_Speaker_Embedding_ICCV_2023_paper.pdf)
 14. Unsupervised Surface Anomaly Detection with Diffusion Probabilistic Model, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Unsupervised_Surface_Anomaly_Detection_with_Diffusion_Probabilistic_Model_ICCV_2023_paper.pdf)
 15. 3D-aware Image Generation using 2D Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xiang_3D-aware_Image_Generation_using_2D_Diffusion_Models_ICCV_2023_paper.pdf)
@@ -82,7 +94,15 @@ https://arxiv.org/pdf/2210.09292
 35. Diffusion Model as Representation Learner, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_Diffusion_Model_as_Representation_Learner_ICCV_2023_paper.pdf)
 36. Diffusion Models as Masked Autoencoders, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wei_Diffusion_Models_as_Masked_Autoencoders_ICCV_2023_paper.pdf)
 37. Multimodal Motion Conditioned Diffusion Model for Skeleton-based Video Anomaly Detection, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Flaborea_Multimodal_Motion_Conditioned_Diffusion_Model_for_Skeleton-based_Video_Anomaly_Detection_ICCV_2023_paper.pdf)
-38. 
+38. Q-Diffusion: Quantizing Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)
+39. Relightify: Relightable 3D Faces from a Single Image via Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Papantoniou_Relightify_Relightable_3D_Faces_from_a_Single_Image_via_Diffusion_ICCV_2023_paper.pdf)
+40. ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_ReMoDiffuse_Retrieval-Augmented_Motion_Diffusion_Model_ICCV_2023_paper.pdf)
+41. DiffFit: Unlocking Transferability of Large Diffusion Models via Simple Parameter-efficient Fine-Tuning, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xie_DiffFit_Unlocking_Transferability_of_Large_Diffusion_Models_via_Simple_Parameter-efficient_ICCV_2023_paper.pdf)
+42. Scalable Diffusion Models with Transformers, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.pdf)
+43. BoxDiff: Text-to-Image Synthesis with Training-Free Box-Constrained Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xie_BoxDiff_Text-to-Image_Synthesis_with_Training-Free_Box-Constrained_Diffusion_ICCV_2023_paper.pdf)
+44. Diffusion in Style, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Everaert_Diffusion_in_Style_ICCV_2023_paper.pdf)
+45. HumanSD: A Native Skeleton-Guided Diffusion Model for Human Image Generation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ju_HumanSD_A_Native_Skeleton-Guided_Diffusion_Model_for_Human_Image_Generation_ICCV_2023_paper.pdf)
+
 
 ### Rui
 1. Maximum Likelihood Training of Score-Based Diffusion Models, NIPS 21 [[paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/0a9fdbb17feb6ccb7ec405cfb85222c4-Paper.pdf), highlights: Image Synthesis, Score-Based, Maximum Likelihood Method
@@ -333,86 +353,8 @@ https://arxiv.org/pdf/2210.09292
 - Diffusion Probabilistic Models for 3D Point Cloud Generation, CVPR 21 [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Luo_Diffusion_Probabilistic_Models_for_3D_Point_Cloud_Generation_CVPR_2021_paper.pdf)
 
 ### ICCV:
-- LD-ZNet: A Latent Diffusion Approach for Text-Based Image Segmentation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/PNVR_LD-ZNet_A_Latent_Diffusion_Approach_for_Text-Based_Image_Segmentation_ICCV_2023_paper.pdf)
-
-- Multimodal Garment Designer: Human-Centric Latent Diffusion Models for Fashion Image Editing, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Baldrati_Multimodal_Garment_Designer_Human-Centric_Latent_Diffusion_Models_for_Fashion_Image_ICCV_2023_paper.pdf)
-
-- DiffFacto: Controllable Part-Based 3D Point Cloud Generation with Cross Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Nakayama_DiffFacto_Controllable_Part-Based_3D_Point_Cloud_Generation_with_Cross_Diffusion_ICCV_2023_paper.pdf)
-
-- IDiff-Face: Synthetic-based Face Recognition through Fizzy Identity-Conditioned Diffusion Model, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Boutros_IDiff-Face_Synthetic-based_Face_Recognition_through_Fizzy_Identity-Conditioned_Diffusion_Model_ICCV_2023_paper.pdf)
-
-- Chupa: Carving 3D Clothed Humans from Skinned Shape Priors using 2D Diffusion Probabilistic Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Kim_Chupa_Carving_3D_Clothed_Humans_from_Skinned_Shape_Priors_using_ICCV_2023_paper.pdf)
-- DIFFGUARD: Semantic Mismatch-Guided Out-of-Distribution Detection Using Pre-Trained Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Gao_DIFFGUARD_Semantic_Mismatch-Guided_Out-of-Distribution_Detection_Using_Pre-Trained_Diffusion_Models_ICCV_2023_paper.pdf)
-- Guided Motion Diffusion for Controllable Human Motion Synthesis, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Karunratanakul_Guided_Motion_Diffusion_for_Controllable_Human_Motion_Synthesis_ICCV_2023_paper.pdf)
-- DiffuMask: Synthesizing Images with Pixel-level Annotations for Semantic Segmentation Using Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_DiffuMask_Synthesizing_Images_with_Pixel-level_Annotations_for_Semantic_Segmentation_Using_ICCV_2023_paper.pdf)
-- Unaligned 2D to 3D Translation with Conditional Vector-Quantized Code Diffusion using Transformers, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Corona-Figueroa_Unaligned_2D_to_3D_Translation_with_Conditional_Vector-Quantized_Code_Diffusion_ICCV_2023_paper.pdf)
-- Zero-Shot Spatial Layout Conditioning for Text-to-Image Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Couairon_Zero-Shot_Spatial_Layout_Conditioning_for_Text-to-Image_Diffusion_Models_ICCV_2023_paper.pdf)
-- Q-Diffusion: Quantizing Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)
-- A Complete Recipe for Diffusion Generative Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Pandey_A_Complete_Recipe_for_Diffusion_Generative_Models_ICCV_2023_paper.pdf)
-- Boundary-Aware Divide and Conquer: A Diffusion-Based Solution for Unsupervised Shadow Removal, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Guo_Boundary-Aware_Divide_and_Conquer_A_Diffusion-Based_Solution_for_Unsupervised_Shadow_ICCV_2023_paper.pdf)
-- Feature Prediction Diffusion Model for Video Anomaly Detection, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yan_Feature_Prediction_Diffusion_Model_for_Video_Anomaly_Detection_ICCV_2023_paper.pdf)
-- DIRE for Diffusion-Generated Image Detection, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_DIRE_for_Diffusion-Generated_Image_Detection_ICCV_2023_paper.pdf)
-- AdvDiffuser: Natural Adversarial Example Synthesis with Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_AdvDiffuser_Natural_Adversarial_Example_Synthesis_with_Diffusion_Models_ICCV_2023_paper.pdf)
-- Text2Tex: Text-driven Texture Synthesis via Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Text2Tex_Text-driven_Texture_Synthesis_via_Diffusion_Models_ICCV_2023_paper.pdf)
-- Denoising Diffusion Autoencoders are Unified Self-supervised Learners, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xiang_Denoising_Diffusion_Autoencoders_are_Unified_Self-supervised_Learners_ICCV_2023_paper.pdf)
-- Diffusion-Guided Reconstruction of Everyday Hand-Object Interaction Clips, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ye_Diffusion-Guided_Reconstruction_of_Everyday_Hand-Object_Interaction_Clips_ICCV_2023_paper.pdf)
-- Single-Stage Diffusion NeRF: A Unified Approach to 3D Generation and Reconstruction, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Single-Stage_Diffusion_NeRF_A_Unified_Approach_to_3D_Generation_and_ICCV_2023_paper.pdf)
-- Towards Authentic Face Restoration with Iterative Diffusion Models and Beyond, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhao_Towards_Authentic_Face_Restoration_with_Iterative_Diffusion_Models_and_Beyond_ICCV_2023_paper.pdf)
-- EGC: Image Generation and Classification via a Diffusion Energy-Based Model, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Guo_EGC_Image_Generation_and_Classification_via_a_Diffusion_Energy-Based_Model_ICCV_2023_paper.pdf)
-- Robust Evaluation of Diffusion-Based Adversarial Purification, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lee_Robust_Evaluation_of_Diffusion-Based_Adversarial_Purification_ICCV_2023_paper.pdf)
-- Pluralistic Aging Diffusion Autoencoder, ICCV 23, [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Pluralistic_Aging_Diffusion_Autoencoder_ICCV_2023_paper.pdf)
-- PoseDiffusion: Solving Pose Estimation via Diffusion-aided Bundle Adjustment, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_PoseDiffusion_Solving_Pose_Estimation_via_Diffusion-aided_Bundle_Adjustment_ICCV_2023_paper.pdf)
-- Fg-T2M: Fine-Grained Text-Driven Human Motion Generation via Diffusion Model, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Fg-T2M_Fine-Grained_Text-Driven_Human_Motion_Generation_via_Diffusion_Model_ICCV_2023_paper.pdf)
-- Diffusion-SDF: Conditional Generative Modeling of Signed Distance Functions, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chou_Diffusion-SDF_Conditional_Generative_Modeling_of_Signed_Distance_Functions_ICCV_2023_paper.pdf)
-- LayoutDiffusion: Improving Graphic Layout Generation by Discrete Diffusion Probabilistic Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_LayoutDiffusion_Improving_Graphic_Layout_Generation_by_Discrete_Diffusion_Probabilistic_Models_ICCV_2023_paper.pdf)
-- SALAD: Part-Level Latent Diffusion for 3D Shape Generation and Manipulation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Koo_SALAD_Part-Level_Latent_Diffusion_for_3D_Shape_Generation_and_Manipulation_ICCV_2023_paper.pdf)
-- Multiscale Structure Guided Diffusion for Image Deblurring, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ren_Multiscale_Structure_Guided_Diffusion_for_Image_Deblurring_ICCV_2023_paper.pdf)
-- DOLCE: A Model-Based Probabilistic Diffusion Framework for Limited-Angle CT Reconstruction, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_DOLCE_A_Model-Based_Probabilistic_Diffusion_Framework_for_Limited-Angle_CT_Reconstruction_ICCV_2023_paper.pdf)
-- Improving Sample Quality of Diffusion Models Using Self-Attention Guidance, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Hong_Improving_Sample_Quality_of_Diffusion_Models_Using_Self-Attention_Guidance_ICCV_2023_paper.pdf)
-- Prompt Tuning Inversion for Text-driven Image Editing Using Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Dong_Prompt_Tuning_Inversion_for_Text-driven_Image_Editing_Using_Diffusion_Models_ICCV_2023_paper.pdf)
-- DG3D: Generating High Quality 3D Textured Shapes by Learning to Discriminate Multi-Modal Diffusion-Renderings, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zuo_DG3D_Generating_High_Quality_3D_Textured_Shapes_by_Learning_to_ICCV_2023_paper.pdf)
-- Versatile Diffusion: Text, Images and Variations All in One Diffusion Model, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xu_Versatile_Diffusion_Text_Images_and_Variations_All_in_One_Diffusion_ICCV_2023_paper.pdf)
-- Long-Term Photometric Consistent Novel View Synthesis with Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yu_Long-Term_Photometric_Consistent_Novel_View_Synthesis_with_Diffusion_Models_ICCV_2023_paper.pdf)
-- Harnessing the Spatial-Temporal Attention of Diffusion Models for High-Fidelity Text-to-Image Synthesis, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Harnessing_the_Spatial-Temporal_Attention_of_Diffusion_Models_for_High-Fidelity_Text-to-Image_ICCV_2023_paper.pdf)
-- Deep Feature Deblurring Diffusion for Detecting Out-of-Distribution Objects, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Deep_Feature_Deblurring_Diffusion_for_Detecting_Out-of-Distribution_Objects_ICCV_2023_paper.pdf)
-- Talking Head Generation with Probabilistic Audio-to-Visual Diffusion Priors, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yu_Talking_Head_Generation_with_Probabilistic_Audio-to-Visual_Diffusion_Priors_ICCV_2023_paper.pdf)
 
 
-
--------------
-
-
-
-
-
-
-
-- DreamPose: Fashion Video Synthesis with Stable Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Karras_DreamPose_Fashion_Video_Synthesis_with_Stable_Diffusion_ICCV_2023_paper.pdf)
-- PhysDiff: Physics-Guided Human Motion Diffusion Model, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yuan_PhysDiff_Physics-Guided_Human_Motion_Diffusion_Model_ICCV_2023_paper.pdf)
-- A Latent Space of Stochastic Diffusion Models for Zero-Shot Image Editing and Guidance, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_A_Latent_Space_of_Stochastic_Diffusion_Models_for_Zero-Shot_Image_ICCV_2023_paper.pdf)
-- DLT: Conditioned layout generation with Joint Discrete-Continuous Diffusion Layout Transformer, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Levi_DLT_Conditioned_layout_generation_with_Joint_Discrete-Continuous_Diffusion_Layout_Transformer_ICCV_2023_paper.pdf)
-- DDFM: Denoising Diffusion Model for Multi-Modality Image Fusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhao_DDFM_Denoising_Diffusion_Model_for_Multi-Modality_Image_Fusion_ICCV_2023_paper.pdf)
-- Hierarchical Generation of Human-Object Interactions with Diffusion Probabilistic Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Pi_Hierarchical_Generation_of_Human-Object_Interactions_with_Diffusion_Probabilistic_Models_ICCV_2023_paper.pdf)
-- DiffDis: Empowering Generative Diffusion Model with Cross-Modal Discrimination Capability, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Huang_DiffDis_Empowering_Generative_Diffusion_Model_with_Cross-Modal_Discrimination_Capability_ICCV_2023_paper.pdf)
-- DS-Fusion: Artistic Typography via Discriminated and Stylized Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Tanveer_DS-Fusion_Artistic_Typography_via_Discriminated_and_Stylized_Diffusion_ICCV_2023_paper.pdf)
-- Relightify: Relightable 3D Faces from a Single Image via Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Papantoniou_Relightify_Relightable_3D_Faces_from_a_Single_Image_via_Diffusion_ICCV_2023_paper.pdf)
-- Diffusion-Based 3D Human Pose Estimation with Multi-Hypothesis Aggregation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Shan_Diffusion-Based_3D_Human_Pose_Estimation_with_Multi-Hypothesis_Aggregation_ICCV_2023_paper.pdf)
-- ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_ReMoDiffuse_Retrieval-Augmented_Motion_Diffusion_Model_ICCV_2023_paper.pdf)
-- Pix2Video: Video Editing using Image Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ceylan_Pix2Video_Video_Editing_using_Image_Diffusion_ICCV_2023_paper.pdf)
-- Distribution-Aligned Diffusion for Human Mesh Recovery, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Foo_Distribution-Aligned_Diffusion_for_Human_Mesh_Recovery_ICCV_2023_paper.pdf)
-- Diffuse3D: Wide-Angle 3D Photography via Bilateral Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Jiang_Diffuse3D_Wide-Angle_3D_Photography_via_Bilateral_Diffusion_ICCV_2023_paper.pdf)
-- InterDiff: Generating 3D Human-Object Interactions with Physics-Informed Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xu_InterDiff_Generating_3D_Human-Object_Interactions_with_Physics-Informed_Diffusion_ICCV_2023_paper.pdf)
-- DiFaReli: Diffusion Face Relighting, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ponglertnapakorn_DiFaReli_Diffusion_Face_Relighting_ICCV_2023_paper.pdf)
-- Localizing Object-Level Shape Variations with Text-to-Image Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Patashnik_Localizing_Object-Level_Shape_Variations_with_Text-to-Image_Diffusion_Models_ICCV_2023_paper.pdf)
-- MagicFusion: Boosting Text-to-Image Generation Performance by Fusing Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhao_MagicFusion_Boosting_Text-to-Image_Generation_Performance_by_Fusing_Diffusion_Models_ICCV_2023_paper.pdf)
-- PODIA-3D: Domain Adaptation of 3D Generative Model Across Large Domain Gap Using Pose-Preserved Text-to-Image Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Kim_PODIA-3D_Domain_Adaptation_of_3D_Generative_Model_Across_Large_Domain_ICCV_2023_paper.pdf)
-- Steered Diffusion: A Generalized Framework for Plug-and-Play Conditional Image Synthesis, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Nair_Steered_Diffusion_A_Generalized_Framework_for_Plug-and-Play_Conditional_Image_Synthesis_ICCV_2023_paper.pdf)
-- DiffFit: Unlocking Transferability of Large Diffusion Models via Simple Parameter-efficient Fine-Tuning, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xie_DiffFit_Unlocking_Transferability_of_Large_Diffusion_Models_via_Simple_Parameter-efficient_ICCV_2023_paper.pdf)
-- Scalable Diffusion Models with Transformers, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.pdf)
-- BoxDiff: Text-to-Image Synthesis with Training-Free Box-Constrained Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xie_BoxDiff_Text-to-Image_Synthesis_with_Training-Free_Box-Constrained_Diffusion_ICCV_2023_paper.pdf)
-- Diffusion in Style, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Everaert_Diffusion_in_Style_ICCV_2023_paper.pdf)
-- BeLFusion: Latent Diffusion for Behavior-Driven Human Motion Prediction, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Barquero_BeLFusion_Latent_Diffusion_for_Behavior-Driven_Human_Motion_Prediction_ICCV_2023_paper.pdf)
-- HumanSD: A Native Skeleton-Guided Diffusion Model for Human Image Generation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ju_HumanSD_A_Native_Skeleton-Guided_Diffusion_Model_for_Human_Image_Generation_ICCV_2023_paper.pdf)
 - DiffCloth: Diffusion Based Garment Synthesis and Manipulation via Structural Cross-modal Semantic Alignment, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_DiffCloth_Diffusion_Based_Garment_Synthesis_and_Manipulation_via_Structural_Cross-modal_ICCV_2023_paper.pdf)
 - StableVideo: Text-driven Consistency-aware Diffusion Video Editing, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chai_StableVideo_Text-driven_Consistency-aware_Diffusion_Video_Editing_ICCV_2023_paper.pdf)
 - LAW-Diffusion: Complex Scene Generation by Diffusion with Layouts, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_LAW-Diffusion_Complex_Scene_Generation_by_Diffusion_with_Layouts_ICCV_2023_paper.pdf)
