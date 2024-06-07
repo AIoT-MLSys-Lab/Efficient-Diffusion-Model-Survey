@@ -36,6 +36,7 @@ https://arxiv.org/pdf/2210.09292
 - Prompt-tuning Latent Diffusion Models for Inverse Problems, ICML 24 [[Paper\]](https://arxiv.org/pdf/2310.01110)
 - Disguised Copyright Infringement of Latent Diffusion Models, ICML 24 [[Paper\]](https://arxiv.org/pdf/2404.06737)
 - PID: Prompt-Independent Data Protection Against Latent Diffusion Models, ICML 24 [[Paper\]](https://openreview.net/pdf/3de6809cb46c8a18337e669ce1e35cafd563d041.pdf)
+- Structure and Content-Guided Video Synthesis with Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Esser_Structure_and_Content-Guided_Video_Synthesis_with_Diffusion_Models_ICCV_2023_paper.pdf)
 
 
 #### SD for xxx
@@ -123,7 +124,17 @@ https://arxiv.org/pdf/2210.09292
 49. DDP: Diffusion Model for Dense Visual Prediction, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ji_DDP_Diffusion_Model_for_Dense_Visual_Prediction_ICCV_2023_paper.pdf)
 50. DiffDreamer: Towards Consistent Unsupervised Single-view Scene Extrapolation with Conditional Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Cai_DiffDreamer_Towards_Consistent_Unsupervised_Single-view_Scene_Extrapolation_with_Conditional_Diffusion_ICCV_2023_paper.pdf)
 51. DPM-OT: A New Diffusion Probabilistic Model Based on Optimal Transport, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_DPM-OT_A_New_Diffusion_Probabilistic_Model_Based_on_Optimal_Transport_ICCV_2023_paper.pdf)
-52. 
+52. DiffusionRet: Generative Text-Video Retrieval with Diffusion Model, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Jin_DiffusionRet_Generative_Text-Video_Retrieval_with_Diffusion_Model_ICCV_2023_paper.pdf)
+53. Innovating Real Fisheye Image Correction with Dual Diffusion Architecture, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_Innovating_Real_Fisheye_Image_Correction_with_Dual_Diffusion_Architecture_ICCV_2023_paper.pdf)
+54. Adding Conditional Control to Text-to-Image Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Adding_Conditional_Control_to_Text-to-Image_Diffusion_Models_ICCV_2023_paper.pdf)
+55. FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yu_FreeDoM_Training-Free_Energy-Guided_Conditional_Diffusion_Model_ICCV_2023_paper.pdf)
+56. Text Diffusion Model with Encoder-Decoder Transformers for Sequence-to-Sequence Generation, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.10325)
+57. IPED: An Implicit Perspective for Relational Triple Extraction based on Diffusion Model, NAACL 24 [[Paper]](https://arxiv.org/pdf/2403.00808)
+58. LanguageFlow: Advancing Diffusion Language Generation with Probabilistic Flows, NAACL 24 [[Paper]](https://arxiv.org/pdf/2403.16995)
+59. Empowering Diffusion Models on the Embedding Space for Text Generation, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.09412)
+60. Diffusion Glancing Transformer for Parallel Sequence-to-Sequence Learning, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.10240)
+61. David helps Goliath: Inference-Time Collaboration Between Small Specialized and Large General Diffusion LMs, NAACL 24 [[Paper]](https://arxiv.org/pdf/2305.14771)
+62. 
 
 
 ### Rui
@@ -374,28 +385,6 @@ https://arxiv.org/pdf/2210.09292
 - Blended Diffusion for Text-Driven Editing of Natural Images, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Avrahami_Blended_Diffusion_for_Text-Driven_Editing_of_Natural_Images_CVPR_2022_paper.pdf)
 - Differentiable Diffusion for Dense Depth Estimation From Multi-View Images, CVPR 21 [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Khan_Differentiable_Diffusion_for_Dense_Depth_Estimation_From_Multi-View_Images_CVPR_2021_paper.pdf)
 - Diffusion Probabilistic Models for 3D Point Cloud Generation, CVPR 21 [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Luo_Diffusion_Probabilistic_Models_for_3D_Point_Cloud_Generation_CVPR_2021_paper.pdf)
-
-### ICCV:
-
-
-- 
-- DiffusionRet: Generative Text-Video Retrieval with Diffusion Model, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Jin_DiffusionRet_Generative_Text-Video_Retrieval_with_Diffusion_Model_ICCV_2023_paper.pdf)
-- HyperDiffusion: Generating Implicit Neural Fields with Weight-Space Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Erkoc_HyperDiffusion_Generating_Implicit_Neural_Fields_with_Weight-Space_Diffusion_ICCV_2023_paper.pdf)
-- Structure and Content-Guided Video Synthesis with Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Esser_Structure_and_Content-Guided_Video_Synthesis_with_Diffusion_Models_ICCV_2023_paper.pdf)
-- Social Diffusion: Long-term Multiple Human Motion Anticipation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Tanke_Social_Diffusion_Long-term_Multiple_Human_Motion_Anticipation_ICCV_2023_paper.pdf)
-- Discriminative Class Tokens for Text-to-Image Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Schwartz_Discriminative_Class_Tokens_for_Text-to-Image_Diffusion_Models_ICCV_2023_paper.pdf)
-- Innovating Real Fisheye Image Correction with Dual Diffusion Architecture, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_Innovating_Real_Fisheye_Image_Correction_with_Dual_Diffusion_Architecture_ICCV_2023_paper.pdf)
-- Diffusion Action Segmentation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_Diffusion_Action_Segmentation_ICCV_2023_paper.pdf)
-- DiffusionDet: Diffusion Model for Object Detection, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_DiffusionDet_Diffusion_Model_for_Object_Detection_ICCV_2023_paper.pdf)
-- TF-ICON: Diffusion-Based Training-Free Cross-Domain Image Composition, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_TF-ICON_Diffusion-Based_Training-Free_Cross-Domain_Image_Composition_ICCV_2023_paper.pdf)
-- Improving 3D Imaging with Pre-Trained Perpendicular 2D Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lee_Improving_3D_Imaging_with_Pre-Trained_Perpendicular_2D_Diffusion_Models_ICCV_2023_paper.pdf)
-- Text2Video-Zero: Text-to-Image Diffusion Models are Zero-Shot Video Generators, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Khachatryan_Text2Video-Zero_Text-to-Image_Diffusion_Models_are_Zero-Shot_Video_Generators_ICCV_2023_paper.pdf)
-- Adding Conditional Control to Text-to-Image Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Adding_Conditional_Control_to_Text-to-Image_Diffusion_Models_ICCV_2023_paper.pdf)
-- Unleashing Text-to-Image Diffusion Models for Visual Perception, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhao_Unleashing_Text-to-Image_Diffusion_Models_for_Visual_Perception_ICCV_2023_paper.pdf)
-- FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yu_FreeDoM_Training-Free_Energy-Guided_Conditional_Diffusion_Model_ICCV_2023_paper.pdf)
-- 3D Shape Generation and Completion Through Point-Voxel Diffusion, ICCV 21 [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhou_3D_Shape_Generation_and_Completion_Through_Point-Voxel_Diffusion_ICCV_2021_paper.pdf)
-- ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models, ICCV 21 [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Choi_ILVR_Conditioning_Method_for_Denoising_Diffusion_Probabilistic_Models_ICCV_2021_paper.pdf)
-- Conditional Diffusion for Interactive Segmentation, ICCV 21 [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Conditional_Diffusion_for_Interactive_Segmentation_ICCV_2021_paper.pdf)
 
 
 ### ECCV:
@@ -869,13 +858,3 @@ https://arxiv.org/pdf/2210.09292
 - What the DAAM: Interpreting Stable Diffusion Using Cross Attention, ACL 23 [[Paper]](https://arxiv.org/pdf/2210.04885)
 - DiffusionDB: A Large-scale Prompt Gallery Dataset for Text-to-Image Generative Models, ACL 23 [[Paper]](https://arxiv.org/pdf/2210.14896)
 - NUWA-XL: Diffusion over Diffusion for eXtremely Long Video Generation, ACL 23 [[Paper]](https://arxiv.org/pdf/2303.12346)
-
-### NAACL:
-- Text Diffusion Model with Encoder-Decoder Transformers for Sequence-to-Sequence Generation, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.10325)
-- IPED: An Implicit Perspective for Relational Triple Extraction based on Diffusion Model, NAACL 24 [[Paper]](https://arxiv.org/pdf/2403.00808)
-- P^3SUM: Preserving Author's Perspective in News Summarization with Diffusion Language Models, NAACL 24 [[Paper]](https://arxiv.org/pdf/2311.09741)
-- LanguageFlow: Advancing Diffusion Language Generation with Probabilistic Flows, NAACL 24 [[Paper]](https://arxiv.org/pdf/2403.16995)
-- Empowering Diffusion Models on the Embedding Space for Text Generation, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.09412)
-- Diffusion Glancing Transformer for Parallel Sequence-to-Sequence Learning, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.10240)
-- LaDiC: Are Diffusion Models Really Inferior to Autoregressive Counterparts for Image-to-Text Generation?, NAACL 24 [[Paper]](https://arxiv.org/pdf/2404.10763)
-- David helps Goliath: Inference-Time Collaboration Between Small Specialized and Large General Diffusion LMs, NAACL 24 [[Paper]](https://arxiv.org/pdf/2305.14771)
