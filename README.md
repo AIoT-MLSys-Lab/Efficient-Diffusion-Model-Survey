@@ -30,10 +30,12 @@ https://arxiv.org/pdf/2210.09292
 - Geometric Latent Diffusion Models for 3D Molecule Generation, ICML 23 [[Paper\]](https://openreview.net/attachment?id=sLfHWWrfe2&name=pdf)
 - AudioLDM: Text-to-Audio Generation with Latent Diffusion Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=6BhipYkaSV&name=pdf)
 
+
 #### SD for xxx
 - DreamPose: Fashion Video Synthesis with Stable Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Karras_DreamPose_Fashion_Video_Synthesis_with_Stable_Diffusion_ICCV_2023_paper.pdf)
 - The Power of Sound (TPoS): Audio Reactive Video Generation with Stable Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Jeong_The_Power_of_Sound_TPoS_Audio_Reactive_Video_Generation_with_ICCV_2023_paper.pdf)
-- X-Paste: Revisiting Scalable Copy-Paste for Instance Segmentation using CLIP and StableDiffusion,ICML 23[[Paper\]](https://arxiv.org/pdf/2212.03863)
+- X-Paste: Revisiting Scalable Copy-Paste for Instance Segmentation using CLIP and StableDiffusion,ICML 23[[Paper]](https://arxiv.org/pdf/2212.03863)
+- Open-vocabulary Object Segmentation with Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Open-vocabulary_Object_Segmentation_with_Diffusion_Models_ICCV_2023_paper.pdf)
 
 
 ## Paper Related to Efficient
@@ -111,7 +113,8 @@ https://arxiv.org/pdf/2210.09292
 48. Controllable Person Image Synthesis with Pose-Constrained Latent Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Han_Controllable_Person_Image_Synthesis_with_Pose-Constrained_Latent_Diffusion_ICCV_2023_paper.pdf)
 49. DDP: Diffusion Model for Dense Visual Prediction, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ji_DDP_Diffusion_Model_for_Dense_Visual_Prediction_ICCV_2023_paper.pdf)
 50. DiffDreamer: Towards Consistent Unsupervised Single-view Scene Extrapolation with Conditional Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Cai_DiffDreamer_Towards_Consistent_Unsupervised_Single-view_Scene_Extrapolation_with_Conditional_Diffusion_ICCV_2023_paper.pdf)
-51. 
+51. DPM-OT: A New Diffusion Probabilistic Model Based on Optimal Transport, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_DPM-OT_A_New_Diffusion_Probabilistic_Model_Based_on_Optimal_Transport_ICCV_2023_paper.pdf)
+52. 
 
 
 ### Rui
@@ -325,9 +328,8 @@ https://arxiv.org/pdf/2210.09292
 
 ### ICCV:
 
-- DINAR: Diffusion Inpainting of Neural Textures for One-Shot Human Avatars, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Svitov_DINAR_Diffusion_Inpainting_of_Neural_Textures_for_One-Shot_Human_Avatars_ICCV_2023_paper.pdf)
-- DPM-OT: A New Diffusion Probabilistic Model Based on Optimal Transport, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_DPM-OT_A_New_Diffusion_Probabilistic_Model_Based_on_Optimal_Transport_ICCV_2023_paper.pdf)
-- Open-vocabulary Object Segmentation with Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Open-vocabulary_Object_Segmentation_with_Diffusion_Models_ICCV_2023_paper.pdf)
+
+- 
 - DiffusionRet: Generative Text-Video Retrieval with Diffusion Model, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Jin_DiffusionRet_Generative_Text-Video_Retrieval_with_Diffusion_Model_ICCV_2023_paper.pdf)
 - HyperDiffusion: Generating Implicit Neural Fields with Weight-Space Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Erkoc_HyperDiffusion_Generating_Implicit_Neural_Fields_with_Weight-Space_Diffusion_ICCV_2023_paper.pdf)
 - Structure and Content-Guided Video Synthesis with Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Esser_Structure_and_Content-Guided_Video_Synthesis_with_Diffusion_Models_ICCV_2023_paper.pdf)
