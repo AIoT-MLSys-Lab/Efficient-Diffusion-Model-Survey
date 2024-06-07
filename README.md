@@ -138,6 +138,11 @@ https://arxiv.org/pdf/2210.09292
 63. DiffusionNER: Boundary Diffusion for Named Entity Recognition, ACL 23 [[Paper]](https://arxiv.org/pdf/2305.13298)
 64. DiffusionDB: A Large-scale Prompt Gallery Dataset for Text-to-Image Generative Models, ACL 23 [[Paper]](https://arxiv.org/pdf/2210.14896)
 65. NUWA-XL: Diffusion over Diffusion for eXtremely Long Video Generation, ACL 23 [[Paper]](https://arxiv.org/pdf/2303.12346)
+66. A Cheaper and Better Diffusion Language Model with Soft-Masked Noise, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2304.04746)
+67. STINMatch: Semi-Supervised Semantic-Topological Iteration Network for Financial Risk Detection via News Label Diffusion, EMNLP 23 [[Paper]](https://aclanthology.org/2023.emnlp-main.578.pdf)
+68. DiffS2UT: A Semantic Preserving Diffusion Model for Textless Direct Speech-to-Speech Translation, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2310.17570)
+69. ViT-TTS: Visual Text-to-Speech with Scalable Diffusion Transformer, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2305.12708)
+70. 
 
 
 ### Rui
@@ -850,4 +855,3 @@ https://arxiv.org/pdf/2210.09292
 - Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=Srbl4AuTyd&name=pdf)
 - simple diffusion: End-to-end diffusion for high resolution images, ICML 23 [[Paper\]](https://openreview.net/attachment?id=6l9YG3wHA9&name=pdf)
 - MultiDiffusion: Fusing Diffusion Paths for Controlled Image Generation, ICML 23 [[Paper\]](https://openreview.net/attachment?id=D4ajVWmgLB&name=pdf)
-
