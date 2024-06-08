@@ -659,7 +659,30 @@ https://arxiv.org/pdf/2210.09292
 - CRoSS: Diffusion Model Makes Controllable, Robust and Secure Image Steganography, NIPS 23 [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/ff99390b6e942fb1dd7023f787fb0a27-Paper-Conference.pdf)
 
 ### ICLR:
-- Score-Based Generative Modeling through Stochastic Differential Equations,ICLR 21 [[Paper]](https://arxiv.org/pdf/2011.13456)
+- Score-Based Generative Modeling through Stochastic Differential Equations, ICLR 21 [[Paper]](https://arxiv.org/pdf/2011.13456)
+- On gauge freedom, conservativity and intrinsic dimensionality estimation in diffusion models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2402.03845)
+- MOFDiff: Coarse-grained Diffusion for Metal-Organic Framework Design, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.10732)
+- LLM-grounded Video Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.17444)
+- SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.01952)
+- How I Warped Your Noise: a Temporally-Correlated Noise Prior for Diffusion Models, ICLR 24 [[Paper]](https://openreview.net/pdf?id=pzElnMrgSD)
+- DORSal: Diffusion for Object-centric Representations of Scenes et al, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.08068)
+- An Efficient Membership Inference Attack for the Diffusion Model by Proximal Initialization, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.18355)
+- Single Motion Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2302.05905)
+- Towards Non-Asymptotic Convergence for Diffusion-Based Generative Models, ICLR 24 [[Paper]](https://arxiv.org/abs/2306.09251)
+- MG-TSD: Multi-Granularity Time Series Diffusion Models with Guided Learning Process, ICLR 24 [[Paper]](https://arxiv.org/pdf/2403.05751)
+- DreamTime: An Improved Optimization Strategy for Diffusion-Guided 3D Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.12422)
+- DreamClean: Restoring Clean Image Using Deep Diffusion Prior, ICLR 24 [[Paper]](https://openreview.net/pdf?id=6ALuy19mPa)
+- DiffEnc: Variational Diffusion with a Learned Encoder, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.19789)
+- Directly Fine-Tuning Diffusion Models on Differentiable Rewards, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.17400)
+- Whole-Song Hierarchical Generation of Symbolic Music Using Cascaded Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2405.09901)
+- On Error Propagation of Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2308.05021)
+- Deep Generative Clustering with Multimodal Diffusion Variational Autoencoders, ICLR 24 [[Paper]](https://openreview.net/pdf?id=k5THrhXDV3)
+- Let 2D Diffusion Model Know 3D-Consistency for Robust Text-to-3D Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.07937)
+- Long-tailed Diffusion Models with Oriented Calibration, ICLR 24 [[Paper]](https://openreview.net/pdf?id=NW2s5XXwXU)
+- Seer: Language Instructed Video Prediction with Latent Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.14897)
+- Manifold Diffusion Fields, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.15586)
+- Multi-Resolution Diffusion Models for Time Series Forecasting, ICLR 24 [[Paper]](https://openreview.net/pdf?id=mmjnr0G8ZY)
+- 
 
 ### ICML:
 
