@@ -7,8 +7,6 @@ ddl: September 2024
 - Read existing survey papers related to diffusion
 
 
-
-
 # Reference:
 
 
@@ -105,6 +103,22 @@ https://arxiv.org/pdf/2210.09292
 43. DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_DiffusionCLIP_Text-Guided_Diffusion_Models_for_Robust_Image_Manipulation_CVPR_2022_paper.pdf)
 44. Vector Quantized Diffusion Model for Text-to-Image Synthesis, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Gu_Vector_Quantized_Diffusion_Model_for_Text-to-Image_Synthesis_CVPR_2022_paper.pdf)
 45. Diffusion Probabilistic Models for 3D Point Cloud Generation, CVPR 21 [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Luo_Diffusion_Probabilistic_Models_for_3D_Point_Cloud_Generation_CVPR_2021_paper.pdf)
+46. Learning Energy-Based Models by Cooperative Diffusion Recovery Likelihood, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.05153)
+47. Manifold Preserving Guided Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2311.16424)
+48. Particle Guidance: non-I.I.D. Diverse Sampling with Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.13102)
+49. Diffusion Sampling with Momentum for Mitigating Divergence Artifacts, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.11118)
+50. Sin3DM: Learning a Diffusion Model from a Single 3D Textured Shape, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.15399)
+51. Efficient Integrators for Diffusion Generative Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.07894)
+52. On Accelerating Diffusion-Based Sampling Processes via Improved Integration Approximation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2304.11328)
+53. Consistency Trajectory Models: Learning Probability Flow ODE Trajectory of Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.02279)
+54. Diffusion Models for Multi-Task Generative Modeling, ICLR 24 [[Paper]](https://openreview.net/pdf?id=cbv0sBIZh9)
+55. Continuous-Multiple Image Outpainting in One-Step via Positional Query and A Diffusion-based Approach, ICLR 24 [[Paper]](https://arxiv.org/pdf/2401.15652)
+56. Alleviating Exposure Bias in Diffusion Models through Sampling with Shifted Time Steps, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.15583)
+57. PnP Inversion: Boosting Diffusion-based Editing with 3 Lines of Code, ICLR 24 [[Paper]](https://openreview.net/pdf?id=FoMZ4ljhVw)
+58. On Diffusion Modeling for Anomaly Detection, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.18593)
+59. Decomposed Diffusion Sampler for Accelerating Large-Scale Inverse Problems, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.05754)
+60. AdjointDPM: Adjoint Sensitivity Method for Gradient Backpropagation of Diffusion Probabilistic Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.10711)
+
 
 ### Hui
 1. Stochastic Segmentation with Conditional Categorical Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zbinden_Stochastic_Segmentation_with_Conditional_Categorical_Diffusion_Models_ICCV_2023_paper.pdf)
@@ -613,39 +627,27 @@ https://arxiv.org/pdf/2210.09292
 ### ICLR:
 Boning:
 - Transformer-Modulated Diffusion Models for Probabilistic Multivariate Time Series Forecasting, ICLR 24 [[Paper]](https://openreview.net/pdf?id=qae04YACHs)
-- Learning Energy-Based Models by Cooperative Diffusion Recovery Likelihood, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.05153)
-- Manifold Preserving Guided Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2311.16424)
 - Motion Guidance: Diffusion-Based Image Editing with Differentiable Motion Estimators, ICLR 24 [[Paper]](https://arxiv.org/pdf/2401.18085)
-- Particle Guidance: non-I.I.D. Diverse Sampling with Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.13102)
 - HIFA: High-fidelity Text-to-3D Generation with Advanced Diffusion Guidance, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.18766)
 - Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.17843)
-- Diffusion Sampling with Momentum for Mitigating Divergence Artifacts, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.11118)
 - Generating Images with 3D Annotations Using Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.08103)
 - Monte Carlo guided Denoising Diffusion models for Bayesian linear inverse problems, ICLR 24 [[Paper]](https://arxiv.org/pdf/2308.07983)
-- Sin3DM: Learning a Diffusion Model from a Single 3D Textured Shape, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.15399)
 - Compose and Conquer: Diffusion-Based 3D Depth Aware Composable Image Synthesis, ICLR 24 [[Paper]](https://arxiv.org/pdf/2401.09048)
 - Reverse Diffusion Monte Carlo, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.02037)
 - DiffusionNAG: Predictor-guided Neural Architecture Generation with Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.16943)
 - Lipschitz Singularities in Diffusion Models, ICLR 24 [[Paper]](https://openreview.net/pdf?id=WNkW0cOwiz)
 - Multi-Source Diffusion Models for Simultaneous Music Generation and Separation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2302.02257)
 - Diffusion Generative Flow Samplers: Improving learning signals through partial trajectory optimization, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.02679)
-- Efficient Integrators for Diffusion Generative Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.07894)
-- On Accelerating Diffusion-Based Sampling Processes via Improved Integration Approximation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2304.11328)
 - Conditional Variational Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2312.02246)
 - DMBP: Diffusion model-based predictor for robust offline reinforcement learning against state observation perturbations, ICLR 24 [[Paper]](https://openreview.net/pdf?id=ZULjcYLWKe)
-- Consistency Trajectory Models: Learning Probability Flow ODE Trajectory of Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.02279)
 - Efficient Planning with Latent Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.00311)
 - Intriguing Properties of Data Attribution on Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2311.00500)
 - Label-Noise Robust Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2402.17517)
 - BayesDiff: Estimating Pixel-wise Uncertainty in Diffusion via Bayesian Inference, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.11142)
-- Diffusion Models for Multi-Task Generative Modeling, ICLR 24 [[Paper]](https://openreview.net/pdf?id=cbv0sBIZh9)
 - Exposing Text-Image Inconsistency Using Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2404.18033)
 - Patched Denoising Diffusion Models For High-Resolution Image Synthesis, ICLR 24 [[Paper]](https://arxiv.org/pdf/2308.01316)
-- Continuous-Multiple Image Outpainting in One-Step via Positional Query and A Diffusion-based Approach, ICLR 24 [[Paper]](https://arxiv.org/pdf/2401.15652)
-- Alleviating Exposure Bias in Diffusion Models through Sampling with Shifted Time Steps, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.15583)
 - Diffusion Model for Dense Matching, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.19094)
 - Nearly d-Linear Convergence Bounds for Diffusion Models via Stochastic Localization, ICLR 24 [[Paper]](https://arxiv.org/pdf/2308.03686)
-- PnP Inversion: Boosting Diffusion-based Editing with 3 Lines of Code, ICLR 24 [[Paper]](https://openreview.net/pdf?id=FoMZ4ljhVw)
 - DiffusionSat: A Generative Foundation Model for Satellite Imagery, ICLR 24 [[Paper]](https://arxiv.org/pdf/2312.03606)
 - Discovering Failure Modes of Text-guided Diffusion Models via Adversarial Search, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.00974)
 - Ground-A-Video: Zero-shot Grounded Video Editing using Text-to-image Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.01107)
@@ -653,13 +655,10 @@ Boning:
 - DMV3D: Denoising Multi-view Diffusion Using 3D Large Reconstruction Model, ICLR 24 [[Paper]](https://arxiv.org/pdf/2311.09217)
 - Denoising Diffusion Bridge Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.16948)
 - Training-free Multi-objective Diffusion Model for 3D Molecule Generation, ICLR 24 [[Paper]](https://openreview.net/pdf?id=X41c4uB4k0)
-- On Diffusion Modeling for Anomaly Detection, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.18593)
-- Decomposed Diffusion Sampler for Accelerating Large-Scale Inverse Problems, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.05754)
 - The Blessing of Randomness: SDE Beats ODE in General Diffusion-based Image Editing, ICLR 24 [[Paper]](https://arxiv.org/pdf/2311.01410)
 - SweetDreamer: Aligning Geometric Priors in 2D diffusion for Consistent Text-to-3D, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.02596)
 - DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.16818)
 - SEINE: Short-to-Long Video Diffusion Model for Generative Transition and Prediction, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.20700)
-- AdjointDPM: Adjoint Sensitivity Method for Gradient Backpropagation of Diffusion Probabilistic Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.10711)
 - DecompOpt: Controllable and Decomposed Diffusion Models for Structure-based Molecular Optimization, ICLR 24 [[Paper]](https://arxiv.org/pdf/2403.13829)
 - MINDE: Mutual Information Neural Diffusion Estimation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.09031)
 - NoiseDiffusion: Correcting Noise for Image Interpolation with Diffusion Models beyond Spherical Linear Interpolation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2403.08840)
