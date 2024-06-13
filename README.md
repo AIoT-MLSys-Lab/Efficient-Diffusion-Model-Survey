@@ -46,6 +46,8 @@ https://arxiv.org/pdf/2210.09292
 - Reasoning with Latent Diffusion in Offline Reinforcement Learning, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.06599)
 - DDMI: Domain-agnostic Latent Diffusion Models for Synthesizing High-Quality Implicit Neural Representations, ICLR 24 [[Paper]](https://arxiv.org/pdf/2401.12517)
 - HyperHuman: Hyper-Realistic Human Generation with Latent Structural Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.08579)
+- Solving Inverse Problems with Latent Diffusion Models via Hard Data Consistency, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.08123)
+- Latent 3D Graph Diffusion, ICLR 24 [[Paper]](https://openreview.net/pdf?id=cXbnGtO0NZ)
 
 #### SD for xxx
 - DreamPose: Fashion Video Synthesis with Stable Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Karras_DreamPose_Fashion_Video_Synthesis_with_Stable_Diffusion_ICCV_2023_paper.pdf)
@@ -361,6 +363,37 @@ https://arxiv.org/pdf/2210.09292
 84. Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=Srbl4AuTyd&name=pdf)
 85. (Efficient Diffusion, High-Resolution Image Synthesis, Generative Modeling)simple diffusion: End-to-end diffusion for high resolution images, ICML 23 [[Paper\]](https://openreview.net/attachment?id=6l9YG3wHA9&name=pdf)
 86. MultiDiffusion: Fusing Diffusion Paths for Controlled Image Generation, ICML 23 [[Paper\]](https://openreview.net/attachment?id=D4ajVWmgLB&name=pdf)
+87. Bidirectional Temporal Diffusion Model for Temporally Consistent Human Animation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.00574)
+88. Mixed-Type Tabular Data Synthesis with Score-based Diffusion in Latent Space, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.09656)
+89. Masked Completion via Structured Diffusion with White-Box Transformers, ICLR 24 [[Paper]](https://arxiv.org/pdf/2404.02446)
+90. Universal Guidance for Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2302.07121)
+91. Elucidating the design space of classifier-guided diffusion generation, ICLR 24 [[Paper]](https://openreview.net/pdf?id=9DXXMXnIGm)
+92. Protein-Ligand Interaction Prior for Binding-aware 3D Molecule Diffusion Models, ICLR 24 [[Paper]](https://openreview.net/pdf?id=qH9nrMNTIW)
+93. Large-Vocabulary 3D Diffusion Model with Transformer, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.07920)
+94. PanoDiffusion: 360-degree Panorama Outpainting via Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.03177)
+95. ADDP: Learning General Representations for Image Recognition and Generation with Alternating Denoising Diffusion Process, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.05423)
+96. GeoDiffusion: Text-Prompted Geometric Control for Object Detection Data Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.04607)
+97. Matryoshka Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.15111)
+98. Zero-Shot Robotic Manipulation with Pre-Trained Image-Editing Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.10639)
+99. Würstchen: An Efficient Architecture for Large-Scale Text-to-Image Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.00637)
+100. DiffAR: Denoising Diffusion Autoregressive Model for Raw Speech Waveform Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.01381)
+101. Don't Play Favorites: Minority Guidance for Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2301.12334)
+102. AlignDiff: Aligning Diverse Human Preferences via Behavior-Customisable Diffusion Model, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.02054)
+103. Relay Diffusion: Unifying diffusion process across resolutions for image synthesis, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.03350)
+104. Elucidating the Exposure Bias in Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2308.15321)
+105. PixArt-α: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.00426)
+106. Inner Classifier-Free Guidance and Its Taylor Expansion for Diffusion Models, ICLR 24 [[Paper]](https://openreview.net/pdf?id=0QAzIMq32X)
+107. Denoising Diffusion via Image-Based Rendering, ICLR 24 [[Paper]](https://arxiv.org/pdf/2402.03445)
+108. Solving Diffusion ODEs with Optimal Boundary Conditions for Better Image Super-Resolution, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.15357)
+109. EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.03270)
+110. Soft Mixture Denoising: Beyond the Expressive Bottleneck of Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.14068)
+111. A Variational Perspective on Solving Inverse Problems with Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.04391)
+112. Denoising Diffusion Step-aware Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.03337)
+113. Diffusion Posterior Sampling for Linear Inverse Problem Solving: A Filtering Perspective, ICLR 24 [[Paper]](https://openreview.net/pdf?id=tplXNcHZs1)
+114. Exploring Diffusion Time-steps for Unsupervised Representation Learning, ICLR 24 [[Paper]](https://arxiv.org/pdf/2401.11430)
+115. A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2312.07243)
+116. Diffusion Posterior Sampling for Linear Inverse Problem Solving: A Filtering Perspective, ICLR 24 [[Paper]](https://openreview.net/pdf?id=tplXNcHZs1)
+117. Imitating Human Behaviour with Diffusion Models, ICLR 23 [[Paper]](https://arxiv.org/pdf/2301.10677)
 
 
 ### ECCV:
@@ -718,6 +751,7 @@ Xuan:
 
 
 Rui:
+
 - Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions, ICLR 23 [[Paper]](https://arxiv.org/pdf/2209.11215)
 - DreamFusion: Text-to-3D using 2D Diffusion, ICLR 23 [[Paper]](https://arxiv.org/pdf/2209.14988)
 - Neural Lagrangian Schrödinger Bridge: Diffusion Modeling for Population Dynamics, ICLR 23 [[Paper]](https://arxiv.org/pdf/2204.04853)
