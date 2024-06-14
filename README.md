@@ -275,6 +275,21 @@ https://arxiv.org/pdf/2210.09292
 53. Improving Diffusion-Based Image Synthesis with Context Prediction, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/7664a7e946a84ac5e97649a967717cf2-Paper-Conference.pdf)
 54. Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/80fe51a7d8d0c73ff7439c2a2554ed53-Paper-Conference.pdf)
 55. One-Step Diffusion Distillation via Deep Equilibrium Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/82f05a105c928c10706213952bf0c8b7-Paper-Conference.pdf)
+56. Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions, ICLR 23 [[Paper]](https://arxiv.org/pdf/2209.11215)
+57. Stable Target Field for Reduced Variance Score Estimation in Diffusion Models, ICLR 23 [[Paper]](https://arxiv.org/pdf/2302.00670)
+58. Diffusion Posterior Sampling for General Noisy Inverse Problems, ICLR 23 [[Paper]](https://arxiv.org/pdf/2209.14687)
+59. Markup-to-Image Diffusion Models with Scheduled Sampling, ICLR 23 [[Paper]](https://arxiv.org/pdf/2210.05147)
+60. Discrete Contrastive Diffusion for Cross-Modal Music and Image Generation, ICLR 23 [[Paper]](https://arxiv.org/pdf/2206.07771)
+61. DiGress: Discrete Denoising diffusion for graph generation, ICLR 23 [[Paper]](https://arxiv.org/pdf/2209.14734)
+62. Diffusion Models Already Have A Semantic Latent Space, ICLR 23 [[Paper]](https://arxiv.org/pdf/2210.10960)
+63. SketchKnitter: Vectorized Sketch Generation with Diffusion Models, ICLR 23 [[Paper]](https://openreview.net/pdf?id=4eJ43EN2g6l)
+64. Discrete Predictor-Corrector Diffusion Models for Image Synthesis, ICLR 23 [[Paper]](https://openreview.net/pdf?id=VM8batVBWvg)
+65. Accelerating Guided Diffusion Sampling with Splitting Numerical Methods, ICLR 23 [[Paper]](https://arxiv.org/pdf/2301.11558)
+66. Score-based Continuous-time Discrete Diffusion Models, ICLR 23 [[Paper]](https://arxiv.org/pdf/2211.16750)
+67. gDDIM: Generalized denoising diffusion implicit models, ICLR 23 [[Paper]](https://arxiv.org/pdf/2206.05564)
+68. Fast Sampling of Diffusion Models with Exponential Integrator, ICLR 23 [[Paper]](https://arxiv.org/pdf/2204.13902)
+69. Truncated Diffusion Probabilistic Models and Diffusion-based Adversarial Auto-Encoders, ICLR 23 [[Paper]](https://arxiv.org/pdf/2202.09671)
+
 
 ### Jingxuan
 1. Nearest Neighbour Score Estimators for Diffusion Generative Models, ICML 24 [[Paper\]](https://arxiv.org/pdf/2402.08018)
