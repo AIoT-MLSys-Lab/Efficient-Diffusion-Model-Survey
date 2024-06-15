@@ -10,11 +10,14 @@ ddl: September 2024
 # Reference:
 
 
-Efficient LLM survey
+#### Efficient LLM survey
 https://arxiv.org/pdf/2312.03863
 
-Efficient Diffusion Model for Vision
+#### Efficient Diffusion Model for Vision
 https://arxiv.org/pdf/2210.09292
+
+#### Diffusion Models: A Comprehensive Survey of Methods and Applications
+https://arxiv.org/pdf/2209.00796
 
 # Paper List
 
@@ -434,15 +437,11 @@ https://arxiv.org/pdf/2210.09292
 115. A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2312.07243)
 116. Diffusion Posterior Sampling for Linear Inverse Problem Solving: A Filtering Perspective, ICLR 24 [[Paper]](https://openreview.net/pdf?id=tplXNcHZs1)
 117. Imitating Human Behaviour with Diffusion Models, ICLR 23 [[Paper]](https://arxiv.org/pdf/2301.10677)
+118. Accelerating Score-Based Generative Models with Preconditioned Diffusion Sampling, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830001.pdf)
+119. Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830171.pdf)
+120. Learning to Efficiently Sample from Diffusion Probabilistic Models, arXiv [[Paper]](https://arxiv.org/pdf/2106.03802)
+121. Subspace Diffusion Generative Models, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830274.pdf)
+122. DiffuseMorph: Unsupervised Deformable Image Registration Using Diffusion Model, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136910336.pdf)
+123. DiffuStereo: High Quality Human Reconstruction via Diffusion-Based Stereo Using Sparse Cameras, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136920697.pdf)
 
 
-### ECCV:
-- Compositional Visual Generation with Composable Diffusion Models, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136770426.pdf)
-- Time-rEversed diffusioN tEnsor Transformer: A New TENET of Few-Shot Object Detection, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136800300.pdf)
-- Entropy-Driven Sampling and Training Scheme for Conditional Diffusion Generation, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820730.pdf)
-- Accelerating Score-Based Generative Models with Preconditioned Diffusion Sampling, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830001.pdf)
-- Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830171.pdf)
-- Subspace Diffusion Generative Models, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830274.pdf)
-- DiffuseMorph: Unsupervised Deformable Image Registration Using Diffusion Model, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136910336.pdf)
-- DiffuStereo: High Quality Human Reconstruction via Diffusion-Based Stereo Using Sparse Cameras, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136920697.pdf)
-- Variational Diffusion Autoencoders with Random Walk Sampling, ECCV 20 [[Paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680358.pdf)
