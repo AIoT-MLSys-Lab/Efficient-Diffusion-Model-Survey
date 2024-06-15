@@ -36,6 +36,13 @@ https://arxiv.org/pdf/2209.00796
 - Scheduling
 - Retrieval
 
+#### Efficient Sampling
+- SDE Solvers
+- ODE Solvers
+- Optimized Discretization
+- Truncated Diffusion
+- Knowledge Distillation
+
 #### LDM for xxx
 - LD-ZNet: A Latent Diffusion Approach for Text-Based Image Segmentation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/PNVR_LD-ZNet_A_Latent_Diffusion_Approach_for_Text-Based_Image_Segmentation_ICCV_2023_paper.pdf)
 - Multimodal Garment Designer: Human-Centric Latent Diffusion Models for Fashion Image Editing, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Baldrati_Multimodal_Garment_Designer_Human-Centric_Latent_Diffusion_Models_for_Fashion_Image_ICCV_2023_paper.pdf)
