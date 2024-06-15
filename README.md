@@ -7,6 +7,8 @@ ddl: September 2024
 - Read existing survey papers related to diffusion
 
 
+- 1. Categorizing from the 'modal' perspective
+
 # Reference:
 
 
@@ -450,5 +452,10 @@ https://arxiv.org/pdf/2209.00796
 121. Subspace Diffusion Generative Models, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830274.pdf)
 122. DiffuseMorph: Unsupervised Deformable Image Registration Using Diffusion Model, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136910336.pdf)
 123. DiffuStereo: High Quality Human Reconstruction via Diffusion-Based Stereo Using Sparse Cameras, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136920697.pdf)
+124. DiTFastAttn: Attention Compression for Diffusion Transformer Models, arXiv [[Paper]](DiTFastAttn: Attention Compression for Diffusion Transformer Models)
+125. ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation, arXiv [[Paper]](https://arxiv.org/pdf/2406.02540)
+126. Inf-DiT: Upsampling Any-Resolution Image with Memory-Efficient Diffusion Transformer, arXiv [[Paper]](https://arxiv.org/pdf/2405.04312)
+127. PipeFusion: Displaced Patch Pipeline Parallelism for Inference of Diffusion Transformer Models, arXiv [[Paper]](https://arxiv.org/pdf/2405.14430)
+128. 
 
 
