@@ -17,6 +17,9 @@ https://arxiv.org/pdf/2210.09292
 #### Diffusion Models: A Comprehensive Survey of Methods and Applications
 https://arxiv.org/pdf/2209.00796
 
+#### An Overview of Diffusion Models: Applications, Guided Generation, Statistical Rates and Optimization
+https://arxiv.org/pdf/2404.07771
+
 # Paper List
 
 ### Topic
