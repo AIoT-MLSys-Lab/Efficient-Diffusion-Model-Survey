@@ -3,7 +3,7 @@
 ddl: September 2024
 
 # Todo List
-- 1. Categorizing from the 'modal' perspective
+- 1. Categorizing from the 'modality' perspective
 
 # Reference:
 
