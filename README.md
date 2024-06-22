@@ -45,23 +45,8 @@ https://arxiv.org/pdf/2404.07771
 - Knowledge Distillation
 
 #### LDM for xxx
-- LD-ZNet: A Latent Diffusion Approach for Text-Based Image Segmentation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/PNVR_LD-ZNet_A_Latent_Diffusion_Approach_for_Text-Based_Image_Segmentation_ICCV_2023_paper.pdf)
-- Multimodal Garment Designer: Human-Centric Latent Diffusion Models for Fashion Image Editing, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Baldrati_Multimodal_Garment_Designer_Human-Centric_Latent_Diffusion_Models_for_Fashion_Image_ICCV_2023_paper.pdf)
-- SALAD: Part-Level Latent Diffusion for 3D Shape Generation and Manipulation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Koo_SALAD_Part-Level_Latent_Diffusion_for_3D_Shape_Generation_and_Manipulation_ICCV_2023_paper.pdf)
-- A Latent Space of Stochastic Diffusion Models for Zero-Shot Image Editing and Guidance, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_A_Latent_Space_of_Stochastic_Diffusion_Models_for_Zero-Shot_Image_ICCV_2023_paper.pdf)
-- BeLFusion: Latent Diffusion for Behavior-Driven Human Motion Prediction, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Barquero_BeLFusion_Latent_Diffusion_for_Behavior-Driven_Human_Motion_Prediction_ICCV_2023_paper.pdf)
-- PLaY: Parametrically Conditioned Layout Generation using Latent Diffusion, ICML 23 [[Paper\]](https://openreview.net/attachment?id=2jvwyTm6Pk&name=pdf)
-- Geometric Latent Diffusion Models for 3D Molecule Generation, ICML 23 [[Paper\]](https://openreview.net/attachment?id=sLfHWWrfe2&name=pdf)
-- AudioLDM: Text-to-Audio Generation with Latent Diffusion Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=6BhipYkaSV&name=pdf)
-- Hyperbolic Geometric Latent Diffusion Model for Graph Generation, ICML 24 [[Paper\]](https://arxiv.org/pdf/2405.03188)
-- Learning Latent Space Hierarchical EBM Diffusion Models, ICML 24 [[Paper\]](https://arxiv.org/abs/2405.13910)
-- Adapt and Diffuse: Sample-adaptive Reconstruction via Latent Diffusion Models, ICML 24 [[Paper\]](https://arxiv.org/pdf/2309.06642)
-- Fast Timing-Conditioned Latent Audio Diffusion, ICML 24 [[Paper\]](https://www.arxiv.org/pdf/2402.04825)
-- Prompt-tuning Latent Diffusion Models for Inverse Problems, ICML 24 [[Paper\]](https://arxiv.org/pdf/2310.01110)
-- Disguised Copyright Infringement of Latent Diffusion Models, ICML 24 [[Paper\]](https://arxiv.org/pdf/2404.06737)
-- PID: Prompt-Independent Data Protection Against Latent Diffusion Models, ICML 24 [[Paper\]](https://openreview.net/pdf/3de6809cb46c8a18337e669ce1e35cafd563d041.pdf)
-- Structure and Content-Guided Video Synthesis with Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Esser_Structure_and_Content-Guided_Video_Synthesis_with_Diffusion_Models_ICCV_2023_paper.pdf)
-- NeuralField-LDM: Scene Generation With Hierarchical Latent Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Kim_NeuralField-LDM_Scene_Generation_With_Hierarchical_Latent_Diffusion_Models_CVPR_2023_paper.pdf)
+
+
 - LayoutDiffusion: Controllable Diffusion Model for Layout-to-Image Generation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_LayoutDiffusion_Controllable_Diffusion_Model_for_Layout-to-Image_Generation_CVPR_2023_paper.pdf)
 - High-Resolution Image Reconstruction With Latent Diffusion Models From Human Brain Activity, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Takagi_High-Resolution_Image_Reconstruction_With_Latent_Diffusion_Models_From_Human_Brain_CVPR_2023_paper.pdf)
 - Seeing Beyond the Brain: Conditional Diffusion Model With Sparse Masked Modeling for Vision Decoding, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Seeing_Beyond_the_Brain_Conditional_Diffusion_Model_With_Sparse_Masked_CVPR_2023_paper.pdf)
@@ -82,6 +67,40 @@ https://arxiv.org/pdf/2404.07771
 - Open-vocabulary Object Segmentation with Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Open-vocabulary_Object_Segmentation_with_Diffusion_Models_ICCV_2023_paper.pdf)
 - X-Paste: Revisiting Scalable Copy-Paste for Instance Segmentation using CLIP and StableDiffusion,ICML 23[[Paper\]](https://arxiv.org/pdf/2212.03863)
 - AquaLoRA: Toward White-box Protection for Customized Stable Diffusion Models via Watermark LoRA, ICML 24 [[Paper\]](https://arxiv.org/pdf/2405.11135)
+
+
+## Tasks
+### Text-to-Audio Generation
+#### Paper List
+1. Fast Timing-Conditioned Latent Audio Diffusion, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2402.04825)
+2. AudioLDM: Text-to-Audio Generation with Latent Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=6BhipYkaSV&name=pdf)
+
+#### Benchmark & Dataset
+1. MusicCaps
+2. AudioCaps
+
+### Image-to-Image Generation
+1. 
+
+### Graph Generation
+#### Paper List
+1. Hyperbolic Geometric Latent Diffusion Model for Graph Generation, ICML 24 [[Paper]](https://arxiv.org/pdf/2405.03188)
+
+#### Benchmark & Dataset
+1. Cora
+2. Citeseer
+3. Polblogs
+4. MUTAG
+5. IMDB-B
+6. PROTEINS
+
+### Image Restoration
+#### Paper List
+1. Adapt and Diffuse: Sample-adaptive Reconstruction via Latent Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2309.06642)
+
+#### Benchmark & Dataset
+1. CelebA-HQ
+2. LSUN Bedrooms
 
 ## Paper Related to Efficient
 
