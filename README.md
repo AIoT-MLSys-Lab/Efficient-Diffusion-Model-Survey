@@ -44,32 +44,14 @@ https://arxiv.org/pdf/2404.07771
 - Truncated Diffusion
 - Knowledge Distillation
 
-#### LDM for xxx
-
-
-- LayoutDiffusion: Controllable Diffusion Model for Layout-to-Image Generation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_LayoutDiffusion_Controllable_Diffusion_Model_for_Layout-to-Image_Generation_CVPR_2023_paper.pdf)
-- High-Resolution Image Reconstruction With Latent Diffusion Models From Human Brain Activity, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Takagi_High-Resolution_Image_Reconstruction_With_Latent_Diffusion_Models_From_Human_Brain_CVPR_2023_paper.pdf)
-- Seeing Beyond the Brain: Conditional Diffusion Model With Sparse Masked Modeling for Vision Decoding, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Seeing_Beyond_the_Brain_Conditional_Diffusion_Model_With_Sparse_Masked_CVPR_2023_paper.pdf)
-- Self-Guided Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Hu_Self-Guided_Diffusion_Models_CVPR_2023_paper.pdf)
-- DiffTalk: Crafting Diffusion Models for Generalized Audio-Driven Portraits Animation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shen_DiffTalk_Crafting_Diffusion_Models_for_Generalized_Audio-Driven_Portraits_Animation_CVPR_2023_paper.pdf)
-- Align Your Latents: High-Resolution Video Synthesis With Latent Diffusion Models, CVPR 23 [[Paper]]Efficient(https://openaccess.thecvf.com/content/CVPR2023/papers/Blattmann_Align_Your_Latents_High-Resolution_Video_Synthesis_With_Latent_Diffusion_Models_CVPR_2023_paper.pdf)
-- NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers, ICLR 24 [[Paper]](https://arxiv.org/pdf/2304.09116)
-- Reasoning with Latent Diffusion in Offline Reinforcement Learning, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.06599)
-- DDMI: Domain-agnostic Latent Diffusion Models for Synthesizing High-Quality Implicit Neural Representations, ICLR 24 [[Paper]](https://arxiv.org/pdf/2401.12517)
-- HyperHuman: Hyper-Realistic Human Generation with Latent Structural Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.08579)
-- Solving Inverse Problems with Latent Diffusion Models via Hard Data Consistency, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.08123)
-- Latent 3D Graph Diffusion, ICLR 24 [[Paper]](https://openreview.net/pdf?id=cXbnGtO0NZ)
-
-#### SD for xxx
-- DreamPose: Fashion Video Synthesis with Stable Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Karras_DreamPose_Fashion_Video_Synthesis_with_Stable_Diffusion_ICCV_2023_paper.pdf)
-- The Power of Sound (TPoS): Audio Reactive Video Generation with Stable Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Jeong_The_Power_of_Sound_TPoS_Audio_Reactive_Video_Generation_with_ICCV_2023_paper.pdf)
-- X-Paste: Revisiting Scalable Copy-Paste for Instance Segmentation using CLIP and StableDiffusion,ICML 23[[Paper]](https://arxiv.org/pdf/2212.03863)
-- Open-vocabulary Object Segmentation with Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Open-vocabulary_Object_Segmentation_with_Diffusion_Models_ICCV_2023_paper.pdf)
-- X-Paste: Revisiting Scalable Copy-Paste for Instance Segmentation using CLIP and StableDiffusion,ICML 23[[Paper\]](https://arxiv.org/pdf/2212.03863)
-- AquaLoRA: Toward White-box Protection for Customized Stable Diffusion Models via Watermark LoRA, ICML 24 [[Paper\]](https://arxiv.org/pdf/2405.11135)
-
-
 ## Tasks
+
+### Await
+1. Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)
+2. Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models, ICLR 22 [[Paper]](https://arxiv.org/pdf/2201.06503)
+3. 
+
+
 ### Text-to-Audio Generation
 #### Paper List
 1. Fast Timing-Conditioned Latent Audio Diffusion, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2402.04825)
@@ -79,8 +61,15 @@ https://arxiv.org/pdf/2404.07771
 1. MusicCaps
 2. AudioCaps
 
-### Image-to-Image Generation
-1. 
+### 3D Graph Generation
+#### Paper List
+1. Latent 3D Graph Diffusion, ICLR 24 [[Paper]](https://openreview.net/pdf?id=cXbnGtO0NZ), ChEMBL/PubChemQC/QM9/Drugs
+
+#### Benchmark & Dataset
+1.  ChEMBL
+2.  PubChemQC
+3.  QM9
+4.  Drugs
 
 ### Graph Generation
 #### Paper List
@@ -94,19 +83,26 @@ https://arxiv.org/pdf/2404.07771
 5. IMDB-B
 6. PROTEINS
 
-### Image Restoration
+### Image Super Resolution, Inpainting, Restoration, Translation, and Editing
 #### Paper List
-1. Adapt and Diffuse: Sample-adaptive Reconstruction via Latent Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2309.06642)
+1. Adapt and Diffuse: Sample-adaptive Reconstruction via Latent Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2309.06642), CelebA-HQ/LSUN-Bedrooms
+2. Solving Inverse Problems with Latent Diffusion Models via Hard Data Consistency, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.08123), FFHQ/CelebA-HQ/LSUN-Bedrooms
+3. High-Resolution Image Synthesis With Latent Diffusion Models, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf), ImageNet/CelebA-HQ/FFHQ/LSUN-Churches/LSUN-Bedrooms
+4. 
 
 #### Benchmark & Dataset
 1. CelebA-HQ
 2. LSUN Bedrooms
+3. FFHQ
+4. ImageNet
+5. LSUN Churches
+6. 
 
 ## Paper Related to Efficient
 
-1. High-Resolution Image Synthesis With Latent Diffusion Models, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf)
-2. Effective Data Augmentation With Diffusion Models,CVPR 23 [[Paper]](https://arxiv.org/pdf/2302.07944)
-3. Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)
+1. 
+2. 
+3. 
 4. Paint by Example: Exemplar-Based Image Editing With Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Paint_by_Example_Exemplar-Based_Image_Editing_With_Diffusion_Models_CVPR_2023_paper.pdf)
 5. Leapfrog Diffusion Model for Stochastic Trajectory Prediction, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Mao_Leapfrog_Diffusion_Model_for_Stochastic_Trajectory_Prediction_CVPR_2023_paper.pdf)
 6. Wavelet Diffusion Models Are Fast and Scalable Image Generators, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Phung_Wavelet_Diffusion_Models_Are_Fast_and_Scalable_Image_Generators_CVPR_2023_paper.pdf)
