@@ -55,6 +55,9 @@ https://arxiv.org/pdf/2404.07771
 3. Continuous-Multiple Image Outpainting in One-Step via Positional Query and A Diffusion-based Approach, ICLR 24 [[Paper\]](https://arxiv.org/pdf/2401.15652) ,Scenery
 4. Alleviating Exposure Bias in Diffusion Models through Sampling with Shifted Time Steps, ICLR 24 [[Paper\]](https://arxiv.org/pdf/2305.15583),CIFAR-10\CelebA 
 5. PnP Inversion: Boosting Diffusion-based Editing with 3 Lines of Code, ICLR 24 [[Paper\]](https://openreview.net/pdf?id=FoMZ4ljhVw) ,PIE-Bench
+6. DiffFit: Unlocking Transferability of Large Diffusion Models via Simple Parameter-efficient Fine-Tuning, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xie_DiffFit_Unlocking_Transferability_of_Large_Diffusion_Models_via_Simple_Parameter-efficient_ICCV_2023_paper.pdf) , ImageNet
+7. HumanSD: A Native Skeleton-Guided Diffusion Model for Human Image Generation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ju_HumanSD_A_Native_Skeleton-Guided_Diffusion_Model_for_Human_Image_Generation_ICCV_2023_paper.pdf) , LAION-Human
+8. Controllable Person Image Synthesis with Pose-Constrained Latent Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Han_Controllable_Person_Image_Synthesis_with_Pose-Constrained_Latent_Diffusion_ICCV_2023_paper.pdf) , DeepFashion
 
 ### Benchmark & Dataset
 
@@ -144,7 +147,7 @@ https://arxiv.org/pdf/2404.07771
 1. Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)
 2. Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models, ICLR 22 [[Paper]](https://arxiv.org/pdf/2201.06503)
 3. On Distillation of Guided Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Meng_On_Distillation_of_Guided_Diffusion_Models_CVPR_2023_paper.pdf)
-4. 
+4. Q-Diffusion: Quantizing Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)
 
 ### Human Motion Generation
 #### Paper List
@@ -204,6 +207,7 @@ https://arxiv.org/pdf/2404.07771
 2. Solving Inverse Problems with Latent Diffusion Models via Hard Data Consistency, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.08123), FFHQ/CelebA-HQ/LSUN-Bedrooms
 3. High-Resolution Image Synthesis With Latent Diffusion Models, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf), ImageNet/CelebA-HQ/FFHQ/LSUN-Churches/LSUN-Bedrooms
 4. Wavelet Diffusion Models Are Fast and Scalable Image Generators, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Phung_Wavelet_Diffusion_Models_Are_Fast_and_Scalable_Image_Generators_CVPR_2023_paper.pdf), CIFAR-10/STL-10/CelebA-HQ/LSUN-Church
+5. DiffIR: Efficient Diffusion Model for Image Restoration, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xia_DiffIR_Efficient_Diffusion_Model_for_Image_Restoration_ICCV_2023_paper.pdf), CelebA-HQ, LSUN Bedrooms, Places-Standard
 
 #### Benchmark & Dataset
 1. CelebA-HQ
@@ -213,6 +217,29 @@ https://arxiv.org/pdf/2404.07771
 5. LSUN Churches
 6. CIFAR-10
 7. STL-10
+8. Places-Standard
+
+### Text-to-Text
+#### Paper List
+1. Text Diffusion Model with Encoder-Decoder Transformers for Sequence-to-Sequence Generation, NAACL 24 [[Paper]](https://aclanthology.org/2024.naacl-long.2.pdf), QQP, Wiki-Auto, Quasar-T, CCD, IWSLT14, WMT14
+2. LanguageFlow: Advancing Diffusion Language Generation with Probabilistic Flows, NAACL 24 [[Paper]](https://arxiv.org/pdf/2403.16995), E2E, NLG, ART, WMT16
+3. Empowering Diffusion Models on the Embedding Space for Text Generation, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.09412), WNT14, WMT16, Gigaword, QQP, Wiki-Auto, Quasar-T
+4. Diffusion Glancing Transformer for Parallel Sequence-to-Sequence Learning, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.10240), WMT14, QQP, MS-COCO
+
+#### Benchmark & Dataset
+
+1. QQP
+2. Wiki-Auto
+3. Quasar-T
+4. CCD
+5. IWSLT14
+6. WMT14
+7. E2E
+8. NLG
+9. ART
+10. WMT16
+11. Gigaword
+12. MS-COCO
 
 ## Paper Related to Efficient
 1. 
