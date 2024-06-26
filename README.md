@@ -58,7 +58,8 @@ https://arxiv.org/pdf/2404.07771
 7. DiffFit: Unlocking Transferability of Large Diffusion Models via Simple Parameter-efficient Fine-Tuning, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xie_DiffFit_Unlocking_Transferability_of_Large_Diffusion_Models_via_Simple_Parameter-efficient_ICCV_2023_paper.pdf), ImageNet
 8. HumanSD: A Native Skeleton-Guided Diffusion Model for Human Image Generation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ju_HumanSD_A_Native_Skeleton-Guided_Diffusion_Model_for_Human_Image_Generation_ICCV_2023_paper.pdf), LAION-Human
 9. Controllable Person Image Synthesis with Pose-Constrained Latent Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Han_Controllable_Person_Image_Synthesis_with_Pose-Constrained_Latent_Diffusion_ICCV_2023_paper.pdf), DeepFashion
-10. 
+10. HSR-Diff: Hyperspectral Image Super-Resolution via Conditional Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_HSR-Diff_Hyperspectral_Image_Super-Resolution_via_Conditional_Diffusion_Models_ICCV_2023_paper.pdf), CAVE/PaviaU/Chikusei/HypSen
+11. 3D-aware Image Generation using 2D Diffusion Models, ICCV 23 [[Paper\]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xiang_3D-aware_Image_Generation_using_2D_Diffusion_Models_ICCV_2023_paper.pdf), ImageNet/SDIP Dogs/SDIP Elephants/LSUN Horses
 
 ### Benchmark & Dataset
 
@@ -67,10 +68,21 @@ https://arxiv.org/pdf/2404.07771
 3. LSUN-Bedroom
 4. LSUN-Church 
 5. LSUN-Cat
-6. FFHQ
-7. Scenery
-8. CIFAR-10
-9. PIE-Bench
+6. LSUN Horses
+7. FFHQ
+8. Scenery
+9. CIFAR-10
+10. PIE-Bench
+11. SDIP Elephants
+12. SDIP Dogs
+13. LIDC
+14. Cityscapes
+15. LOL
+16. VE-LOL-L
+17. CAVE
+18. PaviaU
+19. Chikusei
+20. HypSen
 
 ### Image-to-Video
 
@@ -84,6 +96,20 @@ https://arxiv.org/pdf/2404.07771
 2. UCF101
 3. SkyTimelapse
 
+### Image-to-3D
+
+#### Paper List
+
+1. Make-It-3D: High-fidelity 3D Creation from A Single Image with Diffusion Prior, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Tang_Make-It-3D_High-fidelity_3D_Creation_from_A_Single_Image_with_Diffusion_ICCV_2023_paper.pdf), DTU
+2. Viewset Diffusion: (0-)Image-Conditioned 3D Generative Models from 2D Data, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Szymanowicz_Viewset_Diffusion_0-Image-Conditioned_3D_Generative_Models_from_2D_Data_ICCV_2023_paper.pdf), ShapeNet/Minens/CO3D
+
+#### Benchmark & Dataset
+
+1. DTU
+2. ShapeNet
+3. Minens
+4. CO3D
+
 ### Point Cloud Completion and Generation
 
 #### Paper List
@@ -93,16 +119,105 @@ https://arxiv.org/pdf/2404.07771
 
 1.  ShapeNet
 
+### Text-to-Text
+
+#### Paper List
+
+1. Text Diffusion Model with Encoder-Decoder Transformers for Sequence-to-Sequence Generation, NAACL 24 [[Paper]](https://aclanthology.org/2024.naacl-long.2.pdf)QQP/Wiki-Auto/Quasar-T/CCD/IWSLT14/WMT14
+2. LanguageFlow: Advancing Diffusion Language Generation with Probabilistic Flows, NAACL 24 [[Paper]](https://arxiv.org/pdf/2403.16995), E2E/NLG/ART
+3. Empowering Diffusion Models on the Embedding Space for Text Generation, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.09412), WMT14/WMT16/IWSLT4/Gigaword/QQP/Wiki-Auto/Quasar-T
+4. Diffusion Glancing Transformer for Parallel Sequence-to-Sequence Learning, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.10240), QQP/MS-COCO
+
+#### Benchmark & Dataset
+
+1. QQP
+2. Wiki-Auto
+3. Quasar-T
+4. CCD
+5. IWSLT14
+6. WMT14
+7. E2E
+8. NLG
+9. ART
+10. WMT16
+11. Gigaword
+12. MS-COCO
+
 ### Text-to-Image 
 
 #### Paper List
 1. Vector Quantized Diffusion Model for Text-to-Image Synthesis, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Gu_Vector_Quantized_Diffusion_Model_for_Text-to-Image_Synthesis_CVPR_2022_paper.pdf),CUB-200
 2. Diffusion Probabilistic Model Made Slim, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Diffusion_Probabilistic_Model_Made_Slim_CVPR_2023_paper.pdf), ImageNet/MS-COCO
+3. Effective Real Image Editing with Accelerated Iterative Diffusion Inversion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Pan_Effective_Real_Image_Editing_with_Accelerated_Iterative_Diffusion_Inversion_ICCV_2023_paper.pdf), COCO/AFHQ
+4. Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_Zero-Shot_Contrastive_Loss_for_Text-Guided_Diffusion_Image_Style_Transfer_ICCV_2023_paper.pdf), FFHQ/CelebA-HQ/ImageNet/LSUN- Church/CycleGAN dataset
+5. Erasing Concepts from Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Gandikota_Erasing_Concepts_from_Diffusion_Models_ICCV_2023_paper.pdf), COCO/LAION/Imagenette
 
 #### Benchmark & Dataset
 1. CUB-200
-2. ImageNet
-3. MS-COCO
+2. COCO
+3. AFHQ
+4. FFHQ
+5. CelebA-HQ
+6. ImageNet
+7. LSUN- Church
+8. CycleGAN dataset
+9. LAION
+10. Imagenette
+
+### Text-to-Audio Generation
+
+#### Paper List
+
+1. Fast Timing-Conditioned Latent Audio Diffusion, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2402.04825), MusicCaps
+2. AudioLDM: Text-to-Audio Generation with Latent Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=6BhipYkaSV&name=pdf), AudioCaps
+
+#### Benchmark & Dataset
+
+1. MusicCaps
+2. AudioCaps
+
+### Text-to-3D
+
+#### Paper List
+
+1. Texture Generation on 3D Meshes with Point-UV Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yu_Texture_Generation_on_3D_Meshes_with_Point-UV_Diffusion_ICCV_2023_paper.pdf), ShapeNet
+2. 
+
+#### Benchmark & Dataset
+
+1. ShapeNet
+
+### Text-to-Motion
+
+#### Paper List
+
+1. 
+
+#### Benchmark & Dataset
+
+1. 
+
+### Text-to-Video
+
+#### Paper List
+
+1. DiffTAD: Temporal Action Detection with Proposal Denoising Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Nag_DiffTAD_Temporal_Action_Detection_with_Proposal_Denoising_Diffusion_ICCV_2023_paper.pdf), ActivityNet-v1.3/THUMOS14
+2. 
+
+#### Benchmark & Dataset
+
+1. ActivityNet-v1.3
+2. THUMOS14
+
+### Temporal Data Modeling
+
+#### Paper List
+
+1. 
+
+#### Benchmark & Dataset
+
+1. 
 
 ### Efficient Sampling->Learning-Based Sampling
 
@@ -214,28 +329,6 @@ https://arxiv.org/pdf/2404.07771
 6. CIFAR-10
 7. STL-10
 8. Places-Standard
-
-### Text-to-Text
-#### Paper List
-1. Text Diffusion Model with Encoder-Decoder Transformers for Sequence-to-Sequence Generation, NAACL 24 [[Paper]](https://aclanthology.org/2024.naacl-long.2.pdf), QQP, Wiki-Auto, Quasar-T, CCD, IWSLT14, WMT14
-2. LanguageFlow: Advancing Diffusion Language Generation with Probabilistic Flows, NAACL 24 [[Paper]](https://arxiv.org/pdf/2403.16995), E2E, NLG, ART, WMT16
-3. Empowering Diffusion Models on the Embedding Space for Text Generation, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.09412), WNT14, WMT16, Gigaword, QQP, Wiki-Auto, Quasar-T
-4. Diffusion Glancing Transformer for Parallel Sequence-to-Sequence Learning, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.10240), WMT14, QQP, MS-COCO
-
-#### Benchmark & Dataset
-
-1. QQP
-2. Wiki-Auto
-3. Quasar-T
-4. CCD
-5. IWSLT14
-6. WMT14
-7. E2E
-8. NLG
-9. ART
-10. WMT16
-11. Gigaword
-12. MS-COCO
 
 ## Paper Related to Efficient
 1. 
