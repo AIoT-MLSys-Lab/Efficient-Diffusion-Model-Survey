@@ -46,11 +46,111 @@ https://arxiv.org/pdf/2404.07771
 
 ## Tasks
 
+### Image-to-Image
+
+#### Paper List
+
+1. DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation, CVPR 22 [[Paper\]](https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_DiffusionCLIP_Text-Guided_Diffusion_Models_for_Robust_Image_Manipulation_CVPR_2022_paper.pdf) ,CelebA-HQ\AFHQ-Dog\LSUN-Bedroom\LSUN-Church
+2. Diffusion Autoencoders: Toward a Meaningful and Decodable Representation, CVPR 22 [[Paper\]](https://openaccess.thecvf.com/content/CVPR2022/papers/Preechakul_Diffusion_Autoencoders_Toward_a_Meaningful_and_Decodable_Representation_CVPR_2022_paper.pdf) ,FFHQ\CelebA-HQ
+3. Continuous-Multiple Image Outpainting in One-Step via Positional Query and A Diffusion-based Approach, ICLR 24 [[Paper\]](https://arxiv.org/pdf/2401.15652) ,Scenery
+4. Alleviating Exposure Bias in Diffusion Models through Sampling with Shifted Time Steps, ICLR 24 [[Paper\]](https://arxiv.org/pdf/2305.15583),CIFAR-10\CelebA 
+5. PnP Inversion: Boosting Diffusion-based Editing with 3 Lines of Code, ICLR 24 [[Paper\]](https://openreview.net/pdf?id=FoMZ4ljhVw) ,PIE-Bench
+6. Dimensionality-Varying Diffusion Process, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Dimensionality-Varying_Diffusion_Process_CVPR_2023_paper.pdf), CIFAR-10/LSUN-Bedroom/LSUN-Church/LSUN-Cat/FFHQ
+
+### Benchmark & Dataset
+
+1. CelebA-HQ CelebA 
+2. AFHQ-Dog
+3. LSUN-Bedroom
+4. LSUN-Church 
+5. LSUN-Cat
+6. FFHQ
+7. Scenery
+8. CIFAR-10
+9. PIE-Bench
+
+### Image-to-Video
+
+#### Paper List
+
+1. Conditional Image-to-Video Generation With Latent Flow Diffusion Models, CVPR 23 [[Paper\]](https://openaccess.thecvf.com/content/CVPR2023/papers/Ni_Conditional_Image-to-Video_Generation_With_Latent_Flow_Diffusion_Models_CVPR_2023_paper.pdf)    ,MUG
+2. Video Probabilistic Diffusion Models in Projected Latent Space, CVPR 23 [[Paper\]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Video_Probabilistic_Diffusion_Models_in_Projected_Latent_Space_CVPR_2023_paper.pdf)       UCF101\SkyTimelapse
+
+##### Benchmark & Dataset
+
+1. MUG
+2. UCF101
+3. SkyTimelapse
+
+### Point Cloud Completion and Generation
+
+#### Paper List
+
+1. Generalized Deep 3D Shape Prior via Part-Discretized Diffusion Process, CVPR 23 [[Paper\]](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Generalized_Deep_3D_Shape_Prior_via_Part-Discretized_Diffusion_Process_CVPR_2023_paper.pdf),ShapeNet
+
+#### Benchmark & Dataset
+
+1.  ShapeNet
+
+### Text-to-Image 
+
+#### Paper List
+
+1. Vector Quantized Diffusion Model for Text-to-Image Synthesis, CVPR 22 [[Paper\]](https://openaccess.thecvf.com/content/CVPR2022/papers/Gu_Vector_Quantized_Diffusion_Model_for_Text-to-Image_Synthesis_CVPR_2022_paper.pdf),CUB-200
+2. Diffusion Probabilistic Model Made Slim, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Diffusion_Probabilistic_Model_Made_Slim_CVPR_2023_paper.pdf), ImageNet/MS-COCO
+
+#### Benchmark & Dataset
+1. CUB-200
+2. ImageNet
+3. MS-COCO
+
+### Efficient Sampling->Learning-Based Sampling
+
+#### Paper List
+
+1. Decomposed Diffusion Sampler for Accelerating Large-Scale Inverse Problems, ICLR 24 [[Paper\]](https://arxiv.org/pdf/2303.05754),fastMRI knee dataset
+
+#### Benchmark & Dataset
+
+1. fastMRI knee dataset
+
+### Efficient Sampling->Learning-free-Sampling->SDE Solvers 
+
+#### Paper List
+
+1. (ODE solvers)Diffusion Sampling with Momentum for Mitigating Divergence Artifacts, ICLR 24 [[Paper\]](https://arxiv.org/pdf/2307.11118),COCO
+
+#### Benchmark & Dataset
+
+1. COCO
+
+### Connections with Other Generative Models
+
+#### Paper List
+
+1. Learning Energy-Based Models by Cooperative Diffusion Recovery Likelihood, ICLR 24 [[Paper\]](https://arxiv.org/pdf/2309.05153),CIFAR-10
+
+#### Benchmark & Dataset
+
+1. CIFAR-10
+
+### Data with Special Structures → Data with Manifold Structures
+
+#### Paper List
+
+1. Manifold Preserving Guided Diffusion, ICLR 24 [[Paper\]](https://arxiv.org/pdf/2311.16424),CIFAR-10
+
+#### Benchmark & Dataset
+
+1. CIFAR-10
+
 ### Undecided
 1. Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)
 2. Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models, ICLR 22 [[Paper]](https://arxiv.org/pdf/2201.06503)
 3. On Distillation of Guided Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Meng_On_Distillation_of_Guided_Diffusion_Models_CVPR_2023_paper.pdf)
-4. 
+4. Binary Latent Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Binary_Latent_Diffusion_CVPR_2023_paper.pdf)
+5. Back to the Source: Diffusion-Driven Adaptation To Test-Time Corruption, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Back_to_the_Source_Diffusion-Driven_Adaptation_To_Test-Time_Corruption_CVPR_2023_paper.pdf)
+6. Solving 3D Inverse Problems Using Pre-Trained 2D Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chung_Solving_3D_Inverse_Problems_Using_Pre-Trained_2D_Diffusion_Models_CVPR_2023_paper.pdf)
 
 ### Human Motion Generation
 #### Paper List
@@ -135,22 +235,22 @@ https://arxiv.org/pdf/2404.07771
 12. 
 13. 
 14. 
-15. DiffusioNeRF: Regularizing Neural Radiance Fields With Denoising Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wynn_DiffusioNeRF_Regularizing_Neural_Radiance_Fields_With_Denoising_Diffusion_Models_CVPR_2023_paper.pdf)
-16. MotionDiffuser: Controllable Multi-Agent Motion Prediction Using Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_MotionDiffuser_Controllable_Multi-Agent_Motion_Prediction_Using_Diffusion_CVPR_2023_paper.pdf)
-17. EDICT: Exact Diffusion Inversion via Coupled Transformations, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wallace_EDICT_Exact_Diffusion_Inversion_via_Coupled_Transformations_CVPR_2023_paper.pdf)
-18. Safe Latent Diffusion: Mitigating Inappropriate Degeneration in Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Schramowski_Safe_Latent_Diffusion_Mitigating_Inappropriate_Degeneration_in_Diffusion_Models_CVPR_2023_paper.pdf)
-19. MM-Diffusion: Learning Multi-Modal Diffusion Models for Joint Audio and Video Generation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Ruan_MM-Diffusion_Learning_Multi-Modal_Diffusion_Models_for_Joint_Audio_and_Video_CVPR_2023_paper.pdf)
-20. Binary Latent Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Binary_Latent_Diffusion_CVPR_2023_paper.pdf)
-21. BBDM: Image-to-Image Translation With Brownian Bridge Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_BBDM_Image-to-Image_Translation_With_Brownian_Bridge_Diffusion_Models_CVPR_2023_paper.pdf)
-22. RenderDiffusion: Image Diffusion for 3D Reconstruction, Inpainting and Generation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Anciukevicius_RenderDiffusion_Image_Diffusion_for_3D_Reconstruction_Inpainting_and_Generation_CVPR_2023_paper.pdf)
-23. Dimensionality-Varying Diffusion Process, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Dimensionality-Varying_Diffusion_Process_CVPR_2023_paper.pdf)
-24. Back to the Source: Diffusion-Driven Adaptation To Test-Time Corruption, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Back_to_the_Source_Diffusion-Driven_Adaptation_To_Test-Time_Corruption_CVPR_2023_paper.pdf)
-25. RGBD2: Generative Scene Synthesis via Incremental View Inpainting Using RGBD Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lei_RGBD2_Generative_Scene_Synthesis_via_Incremental_View_Inpainting_Using_RGBD_CVPR_2023_paper.pdf)
-26. Lookahead Diffusion Probabilistic Models for Refining Mean Estimation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Lookahead_Diffusion_Probabilistic_Models_for_Refining_Mean_Estimation_CVPR_2023_paper.pdf)
-27. Solving 3D Inverse Problems Using Pre-Trained 2D Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chung_Solving_3D_Inverse_Problems_Using_Pre-Trained_2D_Diffusion_Models_CVPR_2023_paper.pdf)
-28. Diffusion-Based Signed Distance Fields for 3D Shape Generation, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shim_Diffusion-Based_Signed_Distance_Fields_for_3D_Shape_Generation_CVPR_2023_paper.pdf)
-29. Diffusion Probabilistic Model Made Slim, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Diffusion_Probabilistic_Model_Made_Slim_CVPR_2023_paper.pdf)
-30. Specialist Diffusion: Plug-and-Play Sample-Efficient Fine-Tuning of Text-to-Image Diffusion Models To Learn Any Unseen Style, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lu_Specialist_Diffusion_Plug-and-Play_Sample-Efficient_Fine-Tuning_of_Text-to-Image_Diffusion_Models_To_CVPR_2023_paper.pdf)
+15. 
+16. 
+17. 
+18. 
+19. 
+20. 
+21. 
+22. 
+23. 
+24. 
+25. 
+26. 
+27. 
+28. 
+29. 
+30. 
 31. VectorFusion: Text-to-SVG by Abstracting Pixel-Based Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Jain_VectorFusion_Text-to-SVG_by_Abstracting_Pixel-Based_Diffusion_Models_CVPR_2023_paper.pdf)
 32. Generalized Deep 3D Shape Prior via Part-Discretized Diffusion Process, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Generalized_Deep_3D_Shape_Prior_via_Part-Discretized_Diffusion_Process_CVPR_2023_paper.pdf)
 33. Video Probabilistic Diffusion Models in Projected Latent Space, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Video_Probabilistic_Diffusion_Models_in_Projected_Latent_Space_CVPR_2023_paper.pdf)
