@@ -122,16 +122,13 @@ https://arxiv.org/pdf/2404.07771
 1.  ShapeNet
 
 ### Text-to-Text
-
 #### Paper List
-
 1. Text Diffusion Model with Encoder-Decoder Transformers for Sequence-to-Sequence Generation, NAACL 24 [[Paper]](https://aclanthology.org/2024.naacl-long.2.pdf)QQP/Wiki-Auto/Quasar-T/CCD/IWSLT14/WMT14
 2. LanguageFlow: Advancing Diffusion Language Generation with Probabilistic Flows, NAACL 24 [[Paper]](https://arxiv.org/pdf/2403.16995), E2E/NLG/ART
 3. Empowering Diffusion Models on the Embedding Space for Text Generation, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.09412), WMT14/WMT16/IWSLT4/Gigaword/QQP/Wiki-Auto/Quasar-T
 4. Diffusion Glancing Transformer for Parallel Sequence-to-Sequence Learning, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.10240), QQP/MS-COCO
 
 #### Benchmark & Dataset
-
 1. QQP
 2. Wiki-Auto
 3. Quasar-T
@@ -168,7 +165,6 @@ https://arxiv.org/pdf/2404.07771
 ### Text-to-Audio Generation
 
 #### Paper List
-
 1. Fast Timing-Conditioned Latent Audio Diffusion, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2402.04825), MusicCaps
 2. AudioLDM: Text-to-Audio Generation with Latent Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=6BhipYkaSV&name=pdf), AudioCaps
 
@@ -189,38 +185,6 @@ https://arxiv.org/pdf/2404.07771
 1. ShapeNet
 
 ### Text-to-Motion
-
-#### Paper List
-
-1. 
-
-#### Benchmark & Dataset
-
-1. 
-
-### Text-to-Video
-
-#### Paper List
-
-1. DiffTAD: Temporal Action Detection with Proposal Denoising Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Nag_DiffTAD_Temporal_Action_Detection_with_Proposal_Denoising_Diffusion_ICCV_2023_paper.pdf), ActivityNet-v1.3/THUMOS14
-2. 
-
-#### Benchmark & Dataset
-
-1. ActivityNet-v1.3
-2. THUMOS14
-
-### Temporal Data Modeling
-
-#### Paper List
-
-1. 
-
-#### Benchmark & Dataset
-
-1. 
-
-### Text-to-Motion
 #### Paper List
 1. Executing Your Commands via Motion Diffusion in Latent Space, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Executing_Your_Commands_via_Motion_Diffusion_in_Latent_Space_CVPR_2023_paper.pdf), HumanML3D/KIT/HumanAct12/UESTC
 2. DiffCollage: Parallel Generation of Large Content With Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_DiffCollage_Parallel_Generation_of_Large_Content_With_Diffusion_Models_CVPR_2023_paper.pdf), HumanML3D
@@ -230,6 +194,25 @@ https://arxiv.org/pdf/2404.07771
 2. KIT
 3. HumanAct12
 4. UESTC
+
+
+### Text-to-Video
+#### Paper List
+1. DiffTAD: Temporal Action Detection with Proposal Denoising Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Nag_DiffTAD_Temporal_Action_Detection_with_Proposal_Denoising_Diffusion_ICCV_2023_paper.pdf), ActivityNet-v1.3/THUMOS14
+2. 
+
+#### Benchmark & Dataset
+1. ActivityNet-v1.3
+2. THUMOS14
+
+### Temporal Data Modeling
+
+#### Paper List
+1. 
+
+#### Benchmark & Dataset
+1. 
+
 
 
 ### Efficient Sampling->Learning-Based Sampling
@@ -264,15 +247,6 @@ https://arxiv.org/pdf/2404.07771
 #### Benchmark & Dataset
 1. CIFAR-10
 
-### Undecided
-1. Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)
-2. Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models, ICLR 22 [[Paper]](https://arxiv.org/pdf/2201.06503)
-3. On Distillation of Guided Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Meng_On_Distillation_of_Guided_Diffusion_Models_CVPR_2023_paper.pdf)
-4. Binary Latent Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Binary_Latent_Diffusion_CVPR_2023_paper.pdf)
-5. Back to the Source: Diffusion-Driven Adaptation To Test-Time Corruption, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Back_to_the_Source_Diffusion-Driven_Adaptation_To_Test-Time_Corruption_CVPR_2023_paper.pdf)
-6. Solving 3D Inverse Problems Using Pre-Trained 2D Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chung_Solving_3D_Inverse_Problems_Using_Pre-Trained_2D_Diffusion_Models_CVPR_2023_paper.pdf)
-4. Q-Diffusion: Quantizing Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)
-
 ### Trajectory Prediction
 #### Paper List
 1. Leapfrog Diffusion Model for Stochastic Trajectory Prediction, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Mao_Leapfrog_Diffusion_Model_for_Stochastic_Trajectory_Prediction_CVPR_2023_paper.pdf), NBA/NFL/SDD/ETH-UCY
@@ -282,15 +256,6 @@ https://arxiv.org/pdf/2404.07771
 2. NFL
 3. SDD
 4. ETH-UCY
-
-### Text-to-Audio Generation
-#### Paper List
-1. Fast Timing-Conditioned Latent Audio Diffusion, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2402.04825)
-2. AudioLDM: Text-to-Audio Generation with Latent Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=6BhipYkaSV&name=pdf)
-
-#### Benchmark & Dataset
-1. MusicCaps
-2. AudioCaps
 
 ### 3D Graph Generation
 #### Paper List
@@ -314,27 +279,15 @@ https://arxiv.org/pdf/2404.07771
 5. IMDB-B
 6. PROTEINS
 
+### Undecided
+1. Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)
+2. Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models, ICLR 22 [[Paper]](https://arxiv.org/pdf/2201.06503)
+3. On Distillation of Guided Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Meng_On_Distillation_of_Guided_Diffusion_Models_CVPR_2023_paper.pdf)
+4. Binary Latent Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Binary_Latent_Diffusion_CVPR_2023_paper.pdf)
+5. Back to the Source: Diffusion-Driven Adaptation To Test-Time Corruption, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Back_to_the_Source_Diffusion-Driven_Adaptation_To_Test-Time_Corruption_CVPR_2023_paper.pdf)
+6. Solving 3D Inverse Problems Using Pre-Trained 2D Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chung_Solving_3D_Inverse_Problems_Using_Pre-Trained_2D_Diffusion_Models_CVPR_2023_paper.pdf)
+4. Q-Diffusion: Quantizing Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)
 
-### Text-to-Text
-#### Paper List
-1. Text Diffusion Model with Encoder-Decoder Transformers for Sequence-to-Sequence Generation, NAACL 24 [[Paper]](https://aclanthology.org/2024.naacl-long.2.pdf), QQP, Wiki-Auto, Quasar-T, CCD, IWSLT14, WMT14
-2. LanguageFlow: Advancing Diffusion Language Generation with Probabilistic Flows, NAACL 24 [[Paper]](https://arxiv.org/pdf/2403.16995), E2E, NLG, ART, WMT16
-3. Empowering Diffusion Models on the Embedding Space for Text Generation, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.09412), WNT14, WMT16, Gigaword, QQP, Wiki-Auto, Quasar-T
-4. Diffusion Glancing Transformer for Parallel Sequence-to-Sequence Learning, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.10240), WMT14, QQP, MS-COCO
-
-#### Benchmark & Dataset
-1. QQP
-2. Wiki-Auto
-3. Quasar-T
-4. CCD
-5. IWSLT14
-6. WMT14
-7. E2E
-8. NLG
-9. ART
-10. WMT16
-11. Gigaword
-12. MS-COCO
 
 ## Paper Related to Efficient
 1. 
