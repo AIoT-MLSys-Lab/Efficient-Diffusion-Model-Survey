@@ -44,7 +44,6 @@ https://arxiv.org/pdf/2404.07771
 ## Tasks
 
 ### Image-to-Image
-
 #### Paper List
 1. DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_DiffusionCLIP_Text-Guided_Diffusion_Models_for_Robust_Image_Manipulation_CVPR_2022_paper.pdf), CelebA-HQ/AFHQ-Dog/LSUN-Bedroom/LSUN-Church
 2. Diffusion Autoencoders: Toward a Meaningful and Decodable Representation, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Preechakul_Diffusion_Autoencoders_Toward_a_Meaningful_and_Decodable_Representation_CVPR_2022_paper.pdf), FFHQ/CelebA-HQ
@@ -88,9 +87,7 @@ https://arxiv.org/pdf/2404.07771
 22. HypSen
 
 ### Image-to-Video
-
 #### Paper List
-
 1. Conditional Image-to-Video Generation With Latent Flow Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Ni_Conditional_Image-to-Video_Generation_With_Latent_Flow_Diffusion_Models_CVPR_2023_paper.pdf), MUG
 2. Video Probabilistic Diffusion Models in Projected Latent Space, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Video_Probabilistic_Diffusion_Models_in_Projected_Latent_Space_CVPR_2023_paper.pdf), UCF101/SkyTimelapse
 
@@ -100,21 +97,17 @@ https://arxiv.org/pdf/2404.07771
 3. SkyTimelapse
 
 ### Image-to-3D
-
 #### Paper List
-
 1. Make-It-3D: High-fidelity 3D Creation from A Single Image with Diffusion Prior, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Tang_Make-It-3D_High-fidelity_3D_Creation_from_A_Single_Image_with_Diffusion_ICCV_2023_paper.pdf), DTU
 2. Viewset Diffusion: (0-)Image-Conditioned 3D Generative Models from 2D Data, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Szymanowicz_Viewset_Diffusion_0-Image-Conditioned_3D_Generative_Models_from_2D_Data_ICCV_2023_paper.pdf), ShapeNet/Minens/CO3D
 
 #### Benchmark & Dataset
-
 1. DTU
 2. ShapeNet
 3. Minens
 4. CO3D
 
 ### Point Cloud Completion and Generation
-
 #### Paper List
 1. Generalized Deep 3D Shape Prior via Part-Discretized Diffusion Process, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Generalized_Deep_3D_Shape_Prior_via_Part-Discretized_Diffusion_Process_CVPR_2023_paper.pdf), ShapeNet
 
@@ -169,19 +162,15 @@ https://arxiv.org/pdf/2404.07771
 2. AudioLDM: Text-to-Audio Generation with Latent Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=6BhipYkaSV&name=pdf), AudioCaps
 
 #### Benchmark & Dataset
-
 1. MusicCaps
 2. AudioCaps
 
 ### Text-to-3D
-
 #### Paper List
-
 1. Texture Generation on 3D Meshes with Point-UV Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yu_Texture_Generation_on_3D_Meshes_with_Point-UV_Diffusion_ICCV_2023_paper.pdf), ShapeNet
 2. 
 
 #### Benchmark & Dataset
-
 1. ShapeNet
 
 ### Text-to-Motion
@@ -206,7 +195,6 @@ https://arxiv.org/pdf/2404.07771
 2. THUMOS14
 
 ### Temporal Data Modeling
-
 #### Paper List
 1. 
 
@@ -257,27 +245,13 @@ https://arxiv.org/pdf/2404.07771
 3. SDD
 4. ETH-UCY
 
-### 3D Graph Generation
-#### Paper List
-1. Latent 3D Graph Diffusion, ICLR 24 [[Paper]](https://openreview.net/pdf?id=cXbnGtO0NZ), ChEMBL/PubChemQC/QM9/Drugs
-
-#### Benchmark & Dataset
-1. ChEMBL
-2. PubChemQC
-3. QM9
-4. Drugs
-
 ### Graph Generation
 #### Paper List
 1. Hyperbolic Geometric Latent Diffusion Model for Graph Generation, ICML 24 [[Paper]](https://arxiv.org/pdf/2405.03188)
+2. Latent 3D Graph Diffusion, ICLR 24 [[Paper]](https://openreview.net/pdf?id=cXbnGtO0NZ), ChEMBL/PubChemQC/QM9/Drugs
+3. Efficient and Degree-Guided Graph Generation via Discrete Diffusion Modeling, ICML 23 [[Paper]](https://openreview.net/attachment?id=vn9O1N5ZOw&name=pdf)
 
-#### Benchmark & Dataset
-1. Cora
-2. Citeseer
-3. Polblogs
-4. MUTAG
-5. IMDB-B
-6. PROTEINS
+
 
 ### Undecided
 1. Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)
@@ -287,6 +261,8 @@ https://arxiv.org/pdf/2404.07771
 5. Back to the Source: Diffusion-Driven Adaptation To Test-Time Corruption, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Back_to_the_Source_Diffusion-Driven_Adaptation_To_Test-Time_Corruption_CVPR_2023_paper.pdf)
 6. Solving 3D Inverse Problems Using Pre-Trained 2D Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chung_Solving_3D_Inverse_Problems_Using_Pre-Trained_2D_Diffusion_Models_CVPR_2023_paper.pdf)
 4. Q-Diffusion: Quantizing Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)
+5. Score Approximation, Estimation and Distribution Recovery of Diffusion Models on Low-Dimensional Data, ICML 23 [[Paper\]](https://openreview.net/attachment?id=KB4mLiuoEX&name=pdf)
+6. Mixed-Type Tabular Data Synthesis with Score-based Diffusion in Latent Space, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.09656)
 
 
 ## Paper Related to Efficient
@@ -610,17 +586,17 @@ https://arxiv.org/pdf/2404.07771
 318. Reflected Diffusion Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=QcKoLuEO3r&name=pdf)
 319. Improved Techniques for Maximum Likelihood Estimation for Diffusion ODEs, ICML 23 [[Paper\]](https://openreview.net/attachment?id=jVR2fF8x8x&name=pdf)
 320. GibbsDDRM: A Partially Collapsed Gibbs Sampler for Solving Blind Inverse Problems with Denoising Diffusion Restoration, ICML 23 [[Paper\]](https://openreview.net/attachment?id=4weSHLFgtZ&name=pdf)
-321. Improving Adversarial Robustness Through the Contrastive-Guided Diffusion Process, ICML 23 [[Paper\]](https://openreview.net/attachment?id=9iNScYEBWZ&name=pdf)
-322. Efficient and Degree-Guided Graph Generation via Discrete Diffusion Modeling, ICML 23 [[Paper\]](https://openreview.net/attachment?id=vn9O1N5ZOw&name=pdf)
-323. Diffusion Based Representation Learning, ICML 23 [[Paper\]](https://openreview.net/attachment?id=LCAjuPNJP0&name=pdf)
-324. SinFusion: Training Diffusion Models on a Single Image or Video, ICML 23 [[Paper\]](https://openreview.net/attachment?id=9n9NJ4qMV6&name=pdf)
-325. (??an algorithm that augments diffusion models with low-dimensional latent variables that capture high-level factors of variation in the data. I)InfoDiffusion: Representation Learning Using Information Maximizing Diffusion Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=ycZSQdo2F9&name=pdf)
-326. Score Approximation, Estimation and Distribution Recovery of Diffusion Models on Low-Dimensional Data, ICML 23 [[Paper\]](https://openreview.net/attachment?id=KB4mLiuoEX&name=pdf)
-327. Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=Srbl4AuTyd&name=pdf)
-328. (Efficient Diffusion, High-Resolution Image Synthesis, Generative Modeling)simple diffusion: End-to-end diffusion for high resolution images, ICML 23 [[Paper\]](https://openreview.net/attachment?id=6l9YG3wHA9&name=pdf)
-329. MultiDiffusion: Fusing Diffusion Paths for Controlled Image Generation, ICML 23 [[Paper\]](https://openreview.net/attachment?id=D4ajVWmgLB&name=pdf)
-330. Bidirectional Temporal Diffusion Model for Temporally Consistent Human Animation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.00574)
-331. Mixed-Type Tabular Data Synthesis with Score-based Diffusion in Latent Space, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.09656)
+321. 
+322. 
+323. 
+324. 
+325. 
+326. 
+327. 
+328. 
+329. 
+330. 
+331. 
 332. Masked Completion via Structured Diffusion with White-Box Transformers, ICLR 24 [[Paper]](https://arxiv.org/pdf/2404.02446)
 333. Universal Guidance for Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2302.07121)
 334. Elucidating the design space of classifier-guided diffusion generation, ICLR 24 [[Paper]](https://openreview.net/pdf?id=9DXXMXnIGm)
