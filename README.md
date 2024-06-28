@@ -61,35 +61,53 @@ https://arxiv.org/pdf/2404.07771
 14. DiffIR: Efficient Diffusion Model for Image Restoration, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xia_DiffIR_Efficient_Diffusion_Model_for_Image_Restoration_ICCV_2023_paper.pdf), CelebA-HQ, LSUN Bedrooms, Places-Standard
 15. HSR-Diff: Hyperspectral Image Super-Resolution via Conditional Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_HSR-Diff_Hyperspectral_Image_Super-Resolution_via_Conditional_Diffusion_Models_ICCV_2023_paper.pdf), CAVE/PaviaU/Chikusei/HypSen
 16. 3D-aware Image Generation using 2D Diffusion Models, ICCV 23 [[Paper\]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xiang_3D-aware_Image_Generation_using_2D_Diffusion_Models_ICCV_2023_paper.pdf), ImageNet/SDIP Dogs/SDIP Elephants/LSUN Horses
-17. PolyDiffuse: Polygonal Shape Reconstruction via Guided Set Diffusion Models, NIPS 23 [[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/05f0e2fa003602db2d98ca72b79dec51-Paper-Conference.pdf),nuScenes/Structured3D
-18. Parallel Sampling of Diffusion Models, NIPS 23 [[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/0d1986a61e30e5fa408c81216a616e20-Paper-Conference.pdf), COCO
 
 ### Benchmark & Dataset
 1. CelebA-HQ
+
 2. AFHQ-Dog
+
 3. LSUN-Bedroom
+
 4. LSUN-Church 
+
 5. LSUN-Cat
+
 6. FFHQ
+
 7. Scenery
+
 8. CIFAR-10
+
 9. PIE-Bench
+
 10. ImageNet
+
 11. STL-10
+
 12. Places-Standard
+
 13. LSUN Horses
+
 14. SDIP Elephants
+
 15. SDIP Dogs
+
 16. Cityscapes
+
 17. LOL
+
 18. VE-LOL-L
+
 19. CAVE
+
 20. PaviaU
+
 21. Chikusei
+
 22. HypSen
-23. nuScenes
-24. Structured3D
-25. COCO
+
+    
 
 ### Image-to-Video
 #### Paper List
@@ -260,16 +278,24 @@ https://arxiv.org/pdf/2404.07771
 
 ### Undecided
 1. Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)
+
 2. Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models, ICLR 22 [[Paper]](https://arxiv.org/pdf/2201.06503)
+
 3. On Distillation of Guided Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Meng_On_Distillation_of_Guided_Diffusion_Models_CVPR_2023_paper.pdf)
+
 4. Binary Latent Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Binary_Latent_Diffusion_CVPR_2023_paper.pdf)
+
 5. Back to the Source: Diffusion-Driven Adaptation To Test-Time Corruption, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Back_to_the_Source_Diffusion-Driven_Adaptation_To_Test-Time_Corruption_CVPR_2023_paper.pdf)
+
 6. Solving 3D Inverse Problems Using Pre-Trained 2D Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chung_Solving_3D_Inverse_Problems_Using_Pre-Trained_2D_Diffusion_Models_CVPR_2023_paper.pdf)
+
 7. Q-Diffusion: Quantizing Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)
+
 8. Score Approximation, Estimation and Distribution Recovery of Diffusion Models on Low-Dimensional Data, ICML 23 [[Paper\]](https://openreview.net/attachment?id=KB4mLiuoEX&name=pdf)
+
 9. Mixed-Type Tabular Data Synthesis with Score-based Diffusion in Latent Space, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.09656)
-10. Diffusion-Based Adversarial Sample Generation for Improved Stealthiness and Controllability, NIPS 23 [[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/088463cd3126aef2002ffc69da42ec59-Paper-Conference.pdf), ImageNet
-11. Generating Behaviorally Diverse Policies with Latent Diffusion Models, NIPS 23 [[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/180d4373aca26bd86bf45fc50d1a709f-Paper-Conference.pdf), Humanoid/Walker2D/Halfcheetah/Ant
+
+   
 
 
 ## Paper Related to Efficient
