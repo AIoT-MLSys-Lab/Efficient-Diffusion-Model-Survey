@@ -611,9 +611,9 @@ https://arxiv.org/pdf/2404.07771
 329. 
 330. 
 331. 
-332. Masked Completion via Structured Diffusion with White-Box Transformers, ICLR 24 [[Paper]](https://arxiv.org/pdf/2404.02446)
-333. Universal Guidance for Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2302.07121)
-334. Elucidating the design space of classifier-guided diffusion generation, ICLR 24 [[Paper]](https://openreview.net/pdf?id=9DXXMXnIGm)
+332. 
+333. 
+334. 
 335. Protein-Ligand Interaction Prior for Binding-aware 3D Molecule Diffusion Models, ICLR 24 [[Paper]](https://openreview.net/pdf?id=qH9nrMNTIW)
 336. Large-Vocabulary 3D Diffusion Model with Transformer, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.07920)
 337. PanoDiffusion: 360-degree Panorama Outpainting via Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.03177)
