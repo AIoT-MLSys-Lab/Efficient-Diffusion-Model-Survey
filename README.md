@@ -43,7 +43,16 @@ https://arxiv.org/pdf/2404.07771
 
 ## Tasks
 
+### Label-to-Image
+
+#### Paper List
+
+1. 
+
+
+
 ### Image-to-Image
+
 #### Paper List
 1. DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_DiffusionCLIP_Text-Guided_Diffusion_Models_for_Robust_Image_Manipulation_CVPR_2022_paper.pdf), CelebA-HQ/AFHQ-Dog/LSUN-Bedroom/LSUN-Church
 2. Diffusion Autoencoders: Toward a Meaningful and Decodable Representation, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Preechakul_Diffusion_Autoencoders_Toward_a_Meaningful_and_Decodable_Representation_CVPR_2022_paper.pdf), FFHQ/CelebA-HQ
@@ -157,7 +166,7 @@ https://arxiv.org/pdf/2404.07771
 9. LAION
 10. Imagenette
 
-### Text-to-Audio
+### Text-to-Audio Generation
 
 #### Paper List
 1. Fast Timing-Conditioned Latent Audio Diffusion, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2402.04825), MusicCaps
@@ -204,45 +213,16 @@ https://arxiv.org/pdf/2404.07771
 1. 
 
 
-### Image Generation
-#### Paper List
-1. 
 
-#### Benchmark & Dataset
-1. 
-
-
-### Efficient Sampling->Learning-Based Sampling
+### Efficient Sampling
 
 #### Paper List
 1. Decomposed Diffusion Sampler for Accelerating Large-Scale Inverse Problems, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.05754), fastMRI knee dataset
-
-#### Benchmark & Dataset
-1. fastMRI knee dataset
-
-### Efficient Sampling->Learning-free-Sampling->SDE Solvers 
-
-#### Paper List
 1. (ODE solvers)Diffusion Sampling with Momentum for Mitigating Divergence Artifacts, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.11118), COCO
 
 #### Benchmark & Dataset
+1. fastMRI knee dataset
 1. COCO
-
-### Connections with Other Generative Models
-
-#### Paper List
-1. Learning Energy-Based Models by Cooperative Diffusion Recovery Likelihood, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.05153), CIFAR-10
-
-#### Benchmark & Dataset
-1. CIFAR-10
-
-### Data with Special Structures → Data with Manifold Structures
-
-#### Paper List
-1. Manifold Preserving Guided Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2311.16424), CIFAR-10
-
-#### Benchmark & Dataset
-1. CIFAR-10
 
 ### Trajectory Prediction
 #### Paper List
@@ -260,7 +240,11 @@ https://arxiv.org/pdf/2404.07771
 2. Latent 3D Graph Diffusion, ICLR 24 [[Paper]](https://openreview.net/pdf?id=cXbnGtO0NZ), ChEMBL/PubChemQC/QM9/Drugs
 3. Efficient and Degree-Guided Graph Generation via Discrete Diffusion Modeling, ICML 23 [[Paper]](https://openreview.net/attachment?id=vn9O1N5ZOw&name=pdf)
 
+### Interdisciplinary Applications
 
+#### Paper List
+
+1. 
 
 ### Undecided
 1. Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)
@@ -282,6 +266,8 @@ https://arxiv.org/pdf/2404.07771
 9. Mixed-Type Tabular Data Synthesis with Score-based Diffusion in Latent Space, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.09656)
 
 10. Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC, ICML 23 [[Paper\]](https://openreview.net/attachment?id=lAXwXjSYum&name=pdf), ImageNet
+
+11. Learning Energy-Based Models by Cooperative Diffusion Recovery Likelihood, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.05153)
 
     
 
@@ -618,9 +604,9 @@ https://arxiv.org/pdf/2404.07771
 329. 
 330. 
 331. 
-332. 
-333. 
-334. 
+332. Masked Completion via Structured Diffusion with White-Box Transformers, ICLR 24 [[Paper]](https://arxiv.org/pdf/2404.02446)
+333. Universal Guidance for Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2302.07121)
+334. Elucidating the design space of classifier-guided diffusion generation, ICLR 24 [[Paper]](https://openreview.net/pdf?id=9DXXMXnIGm)
 335. Protein-Ligand Interaction Prior for Binding-aware 3D Molecule Diffusion Models, ICLR 24 [[Paper]](https://openreview.net/pdf?id=qH9nrMNTIW)
 336. Large-Vocabulary 3D Diffusion Model with Transformer, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.07920)
 337. PanoDiffusion: 360-degree Panorama Outpainting via Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.03177)
