@@ -157,7 +157,7 @@ https://arxiv.org/pdf/2404.07771
 9. LAION
 10. Imagenette
 
-### Text-to-Audio Generation
+### Text-to-Audio
 
 #### Paper List
 1. Fast Timing-Conditioned Latent Audio Diffusion, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2402.04825), MusicCaps
