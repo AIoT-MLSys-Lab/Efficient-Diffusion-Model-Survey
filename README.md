@@ -61,53 +61,32 @@ https://arxiv.org/pdf/2404.07771
 14. DiffIR: Efficient Diffusion Model for Image Restoration, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xia_DiffIR_Efficient_Diffusion_Model_for_Image_Restoration_ICCV_2023_paper.pdf), CelebA-HQ, LSUN Bedrooms, Places-Standard
 15. HSR-Diff: Hyperspectral Image Super-Resolution via Conditional Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_HSR-Diff_Hyperspectral_Image_Super-Resolution_via_Conditional_Diffusion_Models_ICCV_2023_paper.pdf), CAVE/PaviaU/Chikusei/HypSen
 16. 3D-aware Image Generation using 2D Diffusion Models, ICCV 23 [[Paper\]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xiang_3D-aware_Image_Generation_using_2D_Diffusion_Models_ICCV_2023_paper.pdf), ImageNet/SDIP Dogs/SDIP Elephants/LSUN Horses
+17. Data-free Distillation of Diffusion Models with Bootstrapping, ICML 24 [[Paper\]](https://arxiv.org/pdf/2306.05544), FFHQ/LSUN-Bedroom
+18. NerfDiff: Single-image View Synthesis with NeRF-guided Distillation from 3D-aware Diffusion[[Paper]](https://arxiv.org/pdf/2302.10109), SRN-ShapeNet/Amazon-Berkeley Objects/Clevr3D
 
 ### Benchmark & Dataset
 1. CelebA-HQ
-
 2. AFHQ-Dog
-
 3. LSUN-Bedroom
-
 4. LSUN-Church 
-
 5. LSUN-Cat
-
 6. FFHQ
-
 7. Scenery
-
 8. CIFAR-10
-
 9. PIE-Bench
-
 10. ImageNet
-
 11. STL-10
-
 12. Places-Standard
-
 13. LSUN Horses
-
 14. SDIP Elephants
-
 15. SDIP Dogs
-
 16. Cityscapes
-
 17. LOL
-
 18. VE-LOL-L
-
 19. CAVE
-
 20. PaviaU
-
 21. Chikusei
-
 22. HypSen
-
-    
 
 ### Image-to-Video
 #### Paper List
@@ -295,7 +274,9 @@ https://arxiv.org/pdf/2404.07771
 
 9. Mixed-Type Tabular Data Synthesis with Score-based Diffusion in Latent Space, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.09656)
 
-   
+10. Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC, ICML 23 [[Paper\]](https://openreview.net/attachment?id=lAXwXjSYum&name=pdf), ImageNet
+
+    
 
 
 ## Paper Related to Efficient
@@ -582,40 +563,40 @@ https://arxiv.org/pdf/2404.07771
 281. Floating Anchor Diffusion Model for Multi-motif Scaffolding, ICML 24 [[Paper\]](https://arxiv.org/pdf/2406.03141)
 282. Data-free Distillation of Diffusion Models with Bootstrapping, ICML 24 [[Paper\]](https://arxiv.org/pdf/2306.05544)
 283. Restoration-Degradation Beyond Linear Diffusions: A Non-Asymptotic Analysis For DDIM-type Samplers, ICML 23 [[Paper\]](https://openreview.net/attachment?id=GOUgXuLahg&name=pdf)
-284. (Efficient Diffusion, Generative Modeling, Uncertainty Quantification)User-defined Event Sampling and Uncertainty Quantification in Diffusion Models for Physical Dynamical Systems, ICML 23 [[Paper\]](https://openreview.net/attachment?id=sdhcjMzhHN&name=pdf)
-285. ( Efficient Diffusion, 3D View Synthesis, Neural Radiance Fields (NeRF))NerfDiff: Single-image View Synthesis with NeRF-guided Distillation from 3D-aware Diffusion[[Paper\]](https://arxiv.org/pdf/2302.10109)
-286. (Efficient Diffusion, Generative Modeling, Compositional Generation)Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC, ICML 23 [[Paper\]](https://openreview.net/attachment?id=lAXwXjSYum&name=pdf)
-287. (Efficient Diffusion, Image Inpainting, Bayesian Framework)Towards Coherent Image Inpainting Using Denoising Diffusion Implicit Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=17YbAlc1tW&name=pdf)
-288. (Efficient Diffusion, Reinforcement Learning, Meta-Learning)MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL, ICML 23 [[Paper\]](https://openreview.net/attachment?id=IKCk6th595&name=pdf)
+284. User-defined Event Sampling and Uncertainty Quantification in Diffusion Models for Physical Dynamical Systems, ICML 23 [[Paper\]](https://openreview.net/attachment?id=sdhcjMzhHN&name=pdf)
+285. NerfDiff: Single-image View Synthesis with NeRF-guided Distillation from 3D-aware Diffusion[[Paper\]](https://arxiv.org/pdf/2302.10109)
+286. Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC, ICML 23 [[Paper\]](https://openreview.net/attachment?id=lAXwXjSYum&name=pdf)
+287. Towards Coherent Image Inpainting Using Denoising Diffusion Implicit Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=17YbAlc1tW&name=pdf)
+288. MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL, ICML 23 [[Paper\]](https://openreview.net/attachment?id=IKCk6th595&name=pdf)
 289. Loss-Guided Diffusion Models for Plug-and-Play Controllable Generation, ICML 23 [[Paper\]](https://openreview.net/attachment?id=JzZ2xAvCs8&name=pdf)
 290. Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning, ICML 23 [[Paper\]](https://openreview.net/attachment?id=LucUrr5kUi&name=pdf)
 291. SinDDM: A Single Image Denoising Diffusion Model, ICML 23 [[Paper\]](https://openreview.net/attachment?id=IJ70r39DzS&name=pdf)
-292. (Drug Design, Generative Modeling, Efficient Diffusion)DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design, ICML 23 [[Paper\]](https://openreview.net/attachment?id=9qy9DizMlr&name=pdf)
+292. DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design, ICML 23 [[Paper\]](https://openreview.net/attachment?id=9qy9DizMlr&name=pdf)
 293. TabDDPM: Modelling Tabular Data with Diffusion Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=hTzPqLKBJY&name=pdf)
 294. GREAD: Graph Neural Reaction-Diffusion Networks, ICML 23 [[Paper\]](https://openreview.net/attachment?id=LMay53U4ke&name=pdf)
 295. (Efficient Diffusion, Generative Modeling, Training Optimization)Input Perturbation Reduces Exposure Bias in Diffusion Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=0OcEWSMnSh&name=pdf)
 296. Denoising MCMC for Accelerating Diffusion-Based Generative Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=GOousx8DUL&name=pdf)
-297. (Efficient Diffusion, Generative Modeling, Machine Learning)Fast Sampling of Diffusion Models via Operator Learning, ICML 23 [[Paper\]](https://openreview.net/attachment?id=gWC3Q3pyHe&name=pdf)
+297. Fast Sampling of Diffusion Models via Operator Learning, ICML 23 [[Paper\]](https://openreview.net/attachment?id=gWC3Q3pyHe&name=pdf)
 298. Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=K1OvMEYEI4&name=pdf)
-299. (Efficient Diffusion, Online Decision Making, Bandit Meta-Learning, Thompson Sampling)Thompson Sampling with Diffusion Generative Priors, ICML 23 [[Paper\]](https://openreview.net/attachment?id=Eo7e468wi8&name=pdf)
+299. Thompson Sampling with Diffusion Generative Priors, ICML 23 [[Paper\]](https://openreview.net/attachment?id=Eo7e468wi8&name=pdf)
 300. Diffusion Models for Black-Box Optimization, ICML 23 [[Paper\]](https://openreview.net/attachment?id=hQCgc6T15R&name=pdf)
-301. (??a new framework for protein structure degign)SE(3) diffusion model with application to protein backbone generation, ICML 23 [[Paper\]](https://openreview.net/attachment?id=m8OUBymxwv&name=pdf)
-302. (Efficient Diffusion, Image-to-Image Translation, Manifold Learning, Generative Models)SDDM: Score-Decomposed Diffusion Models on Manifolds for Unpaired Image-to-Image Translation, ICML 23 [[Paper\]](https://openreview.net/attachment?id=J4w91xRPBY&name=pdf)
-303. (Efficient Diffusion, Generative Modeling, Machine Learning Optimization)ReDi: Efficient Learning-Free Diffusion Inference via Trajectory Retrieval, ICML 23 [[Paper\]](https://openreview.net/attachment?id=SP01yVIC2o&name=pdf)
+301. SE(3) diffusion model with application to protein backbone generation, ICML 23 [[Paper\]](https://openreview.net/attachment?id=m8OUBymxwv&name=pdf)
+302. SDDM: Score-Decomposed Diffusion Models on Manifolds for Unpaired Image-to-Image Translation, ICML 23 [[Paper\]](https://openreview.net/attachment?id=J4w91xRPBY&name=pdf)
+303. ReDi: Efficient Learning-Free Diffusion Inference via Trajectory Retrieval, ICML 23 [[Paper\]](https://openreview.net/attachment?id=SP01yVIC2o&name=pdf)
 304. OMS-DPM: Optimizing the Model Schedule for Diffusion Probabilistic Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=miv2ZYRd1t&name=pdf)
 305. Better Diffusion Models Further Improve Adversarial Training, ICML 23 [[Paper\]](https://openreview.net/attachment?id=1EWPr0ks8I&name=pdf)
 306. A Critical Review of Adversarial Robustness in 3D Point Cloud Recognition with Diffusion-Driven Purification, ICML 23 [[Paper\]](https://openreview.net/attachment?id=dwn6o2pYJp&name=pdf)
 307. Non-autoregressive Conditional Diffusion Models for Time Series Prediction, ICML 23 [[Paper\]](https://openreview.net/attachment?id=wZsnZkviro&name=pdf)
 308. Modeling Temporal Data as Continuous Functions with Stochastic Process Diffusion, ICML 23 [[Paper\]](https://openreview.net/attachment?id=OUWckW2g3j&name=pdf)
 309. Neural Diffusion Processes, ICML 23 [[Paper\]](https://openreview.net/attachment?id=tV7GSY5GYG&name=pdf)
-310. (Generative Modeling, Stochastic Processes, Machine Learning)A Flexible Diffusion Model, ICML 23 [[Paper\]](
+310. A Flexible Diffusion Model, ICML 23 [[Paper\]](https://arxiv.org/pdf/2206.10365) 
 311. AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners, ICML 23 [[Paper\]](https://openreview.net/attachment?id=3ETNXs54HB&name=pdf)
-312. (Generative Modeling, Efficient Diffusion, Discrete-state Processes)Blackout Diffusion: Generative Diffusion Models in Discrete-State Spaces, ICML 23 [[Paper\]](https://openreview.net/attachment?id=lpc5vlfxp8&name=pdf)
+312. Blackout Diffusion: Generative Diffusion Models in Discrete-State Spaces, ICML 23 [[Paper\]](https://openreview.net/attachment?id=lpc5vlfxp8&name=pdf)
 313. Text Generation with Diffusion Language Models: A Pre-training Approach with Continuous Paragraph Denoise, ICML 23 [[Paper\]](https://openreview.net/attachment?id=oY8JcQzahW&name=pdf)
 314. MoDiff: Addressing the Atom-Bond Inconsistency Problem in 3D Molecule Diffusion Generation, ICML 23 [[Paper\]](https://openreview.net/attachment?id=gfGLMZR27W&name=pdf)
-315. ( Efficient Diffusion, Generative Modeling, Score-based Methods)FP-Diffusion: Improving Score-based Diffusion Models by Enforcing the Underlying Score Fokker-Planck Equation, ICML 23 [[Paper\]](https://openreview.net/attachment?id=UULcrko6Hk&name=pdf)
+315. FP-Diffusion: Improving Score-based Diffusion Models by Enforcing the Underlying Score Fokker-Planck Equation, ICML 23 [[Paper\]](https://openreview.net/attachment?id=UULcrko6Hk&name=pdf)
 316. PixelAsParam: A Gradient View on Diffusion Sampling with Guidance, ICML 23 [[Paper\]](https://openreview.net/attachment?id=2q1Whv1kXL&name=pdf)
-317. (Efficient Diffusion, Drug Discovery, Generative Modeling)Coarse-to-Fine: A Hierarchical Diffusion Model for Molecule Generation in 3D, ICML 23 [[Paper\]](https://openreview.net/attachment?id=7haEvhb25X&name=pdf)
+317. Coarse-to-Fine: A Hierarchical Diffusion Model for Molecule Generation in 3D, ICML 23 [[Paper\]](https://openreview.net/attachment?id=7haEvhb25X&name=pdf)
 318. Reflected Diffusion Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=QcKoLuEO3r&name=pdf)
 319. Improved Techniques for Maximum Likelihood Estimation for Diffusion ODEs, ICML 23 [[Paper\]](https://openreview.net/attachment?id=jVR2fF8x8x&name=pdf)
 320. GibbsDDRM: A Partially Collapsed Gibbs Sampler for Solving Blind Inverse Problems with Denoising Diffusion Restoration, ICML 23 [[Paper\]](https://openreview.net/attachment?id=4weSHLFgtZ&name=pdf)
