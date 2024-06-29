@@ -52,7 +52,9 @@ https://arxiv.org/pdf/2404.07771
 3. Fast Ensembling with Diffusion Schrödinger Bridge, ICLR 24 [[Paper]](https://arxiv.org/pdf/2404.15814), CIFAR-10/CIFAR-100/TinyImageNet
 4. Diffusion Normalizing Flow, NIPS 21 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/876f1f9954de0aa402d91bb988d12cd4-Paper.pdf), CIFAR-10/MNIST
 5. Soft Mixture Denoising: Beyond the Expressive Bottleneck of Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.14068)
-
+6. Stable Target Field for Reduced Variance Score Estimation in Diffusion Models, ICLR 23 [Paper](https://arxiv.org/pdf/2302.00670)
+7. Discrete Predictor-Corrector Diffusion Models for Image Synthesis, ICLR 23 [Paper](https://openreview.net/pdf?id=VM8batVBWvg)
+8. 
 
 ### Image-to-Image
 
@@ -81,6 +83,10 @@ https://arxiv.org/pdf/2404.07771
 23. Inf-DiT: Upsampling Any-Resolution Image with Memory-Efficient Diffusion Transformer, arXiv [[Paper]](https://arxiv.org/pdf/2405.04312)
 24. PipeFusion: Displaced Patch Pipeline Parallelism for Inference of Diffusion Transformer Models, arXiv [[Paper]](https://arxiv.org/pdf/2405.14430)
 25. Cross-view Masked Diffusion Transformers for Person Image Synthesis, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.01516)
+26. Hierarchical Integration Diffusion Model for Realistic Image Deblurring, NIPS 23 [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/5cebc89b113920dbff7c79854ba765a3-Paper-Conference.pdf)
+27. Gaussian Mixture Solvers for Diffusion Models, NIPS 23 [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/51373b6499708b6fcc38f1e8f8f5b376-Paper-Conference.pdf)
+28. Consistent Diffusion Meets Tweedie: Training Exact Ambient Diffusion Models with Noisy Data, ICML 24 [Paper](https://arxiv.org/pdf/2404.10177)
+29. 
 
 ### Benchmark & Dataset
 1. CelebA-HQ
@@ -120,6 +126,7 @@ https://arxiv.org/pdf/2404.07771
 #### Paper List
 1. Make-It-3D: High-fidelity 3D Creation from A Single Image with Diffusion Prior, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Tang_Make-It-3D_High-fidelity_3D_Creation_from_A_Single_Image_with_Diffusion_ICCV_2023_paper.pdf), DTU
 2. Viewset Diffusion: (0-)Image-Conditioned 3D Generative Models from 2D Data, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Szymanowicz_Viewset_Diffusion_0-Image-Conditioned_3D_Generative_Models_from_2D_Data_ICCV_2023_paper.pdf), ShapeNet/Minens/CO3D
+3. IM-3D: Iterative Multiview Diffusion and Reconstruction for High-Quality 3D Generation, ICML 24 [Paper](https://arxiv.org/pdf/2402.08682)
 
 #### Benchmark & Dataset
 1. DTU
@@ -170,9 +177,12 @@ https://arxiv.org/pdf/2404.07771
 8. DreamTime: An Improved Optimization Strategy for Diffusion-Guided 3D Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.12422)
 9. Directly Fine-Tuning Diffusion Models on Differentiable Rewards, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.17400)
 10. InstaFlow: One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.06380)
-11. Towards Consistent Video Editing with Text-to-Image Diffusion Models, NIPS 23 [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/b6c05f8254a00709e16fb0fdaae56cd8-Paper-Conference.pdf)
-12. Inserting Anybody in Diffusion Models via Celeb Basis, NIPS 23 [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/e6d37cc5723e810b793c834bcb6647cf-Paper-Conference.pdf)
-
+11. Towards Consistent Video Editing with Text-to-Image Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/b6c05f8254a00709e16fb0fdaae56cd8-Paper-Conference.pdf)
+12. Inserting Anybody in Diffusion Models via Celeb Basis, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/e6d37cc5723e810b793c834bcb6647cf-Paper-Conference.pdf)
+13. Improving Diffusion-Based Image Synthesis with Context Prediction, NIPS 23 [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/7664a7e946a84ac5e97649a967717cf2-Paper-Conference.pdf)
+14. A Dense Reward View on Aligning Text-to-Image Diffusion with Preference, ICML 24 [Paper](https://arxiv.org/pdf/2402.08265)
+15. Discrete Contrastive Diffusion for Cross-Modal Music and Image Generation, ICLR 23 [Paper](https://arxiv.org/pdf/2206.07771)
+16. 
 
 #### Benchmark & Dataset
 1. CUB-200
@@ -186,12 +196,14 @@ https://arxiv.org/pdf/2404.07771
 9. LAION
 10. Imagenette
 
-### Text-to-Audio Generation
+### Text-to-Audio
 
 #### Paper List
 1. Fast Timing-Conditioned Latent Audio Diffusion, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2402.04825), MusicCaps
 2. AudioLDM: Text-to-Audio Generation with Latent Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=6BhipYkaSV&name=pdf), AudioCaps
 3. DiffS2UT: A Semantic Preserving Diffusion Model for Textless Direct Speech-to-Speech Translation, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2310.17570)
+4. DITTO: Diffusion Inference-Time T-Optimization for Music Generation, ICML 24 [Paper](https://arxiv.org/pdf/2401.12179)
+5. 
 
 #### Benchmark & Dataset
 1. MusicCaps
@@ -254,6 +266,15 @@ https://arxiv.org/pdf/2404.07771
 14. A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2312.07243)
 15. Accelerating Score-Based Generative Models with Preconditioned Diffusion Sampling, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830001.pdf)
 16. Learning to Efficiently Sample from Diffusion Probabilistic Models, arXiv [[Paper]](https://arxiv.org/pdf/2106.03802)
+17. Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions, ICLR 23 [Paper](https://arxiv.org/pdf/2209.11215)
+18. Directly Denoising Diffusion Models, ICML 24 [Paper](https://www.arxiv.org/pdf/2405.13540)
+19. Accelerating Guided Diffusion Sampling with Splitting Numerical Methods, ICLR 23 [Paper](https://arxiv.org/pdf/2301.11558)
+20. A Simple Early Exiting Framework for Accelerated Sampling in Diffusion Models, ICML 24 [Paper](https://openreview.net/pdf/6a4f1c506f95b1706b690331beeff65a947fddc6.pdf)
+21. Unifying Bayesian Flow Networks and Diffusion Models through Stochastic Differential Equations, ICML 24 [Paper](https://arxiv.org/pdf/2404.15766)
+22. Align Your Steps: Optimizing Sampling Schedules in Diffusion Models, ICML 24 [Paper](https://arxiv.org/pdf/2404.14507)
+23. Bespoke Non-Stationary Solvers for Fast Sampling of Diffusion and Flow Models, ICML 24 [Paper](https://arxiv.org/pdf/2403.01329)
+24. On the Trajectory Regularity of ODE-based Diffusion Sampling, ICML 24 [Paper](https://arxiv.org/pdf/2405.11326)
+25. 
 
 #### Benchmark & Dataset
 1. fastMRI knee dataset
@@ -279,9 +300,9 @@ https://arxiv.org/pdf/2404.07771
 ### Interdisciplinary Applications
 
 #### Paper List
-
 1. DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design, ICML 23 [[Paper]](https://openreview.net/attachment?id=9qy9DizMlr&name=pdf)
 2. Coarse-to-Fine: A Hierarchical Diffusion Model for Molecule Generation in 3D, ICML 23 [[Paper]](https://openreview.net/attachment?id=7haEvhb25X&name=pdf)
+3. Re-Dock: Towards Flexible and Realistic Molecular Docking with Diffusion Bridge, ICML 24 [Paper](https://arxiv.org/pdf/2402.11459)
 
 ### Undecided
 1. Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)
@@ -310,6 +331,8 @@ https://arxiv.org/pdf/2404.07771
 24. Subspace Diffusion Generative Models, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830274.pdf)
 25. DiTFastAttn: Attention Compression for Diffusion Transformer Models, arXiv [[Paper]](https://arxiv.org/pdf/2406.08552)
 26. ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation, arXiv [[Paper]](https://arxiv.org/pdf/2406.02540)
+27. One-Step Diffusion Distillation via Deep Equilibrium Models, NIPS 23 [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/82f05a105c928c10706213952bf0c8b7-Paper-Conference.pdf)
+28. Bayesian Power Steering: An Effective Approach for Domain Adaptation of Diffusion Models, ICML 24 [Paper](https://arxiv.org/pdf/2406.03683)
 
 ## Paper Related to Efficient
 1. 
@@ -372,36 +395,36 @@ https://arxiv.org/pdf/2404.07771
 58. 
 59. 
 60. 
-61. Stochastic Segmentation with Conditional Categorical Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zbinden_Stochastic_Segmentation_with_Conditional_Categorical_Diffusion_Models_ICCV_2023_paper.pdf)
-62. Diff-Retinex: Rethinking Low-light Image Enhancement with A Generative Diffusion Model, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yi_Diff-Retinex_Rethinking_Low-light_Image_Enhancement_with_A_Generative_Diffusion_Model_ICCV_2023_paper.pdf)
-63. Texture Generation on 3D Meshes with Point-UV Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yu_Texture_Generation_on_3D_Meshes_with_Point-UV_Diffusion_ICCV_2023_paper.pdf)
-64. Effective Real Image Editing with Accelerated Iterative Diffusion Inversion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Pan_Effective_Real_Image_Editing_with_Accelerated_Iterative_Diffusion_Inversion_ICCV_2023_paper.pdf)
-65. SVDiff: Compact Parameter Space for Diffusion Fine-Tuning, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Han_SVDiff_Compact_Parameter_Space_for_Diffusion_Fine-Tuning_ICCV_2023_paper.pdf)
-66. HSR-Diff: Hyperspectral Image Super-Resolution via Conditional Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_HSR-Diff_Hyperspectral_Image_Super-Resolution_via_Conditional_Diffusion_Models_ICCV_2023_paper.pdf)
-67. Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_Zero-Shot_Contrastive_Loss_for_Text-Guided_Diffusion_Image_Style_Transfer_ICCV_2023_paper.pdf)
-68. Erasing Concepts from Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Gandikota_Erasing_Concepts_from_Diffusion_Models_ICCV_2023_paper.pdf)
-69. Make-It-3D: High-fidelity 3D Creation from A Single Image with Diffusion Prior, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Tang_Make-It-3D_High-fidelity_3D_Creation_from_A_Single_Image_with_Diffusion_ICCV_2023_paper.pdf)
-70. DiffTAD: Temporal Action Detection with Proposal Denoising Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Nag_DiffTAD_Temporal_Action_Detection_with_Proposal_Denoising_Diffusion_ICCV_2023_paper.pdf)
-71. TexFusion: Synthesizing 3D Textures with Text-Guided Image Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Cao_TexFusion_Synthesizing_3D_Textures_with_Text-Guided_Image_Diffusion_Models_ICCV_2023_paper.pdf)
-72. Viewset Diffusion: (0-)Image-Conditioned 3D Generative Models from 2D Data, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Szymanowicz_Viewset_Diffusion_0-Image-Conditioned_3D_Generative_Models_from_2D_Data_ICCV_2023_paper.pdf)
-73. DiffV2S: Diffusion-Based Video-to-Speech Synthesis with Vision-Guided Speaker Embedding, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Choi_DiffV2S_Diffusion-Based_Video-to-Speech_Synthesis_with_Vision-Guided_Speaker_Embedding_ICCV_2023_paper.pdf)
-74. Unsupervised Surface Anomaly Detection with Diffusion Probabilistic Model, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Unsupervised_Surface_Anomaly_Detection_with_Diffusion_Probabilistic_Model_ICCV_2023_paper.pdf)
-75. 3D-aware Image Generation using 2D Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xiang_3D-aware_Image_Generation_using_2D_Diffusion_Models_ICCV_2023_paper.pdf)
-76. StyleDiffusion: Controllable Disentangled Style Transfer via Diffusion Models ICCV 23, [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_StyleDiffusion_Controllable_Disentangled_Style_Transfer_via_Diffusion_Models_ICCV_2023_paper.pdf)
-77. Not All Steps are Created Equal: Selective Diffusion Distillation for Image Manipulation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Not_All_Steps_are_Created_Equal_Selective_Diffusion_Distillation_for_ICCV_2023_paper.pdf)
-78. Efficient Diffusion Training via Min-SNR Weighting Strategy, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Hang_Efficient_Diffusion_Training_via_Min-SNR_Weighting_Strategy_ICCV_2023_paper.pdf)
-79. Phasic Content Fusing Diffusion Model with Directional Distribution Consistency for Few-Shot Model Adaption, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Hu_Phasic_Content_Fusing_Diffusion_Model_with_Directional_Distribution_Consistency_for_ICCV_2023_paper.pdf)
-80. Sketch and Text Guided Diffusion Model for Colored Point Cloud Generation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Sketch_and_Text_Guided_Diffusion_Model_for_Colored_Point_Cloud_ICCV_2023_paper.pdf)
-81. AutoDiffusion: Training-Free Optimization of Time Steps and Architectures for Automated Diffusion Model Acceleration, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_AutoDiffusion_Training-Free_Optimization_of_Time_Steps_and_Architectures_for_Automated_ICCV_2023_paper.pdf)
-82. DiffPose: Multi-hypothesis Human Pose Estimation using Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Holmquist_DiffPose_Multi-hypothesis_Human_Pose_Estimation_using_Diffusion_Models_ICCV_2023_paper.pdf)
-83. DDS2M: Self-Supervised Denoising Diffusion Spatio-Spectral Model for Hyperspectral Image Restoration, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Miao_DDS2M_Self-Supervised_Denoising_Diffusion_Spatio-Spectral_Model_for_Hyperspectral_Image_Restoration_ICCV_2023_paper.pdf)
-84. End-to-End Diffusion Latent Optimization Improves Classifier Guidance, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wallace_End-to-End_Diffusion_Latent_Optimization_Improves_Classifier_Guidance_ICCV_2023_paper.pdf)
-85. Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Tune-A-Video_One-Shot_Tuning_of_Image_Diffusion_Models_for_Text-to-Video_Generation_ICCV_2023_paper.pdf)
-86. Score-Based Diffusion Models as Principled Priors for Inverse Imaging, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Feng_Score-Based_Diffusion_Models_as_Principled_Priors_for_Inverse_Imaging_ICCV_2023_paper.pdf)
-87. Your Diffusion Model is Secretly a Zero-Shot Classifier, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Your_Diffusion_Model_is_Secretly_a_Zero-Shot_Classifier_ICCV_2023_paper.pdf)
-88. Preserve Your Own Correlation: A Noise Prior for Video Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ge_Preserve_Your_Own_Correlation_A_Noise_Prior_for_Video_Diffusion_ICCV_2023_paper.pdf)
-89. Ablating Concepts in Text-to-Image Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Kumari_Ablating_Concepts_in_Text-to-Image_Diffusion_Models_ICCV_2023_paper.pdf)
-90. Masked Diffusion Transformer is a Strong Image Synthesizer, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Gao_Masked_Diffusion_Transformer_is_a_Strong_Image_Synthesizer_ICCV_2023_paper.pdf)
+61. 
+62. 
+63. 
+64. 
+65. 
+66. 
+67. 
+68. 
+69. 
+70. 
+71. 
+72. 
+73. 
+74. 
+75. 
+76. 
+77. 
+78. 
+79. 
+80. 
+81. 
+82. 
+83. 
+84. 
+85. 
+86. 
+87. 
+88. 
+89. 
+90. 
 91. 
 92. 
 93. 
@@ -512,174 +535,4 @@ https://arxiv.org/pdf/2404.07771
 198. SnapFusion: Text-to-Image Diffusion Model on Mobile Devices within Two Seconds, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/41bcc9d3bddd9c90e1f44b29e26d97ff-Paper-Conference.pdf)
 199. Data-Centric Learning from Unlabeled Graphs with Diffusion Model, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/4290cccf23be59e42a575d026ccbeeb8-Paper-Conference.pdf)
 200. Dynamic Tensor Decomposition via Neural Diffusion-Reaction Processes, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/4958a8ad01f524de2ec5274678ffa5a4-Paper-Conference.pdf)
-201. Gaussian Mixture Solvers for Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/51373b6499708b6fcc38f1e8f8f5b376-Paper-Conference.pdf)
-202. Predict, Refine, Synthesize: Self-Guiding Diffusion Models for Probabilistic Time Series Forecasting, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/5a1a10c2c2c9b9af1514687bc24b8f3d-Paper-Conference.pdf)
-203. Hierarchical Integration Diffusion Model for Realistic Image Deblurring, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/5cebc89b113920dbff7c79854ba765a3-Paper-Conference.pdf)
-204. Optimal Transport-Guided Conditional Score-Based Diffusion Model, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/72c12e48c6135762f56bf188cd2479d2-Paper-Conference.pdf)
-205. Continuous-Time Functional Diffusion Processes, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/75cd262a3fd8e76e37bb7941db141a1d-Paper-Conference.pdf)
-206. Improving Diffusion-Based Image Synthesis with Context Prediction, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/7664a7e946a84ac5e97649a967717cf2-Paper-Conference.pdf)
-207. Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/80fe51a7d8d0c73ff7439c2a2554ed53-Paper-Conference.pdf)
-208. One-Step Diffusion Distillation via Deep Equilibrium Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/82f05a105c928c10706213952bf0c8b7-Paper-Conference.pdf)
-209. Nearest Neighbour Score Estimators for Diffusion Generative Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.08018)
-210. Cluster-Aware Similarity Diffusion for Instance Retrieval, ICML 24 [[Paper]](https://arxiv.org/pdf/2406.02343)
-211. DITTO: Diffusion Inference-Time T-Optimization for Music Generation, ICML 24 [[Paper]](https://arxiv.org/pdf/2401.12179)
-212. A Simple Early Exiting Framework for Accelerated Sampling in Diffusion Models, ICML 24 [[Paper]](https://openreview.net/pdf/6a4f1c506f95b1706b690331beeff65a947fddc6.pdf)
-213. Improving Diffusion Models for Inverse Problems Using Optimal Posterior Covariance, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.02149)
-214. Unifying Bayesian Flow Networks and Diffusion Models through Stochastic Differential Equations, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.15766)
-215. Confronting Reward Overoptimization for Diffusion Models: A Perspective of Inductive and Primacy Biases, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.08552)
-216. Neural Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2310.08337)
-217. Bespoke Non-Stationary Solvers for Fast Sampling of Diffusion and Flow Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2403.01329)
-218. IM-3D: Iterative Multiview Diffusion and Reconstruction for High-Quality 3D Generation, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.08682)
-219. Align Your Steps: Optimizing Sampling Schedules in Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.14507)
-220. A Dense Reward View on Aligning Text-to-Image Diffusion with Preference, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.08265)
-221. Minimax Optimality of Score-based Diffusion Models: Beyond the Density Lower Bound Assumptions, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.15602)
-222. On the Trajectory Regularity of ODE-based Diffusion Sampling, ICML 24 [[Paper]](https://arxiv.org/pdf/2405.11326)
-223. Time Series Diffusion in the Frequency Domain, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.05933)
-224. Directly Denoising Diffusion Models, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2405.13540)
-225. Re-Dock: Towards Flexible and Realistic Molecular Docking with Diffusion Bridge, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.11459)
-226. Consistent Diffusion Meets Tweedie: Training Exact Ambient Diffusion Models with Noisy Data, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.10177)
-227. Listening to the noise: Blind Denoising with Gibbs Diffusion, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.19455)
-228. Bayesian Power Steering: An Effective Approach for Domain Adaptation of Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2406.03683)
-229. Feedback Efficient Online Fine-Tuning of Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.16359)
-230. Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions, ICLR 23 [[Paper]](https://arxiv.org/pdf/2209.11215)
-231. Stable Target Field for Reduced Variance Score Estimation in Diffusion Models, ICLR 23 [[Paper]](https://arxiv.org/pdf/2302.00670)
-232. Diffusion Posterior Sampling for General Noisy Inverse Problems, ICLR 23 [[Paper]](https://arxiv.org/pdf/2209.14687)
-233. Markup-to-Image Diffusion Models with Scheduled Sampling, ICLR 23 [[Paper]](https://arxiv.org/pdf/2210.05147)
-234. Discrete Contrastive Diffusion for Cross-Modal Music and Image Generation, ICLR 23 [[Paper]](https://arxiv.org/pdf/2206.07771)
-235. DiGress: Discrete Denoising diffusion for graph generation, ICLR 23 [[Paper]](https://arxiv.org/pdf/2209.14734)
-236. Diffusion Models Already Have A Semantic Latent Space, ICLR 23 [[Paper]](https://arxiv.org/pdf/2210.10960)
-237. SketchKnitter: Vectorized Sketch Generation with Diffusion Models, ICLR 23 [[Paper]](https://openreview.net/pdf?id=4eJ43EN2g6l)
-238. Discrete Predictor-Corrector Diffusion Models for Image Synthesis, ICLR 23 [[Paper]](https://openreview.net/pdf?id=VM8batVBWvg)
-239. Accelerating Guided Diffusion Sampling with Splitting Numerical Methods, ICLR 23 [[Paper]](https://arxiv.org/pdf/2301.11558)
-240. Score-based Continuous-time Discrete Diffusion Models, ICLR 23 [[Paper]](https://arxiv.org/pdf/2211.16750)
-241. gDDIM: Generalized denoising diffusion implicit models, ICLR 23 [[Paper]](https://arxiv.org/pdf/2206.05564)
-242. Fast Sampling of Diffusion Models with Exponential Integrator, ICLR 23 [[Paper]](https://arxiv.org/pdf/2204.13902)
-243. Truncated Diffusion Probabilistic Models and Diffusion-based Adversarial Auto-Encoders, ICLR 23 [[Paper]](https://arxiv.org/pdf/2202.09671)
-244. Nearest Neighbour Score Estimators for Diffusion Generative Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.08018)
-245. Cluster-Aware Similarity Diffusion for Instance Retrieval, ICML 24 [[Paper]](https://arxiv.org/pdf/2406.02343)
-246. DITTO: Diffusion Inference-Time T-Optimization for Music Generation, ICML 24 [[Paper]](https://arxiv.org/pdf/2401.12179)
-247. A Simple Early Exiting Framework for Accelerated Sampling in Diffusion Models, ICML 24 [[Paper]](https://openreview.net/pdf/6a4f1c506f95b1706b690331beeff65a947fddc6.pdf)
-248. Improving Diffusion Models for Inverse Problems Using Optimal Posterior Covariance, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.02149)
-249. Unifying Bayesian Flow Networks and Diffusion Models through Stochastic Differential Equations, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.15766)
-250. Confronting Reward Overoptimization for Diffusion Models: A Perspective of Inductive and Primacy Biases, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.08552)
-251. Neural Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2310.08337)
-252. Bespoke Non-Stationary Solvers for Fast Sampling of Diffusion and Flow Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2403.01329)
-253. IM-3D: Iterative Multiview Diffusion and Reconstruction for High-Quality 3D Generation, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.08682)
-254. Align Your Steps: Optimizing Sampling Schedules in Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.14507)
-255. A Dense Reward View on Aligning Text-to-Image Diffusion with Preference, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.08265)
-256. Minimax Optimality of Score-based Diffusion Models: Beyond the Density Lower Bound Assumptions, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.15602)
-257. On the Trajectory Regularity of ODE-based Diffusion Sampling, ICML 24 [[Paper]](https://arxiv.org/pdf/2405.11326)
-258. Time Series Diffusion in the Frequency Domain, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.05933)
-259. Directly Denoising Diffusion Models, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2405.13540)
-260. Re-Dock: Towards Flexible and Realistic Molecular Docking with Diffusion Bridge, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.11459)
-261. Consistent Diffusion Meets Tweedie: Training Exact Ambient Diffusion Models with Noisy Data, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.10177)
-262. Listening to the noise: Blind Denoising with Gibbs Diffusion, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.19455)
-263. Bayesian Power Steering: An Effective Approach for Domain Adaptation of Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2406.03683)
-264. Feedback Efficient Online Fine-Tuning of Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.16359)
-265. Variational Schrödinger Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2405.04795)
-266. Stochastic Conditional Diffusion Models for Robust Semantic Image Synthesis, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.16506)
-267. Rolling Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.09470)
-268. Cross-view Masked Diffusion Transformers for Person Image Synthesis, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.01516)
-269. Diffusion Models Demand Contrastive Guidance for Adversarial Purification to Advance, ICML 24 [[Paper]](https://arxiv.org/pdf/2205.07460)
-270. Accelerating Parallel Sampling of Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.09970)
-271. Characteristic Guidance: Non-linear Correction for Diffusion Model at Large Guidance Scale, ICML 24 [[Paper]](https://arxiv.org/pdf/2312.07586)
-272. Efficient Denoising Diffusion via Probabilistic Masking, ICML 24 [[Paper]](https://openreview.net/pdf?id=lhZEodF8Dn)
-273. Accelerating Convergence of Score-Based Diffusion Models, Provably, ICML 24 [[Paper]](https://arxiv.org/pdf/2403.03852)
-274. Diffusion Rejection Sampling, ICML 24 [[Paper]](https://arxiv.org/pdf/2405.17880)
-275. Guidance with Spherical Gaussian Constraint for Conditional Diffusion, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.03201)
-276. Score Identity Distillation: Exponentially Fast Distillation of Pretrained Diffusion Models for One-Step Generation, ICML 24 [[Paper]](lhttps://arxiv.org/pdf/2404.04057)
-277. Understanding Diffusion Models by Feynman's Path Integral, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.04057)
-278. Diffusion Language Models Are Versatile Protein Learners, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.18567)
-279. Scalable High-Resolution Pixel-Space Image Synthesis with Hourglass Diffusion Transformers, ICML 24 [[Paper]](https://arxiv.org/pdf/2401.11605)
-280. Graph Adversarial Diffusion Convolution, ICML 24 [[Paper]](https://arxiv.org/pdf/2406.02059v1)
-281. Floating Anchor Diffusion Model for Multi-motif Scaffolding, ICML 24 [[Paper]](https://arxiv.org/pdf/2406.03141)
-282. Data-free Distillation of Diffusion Models with Bootstrapping, ICML 24 [[Paper]](https://arxiv.org/pdf/2306.05544)
-283. Restoration-Degradation Beyond Linear Diffusions: A Non-Asymptotic Analysis For DDIM-type Samplers, ICML 23 [[Paper]](https://openreview.net/attachment?id=GOUgXuLahg&name=pdf)
-284. User-defined Event Sampling and Uncertainty Quantification in Diffusion Models for Physical Dynamical Systems, ICML 23 [[Paper]](https://openreview.net/attachment?id=sdhcjMzhHN&name=pdf)
-285. NerfDiff: Single-image View Synthesis with NeRF-guided Distillation from 3D-aware Diffusion[[Paper]](https://arxiv.org/pdf/2302.10109)
-286. Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC, ICML 23 [[Paper]](https://openreview.net/attachment?id=lAXwXjSYum&name=pdf)
-287. Towards Coherent Image Inpainting Using Denoising Diffusion Implicit Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=17YbAlc1tW&name=pdf)
-288. MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL, ICML 23 [[Paper]](https://openreview.net/attachment?id=IKCk6th595&name=pdf)
-289. Loss-Guided Diffusion Models for Plug-and-Play Controllable Generation, ICML 23 [[Paper]](https://openreview.net/attachment?id=JzZ2xAvCs8&name=pdf)
-290. Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=LucUrr5kUi&name=pdf)
-291. SinDDM: A Single Image Denoising Diffusion Model, ICML 23 [[Paper]](https://openreview.net/attachment?id=IJ70r39DzS&name=pdf)
-292. DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design, ICML 23 [[Paper]](https://openreview.net/attachment?id=9qy9DizMlr&name=pdf)
-293. TabDDPM: Modelling Tabular Data with Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=hTzPqLKBJY&name=pdf)
-294. GREAD: Graph Neural Reaction-Diffusion Networks, ICML 23 [[Paper]](https://openreview.net/attachment?id=LMay53U4ke&name=pdf)
-295. (Efficient Diffusion, Generative Modeling, Training Optimization)Input Perturbation Reduces Exposure Bias in Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=0OcEWSMnSh&name=pdf)
-296. Denoising MCMC for Accelerating Diffusion-Based Generative Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=GOousx8DUL&name=pdf)
-297. Fast Sampling of Diffusion Models via Operator Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=gWC3Q3pyHe&name=pdf)
-298. Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=K1OvMEYEI4&name=pdf)
-299. Thompson Sampling with Diffusion Generative Priors, ICML 23 [[Paper]](https://openreview.net/attachment?id=Eo7e468wi8&name=pdf)
-300. Diffusion Models for Black-Box Optimization, ICML 23 [[Paper]](https://openreview.net/attachment?id=hQCgc6T15R&name=pdf)
-301. SE(3) diffusion model with application to protein backbone generation, ICML 23 [[Paper]](https://openreview.net/attachment?id=m8OUBymxwv&name=pdf)
-302. SDDM: Score-Decomposed Diffusion Models on Manifolds for Unpaired Image-to-Image Translation, ICML 23 [[Paper]](https://openreview.net/attachment?id=J4w91xRPBY&name=pdf)
-303. ReDi: Efficient Learning-Free Diffusion Inference via Trajectory Retrieval, ICML 23 [[Paper]](https://openreview.net/attachment?id=SP01yVIC2o&name=pdf)
-304. OMS-DPM: Optimizing the Model Schedule for Diffusion Probabilistic Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=miv2ZYRd1t&name=pdf)
-305. Better Diffusion Models Further Improve Adversarial Training, ICML 23 [[Paper]](https://openreview.net/attachment?id=1EWPr0ks8I&name=pdf)
-306. A Critical Review of Adversarial Robustness in 3D Point Cloud Recognition with Diffusion-Driven Purification, ICML 23 [[Paper]](https://openreview.net/attachment?id=dwn6o2pYJp&name=pdf)
-307. Non-autoregressive Conditional Diffusion Models for Time Series Prediction, ICML 23 [[Paper]](https://openreview.net/attachment?id=wZsnZkviro&name=pdf)
-308. Modeling Temporal Data as Continuous Functions with Stochastic Process Diffusion, ICML 23 [[Paper]](https://openreview.net/attachment?id=OUWckW2g3j&name=pdf)
-309. Neural Diffusion Processes, ICML 23 [[Paper]](https://openreview.net/attachment?id=tV7GSY5GYG&name=pdf)
-310. A Flexible Diffusion Model, ICML 23 [[Paper]](https://arxiv.org/pdf/2206.10365) 
-311. AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners, ICML 23 [[Paper]](https://openreview.net/attachment?id=3ETNXs54HB&name=pdf)
-312. Blackout Diffusion: Generative Diffusion Models in Discrete-State Spaces, ICML 23 [[Paper]](https://openreview.net/attachment?id=lpc5vlfxp8&name=pdf)
-313. Text Generation with Diffusion Language Models: A Pre-training Approach with Continuous Paragraph Denoise, ICML 23 [[Paper]](https://openreview.net/attachment?id=oY8JcQzahW&name=pdf)
-314. MoDiff: Addressing the Atom-Bond Inconsistency Problem in 3D Molecule Diffusion Generation, ICML 23 [[Paper]](https://openreview.net/attachment?id=gfGLMZR27W&name=pdf)
-315. FP-Diffusion: Improving Score-based Diffusion Models by Enforcing the Underlying Score Fokker-Planck Equation, ICML 23 [[Paper]](https://openreview.net/attachment?id=UULcrko6Hk&name=pdf)
-316. PixelAsParam: A Gradient View on Diffusion Sampling with Guidance, ICML 23 [[Paper]](https://openreview.net/attachment?id=2q1Whv1kXL&name=pdf)
-317. Coarse-to-Fine: A Hierarchical Diffusion Model for Molecule Generation in 3D, ICML 23 [[Paper]](https://openreview.net/attachment?id=7haEvhb25X&name=pdf)
-318. Reflected Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=QcKoLuEO3r&name=pdf)
-319. Improved Techniques for Maximum Likelihood Estimation for Diffusion ODEs, ICML 23 [[Paper]](https://openreview.net/attachment?id=jVR2fF8x8x&name=pdf)
-320. GibbsDDRM: A Partially Collapsed Gibbs Sampler for Solving Blind Inverse Problems with Denoising Diffusion Restoration, ICML 23 [[Paper]](https://openreview.net/attachment?id=4weSHLFgtZ&name=pdf)
-321. 
-322. 
-323. 
-324. 
-325. 
-326. 
-327. 
-328. 
-329. 
-330. 
-331. 
-332. 
-333. 
-334. 
-335. 
-336. 
-337. 
-338. 
-339. 
-340. 
-341. 
-342. 
-343. 
-344. 
-345. 
-346. 
-347. 
-348. 
-349. 
-350. 
-351. 
-352. 
-353. 
-354. 
-355. 
-356. 
-357. 
-358. 
-359. 
-360. 
-361. 
-362. 
-363. 
-364. 
-365. 
-366. 
-367. 
-368. 
-369. 
-370. 
-371. 
+
