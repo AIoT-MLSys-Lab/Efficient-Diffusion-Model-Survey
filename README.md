@@ -63,6 +63,8 @@ https://arxiv.org/pdf/2404.07771
 16. 3D-aware Image Generation using 2D Diffusion Models, ICCV 23 [[Paper\]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xiang_3D-aware_Image_Generation_using_2D_Diffusion_Models_ICCV_2023_paper.pdf), ImageNet/SDIP Dogs/SDIP Elephants/LSUN Horses
 17. Data-free Distillation of Diffusion Models with Bootstrapping, ICML 24 [[Paper\]](https://arxiv.org/pdf/2306.05544), FFHQ/LSUN-Bedroom
 18. NerfDiff: Single-image View Synthesis with NeRF-guided Distillation from 3D-aware Diffusion[[Paper]](https://arxiv.org/pdf/2302.10109), SRN-ShapeNet/Amazon-Berkeley Objects/Clevr3D
+19. Relay Diffusion: Unifying diffusion process across resolutions for image synthesis, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.03350)
+20. Soft Mixture Denoising: Beyond the Expressive Bottleneck of Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.14068)
 
 ### Benchmark & Dataset
 1. CelebA-HQ
@@ -144,6 +146,8 @@ https://arxiv.org/pdf/2404.07771
 3. Effective Real Image Editing with Accelerated Iterative Diffusion Inversion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Pan_Effective_Real_Image_Editing_with_Accelerated_Iterative_Diffusion_Inversion_ICCV_2023_paper.pdf), COCO/AFHQ
 4. Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_Zero-Shot_Contrastive_Loss_for_Text-Guided_Diffusion_Image_Style_Transfer_ICCV_2023_paper.pdf), FFHQ/CelebA-HQ/ImageNet/LSUN- Church/CycleGAN dataset
 5. Erasing Concepts from Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Gandikota_Erasing_Concepts_from_Diffusion_Models_ICCV_2023_paper.pdf), COCO/LAION/Imagenette
+6. Würstchen: An Efficient Architecture for Large-Scale Text-to-Image Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.00637)
+7. PixArt-α: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.00426)
 
 #### Benchmark & Dataset
 1. CUB-200
@@ -283,8 +287,9 @@ https://arxiv.org/pdf/2404.07771
 
 10. Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC, ICML 23 [[Paper\]](https://openreview.net/attachment?id=lAXwXjSYum&name=pdf), ImageNet
 
-    
+11. Matryoshka Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.15111) image/video
 
+12. EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.03270)
 
 ## Paper Related to Efficient
 1. 
@@ -621,40 +626,40 @@ https://arxiv.org/pdf/2404.07771
 332. 
 333. 
 334. 
-335. Protein-Ligand Interaction Prior for Binding-aware 3D Molecule Diffusion Models, ICLR 24 [[Paper]](https://openreview.net/pdf?id=qH9nrMNTIW)
-336. Large-Vocabulary 3D Diffusion Model with Transformer, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.07920)
-337. PanoDiffusion: 360-degree Panorama Outpainting via Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.03177)
-338. ADDP: Learning General Representations for Image Recognition and Generation with Alternating Denoising Diffusion Process, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.05423)
-339. GeoDiffusion: Text-Prompted Geometric Control for Object Detection Data Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.04607)
-340. Matryoshka Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.15111)
-341. Zero-Shot Robotic Manipulation with Pre-Trained Image-Editing Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.10639)
-342. Würstchen: An Efficient Architecture for Large-Scale Text-to-Image Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.00637)
-343. DiffAR: Denoising Diffusion Autoregressive Model for Raw Speech Waveform Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.01381)
-344. Don't Play Favorites: Minority Guidance for Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2301.12334)
-345. AlignDiff: Aligning Diverse Human Preferences via Behavior-Customisable Diffusion Model, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.02054)
-346. Relay Diffusion: Unifying diffusion process across resolutions for image synthesis, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.03350)
-347. Elucidating the Exposure Bias in Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2308.15321)
-348. PixArt-α: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.00426)
-349. Inner Classifier-Free Guidance and Its Taylor Expansion for Diffusion Models, ICLR 24 [[Paper]](https://openreview.net/pdf?id=0QAzIMq32X)
-350. Denoising Diffusion via Image-Based Rendering, ICLR 24 [[Paper]](https://arxiv.org/pdf/2402.03445)
-351. Solving Diffusion ODEs with Optimal Boundary Conditions for Better Image Super-Resolution, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.15357)
-352. EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.03270)
-353. Soft Mixture Denoising: Beyond the Expressive Bottleneck of Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.14068)
-354. A Variational Perspective on Solving Inverse Problems with Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.04391)
-355. Denoising Diffusion Step-aware Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.03337)
-356. Diffusion Posterior Sampling for Linear Inverse Problem Solving: A Filtering Perspective, ICLR 24 [[Paper]](https://openreview.net/pdf?id=tplXNcHZs1)
-357. Exploring Diffusion Time-steps for Unsupervised Representation Learning, ICLR 24 [[Paper]](https://arxiv.org/pdf/2401.11430)
-358. A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2312.07243)
-359. Diffusion Posterior Sampling for Linear Inverse Problem Solving: A Filtering Perspective, ICLR 24 [[Paper]](https://openreview.net/pdf?id=tplXNcHZs1)
-360. Imitating Human Behaviour with Diffusion Models, ICLR 23 [[Paper]](https://arxiv.org/pdf/2301.10677)
-361. Accelerating Score-Based Generative Models with Preconditioned Diffusion Sampling, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830001.pdf)
-362. Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830171.pdf)
-363. Learning to Efficiently Sample from Diffusion Probabilistic Models, arXiv [[Paper]](https://arxiv.org/pdf/2106.03802)
-364. Subspace Diffusion Generative Models, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830274.pdf)
-365. DiffuseMorph: Unsupervised Deformable Image Registration Using Diffusion Model, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136910336.pdf)
-366. DiffuStereo: High Quality Human Reconstruction via Diffusion-Based Stereo Using Sparse Cameras, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136920697.pdf)
-367. DiTFastAttn: Attention Compression for Diffusion Transformer Models, arXiv [[Paper]](DiTFastAttn: Attention Compression for Diffusion Transformer Models)
-368. ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation, arXiv [[Paper]](https://arxiv.org/pdf/2406.02540)
-369. Inf-DiT: Upsampling Any-Resolution Image with Memory-Efficient Diffusion Transformer, arXiv [[Paper]](https://arxiv.org/pdf/2405.04312)
-370. PipeFusion: Displaced Patch Pipeline Parallelism for Inference of Diffusion Transformer Models, arXiv [[Paper]](https://arxiv.org/pdf/2405.14430)
+335. 
+336. 
+337. 
+338. 
+339. 
+340. 
+341. 
+342. 
+343. 
+344. 
+345. 
+346. 
+347. 
+348. 
+349. 
+350. 
+351. 
+352. 
+353. 
+354. 
+355. 
+356. 
+357. 
+358. 
+359. 
+360. 
+361. 
+362. 
+363. 
+364. 
+365. 
+366. 
+367. 
+368. 
+369. 
+370. 
 371. 
