@@ -51,6 +51,7 @@ https://arxiv.org/pdf/2404.07771
 2. Learning Stackable and Skippable LEGO Bricks for Efficient, Reconfigurable, and Variable-Resolution Diffusion Modeling, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.06389), CIFAR-10/ImageNet
 3. Fast Ensembling with Diffusion Schrödinger Bridge, ICLR 24 [[Paper]](https://arxiv.org/pdf/2404.15814), CIFAR-10/CIFAR-100/TinyImageNet
 4. Diffusion Normalizing Flow, NIPS 21 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/876f1f9954de0aa402d91bb988d12cd4-Paper.pdf), CIFAR-10/MNIST
+5. Soft Mixture Denoising: Beyond the Expressive Bottleneck of Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.14068)
 
 
 ### Image-to-Image
