@@ -75,6 +75,7 @@ https://arxiv.org/pdf/2404.07771
 17. Data-free Distillation of Diffusion Models with Bootstrapping, ICML 24 [[Paper\]](https://arxiv.org/pdf/2306.05544), FFHQ/LSUN-Bedroom
 18. NerfDiff: Single-image View Synthesis with NeRF-guided Distillation from 3D-aware Diffusion[[Paper]](https://arxiv.org/pdf/2302.10109), SRN-ShapeNet/Amazon-Berkeley Objects/Clevr3D
 19. Infinite Resolution Diffusion with Subsampled Mollified States, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.18242)
+20. Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning, ICML 23 [[Paper\]](https://openreview.net/attachment?id=LucUrr5kUi&name=pdf)
 
 ### Benchmark & Dataset
 1. CelebA-HQ
@@ -218,7 +219,7 @@ https://arxiv.org/pdf/2404.07771
 
 ### Temporal Data Modeling
 #### Paper List
-1. 
+1. Non-autoregressive Conditional Diffusion Models for Time Series Prediction, ICML 23 [[Paper\]](https://openreview.net/attachment?id=wZsnZkviro&name=pdf)
 
 #### Benchmark & Dataset
 1. 
@@ -229,8 +230,16 @@ https://arxiv.org/pdf/2404.07771
 
 #### Paper List
 1. Decomposed Diffusion Sampler for Accelerating Large-Scale Inverse Problems, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.05754), fastMRI knee dataset
-1. (ODE solvers)Diffusion Sampling with Momentum for Mitigating Divergence Artifacts, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.11118), COCO
-2. Score-Based Generative Modeling through Stochastic Differential Equations, ICLR 21 [[Paper]](https://arxiv.org/pdf/2011.13456)
+2. (ODE solvers)Diffusion Sampling with Momentum for Mitigating Divergence Artifacts, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.11118), COCO
+3. Score-Based Generative Modeling through Stochastic Differential Equations, ICLR 21 [[Paper]](https://arxiv.org/pdf/2011.13456)
+4. Input Perturbation Reduces Exposure Bias in Diffusion Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=0OcEWSMnSh&name=pdf)
+5. Fast Sampling of Diffusion Models via Operator Learning, ICML 23 [[Paper\]](https://openreview.net/attachment?id=gWC3Q3pyHe&name=pdf)
+6. Denoising MCMC for Accelerating Diffusion-Based Generative Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=GOousx8DUL&name=pdf)
+7. Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models, ICML 23 [[Paper\]](https://openreview.net/attachment?id=K1OvMEYEI4&name=pdf)
+8. ReDi: Efficient Learning-Free Diffusion Inference via Trajectory Retrieval, ICML 23 [[Paper\]](https://openreview.net/attachment?id=SP01yVIC2o&name=pdf)
+9. Neural Diffusion Processes, ICML 23 [[Paper\]](https://openreview.net/attachment?id=tV7GSY5GYG&name=pdf)
+10. FP-Diffusion: Improving Score-based Diffusion Models by Enforcing the Underlying Score Fokker-Planck Equation, ICML 23 [[Paper\]](https://openreview.net/attachment?id=UULcrko6Hk&name=pdf)
+11. Improved Techniques for Maximum Likelihood Estimation for Diffusion ODEs, ICML 23 [[Paper\]](https://openreview.net/attachment?id=jVR2fF8x8x&name=pdf)
 
 #### Benchmark & Dataset
 1. fastMRI knee dataset
@@ -257,7 +266,8 @@ https://arxiv.org/pdf/2404.07771
 
 #### Paper List
 
-1. 
+1. DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design, ICML 23 [[Paper\]](https://openreview.net/attachment?id=9qy9DizMlr&name=pdf)
+2. Coarse-to-Fine: A Hierarchical Diffusion Model for Molecule Generation in 3D, ICML 23 [[Paper\]](https://openreview.net/attachment?id=7haEvhb25X&name=pdf)
 
 ### Undecided
 1. Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)
@@ -283,6 +293,14 @@ https://arxiv.org/pdf/2404.07771
 11. Learning Energy-Based Models by Cooperative Diffusion Recovery Likelihood, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.05153)
 
 12. Score Regularized Policy Optimization through Diffusion Behavior, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.07297)
+
+13. MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL, ICML 23 [[Paper\]](https://openreview.net/attachment?id=IKCk6th595&name=pdf)
+
+14. Loss-Guided Diffusion Models for Plug-and-Play Controllable Generation, ICML 23 [[Paper\]](https://openreview.net/attachment?id=JzZ2xAvCs8&name=pdf)
+
+15. Better Diffusion Models Further Improve Adversarial Training, ICML 23 [[Paper\]](https://openreview.net/attachment?id=1EWPr0ks8I&name=pdf) data generation
+
+16. EfficientDM: Efficient Quantiz
 
     
 
