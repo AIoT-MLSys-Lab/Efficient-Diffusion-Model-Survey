@@ -65,31 +65,38 @@ https://arxiv.org/pdf/2404.07771
 16. Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)  
 Quantization  
 Dataset: ImageNet/CIFAR-10  
-17. Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models, ICLR 22 [[Paper]](https://arxiv.org/pdf/2201.06503)   Efficient Sampling -> theoretical?  
+
+17. Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models, ICLR 22 [[Paper]](https://arxiv.org/pdf/2201.06503)
+Efficient Sampling -> theoretical?  
 Dataset: CIFAR10/ImageNet  
+
 18. On Distillation of Guided Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Meng_On_Distillation_of_Guided_Diffusion_Models_CVPR_2023_paper.pdf)  
 Distillation  
-Dataset: ImageNet/CIFAR-10  
-19. Binary Latent Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Binary_Latent_Diffusion_CVPR_2023_paper.pdf)  
+Dataset: ImageNet/CIFAR-10
+
+20. Binary Latent Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Binary_Latent_Diffusion_CVPR_2023_paper.pdf)  
 Quantization  
-Dataset: LSUN Churches/FFHQ/CelebA-HQ/ImageNet-1K  
-20. Q-Diffusion: Quantizing Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)  
+Dataset: LSUN Churches/FFHQ/CelebA-HQ/ImageNet-1K
+
+21. Q-Diffusion: Quantizing Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)  
 Quantization   
-Dataset: CIFAR-10/LSUN Bedrooms/LSUN
-Church-Outdoor  
-21. Score Approximation, Estimation and Distribution Recovery of Diffusion Models on Low-Dimensional Data, ICML 23 [[Paper]](https://openreview.net/attachment?id=KB4mLiuoEX&name=pdf)  
-Theoretical?  
-Dataset: No  
-22. Learning Energy-Based Models by Cooperative Diffusion Recovery Likelihood, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.05153)  
+Dataset: CIFAR-10/LSUN Bedrooms/LSUN Church-Outdoor  
+
+22. Score Approximation, Estimation and Distribution Recovery of Diffusion Models on Low-Dimensional Data, ICML 23 [[Paper]](https://openreview.net/attachment?id=KB4mLiuoEX&name=pdf)  
+Theoretical?
+Dataset: No 
+
+23. Learning Energy-Based Models by Cooperative Diffusion Recovery Likelihood, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.05153)  
 Cooperative Training  
 Dataset: CIFAR10/ImageNet/Celeb-A  
-23. Score-Based Generative Modeling through Stochastic Differential Equations, ICLR 21 [[Paper]](https://arxiv.org/pdf/2011.13456)
+
+24. Score-Based Generative Modeling through Stochastic Differential Equations, ICLR 21 [[Paper]](https://arxiv.org/pdf/2011.13456)
 SDE Solvers/ODE Solvers
 Dataset: CIFAR-10/LSUN/CelebA-HQ
-24. Input Perturbation Reduces Exposure Bias in Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=0OcEWSMnSh&name=pdf)
+25. Input Perturbation Reduces Exposure Bias in Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=0OcEWSMnSh&name=pdf)
 Learning-Based Sampling
 Dataset: CelebA 64x64
-25. Fast Sampling of Diffusion Models via Operator Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=gWC3Q3pyHe&name=pdf)
+26. Fast Sampling of Diffusion Models via Operator Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=gWC3Q3pyHe&name=pdf)
 SDE Solvers/ODE Solvers
 Dataset: CIFAR-10/ImageNet-64
 
