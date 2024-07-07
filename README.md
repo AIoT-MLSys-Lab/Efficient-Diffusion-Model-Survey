@@ -83,7 +83,15 @@ Dataset: No
 22. Learning Energy-Based Models by Cooperative Diffusion Recovery Likelihood, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.05153)  
 Cooperative Training  
 Dataset: CIFAR10/ImageNet/Celeb-A  
-23. 
+23. Score-Based Generative Modeling through Stochastic Differential Equations, ICLR 21 [[Paper]](https://arxiv.org/pdf/2011.13456)
+SDE Solvers/ODE Solvers
+Dataset: CIFAR-10/LSUN/CelebA-HQ
+24. Input Perturbation Reduces Exposure Bias in Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=0OcEWSMnSh&name=pdf)
+Learning-Based Sampling
+Dataset: CelebA 64x64
+25. Fast Sampling of Diffusion Models via Operator Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=gWC3Q3pyHe&name=pdf)
+SDE Solvers/ODE Solvers
+Dataset: CIFAR-10/ImageNet-64
 
 ### Image-to-Image
 
@@ -115,6 +123,51 @@ Dataset: CIFAR10/ImageNet/Celeb-A
 26. Hierarchical Integration Diffusion Model for Realistic Image Deblurring, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/5cebc89b113920dbff7c79854ba765a3-Paper-Conference.pdf)
 27. Gaussian Mixture Solvers for Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/51373b6499708b6fcc38f1e8f8f5b376-Paper-Conference.pdf)
 28. Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/b9603de9e49d0838e53b6c9cf9d06556-Paper-Conference.pdf), LSUN/Cityscapes
+29. Denoising MCMC for Accelerating Diffusion-Based Generative Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=GOousx8DUL&name=pdf)
+Learning-Free sampling->Numerical Solver Optimization
+Dataset:CIFAR11/CelebA-HQ-256/FFHQ-1024
+30. Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=K1OvMEYEI4&name=pdf)
+Learning-Based Sampling->Learned Posterior Sampling
+Dataset:ImageNet/CIFAR-10/CelebA/FFHQ
+31. ReDi: Efficient Learning-Free Diffusion Inference via Trajectory Retrieval, ICML 23 [[Paper]](https://openreview.net/attachment?id=SP01yVIC2o&name=pdf)
+Learning-Based Sampling->Mixing and Scheduling Strategies
+Dataset:MS-COCO
+32. Neural Diffusion Processes, ICML 23 [[Paper]](https://openreview.net/attachment?id=tV7GSY5GYG&name=pdf)
+Learning-Based Sampling->Score-Based Sampling
+Dataset:MNIST/CELEBA
+33. FP-Diffusion: Improving Score-based Diffusion Models by Enforcing the Underlying Score Fokker-Planck Equation, ICML 23 [[Paper]](https://openreview.net/attachment?id=UULcrko6Hk&name=pdf)
+Learning-Based Sampling-> Score-Based Sampling(derive a corresponding equation called the score FPE that characterizes the noise-conditional scores of the perturbed data densities)
+Dataset:MNIST/Fashion MNIST/CIFAR-10/ImageNet32
+34. Improved Techniques for Maximum Likelihood Estimation for Diffusion ODEs, ICML 23 [[Paper]](https://openreview.net/attachment?id=jVR2fF8x8x&name=pdf)
+Learning-Free sampling->Numerical Solver Optimization
+Dataset:CIFAR-10/ImageNet-32
+35. Accelerating Parallel Sampling of Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.09970)
+Learning-Based sampling->Score-Based Sampling(accelerates the sampling of diffusion models by parallelizing the autoregressive process)
+Dataset:ImageNet
+36. Diffusion Posterior Sampling for Linear Inverse Problem Solving: A Filtering Perspective, ICLR 24 [[Paper]](https://openreview.net/pdf?id=tplXNcHZs1)
+Learning-Free Sampling->Score-Based Sampling(leverages sequential Monte Carlo methods to solve the corresponding filtering problem)
+Dataset:FFHQ-1kvalidation/ImageNet-1k-validation
+37. A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2312.07243)
+Learning-Free sampling->Numerical Solver Optimization
+Dataset:CIFAR-10/CelebA/ImageNet-64/LSUN-Bedroom
+38. Accelerating Score-Based Generative Models with Preconditioned Diffusion Sampling, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830001.pdf)
+Learning-Free Sampling->Score-Based Sampling(leverages matrix preconditioning to alleviate severe performance degradation)
+Dataset:MNIST/CIFAR-10/LSUN/FFHQ
+39. Learning to Efficiently Sample from Diffusion Probabilistic Models, arXiv [[Paper]](https://arxiv.org/pdf/2106.03802)
+Learning-Based Sampling->Score-Based Sampling(We instead view the selection of the inference time schedules as an optimization problem, and introduce an exact dynamic programming algorithm that finds the optimal discrete time schedules for any pre-trained DDPM)
+Dataset:CIFAR-10/ImageNet 64x64
+40. Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions, ICLR 23 [[Paper]](https://arxiv.org/pdf/2209.11215)
+Learning-Based Sampling->Score-Based Sampling
+Dataset:CIFAR-10/ImageNet 64x64
+41. Directly Denoising Diffusion Models, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2405.13540)
+Learning-Based Sampling->Score-Based Sampling
+Dataset:CIFAR-10/ImageNet 64x64
+42. Accelerating Guided Diffusion Sampling with Splitting Numerical Methods, ICLR 23 [[Paper]](https://arxiv.org/pdf/2301.11558)
+Learning-Based Sampling->Score-Based Sampling
+Dataset:LSUN/FFHQ
+43. A Simple Early Exiting Framework for Accelerated Sampling in Diffusion Models, ICML 24 [[Paper]](https://openreview.net/pdf/6a4f1c506f95b1706b690331beeff65a947fddc6.pdf)
+Learning-Based Sampling->Score-Based Sampling
+Dataset:ImageNet/CelebA
 
 ### Benchmark & Dataset
 1. CelebA-HQ
@@ -144,6 +197,12 @@ Dataset: CIFAR10/ImageNet/Celeb-A
 #### Paper List
 1. Conditional Image-to-Video Generation With Latent Flow Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Ni_Conditional_Image-to-Video_Generation_With_Latent_Flow_Diffusion_Models_CVPR_2023_paper.pdf), MUG
 2. Video Probabilistic Diffusion Models in Projected Latent Space, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Video_Probabilistic_Diffusion_Models_in_Projected_Latent_Space_CVPR_2023_paper.pdf), UCF101/SkyTimelapse
+3. Align Your Steps: Optimizing Sampling Schedules in Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.14507)
+Learning-Free Sampling->Numerical Solver Optimization
+Dataset:FFHQ/CIFAR10/ImageNet/WebVid10M
+4. On the Trajectory Regularity of ODE-based Diffusion Sampling, ICML 24 [[Paper]](https://arxiv.org/pdf/2405.11326)
+Learning-Free Sampling->Numerical Solver Optimization
+Dataset:LSUN Bedroom/CIFAR-10/ImageNet-64/FFHQ
 
 ##### Benchmark & Dataset
 1. MUG
@@ -176,7 +235,12 @@ Dataset: CIFAR10/ImageNet/Celeb-A
 3. Empowering Diffusion Models on the Embedding Space for Text Generation, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.09412), WMT14/WMT16/IWSLT4/Gigaword/QQP/Wiki-Auto/Quasar-T
 4. Diffusion Glancing Transformer for Parallel Sequence-to-Sequence Learning, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.10240), QQP/MS-COCO
 5. David helps Goliath: Inference-Time Collaboration Between Small Specialized and Large General Diffusion LMs, NAACL 24 [[Paper]](https://arxiv.org/pdf/2305.14771)
-6. A Cheaper and Better Diffusion Language Model with Soft-Masked Noise, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2304.04746) 
+6. A Cheaper and Better Diffusion Language Model with Soft-Masked Noise, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2304.04746)
+Better design -> design a linguistic-informed forward process which adds corruptions to the text through strategically soft-masking to better noise the textual data.
+Dataset: E2E
+7. Unifying Bayesian Flow Networks and Diffusion Models through Stochastic Differential Equations, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.15766)
+Learning-Based Sampling->Score-Based Sampling
+Dataset:text8/CIFAR-10
 
 #### Benchmark & Dataset
 1. QQP
@@ -239,7 +303,10 @@ Efficient Sampling -> Discrete Latent Space
 Dataset: MS-COCO  
 15. Diffusion Sampling with Momentum for Mitigating Divergence Artifacts, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.11118)
 Efficient Sampling -> ODE Solvers  
-Dataset: ImageNet  
+Dataset: ImageNet
+16. Diffusion Sampling with Momentum for Mitigating Divergence Artifacts, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.11118), COCO
+ODE Solvers
+Dataset: ImageNet
 
 #### Benchmark & Dataset
 1. CUB-200
@@ -257,10 +324,20 @@ Dataset: ImageNet
 
 #### Paper List
 1. Fast Timing-Conditioned Latent Audio Diffusion, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2402.04825), MusicCaps
+Latent Diffusion
+Dataset: MusicCaps/AudioCaps
 2. AudioLDM: Text-to-Audio Generation with Latent Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=6BhipYkaSV&name=pdf), AudioCaps
+Latent Diffusion
+Dataset: AudioSet/AudioCaps/Freesound/BBC Sound Effect library
 3. DiffS2UT: A Semantic Preserving Diffusion Model for Textless Direct Speech-to-Speech Translation, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2310.17570)
+Better Design -> by applying the diffusion forward process in the continuous speech representation space, while employing the diffusion backward process in the discrete speech unit space.
+Dataset: VoxPopuli-S2S/Europarl-ST
 4. DITTO: Diffusion Inference-Time T-Optimization for Music Generation, ICML 24 [[Paper]](https://arxiv.org/pdf/2401.12179)
-5. 
+Better Design ->  optimizing initial noise latents   
+Dataset:  Wikifonia Lead-Sheet/MusicCaps
+5. Bespoke Non-Stationary Solvers for Fast Sampling of Diffusion and Flow Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2403.01329)
+Learning-Free Sampling->Numerical Solver Optimization
+Dataset:MS-COCO/LibriSpeech/ImageNet-64
 
 #### Benchmark & Dataset
 1. MusicCaps
@@ -269,7 +346,8 @@ Dataset: ImageNet
 ### Text-to-3D
 #### Paper List
 1. Texture Generation on 3D Meshes with Point-UV Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yu_Texture_Generation_on_3D_Meshes_with_Point-UV_Diffusion_ICCV_2023_paper.pdf), ShapeNet
-2. DreamTime: An Improved Optimization Strategy for Diffusion-Guided 3D Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.12422)
+Better Design -> a coarse-to-fine pipeline that marries the denoising diffusion model with UV mapping to generate 3D consistent and high-quality texture images in UV space.
+Dataset: ShapeNet
 
 #### Benchmark & Dataset
 1. ShapeNet
@@ -277,7 +355,11 @@ Dataset: ImageNet
 ### Text-to-Motion
 #### Paper List
 1. Executing Your Commands via Motion Diffusion in Latent Space, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Executing_Your_Commands_via_Motion_Diffusion_in_Latent_Space_CVPR_2023_paper.pdf), HumanML3D/KIT/HumanAct12/UESTC
+Latent Diffusion
+Dataset:  HumanML3D/KIT/AMASS/HumanAct12/UESTC
 2. DiffCollage: Parallel Generation of Large Content With Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_DiffCollage_Parallel_Generation_of_Large_Content_With_Diffusion_Models_CVPR_2023_paper.pdf), HumanML3D
+Better Design -> This representation allows us to aggregate intermediate outputs from diffusion models defined on individual nodes to generate content of arbitrary size and shape in parallel without resorting to an autoregressive generation procedure.
+Dataset: HumanML3D
 
 #### Benchmark & Dataset
 1. HumanML3D
@@ -285,11 +367,14 @@ Dataset: ImageNet
 3. HumanAct12
 4. UESTC
 
-
 ### Text-to-Video
 #### Paper List
 1. DiffTAD: Temporal Action Detection with Proposal Denoising Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Nag_DiffTAD_Temporal_Action_Detection_with_Proposal_Denoising_Diffusion_ICCV_2023_paper.pdf), ActivityNet-v1.3/THUMOS14
+Better Design -> first diffusing the ground-truth proposals to random ones and then learning to reverse the noising process.
+Dataset: ActivityNet-v1.3/THUMOS14
 2. Efficient Video Diffusion Models via Content-Frame Motion-Latent Decomposition, ICLR 24 [[Paper]](https://arxiv.org/pdf/2403.14148)
+Latent Diffusion
+Dataset: UCF-101/WebVid-10M/MSR-VTT
 3. Matryoshka Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.15111)  
 Better Design -> progressive training schedule from lower to higher resolutions  
 Dataset: ImageNet/CC12M/WebVid-10M
@@ -301,6 +386,8 @@ Dataset: ImageNet/CC12M/WebVid-10M
 ### Temporal Data Modeling
 #### Paper List
 1. Non-autoregressive Conditional Diffusion Models for Time Series Prediction, ICML 23 [[Paper]](https://openreview.net/attachment?id=wZsnZkviro&name=pdf)
+Better Design -> future mixup and autoregressive initialization.
+Dataset: NorPool/Caiso/Traffic/Electricity/Weather/Exchange/ETTh1/ETTm1/Wind
 
 #### Benchmark & Dataset
 1. 
@@ -323,45 +410,12 @@ Dataset: Adult/Default/Shoppers/Magic/Faults/Beijing/News
 Better Design -> extract an efficient deterministic inference policy from critic models and pretrained diffusion behavior models  
 Benchmark: BEAR/TD3+BC/IQL  
 
-### Efficient Sampling
-
-#### Paper List
-1. Decomposed Diffusion Sampler for Accelerating Large-Scale Inverse Problems, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.05754), fastMRI knee dataset
-2. (ODE solvers)Diffusion Sampling with Momentum for Mitigating Divergence Artifacts, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.11118), COCO
-3. Score-Based Generative Modeling through Stochastic Differential Equations, ICLR 21 [[Paper]](https://arxiv.org/pdf/2011.13456)
-4. Input Perturbation Reduces Exposure Bias in Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=0OcEWSMnSh&name=pdf)
-5. Fast Sampling of Diffusion Models via Operator Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=gWC3Q3pyHe&name=pdf)
-6. Denoising MCMC for Accelerating Diffusion-Based Generative Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=GOousx8DUL&name=pdf)
-7. Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=K1OvMEYEI4&name=pdf)
-8. ReDi: Efficient Learning-Free Diffusion Inference via Trajectory Retrieval, ICML 23 [[Paper]](https://openreview.net/attachment?id=SP01yVIC2o&name=pdf)
-9. Neural Diffusion Processes, ICML 23 [[Paper]](https://openreview.net/attachment?id=tV7GSY5GYG&name=pdf)
-10. FP-Diffusion: Improving Score-based Diffusion Models by Enforcing the Underlying Score Fokker-Planck Equation, ICML 23 [[Paper]](https://openreview.net/attachment?id=UULcrko6Hk&name=pdf)
-11. Improved Techniques for Maximum Likelihood Estimation for Diffusion ODEs, ICML 23 [[Paper]](https://openreview.net/attachment?id=jVR2fF8x8x&name=pdf)
-12. Accelerating Parallel Sampling of Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.09970)
-13. Diffusion Posterior Sampling for Linear Inverse Problem Solving: A Filtering Perspective, ICLR 24 [[Paper]](https://openreview.net/pdf?id=tplXNcHZs1)
-14. A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2312.07243)
-15. Accelerating Score-Based Generative Models with Preconditioned Diffusion Sampling, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830001.pdf)
-16. Learning to Efficiently Sample from Diffusion Probabilistic Models, arXiv [[Paper]](https://arxiv.org/pdf/2106.03802)
-17. Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions, ICLR 23 [[Paper]](https://arxiv.org/pdf/2209.11215)
-18. Directly Denoising Diffusion Models, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2405.13540)
-19. Accelerating Guided Diffusion Sampling with Splitting Numerical Methods, ICLR 23 [[Paper]](https://arxiv.org/pdf/2301.11558)
-20. A Simple Early Exiting Framework for Accelerated Sampling in Diffusion Models, ICML 24 [[Paper]](https://openreview.net/pdf/6a4f1c506f95b1706b690331beeff65a947fddc6.pdf)
-21. Unifying Bayesian Flow Networks and Diffusion Models through Stochastic Differential Equations, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.15766)
-22. Align Your Steps: Optimizing Sampling Schedules in Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.14507)
-23. Bespoke Non-Stationary Solvers for Fast Sampling of Diffusion and Flow Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2403.01329)
-24. On the Trajectory Regularity of ODE-based Diffusion Sampling, ICML 24 [[Paper]](https://arxiv.org/pdf/2405.11326)
-25. 
-
-#### Benchmark & Dataset
-1. fastMRI knee dataset
-1. COCO
 
 ### Trajectory Prediction
 #### Paper List
 1. Leapfrog Diffusion Model for Stochastic Trajectory Prediction, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Mao_Leapfrog_Diffusion_Model_for_Stochastic_Trajectory_Prediction_CVPR_2023_paper.pdf)
 Efficient Sampling -> leapfrog initializer replace a large number of small denoising steps  
-Dataset: NBA/NFL/SDD/ETH-UCY  
-
+Dataset: NBA/NFL/SDD/ETH-UCY
 2. Simple Hierarchical Planning with Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2401.02644)
 Better Design -> hierarchical planning  
 Dataset: Maze2D/AntMaze/Gym-MuJoCo/FrankaKitchen  
@@ -377,12 +431,10 @@ Dataset: Maze2D/AntMaze/Gym-MuJoCo/FrankaKitchen
 1. Hyperbolic Geometric Latent Diffusion Model for Graph Generation, ICML 24 [[Paper]](https://arxiv.org/pdf/2405.03188)
 Better Design -> an improved Gaussian noise generation method  
 Dataset: SBM/BA/Community/Ego/Barabasi-Albert/Grid/Cora/Citeseer/Polblogs/MUTAG/IMDB-B/PROTEINS/COLLAB
-
 2. Latent 3D Graph Diffusion, ICLR 24 [[Paper]](https://openreview.net/pdf?id=cXbnGtO0NZ)  
 Graph Generation? 3D?  
 Latent Diffusion  
-Dataset: ChEMBL/PubChemQC/QM9/Drugs  
-
+Dataset: ChEMBL/PubChemQC/QM9/Drugs
 3. Efficient and Degree-Guided Graph Generation via Discrete Diffusion Modeling, ICML 23 [[Paper]](https://openreview.net/attachment?id=vn9O1N5ZOw&name=pdf)
 Better Design -> use empty graphs as the convergent distribution/new generative process that only predicts edges between nodes  
 Dataset: Community/Ego/Polblogs/Cora/Road-Minnesota/PPI/QM9  
@@ -393,13 +445,14 @@ Dataset: Community/Ego/Polblogs/Cora/Road-Minnesota/PPI/QM9
 1. DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design, ICML 23 [[Paper]](https://openreview.net/attachment?id=9qy9DizMlr&name=pdf)
 Molecular Generation  
 Better Design -> decomposing the drug space with prior knowledge  
-Dataset: CrossDocked2020  
-
+Dataset: CrossDocked2020
 2. Re-Dock: Towards Flexible and Realistic Molecular Docking with Diffusion Bridge, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.11459)  
 Molecular Docking  
 Better Design  
 Dataset: PDBBind v2020
-
+3. Decomposed Diffusion Sampler for Accelerating Large-Scale Inverse Problems, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.05754), fastMRI knee dataset
+Learning-based Sampling
+Dataset:  fastMRI knee/AAPM 256×256
 
 ### Undecided
 1. 
