@@ -111,10 +111,10 @@ Dataset: CIFAR-10/ImageNet-64
 3. Continuous-Multiple Image Outpainting in One-Step via Positional Query and A Diffusion-based Approach, ICLR 24 [[Paper]](https://arxiv.org/pdf/2401.15652), Scenery
 
    
-4. Alleviating Exposure Bias in Diffusion Models through Sampling with Shifted Time Steps, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.15583) //
-   Technique: fast sampling //
-   Comments: Introduce a novel and training-free inference algorithm to alleviate exposure bias in diffusion models, which is faster than vanilla methods. //
-   Datasets: CIFAR-10/CelebA //
+4. Alleviating Exposure Bias in Diffusion Models through Sampling with Shifted Time Steps, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.15583) \
+   Technique: fast sampling \
+   Comments: Introduce a novel and training-free inference algorithm to alleviate exposure bias in diffusion models, which is faster than vanilla methods. \
+   Datasets: CIFAR-10/CelebA \
   
 5. PnP Inversion: Boosting Diffusion-based Editing with 3 Lines of Code, ICLR 24 [[Paper]](https://openreview.net/pdf?id=FoMZ4ljhVw) //
    Technique: fast sampling //
