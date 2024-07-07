@@ -202,22 +202,22 @@ Dataset: CUB-200/Oxford-102/MSCOCO
 Knowledge Distillation -> Optimization in Reverse Process  
 Dataset: ImageNet/MS-COCO  
 3. Effective Real Image Editing with Accelerated Iterative Diffusion Inversion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Pan_Effective_Real_Image_Editing_with_Accelerated_Iterative_Diffusion_Inversion_ICCV_2023_paper.pdf)
-Inference Sampling Optimization -> Optimization in Reverse Process
+Efficient Sampling -> Optimization in Reverse Process
 Dataset: AFHQ/COCO
 4. Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_Zero-Shot_Contrastive_Loss_for_Text-Guided_Diffusion_Image_Style_Transfer_ICCV_2023_paper.pdf)  
-Learning-Free Sampling -> Optimization in Sampling Strategy  
+Efficient Sampling -> Optimization in Sampling Strategy  
 Dataset: FFHQ/CelebA-HQ/ImageNet/LSUN-Church/Wikiart  
 5. Würstchen: An Efficient Architecture for Large-Scale Text-to-Image Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.00637)
 Compression -> Compression  Ration Generation/Three-Stage Architecture  
 Dataset: COCO-30K  
 6. PixArt-α: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.00426)  
-Model Training Process Optimization -> Photorealistic Image Synthesis  
+Better Design -> Model Training Process Optimization  
 Dataset: LAION/SAM/JourneyDB  
 7. Directly Fine-Tuning Diffusion Models on Differentiable Rewards, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.17400)
-Inference Memory Optimization -> Gradient Checkpointing  
+Efficient Sampling -> Memory Optimization in Gradient Checkpointing  
 Dataset: LAION/HPDv2  
 8. InstaFlow: One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.06380)  
-Inference Sampling Optimization -> One-Step Generation, Rectified Flow  
+Efficient Sampling -> Inference Sampling OptimizationOne-Step Generation, Rectified Flow  
 Dataset: MS COCO  
 9. Towards Consistent Video Editing with Text-to-Image Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/b6c05f8254a00709e16fb0fdaae56cd8-Paper-Conference.pdf)  
 Better Design -> Fine-coarse Frame Attention Module/Shift-Restricted Temporal Attention Module  
@@ -226,7 +226,7 @@ Dataset: DAVIS
 Quantization -> Sparse Neural Networks  
 Dataset: LAION/StyleGAN  
 11. Discrete Contrastive Diffusion for Cross-Modal Music and Image Generation, ICLR 23 [[Paper]](https://arxiv.org/pdf/2206.07771)  
-Better Design -> Discrete Latent Space  
+Latent Diffusion  
 Dataset: AIST++/TikTok Dance-Music
 12. Retrieval-Augmented Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/62868cc2fc1eb5cdf321d05b4b88510c-Paper-Conference.pdf)  
 Better Design  -> External Data Enhanced  
@@ -235,10 +235,10 @@ Dataset: MS-COCO/ImageNet
 Efficient Sampling -> Parallel Sampling  
 LSUN/Square/PushT/Franka Kitchen  
 14. SnapFusion: Text-to-Image Diffusion Model on Mobile Devices within Two Seconds, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/41bcc9d3bddd9c90e1f44b29e26d97ff-Paper-Conference.pdf)  
-Method: Better Design -> Efficient Sampling  
+Efficient Sampling -> Discrete Latent Space
 Dataset: MS-COCO  
 15. Diffusion Sampling with Momentum for Mitigating Divergence Artifacts, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.11118)
-Method: ODE Solvers  
+Efficient Sampling -> ODE Solvers  
 Dataset: ImageNet  
 
 #### Benchmark & Dataset
