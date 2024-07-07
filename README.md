@@ -67,7 +67,7 @@ https://arxiv.org/pdf/2404.07771
 Quantization  
 Dataset: ImageNet/CIFAR-10  
 
-17. Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models, ICLR 22 [[Paper]](https://arxiv.org/pdf/2201.06503)
+17. Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models, ICLR 22 [[Paper]](https://arxiv.org/pdf/2201.06503)  
 Efficient Sampling -> theoretical?  
 Dataset: CIFAR10/ImageNet  
 
@@ -91,15 +91,15 @@ Dataset: No
 Cooperative Training  
 Dataset: CIFAR10/ImageNet/Celeb-A  
 
-24. Score-Based Generative Modeling through Stochastic Differential Equations, ICLR 21 [[Paper]](https://arxiv.org/pdf/2011.13456)
+24. Score-Based Generative Modeling through Stochastic Differential Equations, ICLR 21 [[Paper]](https://arxiv.org/pdf/2011.13456)  
 SDE Solvers/ODE Solvers  
-Dataset: CIFAR-10/LSUN/CelebA-HQ
+Dataset: CIFAR-10/LSUN/CelebA-HQ  
 
-26. Input Perturbation Reduces Exposure Bias in Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=0OcEWSMnSh&name=pdf)
+26. Input Perturbation Reduces Exposure Bias in Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=0OcEWSMnSh&name=pdf)  
 Learning-Based Sampling  
-Dataset: CelebA 64x64
+Dataset: CelebA 64x64  
 
-28. Fast Sampling of Diffusion Models via Operator Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=gWC3Q3pyHe&name=pdf)
+28. Fast Sampling of Diffusion Models via Operator Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=gWC3Q3pyHe&name=pdf)  
 SDE Solvers/ODE Solvers  
 Dataset: CIFAR-10/ImageNet-64  
 
@@ -132,7 +132,7 @@ Dataset: CIFAR-10/ImageNet-64
 25. Cross-view Masked Diffusion Transformers for Person Image Synthesis, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.01516)
 26. Hierarchical Integration Diffusion Model for Realistic Image Deblurring, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/5cebc89b113920dbff7c79854ba765a3-Paper-Conference.pdf)
 27. Gaussian Mixture Solvers for Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/51373b6499708b6fcc38f1e8f8f5b376-Paper-Conference.pdf)
-28. Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/b9603de9e49d0838e53b6c9cf9d06556-Paper-Conference.pdf), LSUN/Cityscapes
+28. Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/b9603de9e49d0838e53b6c9cf9d06556-Paper-Conference.pdf), LSUN/Cityscapes  
 
 29. Denoising MCMC for Accelerating Diffusion-Based Generative Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=GOousx8DUL&name=pdf)
 Learning-Free sampling->Numerical Solver Optimization  
