@@ -109,88 +109,112 @@ Dataset: CIFAR-10/ImageNet-64
 1. DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_DiffusionCLIP_Text-Guided_Diffusion_Models_for_Robust_Image_Manipulation_CVPR_2022_paper.pdf), CelebA-HQ/AFHQ-Dog/LSUN-Bedroom/LSUN-Church
 2. Diffusion Autoencoders: Toward a Meaningful and Decodable Representation, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Preechakul_Diffusion_Autoencoders_Toward_a_Meaningful_and_Decodable_Representation_CVPR_2022_paper.pdf), FFHQ/CelebA-HQ
 3. Continuous-Multiple Image Outpainting in One-Step via Positional Query and A Diffusion-based Approach, ICLR 24 [[Paper]](https://arxiv.org/pdf/2401.15652), Scenery
-4. Alleviating Exposure Bias in Diffusion Models through Sampling with Shifted Time Steps, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.15583), CIFAR-10/CelebA 
-5. PnP Inversion: Boosting Diffusion-based Editing with 3 Lines of Code, ICLR 24 [[Paper]](https://openreview.net/pdf?id=FoMZ4ljhVw), PIE-Bench
-6. Dimensionality-Varying Diffusion Process, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Dimensionality-Varying_Diffusion_Process_CVPR_2023_paper.pdf), CIFAR-10/LSUN-Bedroom/LSUN-Church/LSUN-Cat/FFHQ
-7. DiffFit: Unlocking Transferability of Large Diffusion Models via Simple Parameter-efficient Fine-Tuning, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xie_DiffFit_Unlocking_Transferability_of_Large_Diffusion_Models_via_Simple_Parameter-efficient_ICCV_2023_paper.pdf), ImageNet
-8. HumanSD: A Native Skeleton-Guided Diffusion Model for Human Image Generation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ju_HumanSD_A_Native_Skeleton-Guided_Diffusion_Model_for_Human_Image_Generation_ICCV_2023_paper.pdf), LAION-Human
-9. Controllable Person Image Synthesis with Pose-Constrained Latent Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Han_Controllable_Person_Image_Synthesis_with_Pose-Constrained_Latent_Diffusion_ICCV_2023_paper.pdf), DeepFashion
-10. Adapt and Diffuse: Sample-adaptive Reconstruction via Latent Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2309.06642), CelebA-HQ/LSUN-Bedrooms
-11. Solving Inverse Problems with Latent Diffusion Models via Hard Data Consistency, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.08123), FFHQ/CelebA-HQ/LSUN-Bedrooms
-12. High-Resolution Image Synthesis With Latent Diffusion Models, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf), ImageNet/CelebA-HQ/FFHQ/LSUN-Churches/LSUN-Bedrooms
-13. Wavelet Diffusion Models Are Fast and Scalable Image Generators, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Phung_Wavelet_Diffusion_Models_Are_Fast_and_Scalable_Image_Generators_CVPR_2023_paper.pdf), CIFAR-10/STL-10/CelebA-HQ/LSUN-Church
-14. DiffIR: Efficient Diffusion Model for Image Restoration, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xia_DiffIR_Efficient_Diffusion_Model_for_Image_Restoration_ICCV_2023_paper.pdf), CelebA-HQ, LSUN Bedrooms, Places-Standard
-15. HSR-Diff: Hyperspectral Image Super-Resolution via Conditional Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_HSR-Diff_Hyperspectral_Image_Super-Resolution_via_Conditional_Diffusion_Models_ICCV_2023_paper.pdf), CAVE/PaviaU/Chikusei/HypSen
-16. 3D-aware Image Generation using 2D Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xiang_3D-aware_Image_Generation_using_2D_Diffusion_Models_ICCV_2023_paper.pdf), ImageNet/SDIP Dogs/SDIP Elephants/LSUN Horses
-17. Data-free Distillation of Diffusion Models with Bootstrapping, ICML 24 [[Paper]](https://arxiv.org/pdf/2306.05544), FFHQ/LSUN-Bedroom
-18. NerfDiff: Single-image View Synthesis with NeRF-guided Distillation from 3D-aware Diffusion[[Paper]](https://arxiv.org/pdf/2302.10109), SRN-ShapeNet/Amazon-Berkeley Objects/Clevr3D
-19. Relay Diffusion: Unifying diffusion process across resolutions for image synthesis, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.03350)
-21. Infinite Resolution Diffusion with Subsampled Mollified States, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.18242), FFHQ/LSUN Church/CelebA-HQ
-22. Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=LucUrr5kUi&name=pdf)
-23. Inf-DiT: Upsampling Any-Resolution Image with Memory-Efficient Diffusion Transformer, arXiv [[Paper]](https://arxiv.org/pdf/2405.04312)
-24. PipeFusion: Displaced Patch Pipeline Parallelism for Inference of Diffusion Transformer Models, arXiv [[Paper]](https://arxiv.org/pdf/2405.14430)
-25. Cross-view Masked Diffusion Transformers for Person Image Synthesis, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.01516)
-26. Hierarchical Integration Diffusion Model for Realistic Image Deblurring, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/5cebc89b113920dbff7c79854ba765a3-Paper-Conference.pdf)
-27. Gaussian Mixture Solvers for Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/51373b6499708b6fcc38f1e8f8f5b376-Paper-Conference.pdf)
-28. Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/b9603de9e49d0838e53b6c9cf9d06556-Paper-Conference.pdf), LSUN/Cityscapes  
 
-29. Denoising MCMC for Accelerating Diffusion-Based Generative Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=GOousx8DUL&name=pdf)  
+   
+4. Alleviating Exposure Bias in Diffusion Models through Sampling with Shifted Time Steps, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.15583), CIFAR-10/CelebA
+  
+5. PnP Inversion: Boosting Diffusion-based Editing with 3 Lines of Code, ICLR 24 [[Paper]](https://openreview.net/pdf?id=FoMZ4ljhVw), PIE-Bench
+  
+6. Dimensionality-Varying Diffusion Process, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Dimensionality-Varying_Diffusion_Process_CVPR_2023_paper.pdf), CIFAR-10/LSUN-Bedroom/LSUN-Church/LSUN-Cat/FFHQ
+ 
+7. DiffFit: Unlocking Transferability of Large Diffusion Models via Simple Parameter-efficient Fine-Tuning, ICCV 23 [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Xie_DiffFit_Unlocking_Transferability_of_Large_Diffusion_Models_via_Simple_Parameter-efficient_ICCV_2023_paper.pdf), ImageNet
+
+8. HumanSD: A Native Skeleton-Guided Diffusion Model for Human Image Generation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ju_HumanSD_A_Native_Skeleton-Guided_Diffusion_Model_for_Human_Image_Generation_ICCV_2023_paper.pdf), LAION-Human
+ 
+9. Controllable Person Image Synthesis with Pose-Constrained Latent Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Han_Controllable_Person_Image_Synthesis_with_Pose-Constrained_Latent_Diffusion_ICCV_2023_paper.pdf), DeepFashion
+
+10. Adapt and Diffuse: Sample-adaptive Reconstruction via Latent Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2309.06642), CelebA-HQ/LSUN-Bedrooms
+
+11. Solving Inverse Problems with Latent Diffusion Models via Hard Data Consistency, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.08123), FFHQ/CelebA-HQ/LSUN-Bedrooms
+ 
+12. High-Resolution Image Synthesis With Latent Diffusion Models, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf), ImageNet/CelebA-HQ/FFHQ/LSUN-Churches/LSUN-Bedrooms
+ 
+13. Wavelet Diffusion Models Are Fast and Scalable Image Generators, CVPR 23 [[Paper]https://openaccess.thecvf.com/content/CVPR2023/papers/Phung_Wavelet_Diffusion_Models_Are_Fast_and_Scalable_Image_Generators_CVPR_2023_paper.pdf), CIFAR-10/STL-10/CelebA-HQ/LSUN-Church
+
+14. DiffIR: Efficient Diffusion Model for Image Restoration, ICCV 23 [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Xia_DiffIR_Efficient_Diffusion_Model_for_Image_Restoration_ICCV_2023_paper.pdf), CelebA-HQ, LSUN Bedrooms, Places-Standard
+ 
+15. HSR-Diff: Hyperspectral Image Super-Resolution via Conditional Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_HSR-Diff_Hyperspectral_Image_Super-Resolution_via_Conditional_Diffusion_Models_ICCV_2023_paper.pdf), CAVE/PaviaU/Chikusei/HypSen
+
+16. 3D-aware Image Generation using 2D Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xiang_3D-aware_Image_Generation_using_2D_Diffusion_Models_ICCV_2023_paper.pdf), ImageNet/SDIP Dogs/SDIP Elephants/LSUN Horses
+
+17. Data-free Distillation of Diffusion Models with Bootstrapping, ICML 24 [[Paper]](https://arxiv.org/pdf/2306.05544), FFHQ/LSUN-Bedroom
+
+18. NerfDiff: Single-image View Synthesis with NeRF-guided Distillation from 3D-aware Diffusion[[Paper]](https://arxiv.org/pdf/2302.10109), SRN-ShapeNet/Amazon-Berkeley Objects/Clevr3D
+
+19. Relay Diffusion: Unifying diffusion process across resolutions for image synthesis, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.03350)
+
+20. Infinite Resolution Diffusion with Subsampled Mollified States, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.18242), FFHQ/LSUN Church/CelebA-HQ
+
+21. Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=LucUrr5kUi&name=pdf)
+
+
+
+
+
+37. Inf-DiT: Upsampling Any-Resolution Image with Memory-Efficient Diffusion Transformer, arXiv [[Paper]](https://arxiv.org/pdf/2405.04312)
+38. PipeFusion: Displaced Patch Pipeline Parallelism for Inference of Diffusion Transformer Models, arXiv [[Paper]](https://arxiv.org/pdf/2405.14430)
+39. Cross-view Masked Diffusion Transformers for Person Image Synthesis, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.01516)
+40. Hierarchical Integration Diffusion Model for Realistic Image Deblurring, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/5cebc89b113920dbff7c79854ba765a3-Paper-Conference.pdf)
+41. Gaussian Mixture Solvers for Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/51373b6499708b6fcc38f1e8f8f5b376-Paper-Conference.pdf)
+42. Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/b9603de9e49d0838e53b6c9cf9d06556-Paper-Conference.pdf), LSUN/Cityscapes  
+
+43. Denoising MCMC for Accelerating Diffusion-Based Generative Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=GOousx8DUL&name=pdf)  
 Learning-Free sampling->Numerical Solver Optimization  
 Dataset:CIFAR11/CelebA-HQ-256/FFHQ-1024  
 
-30. Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=K1OvMEYEI4&name=pdf)  
+44. Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=K1OvMEYEI4&name=pdf)  
 Learning-Based Sampling->Learned Posterior Sampling  
 Dataset:ImageNet/CIFAR-10/CelebA/FFHQ  
 
-31. ReDi: Efficient Learning-Free Diffusion Inference via Trajectory Retrieval, ICML 23 [[Paper]](https://openreview.net/attachment?id=SP01yVIC2o&name=pdf)  
+45. ReDi: Efficient Learning-Free Diffusion Inference via Trajectory Retrieval, ICML 23 [[Paper]](https://openreview.net/attachment?id=SP01yVIC2o&name=pdf)  
 Learning-Based Sampling->Mixing and Scheduling Strategies  
 Dataset:MS-COCO  
 
-32. Neural Diffusion Processes, ICML 23 [[Paper]](https://openreview.net/attachment?id=tV7GSY5GYG&name=pdf)
+46. Neural Diffusion Processes, ICML 23 [[Paper]](https://openreview.net/attachment?id=tV7GSY5GYG&name=pdf)
 Learning-Based Sampling->Score-Based Sampling  
 Dataset:MNIST/CELEBA  
 
-33. FP-Diffusion: Improving Score-based Diffusion Models by Enforcing the Underlying Score Fokker-Planck Equation, ICML 23 [[Paper]](https://openreview.net/attachment?id=UULcrko6Hk&name=pdf)
+47. FP-Diffusion: Improving Score-based Diffusion Models by Enforcing the Underlying Score Fokker-Planck Equation, ICML 23 [[Paper]](https://openreview.net/attachment?id=UULcrko6Hk&name=pdf)
 Learning-Based Sampling-> Score-Based Sampling(derive a corresponding equation called the score FPE that characterizes the noise-conditional scores of the perturbed data densities)  
 Dataset:MNIST/Fashion MNIST/CIFAR-10/ImageNet32    
 
-34. Improved Techniques for Maximum Likelihood Estimation for Diffusion ODEs, ICML 23 [[Paper]](https://openreview.net/attachment?id=jVR2fF8x8x&name=pdf)
+48. Improved Techniques for Maximum Likelihood Estimation for Diffusion ODEs, ICML 23 [[Paper]](https://openreview.net/attachment?id=jVR2fF8x8x&name=pdf)
 Learning-Free sampling->Numerical Solver Optimization  
 Dataset:CIFAR-10/ImageNet-32  
 
-35. Accelerating Parallel Sampling of Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.09970)
+49. Accelerating Parallel Sampling of Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.09970)
 Learning-Based sampling->Score-Based Sampling(accelerates the sampling of diffusion models by parallelizing the autoregressive process)  
 Dataset:ImageNet  
 
-36. Diffusion Posterior Sampling for Linear Inverse Problem Solving: A Filtering Perspective, ICLR 24 [[Paper]](https://openreview.net/pdf?id=tplXNcHZs1)  
+50. Diffusion Posterior Sampling for Linear Inverse Problem Solving: A Filtering Perspective, ICLR 24 [[Paper]](https://openreview.net/pdf?id=tplXNcHZs1)  
 Learning-Free Sampling->Score-Based Sampling(leverages sequential Monte Carlo methods to solve the corresponding filtering problem)  
 Dataset:FFHQ-1kvalidation/ImageNet-1k-validation  
 
-37. A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2312.07243)  
+51. A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2312.07243)  
 Learning-Free sampling->Numerical Solver Optimization  
 Dataset:CIFAR-10/CelebA/ImageNet-64/LSUN-Bedroom  
 
-38. Accelerating Score-Based Generative Models with Preconditioned Diffusion Sampling, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830001.pdf)  
+52. Accelerating Score-Based Generative Models with Preconditioned Diffusion Sampling, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830001.pdf)  
 Learning-Free Sampling->Score-Based Sampling(leverages matrix preconditioning to alleviate severe performance degradation)  
 Dataset:MNIST/CIFAR-10/LSUN/FFHQ  
 
-39. Learning to Efficiently Sample from Diffusion Probabilistic Models, arXiv [[Paper]](https://arxiv.org/pdf/2106.03802)  
+53. Learning to Efficiently Sample from Diffusion Probabilistic Models, arXiv [[Paper]](https://arxiv.org/pdf/2106.03802)  
 Learning-Based Sampling->Score-Based Sampling(We instead view the selection of the inference time schedules as an optimization problem, and introduce an exact dynamic programming algorithm that finds the optimal discrete time schedules for any pre-trained DDPM)  
 Dataset:CIFAR-10/ImageNet 64x64  
 
-40. Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions, ICLR 23 [[Paper]](https://arxiv.org/pdf/2209.11215)  
+54. Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions, ICLR 23 [[Paper]](https://arxiv.org/pdf/2209.11215)  
 Learning-Based Sampling->Score-Based Sampling  
 Dataset:CIFAR-10/ImageNet 64x64  
 
-41. Directly Denoising Diffusion Models, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2405.13540)  
+55. Directly Denoising Diffusion Models, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2405.13540)  
 Learning-Based Sampling->Score-Based Sampling  
 Dataset:CIFAR-10/ImageNet 64x64  
 
-42. Accelerating Guided Diffusion Sampling with Splitting Numerical Methods, ICLR 23 [[Paper]](https://arxiv.org/pdf/2301.11558)  
+56. Accelerating Guided Diffusion Sampling with Splitting Numerical Methods, ICLR 23 [[Paper]](https://arxiv.org/pdf/2301.11558)  
 Learning-Based Sampling->Score-Based Sampling  
 Dataset:LSUN/FFHQ  
 
-43. A Simple Early Exiting Framework for Accelerated Sampling in Diffusion Models, ICML 24 [[Paper]](https://openreview.net/pdf/6a4f1c506f95b1706b690331beeff65a947fddc6.pdf)  
+57. A Simple Early Exiting Framework for Accelerated Sampling in Diffusion Models, ICML 24 [[Paper]](https://openreview.net/pdf/6a4f1c506f95b1706b690331beeff65a947fddc6.pdf)  
 Learning-Based Sampling->Score-Based Sampling  
 Dataset:ImageNet/CelebA  
 
