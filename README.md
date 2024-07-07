@@ -62,6 +62,7 @@ https://arxiv.org/pdf/2404.07771
 13. ResShift: Efficient Diffusion Model for Image Super-resolution by Residual Shifting, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/2ac2eac5098dba08208807b65c5851cc-Paper-Conference.pdf), ImageNet
 14. Structural Pruning for Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/35c1d69d23bb5dd6b9abcd68be005d5c-Paper-Conference.pdf), CIFAR-10/CelebA-HQ/LSUN/ImageNet
 15. Semi-Implicit Denoising Diffusion Models (SIDDMs), NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/3882ca2c952276247fe9a993193b00e4-Paper-Conference.pdf), CIFAR10/CelebA-HQ/ImageNet
+
 16. Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)  
 Quantization  
 Dataset: ImageNet/CIFAR-10  
@@ -72,33 +73,35 @@ Dataset: CIFAR10/ImageNet
 
 18. On Distillation of Guided Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Meng_On_Distillation_of_Guided_Diffusion_Models_CVPR_2023_paper.pdf)  
 Distillation  
-Dataset: ImageNet/CIFAR-10
+Dataset: ImageNet/CIFAR-10  
 
 20. Binary Latent Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Binary_Latent_Diffusion_CVPR_2023_paper.pdf)  
 Quantization  
-Dataset: LSUN Churches/FFHQ/CelebA-HQ/ImageNet-1K
+Dataset: LSUN Churches/FFHQ/CelebA-HQ/ImageNet-1K  
 
 21. Q-Diffusion: Quantizing Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)  
-Quantization   
+Quantization  
 Dataset: CIFAR-10/LSUN Bedrooms/LSUN Church-Outdoor  
 
 22. Score Approximation, Estimation and Distribution Recovery of Diffusion Models on Low-Dimensional Data, ICML 23 [[Paper]](https://openreview.net/attachment?id=KB4mLiuoEX&name=pdf)  
-Theoretical?
-Dataset: No 
+Theoretical?  
+Dataset: No  
 
 23. Learning Energy-Based Models by Cooperative Diffusion Recovery Likelihood, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.05153)  
 Cooperative Training  
 Dataset: CIFAR10/ImageNet/Celeb-A  
 
 24. Score-Based Generative Modeling through Stochastic Differential Equations, ICLR 21 [[Paper]](https://arxiv.org/pdf/2011.13456)
-SDE Solvers/ODE Solvers
+SDE Solvers/ODE Solvers  
 Dataset: CIFAR-10/LSUN/CelebA-HQ
-25. Input Perturbation Reduces Exposure Bias in Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=0OcEWSMnSh&name=pdf)
-Learning-Based Sampling
+
+26. Input Perturbation Reduces Exposure Bias in Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=0OcEWSMnSh&name=pdf)
+Learning-Based Sampling  
 Dataset: CelebA 64x64
-26. Fast Sampling of Diffusion Models via Operator Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=gWC3Q3pyHe&name=pdf)
-SDE Solvers/ODE Solvers
-Dataset: CIFAR-10/ImageNet-64
+
+28. Fast Sampling of Diffusion Models via Operator Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=gWC3Q3pyHe&name=pdf)
+SDE Solvers/ODE Solvers  
+Dataset: CIFAR-10/ImageNet-64  
 
 ### Image-to-Image
 
@@ -130,27 +133,35 @@ Dataset: CIFAR-10/ImageNet-64
 26. Hierarchical Integration Diffusion Model for Realistic Image Deblurring, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/5cebc89b113920dbff7c79854ba765a3-Paper-Conference.pdf)
 27. Gaussian Mixture Solvers for Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/51373b6499708b6fcc38f1e8f8f5b376-Paper-Conference.pdf)
 28. Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/b9603de9e49d0838e53b6c9cf9d06556-Paper-Conference.pdf), LSUN/Cityscapes
+
 29. Denoising MCMC for Accelerating Diffusion-Based Generative Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=GOousx8DUL&name=pdf)
-Learning-Free sampling->Numerical Solver Optimization
-Dataset:CIFAR11/CelebA-HQ-256/FFHQ-1024
+Learning-Free sampling->Numerical Solver Optimization  
+Dataset:CIFAR11/CelebA-HQ-256/FFHQ-1024  
+
 30. Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=K1OvMEYEI4&name=pdf)
-Learning-Based Sampling->Learned Posterior Sampling
-Dataset:ImageNet/CIFAR-10/CelebA/FFHQ
+Learning-Based Sampling->Learned Posterior Sampling  
+Dataset:ImageNet/CIFAR-10/CelebA/FFHQ  
+
 31. ReDi: Efficient Learning-Free Diffusion Inference via Trajectory Retrieval, ICML 23 [[Paper]](https://openreview.net/attachment?id=SP01yVIC2o&name=pdf)
-Learning-Based Sampling->Mixing and Scheduling Strategies
-Dataset:MS-COCO
+Learning-Based Sampling->Mixing and Scheduling Strategies  
+Dataset:MS-COCO  
+
 32. Neural Diffusion Processes, ICML 23 [[Paper]](https://openreview.net/attachment?id=tV7GSY5GYG&name=pdf)
-Learning-Based Sampling->Score-Based Sampling
-Dataset:MNIST/CELEBA
+Learning-Based Sampling->Score-Based Sampling  
+Dataset:MNIST/CELEBA  
+
 33. FP-Diffusion: Improving Score-based Diffusion Models by Enforcing the Underlying Score Fokker-Planck Equation, ICML 23 [[Paper]](https://openreview.net/attachment?id=UULcrko6Hk&name=pdf)
-Learning-Based Sampling-> Score-Based Sampling(derive a corresponding equation called the score FPE that characterizes the noise-conditional scores of the perturbed data densities)
-Dataset:MNIST/Fashion MNIST/CIFAR-10/ImageNet32
+Learning-Based Sampling-> Score-Based Sampling(derive a corresponding equation called the score FPE that characterizes the noise-conditional scores of the perturbed data densities)  
+Dataset:MNIST/Fashion MNIST/CIFAR-10/ImageNet32    
+
 34. Improved Techniques for Maximum Likelihood Estimation for Diffusion ODEs, ICML 23 [[Paper]](https://openreview.net/attachment?id=jVR2fF8x8x&name=pdf)
-Learning-Free sampling->Numerical Solver Optimization
-Dataset:CIFAR-10/ImageNet-32
+Learning-Free sampling->Numerical Solver Optimization  
+Dataset:CIFAR-10/ImageNet-32  
+
 35. Accelerating Parallel Sampling of Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.09970)
-Learning-Based sampling->Score-Based Sampling(accelerates the sampling of diffusion models by parallelizing the autoregressive process)
-Dataset:ImageNet
+Learning-Based sampling->Score-Based Sampling(accelerates the sampling of diffusion models by parallelizing the autoregressive process)  
+Dataset:ImageNet  
+
 36. Diffusion Posterior Sampling for Linear Inverse Problem Solving: A Filtering Perspective, ICLR 24 [[Paper]](https://openreview.net/pdf?id=tplXNcHZs1)
 Learning-Free Sampling->Score-Based Sampling(leverages sequential Monte Carlo methods to solve the corresponding filtering problem)
 Dataset:FFHQ-1kvalidation/ImageNet-1k-validation
