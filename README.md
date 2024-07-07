@@ -134,15 +134,15 @@ Dataset: CIFAR-10/ImageNet-64
 27. Gaussian Mixture Solvers for Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/51373b6499708b6fcc38f1e8f8f5b376-Paper-Conference.pdf)
 28. Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/b9603de9e49d0838e53b6c9cf9d06556-Paper-Conference.pdf), LSUN/Cityscapes  
 
-29. Denoising MCMC for Accelerating Diffusion-Based Generative Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=GOousx8DUL&name=pdf)
+29. Denoising MCMC for Accelerating Diffusion-Based Generative Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=GOousx8DUL&name=pdf)  
 Learning-Free sampling->Numerical Solver Optimization  
 Dataset:CIFAR11/CelebA-HQ-256/FFHQ-1024  
 
-30. Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=K1OvMEYEI4&name=pdf)
+30. Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=K1OvMEYEI4&name=pdf)  
 Learning-Based Sampling->Learned Posterior Sampling  
 Dataset:ImageNet/CIFAR-10/CelebA/FFHQ  
 
-31. ReDi: Efficient Learning-Free Diffusion Inference via Trajectory Retrieval, ICML 23 [[Paper]](https://openreview.net/attachment?id=SP01yVIC2o&name=pdf)
+31. ReDi: Efficient Learning-Free Diffusion Inference via Trajectory Retrieval, ICML 23 [[Paper]](https://openreview.net/attachment?id=SP01yVIC2o&name=pdf)  
 Learning-Based Sampling->Mixing and Scheduling Strategies  
 Dataset:MS-COCO  
 
