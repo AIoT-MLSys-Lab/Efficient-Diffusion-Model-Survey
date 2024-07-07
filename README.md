@@ -114,77 +114,77 @@ Dataset: CIFAR-10/ImageNet-64
 4. Alleviating Exposure Bias in Diffusion Models through Sampling with Shifted Time Steps, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.15583) \
    Technique: fast sampling \
    Comments: Introduce a novel and training-free inference algorithm to alleviate exposure bias in diffusion models, which is faster than vanilla methods. \
-   Datasets: CIFAR-10/CelebA \
+   Datasets: CIFAR-10/CelebA
   
-5. PnP Inversion: Boosting Diffusion-based Editing with 3 Lines of Code, ICLR 24 [[Paper]](https://openreview.net/pdf?id=FoMZ4ljhVw) //
-   Technique: fast sampling //
-   Comments: Introduces an effective technique for inverting diffusion models, which disentangle the source and target branches in diffusion-based editing, separating the responsibility for essential content preservation and edit fidelity, thus achieving superior performance. //
-   Datasets: PIE-Bench //
+5. PnP Inversion: Boosting Diffusion-based Editing with 3 Lines of Code, ICLR 24 [[Paper]](https://openreview.net/pdf?id=FoMZ4ljhVw) \
+   Technique: fast sampling \
+   Comments: Introduces an effective technique for inverting diffusion models, which disentangle the source and target branches in diffusion-based editing, separating the responsibility for essential content preservation and edit fidelity, thus achieving superior performance. \
+   Datasets: PIE-Bench 
   
-6. Dimensionality-Varying Diffusion Process, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Dimensionality-Varying_Diffusion_Process_CVPR_2023_paper.pdf) //
-   Technique: Dimensionality reduction for feature maps //
-   Comments: Introduces a dimensionality-varying diffusion process, which decomposes the signal in the diffusion process into multiple orthogonal dynamic-attenuated components, achieving efficiency. //
-   Datasets: CIFAR-10/LSUN-Bedroom/LSUN-Church/LSUN-Cat/FFHQ //
+6. Dimensionality-Varying Diffusion Process, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Dimensionality-Varying_Diffusion_Process_CVPR_2023_paper.pdf) \
+   Technique: Dimensionality reduction for feature maps \
+   Comments: Introduces a dimensionality-varying diffusion process, which decomposes the signal in the diffusion process into multiple orthogonal dynamic-attenuated components, achieving efficiency. \
+   Datasets: CIFAR-10/LSUN-Bedroom/LSUN-Church/LSUN-Cat/FFHQ 
  
-7. DiffFit: Unlocking Transferability of Large Diffusion Models via Simple Parameter-efficient Fine-Tuning, ICCV 23 [[Paper]https://openaccess.thecvf.com/content/ICCV2023/papers/Xie_DiffFit_Unlocking_Transferability_of_Large_Diffusion_Models_via_Simple_Parameter-efficient_ICCV_2023_paper.pdf) //
-   Technique: PEFT //
-   Comments: This paper proposes a parameter-efficient strategy to fine-tune large pre-trained diffusion models that enable fast adaptation to new domains. //
-   Datasets: ImageNet //
+7. DiffFit: Unlocking Transferability of Large Diffusion Models via Simple Parameter-efficient Fine-Tuning, ICCV 23 [[Paper]https://openaccess.thecvf.com/content/ICCV2023/papers/Xie_DiffFit_Unlocking_Transferability_of_Large_Diffusion_Models_via_Simple_Parameter-efficient_ICCV_2023_paper.pdf) \
+   Technique: PEFT \
+   Comments: This paper proposes a parameter-efficient strategy to fine-tune large pre-trained diffusion models that enable fast adaptation to new domains. \
+   Datasets: ImageNet 
 
-8. HumanSD: A Native Skeleton-Guided Diffusion Model for Human Image Generation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ju_HumanSD_A_Native_Skeleton-Guided_Diffusion_Model_for_Human_Image_Generation_ICCV_2023_paper.pdf), LAION-Human
+8. HumanSD: A Native Skeleton-Guided Diffusion Model for Human Image Generation, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ju_HumanSD_A_Native_Skeleton-Guided_Diffusion_Model_for_Human_Image_Generation_ICCV_2023_paper.pdf), LAION-Human \
    Not an Efficient Method
  
-9. Controllable Person Image Synthesis with Pose-Constrained Latent Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Han_Controllable_Person_Image_Synthesis_with_Pose-Constrained_Latent_Diffusion_ICCV_2023_paper.pdf), DeepFashion //
-    Not an Efficient Method //
+9. Controllable Person Image Synthesis with Pose-Constrained Latent Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Han_Controllable_Person_Image_Synthesis_with_Pose-Constrained_Latent_Diffusion_ICCV_2023_paper.pdf), DeepFashion \
+    Not an Efficient Method 
 
-10. Adapt and Diffuse: Sample-adaptive Reconstruction via Latent Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2309.06642) //
-   Technique: fast sampling //
-   Comments: this paper proposes a reconstruction method based on latent diffusion models that leverages the predicted degradation severities to finetune the reverse diffusion sampling trajectory and thus achieve sample-adaptive inference times. //
-   Datasets: CelebA-HQ/LSUN-Bedrooms //
+10. Adapt and Diffuse: Sample-adaptive Reconstruction via Latent Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2309.06642) \
+   Technique: fast sampling \
+   Comments: this paper proposes a reconstruction method based on latent diffusion models that leverages the predicted degradation severities to finetune the reverse diffusion sampling trajectory and thus achieve sample-adaptive inference times. \
+   Datasets: CelebA-HQ/LSUN-Bedrooms
 
-11. Solving Inverse Problems with Latent Diffusion Models via Hard Data Consistency, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.08123), FFHQ/CelebA-HQ/LSUN-Bedrooms //
-    Not an Efficient Method //
+11. Solving Inverse Problems with Latent Diffusion Models via Hard Data Consistency, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.08123), FFHQ/CelebA-HQ/LSUN-Bedrooms \
+    Not an Efficient Method 
  
-12. High-Resolution Image Synthesis With Latent Diffusion Models, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf) //
-   Technique: Latent space //
-   Comments:  propose the Stable Diffusion model, which achieves diffusion and sample processes in latent space. //
-   Datasets: ImageNet/CelebA-HQ/FFHQ/LSUN-Churches/LSUN-Bedrooms //
+12. High-Resolution Image Synthesis With Latent Diffusion Models, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf) \
+   Technique: Latent space \
+   Comments:  propose the Stable Diffusion model, which achieves diffusion and sample processes in latent space. \
+   Datasets: ImageNet/CelebA-HQ/FFHQ/LSUN-Churches/LSUN-Bedrooms 
  
-13. Wavelet Diffusion Models Are Fast and Scalable Image Generators, CVPR 23[[Paper]https://openaccess.thecvf.com/content/CVPR2023/papers/Phung_Wavelet_Diffusion_Models_Are_Fast_and_Scalable_Image_Generators_CVPR_2023_paper.pdf) //
-    Technique: wavelet transform, fast sampling, novel diffusion process //
-    Comments: Incorporating wavelet transform in the diffusion process. Incorporating wavelet information into feature space through the generator to strengthen the awareness of high-frequency components. Achieving efficiency and better reconstruction results. //
-    Datasets: CIFAR-10/STL-10/CelebA-HQ/LSUN-Church //
+13. Wavelet Diffusion Models Are Fast and Scalable Image Generators, CVPR 23[[Paper]https://openaccess.thecvf.com/content/CVPR2023/papers/Phung_Wavelet_Diffusion_Models_Are_Fast_and_Scalable_Image_Generators_CVPR_2023_paper.pdf) \
+    Technique: wavelet transform, fast sampling, novel diffusion process \
+    Comments: Incorporating wavelet transform in the diffusion process. Incorporating wavelet information into feature space through the generator to strengthen the awareness of high-frequency components. Achieving efficiency and better reconstruction results. \
+    Datasets: CIFAR-10/STL-10/CelebA-HQ/LSUN-Church 
 
-14. DiffIR: Efficient Diffusion Model for Image Restoration, ICCV 23 [[Paper]https://openaccess.thecvf.com/content/ICCV2023/papers/Xia_DiffIR_Efficient_Diffusion_Model_for_Image_Restoration_ICCV_2023_paper.pdf) //
-    Technique: dimensionality reduction for feature map //
-    Comments: In the process of training the diffusion model, the feature map is reduced in dimension to improve the efficiency of the model. //
-    Datasets: CelebA-HQ, LSUN Bedrooms, Places-Standard //
+14. DiffIR: Efficient Diffusion Model for Image Restoration, ICCV 23 [[Paper]https://openaccess.thecvf.com/content/ICCV2023/papers/Xia_DiffIR_Efficient_Diffusion_Model_for_Image_Restoration_ICCV_2023_paper.pdf) \
+    Technique: dimensionality reduction for feature map \
+    Comments: In the process of training the diffusion model, the feature map is reduced in dimension to improve the efficiency of the model. \
+    Datasets: CelebA-HQ, LSUN Bedrooms, Places-Standard 
  
-15. HSR-Diff: Hyperspectral Image Super-Resolution via Conditional Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_HSR-Diff_Hyperspectral_Image_Super-Resolution_via_Conditional_Diffusion_Models_ICCV_2023_paper.pdf) Datasets: CAVE/PaviaU/Chikusei/HypSen //
-    Not an Efficient Method //
+15. HSR-Diff: Hyperspectral Image Super-Resolution via Conditional Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_HSR-Diff_Hyperspectral_Image_Super-Resolution_via_Conditional_Diffusion_Models_ICCV_2023_paper.pdf) Datasets: CAVE/PaviaU/Chikusei/HypSen \
+    Not an Efficient Method 
 
-16. 3D-aware Image Generation using 2D Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xiang_3D-aware_Image_Generation_using_2D_Diffusion_Models_ICCV_2023_paper.pdf), ImageNet/SDIP Dogs/SDIP Elephants/LSUN Horses //
-    Not an Efficient Method //
+16. 3D-aware Image Generation using 2D Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xiang_3D-aware_Image_Generation_using_2D_Diffusion_Models_ICCV_2023_paper.pdf), ImageNet/SDIP Dogs/SDIP Elephants/LSUN Horses \
+    Not an Efficient Method 
 
-17. Data-free Distillation of Diffusion Models with Bootstrapping, ICML 24 [[Paper]](https://arxiv.org/pdf/2306.05544) //
-    Technique: knowledge distillation //
-    Comments: this paper trains a time-conditioned model that predicts the output of a pretrained diffusion model teacher given any time step. Such a model can be efficiently trained based on bootstrapping from two consecutive sampled steps. Based on this, it can achieve distill diffusion models into a single step. //
-    Datasets: FFHQ/LSUN-Bedroom //
+17. Data-free Distillation of Diffusion Models with Bootstrapping, ICML 24 [[Paper]](https://arxiv.org/pdf/2306.05544) \
+    Technique: knowledge distillation \
+    Comments: this paper trains a time-conditioned model that predicts the output of a pretrained diffusion model teacher given any time step. Such a model can be efficiently trained based on bootstrapping from two consecutive sampled steps. Based on this, it can achieve distill diffusion models into a single step. \
+    Datasets: FFHQ/LSUN-Bedroom 
 
-18. NerfDiff: Single-image View Synthesis with NeRF-guided Distillation from 3D-aware Diffusion[[Paper]](https://arxiv.org/pdf/2302.10109), SRN-ShapeNet/Amazon-Berkeley Objects/Clevr3D //
-    Not an Efficient Method //
+18. NerfDiff: Single-image View Synthesis with NeRF-guided Distillation from 3D-aware Diffusion[[Paper]](https://arxiv.org/pdf/2302.10109), SRN-ShapeNet/Amazon-Berkeley Objects/Clevr3D \
+    Not an Efficient Method 
 
-19. Relay Diffusion: Unifying diffusion process across resolutions for image synthesis, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.03350) //
-    Technique: feature map dimensionality reduction //
-    Comments: This paper proposes relay diffusion. In this case, the diffusion process can now continue when changing the resolution or model architectures. This method can reduce the cost of training and inference. //
+19. Relay Diffusion: Unifying diffusion process across resolutions for image synthesis, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.03350) \
+    Technique: feature map dimensionality reduction \
+    Comments: This paper proposes relay diffusion. In this case, the diffusion process can now continue when changing the resolution or model architectures. This method can reduce the cost of training and inference. 
 
-20. Infinite Resolution Diffusion with Subsampled Mollified States, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.18242) //
-    Technique: fast sampling, efficient architecture //
-    Comments: This paper introduces a generative diffusion model defined in an infinite dimensional Hilbert space, which can model infinite resolution data. It proposes an efficient multi-scale function-space architecture that operates directly on raw sparse coordinates, coupled with a mollified diffusion process that smooths out irregularities. //
-    Datasets: FFHQ/LSUN Church/CelebA-HQ //
+20. Infinite Resolution Diffusion with Subsampled Mollified States, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.18242) \
+    Technique: fast sampling, efficient architecture \
+    Comments: This paper introduces a generative diffusion model defined in an infinite dimensional Hilbert space, which can model infinite resolution data. It proposes an efficient multi-scale function-space architecture that operates directly on raw sparse coordinates, coupled with a mollified diffusion process that smooths out irregularities. \
+    Datasets: FFHQ/LSUN Church/CelebA-HQ 
 
-21. Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=LucUrr5kUi&name=pdf) //
-   Not an Efficient Method //
+21. Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning, ICML 23 [[Paper]](https://openreview.net/attachment?id=LucUrr5kUi&name=pdf) \
+   Not an Efficient Method
 
 ---
 
