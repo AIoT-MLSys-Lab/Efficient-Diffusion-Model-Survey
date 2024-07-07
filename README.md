@@ -126,7 +126,7 @@ Dataset: CIFAR-10/ImageNet-64
    Comments: Introduces a dimensionality-varying diffusion process, which decomposes the signal in the diffusion process into multiple orthogonal dynamic-attenuated components, achieving efficiency. \
    Datasets: CIFAR-10/LSUN-Bedroom/LSUN-Church/LSUN-Cat/FFHQ 
  
-7. DiffFit: Unlocking Transferability of Large Diffusion Models via Simple Parameter-efficient Fine-Tuning, ICCV 23 [[Paper]]https://openaccess.thecvf.com/content/ICCV2023/papers/Xie_DiffFit_Unlocking_Transferability_of_Large_Diffusion_Models_via_Simple_Parameter-efficient_ICCV_2023_paper.pdf) \
+7. DiffFit: Unlocking Transferability of Large Diffusion Models via Simple Parameter-efficient Fine-Tuning, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xie_DiffFit_Unlocking_Transferability_of_Large_Diffusion_Models_via_Simple_Parameter-efficient_ICCV_2023_paper.pdf) \
    Technique: PEFT \
    Comments: This paper proposes a parameter-efficient strategy to fine-tune large pre-trained diffusion models that enable fast adaptation to new domains. \
    Datasets: ImageNet 
@@ -150,12 +150,12 @@ Dataset: CIFAR-10/ImageNet-64
    Comments:  propose the Stable Diffusion model, which achieves diffusion and sample processes in latent space. \
    Datasets: ImageNet/CelebA-HQ/FFHQ/LSUN-Churches/LSUN-Bedrooms 
  
-13. Wavelet Diffusion Models Are Fast and Scalable Image Generators, CVPR 23[[Paper]]https://openaccess.thecvf.com/content/CVPR2023/papers/Phung_Wavelet_Diffusion_Models_Are_Fast_and_Scalable_Image_Generators_CVPR_2023_paper.pdf) \
+13. Wavelet Diffusion Models Are Fast and Scalable Image Generators, CVPR 23[[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Phung_Wavelet_Diffusion_Models_Are_Fast_and_Scalable_Image_Generators_CVPR_2023_paper.pdf) \
     Technique: wavelet transform, fast sampling, novel diffusion process \
     Comments: Incorporating wavelet transform in the diffusion process. Incorporating wavelet information into feature space through the generator to strengthen the awareness of high-frequency components. Achieving efficiency and better reconstruction results. \
     Datasets: CIFAR-10/STL-10/CelebA-HQ/LSUN-Church 
 
-14. DiffIR: Efficient Diffusion Model for Image Restoration, ICCV 23 [[Paper]]https://openaccess.thecvf.com/content/ICCV2023/papers/Xia_DiffIR_Efficient_Diffusion_Model_for_Image_Restoration_ICCV_2023_paper.pdf) \
+14. DiffIR: Efficient Diffusion Model for Image Restoration, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xia_DiffIR_Efficient_Diffusion_Model_for_Image_Restoration_ICCV_2023_paper.pdf) \
     Technique: dimensionality reduction for feature map \
     Comments: In the process of training the diffusion model, the feature map is reduced in dimension to improve the efficiency of the model. \
     Datasets: CelebA-HQ, LSUN Bedrooms, Places-Standard 
