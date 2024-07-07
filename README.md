@@ -62,8 +62,28 @@ https://arxiv.org/pdf/2404.07771
 13. ResShift: Efficient Diffusion Model for Image Super-resolution by Residual Shifting, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/2ac2eac5098dba08208807b65c5851cc-Paper-Conference.pdf), ImageNet
 14. Structural Pruning for Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/35c1d69d23bb5dd6b9abcd68be005d5c-Paper-Conference.pdf), CIFAR-10/CelebA-HQ/LSUN/ImageNet
 15. Semi-Implicit Denoising Diffusion Models (SIDDMs), NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/3882ca2c952276247fe9a993193b00e4-Paper-Conference.pdf), CIFAR10/CelebA-HQ/ImageNet
-
-
+16. Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf)  
+Quantization  
+Dataset: ImageNet/CIFAR-10  
+17. Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models, ICLR 22 [[Paper]](https://arxiv.org/pdf/2201.06503)   Efficient Sampling -> theoretical?  
+Dataset: CIFAR10/ImageNet  
+18. On Distillation of Guided Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Meng_On_Distillation_of_Guided_Diffusion_Models_CVPR_2023_paper.pdf)  
+Distillation  
+Dataset: ImageNet/CIFAR-10  
+19. Binary Latent Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Binary_Latent_Diffusion_CVPR_2023_paper.pdf)  
+Quantization  
+Dataset: LSUN Churches/FFHQ/CelebA-HQ/ImageNet-1K  
+20. Q-Diffusion: Quantizing Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)  
+Quantization   
+Dataset: CIFAR-10/LSUN Bedrooms/LSUN
+Church-Outdoor  
+21. Score Approximation, Estimation and Distribution Recovery of Diffusion Models on Low-Dimensional Data, ICML 23 [[Paper]](https://openreview.net/attachment?id=KB4mLiuoEX&name=pdf)  
+Theoretical?  
+Dataset: No  
+22. Learning Energy-Based Models by Cooperative Diffusion Recovery Likelihood, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.05153)  
+Cooperative Training  
+Dataset: CIFAR10/ImageNet/Celeb-A  
+23. 
 
 ### Image-to-Image
 
@@ -243,6 +263,9 @@ https://arxiv.org/pdf/2404.07771
 #### Paper List
 1. DiffTAD: Temporal Action Detection with Proposal Denoising Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Nag_DiffTAD_Temporal_Action_Detection_with_Proposal_Denoising_Diffusion_ICCV_2023_paper.pdf), ActivityNet-v1.3/THUMOS14
 2. Efficient Video Diffusion Models via Content-Frame Motion-Latent Decomposition, ICLR 24 [[Paper]](https://arxiv.org/pdf/2403.14148)
+3. Matryoshka Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.15111)  
+Better Design -> progressive training schedule from lower to higher resolutions  
+Dataset: ImageNet/CC12M/WebVid-10M
 
 #### Benchmark & Dataset
 1. ActivityNet-v1.3
@@ -255,7 +278,23 @@ https://arxiv.org/pdf/2404.07771
 #### Benchmark & Dataset
 1. 
 
+### Test-time Adaptation
+#### Paper List
+1. Back to the Source: Diffusion-Driven Adaptation To Test-Time Corruption, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Back_to_the_Source_Diffusion-Driven_Adaptation_To_Test-Time_Corruption_CVPR_2023_paper.pdf)  
+Better Design -> image guidance and classifier self-ensembling to automatically decide how much to adapt  
+Dataset: ImageNet-C (IN-C)  
 
+### Data Generation
+#### Paper List
+1. Mixed-Type Tabular Data Synthesis with Score-based Diffusion in Latent Space, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.09656)  
+Tabular Data Synthesis/Latent Diffusion self-construced dataset   
+Dataset: Adult/Default/Shoppers/Magic/Faults/Beijing/News  
+
+### Reinforcement Learning
+#### Paper List
+1. Score Regularized Policy Optimization through Diffusion Behavior, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.07297)  
+Better Design -> extract an efficient deterministic inference policy from critic models and pretrained diffusion behavior models  
+Benchmark: BEAR/TD3+BC/IQL  
 
 ### Efficient Sampling
 
@@ -292,8 +331,13 @@ https://arxiv.org/pdf/2404.07771
 
 ### Trajectory Prediction
 #### Paper List
-1. Leapfrog Diffusion Model for Stochastic Trajectory Prediction, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Mao_Leapfrog_Diffusion_Model_for_Stochastic_Trajectory_Prediction_CVPR_2023_paper.pdf), NBA/NFL/SDD/ETH-UCY
+1. Leapfrog Diffusion Model for Stochastic Trajectory Prediction, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Mao_Leapfrog_Diffusion_Model_for_Stochastic_Trajectory_Prediction_CVPR_2023_paper.pdf)
+Efficient Sampling -> leapfrog initializer replace a large number of small denoising steps  
+Dataset: NBA/NFL/SDD/ETH-UCY  
+
 2. Simple Hierarchical Planning with Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2401.02644)
+Better Design -> hierarchical planning  
+Dataset: Maze2D/AntMaze/Gym-MuJoCo/FrankaKitchen  
 
 #### Benchmark & Dataset
 1. NBA
@@ -304,51 +348,33 @@ https://arxiv.org/pdf/2404.07771
 ### Graph Generation
 #### Paper List
 1. Hyperbolic Geometric Latent Diffusion Model for Graph Generation, ICML 24 [[Paper]](https://arxiv.org/pdf/2405.03188)
-2. Latent 3D Graph Diffusion, ICLR 24 [[Paper]](https://openreview.net/pdf?id=cXbnGtO0NZ), ChEMBL/PubChemQC/QM9/Drugs
+Better Design -> an improved Gaussian noise generation method  
+Dataset: SBM/BA/Community/Ego/Barabasi-Albert/Grid/Cora/Citeseer/Polblogs/MUTAG/IMDB-B/PROTEINS/COLLAB
+
+2. Latent 3D Graph Diffusion, ICLR 24 [[Paper]](https://openreview.net/pdf?id=cXbnGtO0NZ)  
+Graph Generation? 3D?  
+Latent Diffusion  
+Dataset: ChEMBL/PubChemQC/QM9/Drugs  
+
 3. Efficient and Degree-Guided Graph Generation via Discrete Diffusion Modeling, ICML 23 [[Paper]](https://openreview.net/attachment?id=vn9O1N5ZOw&name=pdf)
+Better Design -> use empty graphs as the convergent distribution/new generative process that only predicts edges between nodes  
+Dataset: Community/Ego/Polblogs/Cora/Road-Minnesota/PPI/QM9  
 
 ### Interdisciplinary Applications
 
 #### Paper List
 1. DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design, ICML 23 [[Paper]](https://openreview.net/attachment?id=9qy9DizMlr&name=pdf)
-2. Coarse-to-Fine: A Hierarchical Diffusion Model for Molecule Generation in 3D, ICML 23 [[Paper]](https://openreview.net/attachment?id=7haEvhb25X&name=pdf)
-3. Re-Dock: Towards Flexible and Realistic Molecular Docking with Diffusion Bridge, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.11459)
+Molecular Generation  
+Better Design -> decomposing the drug space with prior knowledge  
+Dataset: CrossDocked2020  
+
+2. Re-Dock: Towards Flexible and Realistic Molecular Docking with Diffusion Bridge, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.11459)  
+Molecular Docking  
+Better Design  
+Dataset: PDBBind v2020
+
 
 ### Undecided
-1. Post-Training Quantization on Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf), Label-to-Image, Quantization, ImageNet
-2. Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models, ICLR 22 [[Paper]](https://arxiv.org/pdf/2201.06503), Label-to-Image, Efficient Sampling, CIFAR10/ImageNet
-3. On Distillation of Guided Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Meng_On_Distillation_of_Guided_Diffusion_Models_CVPR_2023_paper.pdf), Label-to-Image, Distillation, ImageNet
-4. Binary Latent Diffusion, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Binary_Latent_Diffusion_CVPR_2023_paper.pdf), Image-to-Image/Label-to-Image, quantization, LSUN Churches/FFHQ/CelebA-HQ/ImageNet-1K
-5. Back to the Source: Diffusion-Driven Adaptation To Test-Time Corruption, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Back_to_the_Source_Diffusion-Driven_Adaptation_To_Test-Time_Corruption_CVPR_2023_paper.pdf), ?, ?, ImageNet-C (IN-C)
-6. Solving 3D Inverse Problems Using Pre-Trained 2D Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chung_Solving_3D_Inverse_Problems_Using_Pre-Trained_2D_Diffusion_Models_CVPR_2023_paper.pdf), Interdisciplinary Applications, ?, AAPM 2016 CT low-dose
-grand challenge/multimodal brain tumor image segmentation benchmark
-(BRATS)/fastMRI knee
-7. Q-Diffusion: Quantizing Diffusion Models, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf), Text-to-Image, CIFAR-10/LSUN Bedrooms/LSUN
-Church-Outdoor
-8. Score Approximation, Estimation and Distribution Recovery of Diffusion Models on Low-Dimensional Data, ICML 23 [[Paper]](https://openreview.net/attachment?id=KB4mLiuoEX&name=pdf), ?, ?, no Dataset used
-9. Mixed-Type Tabular Data Synthesis with Score-based Diffusion in Latent Space, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.09656), Tabular Data Synthesis, ?, self-construced dataset(seems not a tradditional generation task)
-10. Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC, ICML 23 [[Paper]](https://openreview.net/attachment?id=lAXwXjSYum&name=pdf), Text-to-Image, ?, ImageNet
-11. Matryoshka Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.15111) , Label-to-Image/Text-to-Image/Text-to-Video, ?, ImageNet/CC12M/WebVid-10M
-12. Learning Energy-Based Models by Cooperative Diffusion Recovery Likelihood, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.05153), 
-13. Score Regularized Policy Optimization through Diffusion Behavior, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.07297)
-14. MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL, ICML 23 [[Paper]](https://openreview.net/attachment?id=IKCk6th595&name=pdf)
-15. Loss-Guided Diffusion Models for Plug-and-Play Controllable Generation, ICML 23 [[Paper]](https://openreview.net/attachment?id=JzZ2xAvCs8&name=pdf)
-16. Better Diffusion Models Further Improve Adversarial Training, ICML 23 [[Paper]](https://openreview.net/attachment?id=1EWPr0ks8I&name=pdf) data generation
-17. EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.03270)
-18. Efficient Denoising Diffusion via Probabilistic Masking, ICML 24 [[Paper]](https://openreview.net/pdf?id=lhZEodF8Dn)
-19. Q-DM: An Efficient Low-bit Quantized Diffusion Model, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/f1ee1cca0721de55bb35cf28ab95e1b4-Paper-Conference.pdf)
-20. Bespoke Non-Stationary Solvers for Fast Sampling of Diffusion and Flow Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2403.01329)
-21. EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.03270)
-22. A Variational Perspective on Solving Inverse Problems with Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.04391)
-23. Denoising Diffusion Step-aware Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.03337)
-24. Subspace Diffusion Generative Models, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830274.pdf)
-25. DiTFastAttn: Attention Compression for Diffusion Transformer Models, arXiv [[Paper]](https://arxiv.org/pdf/2406.08552)
-26. ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation, arXiv [[Paper]](https://arxiv.org/pdf/2406.02540)
-27. One-Step Diffusion Distillation via Deep Equilibrium Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/82f05a105c928c10706213952bf0c8b7-Paper-Conference.pdf)
-28. Bayesian Power Steering: An Effective Approach for Domain Adaptation of Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2406.03683)
-29. Generating Behaviorally Diverse Policies with Latent Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/180d4373aca26bd86bf45fc50d1a709f-Paper-Conference.pdf)
-
-## Paper Related to Efficient
 1. 
 2. 
 3. 
@@ -356,197 +382,108 @@ Church-Outdoor
 5. 
 6. 
 7. 
-8. 
-9.  
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
-16. 
-17. 
-18. 
-19. 
-20. 
-21. 
-22. 
-23. 
-24. 
-25. 
-26. 
-27. 
-28. 
-29. 
-30. 
-31. 
-32. 
-33. 
-34. 
-35. 
-36. 
-37. 
-38. 
-39. 
-40. 
-41. 
-42. 
-43. 
-44. 
-45. 
-46. 
-47. 
-48. 
-49. 
-50. 
-51. 
-52. 
-53. 
-54. 
-55. 
-56. 
-57. 
-58. 
-59. 
-60. 
-61. 
-62. 
-63. 
-64. 
-65. 
-66. 
-67. 
-68. 
-69. 
-70. 
-71. 
-72. 
-73. 
-74. 
-75. 
-76. 
-77. 
-78. 
-79. 
-80. 
-81. 
-82. 
-83. 
-84. 
-85. 
-86. 
-87. 
-88. 
-89. 
-90. 
-91. 
-92. 
-93. 
-94. 
-95. 
-96. 
-97. 
-98. 
-99. 
-100. 
-101. 
-102. 
-103. 
-104. 
-105. 
-106. 
-107. 
-108. 
-109. 
-110. 
-111. 
-112. 
-113. 
-114. 
-115. 
-116. 
-117. 
-118. 
-119. 
-120. 
-121. David helps Goliath: Inference-Time Collaboration Between Small Specialized and Large General Diffusion LMs, NAACL 24 [[Paper]](https://arxiv.org/pdf/2305.14771)
-122. DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models, ACL 23 [[Paper]](https://arxiv.org/pdf/2211.15029)
-123. DiffusionNER: Boundary Diffusion for Named Entity Recognition, ACL 23 [[Paper]](https://arxiv.org/pdf/2305.13298)
-124. DiffusionDB: A Large-scale Prompt Gallery Dataset for Text-to-Image Generative Models, ACL 23 [[Paper]](https://arxiv.org/pdf/2210.14896)
-125. NUWA-XL: Diffusion over Diffusion for eXtremely Long Video Generation, ACL 23 [[Paper]](https://arxiv.org/pdf/2303.12346)
-126. A Cheaper and Better Diffusion Language Model with Soft-Masked Noise, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2304.04746)
-127. STINMatch: Semi-Supervised Semantic-Topological Iteration Network for Financial Risk Detection via News Label Diffusion, EMNLP 23 [[Paper]](https://aclanthology.org/2023.emnlp-main.578.pdf)
-128. DiffS2UT: A Semantic Preserving Diffusion Model for Textless Direct Speech-to-Speech Translation, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2310.17570)
-129. ViT-TTS: Visual Text-to-Speech with Scalable Diffusion Transformer, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2305.12708)
-130. Score-Based Generative Modeling through Stochastic Differential Equations, ICLR 21 [[Paper]](https://arxiv.org/pdf/2011.13456)
-131. MOFDiff: Coarse-grained Diffusion for Metal-Organic Framework Design, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.10732)
-132. Single Motion Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2302.05905)
-133. DreamTime: An Improved Optimization Strategy for Diffusion-Guided 3D Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.12422)
-134. Directly Fine-Tuning Diffusion Models on Differentiable Rewards, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.17400)
-135. Whole-Song Hierarchical Generation of Symbolic Music Using Cascaded Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2405.09901)
-136. On Error Propagation of Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2308.05021)
-137. Seer: Language Instructed Video Prediction with Latent Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.14897)
-138. Simple Hierarchical Planning with Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2401.02644)
-139. Diffusion-TS: Interpretable Diffusion for General Time Series Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2403.01742)
-140. DragonDiffusion: Enabling Drag-style Manipulation on Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.02421)
-141. Learning Stackable and Skippable LEGO Bricks for Efficient, Reconfigurable, and Variable-Resolution Diffusion Modeling, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.06389)
-142. Efficient Video Diffusion Models via Content-Frame Motion-Latent Decomposition, ICLR 24 [[Paper]](https://arxiv.org/pdf/2403.14148)
-143. Detecting, Explaining, and Mitigating Memorization in Diffusion Models, ICLR 24 [[Paper]](https://openreview.net/pdf?id=84n3UwkH7b)
-144. JointNet: Extending Text-to-Image Diffusion for Dense Distribution Modeling, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.06347)
-145. Infinite Resolution Diffusion with Subsampled Mollified States, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.18242)
-146. Fast Ensembling with Diffusion Schrödinger Bridge, ICLR 24 [[Paper]](https://arxiv.org/pdf/2404.15814)
-147. WildFusion: Learning 3D-Aware Latent Diffusion Models in View Space, ICLR 24 [[Paper]](https://arxiv.org/pdf/2311.13570)
-148. InstaFlow: One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.06380)
-149. Score Regularized Policy Optimization through Diffusion Behavior, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.07297)
-150. FreeNoise: Tuning-Free Longer Video Diffusion via Noise Rescheduling, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.15169)
-151. Navigating the Design Space of Equivariant Diffusion-Based Generative Models for De Novo 3D Molecule Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.17296)
-152. Language Control Diffusion: Efficiently Scaling through Space, Time, and Tasks, ICLR 24 [[Paper]](https://arxiv.org/pdf/2210.15629)
-153. Interpretable Diffusion via Information Decomposition, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.07972)
-154. Maximum Likelihood Training of Score-Based Diffusion Models, NIPS 21 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/0a9fdbb17feb6ccb7ec405cfb85222c4-Paper.pdf), highlights: Image Synthesis, Score-Based, Maximum Likelihood Method
-155. Diffusion Models Beat GANs on Image Synthesis, NIPS 21 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/49ad23d1ec9fa4bd8d77d02681df5cfa-Paper.pdf), highlights: Image Synthesis, GAN comparision
-156. D2C: Diffusion-Decoding Models for Few-Shot Conditional Generation, NIPS 21 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/682e0e796084e163c5ca053dd8573b0c-Paper.pdf), highlights: Few-shot focus
-157. Diffusion Normalizing Flow, NIPS 21 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/876f1f9954de0aa402d91bb988d12cd4-Paper.pdf), highlights: Image Synthesis,
-158. Variational Diffusion Models, NIPS 21 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/b578f2a52a0229873fefc2a4b06377fa-Paper.pdf)
-159. Adaptive Diffusion in Graph Neural Networks, NIPS 21 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/c42af2fa7356818e0389593714f59b52-Paper.pdf)
-160. Local Hyper-Flow Diffusion, NIPS 21 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/e924517087669cf201ea91bd737a4ff4-Paper.pdf)
-161. Thompson Sampling Efficiently Learns to Control Diffusion Processes, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/18c54ed6e0cc390d750f64927dbc4e93-Paper-Conference.pdf)
-162. Diffusion-LM Improves Controllable Text Generation, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/1be5bc25d50895ee656b8c2d9eb89d6a-Paper-Conference.pdf)
-163. Conditional Diffusion Process for Inverse Halftoning, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/2492288f6878e6f99124b362604e58f5-Paper-Conference.pdf)
-164. DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/260a14acce2a89dad36adc8eefe7c59e-Paper-Conference.pdf)
-165. Video Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/39235c56aef13fb05a6adc95eb9d8d66-Paper-Conference.pdf)
-166. Semantic Diffusion Network for Semantic Segmentation, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/396446770f5e8496ca1feb02079d4fb7-Paper-Conference.pdf)
-167. Diffusion Models as Plug-and-Play Priors, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/5e6cec2a9520708381fe520246018e8b-Paper-Conference.pdf)
-168. Retrieval-Augmented Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/62868cc2fc1eb5cdf321d05b4b88510c-Paper-Conference.pdf)
-169. CARD: Classification and Regression Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/72dad95a24fae750f8ab1cb3dab5e58d-Paper-Conference.pdf)
-170. Score-Based Diffusion meets Annealed Importance Sampling, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/86b7128efa3950df7c0f6c0342e6dcc1-Paper-Conference.pdf)
-171. Generative Time Series Forecasting with Diffusion, Denoise, and Disentanglement, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/91a85f3fb8f570e6be52b333b5ab017a-Paper-Conference.pdf)
-172. MCVD - Masked Conditional Video Diffusion for Prediction, Generation, and Interpolation, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/944618542d80a63bbec16dfbd2bd689a-Paper-Conference.pdf)
-173. Denoising Diffusion Restoration Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/95504595b6169131b6ed6cd72eb05616-Paper-Conference.pdf)
-174. Improving Diffusion Models for Inverse Problems using Manifold Constraints, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/a48e5877c7bf86a513950ab23b360498-Paper-Conference.pdf)
-175. Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/b9603de9e49d0838e53b6c9cf9d06556-Paper-Conference.pdf)
-176. GENIE: Higher-Order Denoising Diffusion Solvers, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/c281c5a17ad2e55e1ac1ca825071f991-Paper-Conference.pdf)
-177. Maximum Likelihood Training of Implicit Nonlinear Diffusion Model, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/d04e47d0fdca09e898885c66b67b1e95-Paper-Conference.pdf)
-178. Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/ec795aeadae0b7d230fa35cbaf04c041-Paper-Conference.pdf)
-179. Deep Equilibrium Approaches to Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/f7f47a73d631c0410cbc2748a8015241-Paper-Conference.pdf)
-180. Leveraging Early-Stage Robustness in Diffusion Models for Efficient and High-Quality Image Synthesis, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/04261fce1705c4f02f062866717d592a-Paper-Conference.pdf)
-181. From Discrete Tokens to High-Fidelity Audio Using Multi-Band Diffusion, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/054f771d614df12fe8def8ecdbe4e8e1-Paper-Conference.pdf)
-182. PolyDiffuse: Polygonal Shape Reconstruction via Guided Set Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/05f0e2fa003602db2d98ca72b79dec51-Paper-Conference.pdf)
-183. Diffusion-Based Adversarial Sample Generation for Improved Stealthiness and Controllability, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/088463cd3126aef2002ffc69da42ec59-Paper-Conference.pdf)
-184. DreamSparse: Escaping from Plato’s Cave with 2D Diffusion Model Given Sparse Views, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/0a003511b09274348b8117f5f3b94c93-Paper-Conference.pdf)
-185. Parallel Sampling of Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/0d1986a61e30e5fa408c81216a616e20-Paper-Conference.pdf)
-186. Direct Diffusion Bridge using Data Consistency for Inverse Problems, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/165b0e600b1721bd59526131eb061092-Paper-Conference.pdf)
-187. Generating Behaviorally Diverse Policies with Latent Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/180d4373aca26bd86bf45fc50d1a709f-Paper-Conference.pdf)
-188. Unsupervised Semantic Correspondence Using Stable Diffusion, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/1a074a28c3a6f2056562d00649ae6416-Paper-Conference.pdf)
-189. Puzzlefusion: Unleashing the Power of Diffusion Models for Spatial Puzzle Solving, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/1e70ac91ad26ba5b24cf11b12a1f90fe-Paper-Conference.pdf)
-190. Star-Shaped Denoising Diffusion Probabilistic Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/1fcefa894924bb1688041b7a26fb8aea-Paper-Conference.pdf)
-191. Graph Denoising Diffusion for Inverse Protein Folding, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/20888d00c5df685de2c09790040e0327-Paper-Conference.pdf)
-192. Drift doesn't Matter: Dynamic Decomposition with Diffusion Reconstruction for Unstable Multivariate Time Series Anomaly Detection, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/22f5d8e689d2a011cd8ead552ed59052-Paper-Conference.pdf)
-193. Diffusion with Forward Models: Solving Stochastic Inverse Problems Without Direct Supervision, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/28e4ee96c94e31b2d040b4521d2b299e-Paper-Conference.pdf)
-194. PTQD: Accurate Post-Training Quantization for Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/2aab8a76c7e761b66eccaca0927787de-Paper-Conference.pdf)
-195. ResShift: Efficient Diffusion Model for Image Super-resolution by Residual Shifting, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/2ac2eac5098dba08208807b65c5851cc-Paper-Conference.pdf)
-196. Structural Pruning for Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/35c1d69d23bb5dd6b9abcd68be005d5c-Paper-Conference.pdf)
-197. Semi-Implicit Denoising Diffusion Models (SIDDMs), NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/3882ca2c952276247fe9a993193b00e4-Paper-Conference.pdf)
-198. SnapFusion: Text-to-Image Diffusion Model on Mobile Devices within Two Seconds, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/41bcc9d3bddd9c90e1f44b29e26d97ff-Paper-Conference.pdf)
-199. Data-Centric Learning from Unlabeled Graphs with Diffusion Model, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/4290cccf23be59e42a575d026ccbeeb8-Paper-Conference.pdf)
-200. Dynamic Tensor Decomposition via Neural Diffusion-Reaction Processes, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/4958a8ad01f524de2ec5274678ffa5a4-Paper-Conference.pdf)
+1. 
+2. 
+3.  
+4.  
+5.   
+6.  
+7.  
+8.  Loss-Guided Diffusion Models for Plug-and-Play Controllable Generation, ICML 23 [[Paper]](https://openreview.net/attachment?id=JzZ2xAvCs8&name=pdf)
+9.  Better Diffusion Models Further Improve Adversarial Training, ICML 23 [[Paper]](https://openreview.net/attachment?id=1EWPr0ks8I&name=pdf) data generation
+10. EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.03270)
+11. Efficient Denoising Diffusion via Probabilistic Masking, ICML 24 [[Paper]](https://openreview.net/pdf?id=lhZEodF8Dn)
+12. Q-DM: An Efficient Low-bit Quantized Diffusion Model, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/f1ee1cca0721de55bb35cf28ab95e1b4-Paper-Conference.pdf)
+13. Bespoke Non-Stationary Solvers for Fast Sampling of Diffusion and Flow Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2403.01329)
+14. EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.03270)
+15. A Variational Perspective on Solving Inverse Problems with Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.04391)
+16. Denoising Diffusion Step-aware Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.03337)
+17. Subspace Diffusion Generative Models, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830274.pdf)
+18. DiTFastAttn: Attention Compression for Diffusion Transformer Models, arXiv [[Paper]](https://arxiv.org/pdf/2406.08552)
+19. ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation, arXiv [[Paper]](https://arxiv.org/pdf/2406.02540)
+20. One-Step Diffusion Distillation via Deep Equilibrium Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/82f05a105c928c10706213952bf0c8b7-Paper-Conference.pdf)
+21. Bayesian Power Steering: An Effective Approach for Domain Adaptation of Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2406.03683)
+22. Generating Behaviorally Diverse Policies with Latent Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/180d4373aca26bd86bf45fc50d1a709f-Paper-Conference.pdf)
+
+## Paper Related to Efficient
+1.   David helps Goliath: Inference-Time Collaboration Between Small Specialized and Large General Diffusion LMs, NAACL 24 [[Paper]](https://arxiv.org/pdf/2305.14771)
+2.   DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models, ACL 23 [[Paper]](https://arxiv.org/pdf/2211.15029)
+3.   DiffusionNER: Boundary Diffusion for Named Entity Recognition, ACL 23 [[Paper]](https://arxiv.org/pdf/2305.13298)
+4.   DiffusionDB: A Large-scale Prompt Gallery Dataset for Text-to-Image Generative Models, ACL 23 [[Paper]](https://arxiv.org/pdf/2210.14896)
+5.   NUWA-XL: Diffusion over Diffusion for eXtremely Long Video Generation, ACL 23 [[Paper]](https://arxiv.org/pdf/2303.12346)
+6.   A Cheaper and Better Diffusion Language Model with Soft-Masked Noise, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2304.04746)
+7.   STINMatch: Semi-Supervised Semantic-Topological Iteration Network for Financial Risk Detection via News Label Diffusion, EMNLP 23 [[Paper]](https://aclanthology.org/2023.emnlp-main.578.pdf)
+8.   DiffS2UT: A Semantic Preserving Diffusion Model for Textless Direct Speech-to-Speech Translation, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2310.17570)
+9.   ViT-TTS: Visual Text-to-Speech with Scalable Diffusion Transformer, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2305.12708)
+10.  Score-Based Generative Modeling through Stochastic Differential Equations, ICLR 21 [[Paper]](https://arxiv.org/pdf/2011.13456)
+11.  MOFDiff: Coarse-grained Diffusion for Metal-Organic Framework Design, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.10732)
+12.  Single Motion Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2302.05905)
+13.  DreamTime: An Improved Optimization Strategy for Diffusion-Guided 3D Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.12422)
+14.  Directly Fine-Tuning Diffusion Models on Differentiable Rewards, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.17400)
+15.  Whole-Song Hierarchical Generation of Symbolic Music Using Cascaded Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2405.09901)
+16.  On Error Propagation of Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2308.05021)
+17.  Seer: Language Instructed Video Prediction with Latent Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.14897)
+18.  Simple Hierarchical Planning with Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2401.02644)
+19.  Diffusion-TS: Interpretable Diffusion for General Time Series Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2403.01742)
+20.  DragonDiffusion: Enabling Drag-style Manipulation on Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.02421)
+21.  Learning Stackable and Skippable LEGO Bricks for Efficient, Reconfigurable, and Variable-Resolution Diffusion Modeling, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.06389)
+22.  Efficient Video Diffusion Models via Content-Frame Motion-Latent Decomposition, ICLR 24 [[Paper]](https://arxiv.org/pdf/2403.14148)
+23.  Detecting, Explaining, and Mitigating Memorization in Diffusion Models, ICLR 24 [[Paper]](https://openreview.net/pdf?id=84n3UwkH7b)
+24.  JointNet: Extending Text-to-Image Diffusion for Dense Distribution Modeling, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.06347)
+25.  Infinite Resolution Diffusion with Subsampled Mollified States, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.18242)
+26.  Fast Ensembling with Diffusion Schrödinger Bridge, ICLR 24 [[Paper]](https://arxiv.org/pdf/2404.15814)
+27.  WildFusion: Learning 3D-Aware Latent Diffusion Models in View Space, ICLR 24 [[Paper]](https://arxiv.org/pdf/2311.13570)
+28.  InstaFlow: One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.06380)
+29.  Score Regularized Policy Optimization through Diffusion Behavior, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.07297)
+30.  FreeNoise: Tuning-Free Longer Video Diffusion via Noise Rescheduling, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.15169)
+31.  Navigating the Design Space of Equivariant Diffusion-Based Generative Models for De Novo 3D Molecule Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.17296)
+32.  Language Control Diffusion: Efficiently Scaling through Space, Time, and Tasks, ICLR 24 [[Paper]](https://arxiv.org/pdf/2210.15629)
+33.  Interpretable Diffusion via Information Decomposition, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.07972)
+34.  Maximum Likelihood Training of Score-Based Diffusion Models, NIPS 21 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/0a9fdbb17feb6ccb7ec405cfb85222c4-Paper.pdf), highlights: Image Synthesis, Score-Based, Maximum Likelihood Method
+35.  Diffusion Models Beat GANs on Image Synthesis, NIPS 21 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/49ad23d1ec9fa4bd8d77d02681df5cfa-Paper.pdf), highlights: Image Synthesis, GAN comparision
+36.  D2C: Diffusion-Decoding Models for Few-Shot Conditional Generation, NIPS 21 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/682e0e796084e163c5ca053dd8573b0c-Paper.pdf), highlights: Few-shot focus
+37.  Diffusion Normalizing Flow, NIPS 21 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/876f1f9954de0aa402d91bb988d12cd4-Paper.pdf), highlights: Image Synthesis,
+38.  Variational Diffusion Models, NIPS 21 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/b578f2a52a0229873fefc2a4b06377fa-Paper.pdf)
+39.  Adaptive Diffusion in Graph Neural Networks, NIPS 21 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/c42af2fa7356818e0389593714f59b52-Paper.pdf)
+40.  Local Hyper-Flow Diffusion, NIPS 21 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/e924517087669cf201ea91bd737a4ff4-Paper.pdf)
+41.  Thompson Sampling Efficiently Learns to Control Diffusion Processes, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/18c54ed6e0cc390d750f64927dbc4e93-Paper-Conference.pdf)
+42.  Diffusion-LM Improves Controllable Text Generation, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/1be5bc25d50895ee656b8c2d9eb89d6a-Paper-Conference.pdf)
+43.  Conditional Diffusion Process for Inverse Halftoning, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/2492288f6878e6f99124b362604e58f5-Paper-Conference.pdf)
+44.  DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/260a14acce2a89dad36adc8eefe7c59e-Paper-Conference.pdf)
+45.  Video Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/39235c56aef13fb05a6adc95eb9d8d66-Paper-Conference.pdf)
+46.  Semantic Diffusion Network for Semantic Segmentation, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/396446770f5e8496ca1feb02079d4fb7-Paper-Conference.pdf)
+47.  Diffusion Models as Plug-and-Play Priors, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/5e6cec2a9520708381fe520246018e8b-Paper-Conference.pdf)
+48.  Retrieval-Augmented Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/62868cc2fc1eb5cdf321d05b4b88510c-Paper-Conference.pdf)
+49.  CARD: Classification and Regression Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/72dad95a24fae750f8ab1cb3dab5e58d-Paper-Conference.pdf)
+50.  Score-Based Diffusion meets Annealed Importance Sampling, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/86b7128efa3950df7c0f6c0342e6dcc1-Paper-Conference.pdf)
+51.  Generative Time Series Forecasting with Diffusion, Denoise, and Disentanglement, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/91a85f3fb8f570e6be52b333b5ab017a-Paper-Conference.pdf)
+52.  MCVD - Masked Conditional Video Diffusion for Prediction, Generation, and Interpolation, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/944618542d80a63bbec16dfbd2bd689a-Paper-Conference.pdf)
+53.  Denoising Diffusion Restoration Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/95504595b6169131b6ed6cd72eb05616-Paper-Conference.pdf)
+54.  Improving Diffusion Models for Inverse Problems using Manifold Constraints, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/a48e5877c7bf86a513950ab23b360498-Paper-Conference.pdf)
+55.  Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/b9603de9e49d0838e53b6c9cf9d06556-Paper-Conference.pdf)
+56.  GENIE: Higher-Order Denoising Diffusion Solvers, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/c281c5a17ad2e55e1ac1ca825071f991-Paper-Conference.pdf)
+57.  Maximum Likelihood Training of Implicit Nonlinear Diffusion Model, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/d04e47d0fdca09e898885c66b67b1e95-Paper-Conference.pdf)
+58.  Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/ec795aeadae0b7d230fa35cbaf04c041-Paper-Conference.pdf)
+59.  Deep Equilibrium Approaches to Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/f7f47a73d631c0410cbc2748a8015241-Paper-Conference.pdf)
+60.  Leveraging Early-Stage Robustness in Diffusion Models for Efficient and High-Quality Image Synthesis, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/04261fce1705c4f02f062866717d592a-Paper-Conference.pdf)
+61.  From Discrete Tokens to High-Fidelity Audio Using Multi-Band Diffusion, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/054f771d614df12fe8def8ecdbe4e8e1-Paper-Conference.pdf)
+62.  PolyDiffuse: Polygonal Shape Reconstruction via Guided Set Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/05f0e2fa003602db2d98ca72b79dec51-Paper-Conference.pdf)
+63.  Diffusion-Based Adversarial Sample Generation for Improved Stealthiness and Controllability, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/088463cd3126aef2002ffc69da42ec59-Paper-Conference.pdf)
+64.  DreamSparse: Escaping from Plato’s Cave with 2D Diffusion Model Given Sparse Views, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/0a003511b09274348b8117f5f3b94c93-Paper-Conference.pdf)
+65.  Parallel Sampling of Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/0d1986a61e30e5fa408c81216a616e20-Paper-Conference.pdf)
+66.  Direct Diffusion Bridge using Data Consistency for Inverse Problems, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/165b0e600b1721bd59526131eb061092-Paper-Conference.pdf)
+67.  Generating Behaviorally Diverse Policies with Latent Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/180d4373aca26bd86bf45fc50d1a709f-Paper-Conference.pdf)
+68.  Unsupervised Semantic Correspondence Using Stable Diffusion, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/1a074a28c3a6f2056562d00649ae6416-Paper-Conference.pdf)
+69.  Puzzlefusion: Unleashing the Power of Diffusion Models for Spatial Puzzle Solving, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/1e70ac91ad26ba5b24cf11b12a1f90fe-Paper-Conference.pdf)
+70.  Star-Shaped Denoising Diffusion Probabilistic Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/1fcefa894924bb1688041b7a26fb8aea-Paper-Conference.pdf)
+71.  Graph Denoising Diffusion for Inverse Protein Folding, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/20888d00c5df685de2c09790040e0327-Paper-Conference.pdf)
+72.  Drift doesn't Matter: Dynamic Decomposition with Diffusion Reconstruction for Unstable Multivariate Time Series Anomaly Detection, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/22f5d8e689d2a011cd8ead552ed59052-Paper-Conference.pdf)
+73.  Diffusion with Forward Models: Solving Stochastic Inverse Problems Without Direct Supervision, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/28e4ee96c94e31b2d040b4521d2b299e-Paper-Conference.pdf)
+74.  PTQD: Accurate Post-Training Quantization for Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/2aab8a76c7e761b66eccaca0927787de-Paper-Conference.pdf)
+75.  ResShift: Efficient Diffusion Model for Image Super-resolution by Residual Shifting, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/2ac2eac5098dba08208807b65c5851cc-Paper-Conference.pdf)
+76.  Structural Pruning for Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/35c1d69d23bb5dd6b9abcd68be005d5c-Paper-Conference.pdf)
+77.  Semi-Implicit Denoising Diffusion Models (SIDDMs), NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/3882ca2c952276247fe9a993193b00e4-Paper-Conference.pdf)
+78.  SnapFusion: Text-to-Image Diffusion Model on Mobile Devices within Two Seconds, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/41bcc9d3bddd9c90e1f44b29e26d97ff-Paper-Conference.pdf)
+79.  Data-Centric Learning from Unlabeled Graphs with Diffusion Model, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/4290cccf23be59e42a575d026ccbeeb8-Paper-Conference.pdf)
+80.  Dynamic Tensor Decomposition via Neural Diffusion-Reaction Processes, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/4958a8ad01f524de2ec5274678ffa5a4-Paper-Conference.pdf)
 
