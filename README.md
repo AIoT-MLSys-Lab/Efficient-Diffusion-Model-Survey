@@ -162,30 +162,37 @@ Dataset:CIFAR-10/ImageNet-32
 Learning-Based sampling->Score-Based Sampling(accelerates the sampling of diffusion models by parallelizing the autoregressive process)  
 Dataset:ImageNet  
 
-36. Diffusion Posterior Sampling for Linear Inverse Problem Solving: A Filtering Perspective, ICLR 24 [[Paper]](https://openreview.net/pdf?id=tplXNcHZs1)
-Learning-Free Sampling->Score-Based Sampling(leverages sequential Monte Carlo methods to solve the corresponding filtering problem)
-Dataset:FFHQ-1kvalidation/ImageNet-1k-validation
-37. A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2312.07243)
-Learning-Free sampling->Numerical Solver Optimization
-Dataset:CIFAR-10/CelebA/ImageNet-64/LSUN-Bedroom
-38. Accelerating Score-Based Generative Models with Preconditioned Diffusion Sampling, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830001.pdf)
-Learning-Free Sampling->Score-Based Sampling(leverages matrix preconditioning to alleviate severe performance degradation)
-Dataset:MNIST/CIFAR-10/LSUN/FFHQ
-39. Learning to Efficiently Sample from Diffusion Probabilistic Models, arXiv [[Paper]](https://arxiv.org/pdf/2106.03802)
-Learning-Based Sampling->Score-Based Sampling(We instead view the selection of the inference time schedules as an optimization problem, and introduce an exact dynamic programming algorithm that finds the optimal discrete time schedules for any pre-trained DDPM)
-Dataset:CIFAR-10/ImageNet 64x64
-40. Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions, ICLR 23 [[Paper]](https://arxiv.org/pdf/2209.11215)
-Learning-Based Sampling->Score-Based Sampling
-Dataset:CIFAR-10/ImageNet 64x64
-41. Directly Denoising Diffusion Models, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2405.13540)
-Learning-Based Sampling->Score-Based Sampling
-Dataset:CIFAR-10/ImageNet 64x64
-42. Accelerating Guided Diffusion Sampling with Splitting Numerical Methods, ICLR 23 [[Paper]](https://arxiv.org/pdf/2301.11558)
-Learning-Based Sampling->Score-Based Sampling
-Dataset:LSUN/FFHQ
-43. A Simple Early Exiting Framework for Accelerated Sampling in Diffusion Models, ICML 24 [[Paper]](https://openreview.net/pdf/6a4f1c506f95b1706b690331beeff65a947fddc6.pdf)
-Learning-Based Sampling->Score-Based Sampling
-Dataset:ImageNet/CelebA
+36. Diffusion Posterior Sampling for Linear Inverse Problem Solving: A Filtering Perspective, ICLR 24 [[Paper]](https://openreview.net/pdf?id=tplXNcHZs1)  
+Learning-Free Sampling->Score-Based Sampling(leverages sequential Monte Carlo methods to solve the corresponding filtering problem)  
+Dataset:FFHQ-1kvalidation/ImageNet-1k-validation  
+
+37. A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2312.07243)  
+Learning-Free sampling->Numerical Solver Optimization  
+Dataset:CIFAR-10/CelebA/ImageNet-64/LSUN-Bedroom  
+
+38. Accelerating Score-Based Generative Models with Preconditioned Diffusion Sampling, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830001.pdf)  
+Learning-Free Sampling->Score-Based Sampling(leverages matrix preconditioning to alleviate severe performance degradation)  
+Dataset:MNIST/CIFAR-10/LSUN/FFHQ  
+
+39. Learning to Efficiently Sample from Diffusion Probabilistic Models, arXiv [[Paper]](https://arxiv.org/pdf/2106.03802)  
+Learning-Based Sampling->Score-Based Sampling(We instead view the selection of the inference time schedules as an optimization problem, and introduce an exact dynamic programming algorithm that finds the optimal discrete time schedules for any pre-trained DDPM)  
+Dataset:CIFAR-10/ImageNet 64x64  
+
+40. Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions, ICLR 23 [[Paper]](https://arxiv.org/pdf/2209.11215)  
+Learning-Based Sampling->Score-Based Sampling  
+Dataset:CIFAR-10/ImageNet 64x64  
+
+41. Directly Denoising Diffusion Models, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2405.13540)  
+Learning-Based Sampling->Score-Based Sampling  
+Dataset:CIFAR-10/ImageNet 64x64  
+
+42. Accelerating Guided Diffusion Sampling with Splitting Numerical Methods, ICLR 23 [[Paper]](https://arxiv.org/pdf/2301.11558)  
+Learning-Based Sampling->Score-Based Sampling  
+Dataset:LSUN/FFHQ  
+
+43. A Simple Early Exiting Framework for Accelerated Sampling in Diffusion Models, ICML 24 [[Paper]](https://openreview.net/pdf/6a4f1c506f95b1706b690331beeff65a947fddc6.pdf)  
+Learning-Based Sampling->Score-Based Sampling  
+Dataset:ImageNet/CelebA  
 
 ### Benchmark & Dataset
 1. CelebA-HQ
