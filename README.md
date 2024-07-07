@@ -523,10 +523,10 @@ Dataset:fastMRI knee/AAPM 256×256
 6.  
 7.  
 8.  Loss-Guided Diffusion Models for Plug-and-Play Controllable Generation, ICML 23 [[Paper]](https://openreview.net/attachment?id=JzZ2xAvCs8&name=pdf)
-9.  Better Diffusion Models Further Improve Adversarial Training, ICML 23 [[Paper]](https://openreview.net/attachment?id=1EWPr0ks8I&name=pdf) data generation
-10. EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.03270)
-11. Efficient Denoising Diffusion via Probabilistic Masking, ICML 24 [[Paper]](https://openreview.net/pdf?id=lhZEodF8Dn)
-12. Q-DM: An Efficient Low-bit Quantized Diffusion Model, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/f1ee1cca0721de55bb35cf28ab95e1b4-Paper-Conference.pdf)
+9.  Better Diffusion Models Further Improve Adversarial Training, ICML 23 [[Paper]](https://openreview.net/attachment?id=1EWPr0ks8I&name=pdf) data generation, ?, CIFAR-10/CIFAR-100
+10. EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.03270), Text-to-Image, quantization, CIFAR-10/ImageNet/LSUN 
+11. Efficient Denoising Diffusion via Probabilistic Masking, ICML 24 [[Paper]](https://openreview.net/pdf?id=lhZEodF8Dn), Label-to-Image, Training Effieciency, CIFAR-10/Healthcare/Air-quality
+12. Q-DM: An Efficient Low-bit Quantized Diffusion Model, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/f1ee1cca0721de55bb35cf28ab95e1b4-Paper-Conference.pdf), unconditional image generation, quantization,  CIFAR-10/ImageNet
 13. Bespoke Non-Stationary Solvers for Fast Sampling of Diffusion and Flow Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2403.01329)
 14. EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.03270)
 15. A Variational Perspective on Solving Inverse Problems with Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.04391)
