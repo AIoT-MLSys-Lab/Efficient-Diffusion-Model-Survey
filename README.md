@@ -112,7 +112,7 @@ Dataset: CIFAR-10/ImageNet-64
 
    
 4. Alleviating Exposure Bias in Diffusion Models through Sampling with Shifted Time Steps, ICLR 24 [[Paper]](https://arxiv.org/pdf/2305.15583)
-   Technique: fast sampling
+   Technique: fast sampling \\
    Comments: Introduce a novel and training-free inference algorithm to alleviate exposure bias in diffusion models, which is faster than vanilla methods.
    Datasets: CIFAR-10/CelebA
   
