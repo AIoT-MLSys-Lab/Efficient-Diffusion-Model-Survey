@@ -253,12 +253,14 @@ Dataset:LSUN Bedroom/CIFAR-10/ImageNet-64/FFHQ
 3. Empowering Diffusion Models on the Embedding Space for Text Generation, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.09412), WMT14/WMT16/IWSLT4/Gigaword/QQP/Wiki-Auto/Quasar-T
 4. Diffusion Glancing Transformer for Parallel Sequence-to-Sequence Learning, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.10240), QQP/MS-COCO
 5. David helps Goliath: Inference-Time Collaboration Between Small Specialized and Large General Diffusion LMs, NAACL 24 [[Paper]](https://arxiv.org/pdf/2305.14771)
-6. A Cheaper and Better Diffusion Language Model with Soft-Masked Noise, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2304.04746)
-Better design -> design a linguistic-informed forward process which adds corruptions to the text through strategically soft-masking to better noise the textual data.
-Dataset: E2E
-7. Unifying Bayesian Flow Networks and Diffusion Models through Stochastic Differential Equations, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.15766)
-Learning-Based Sampling->Score-Based Sampling
-Dataset:text8/CIFAR-10
+
+6. A Cheaper and Better Diffusion Language Model with Soft-Masked Noise, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2304.04746)  
+Better design -> design a linguistic-informed forward process which adds corruptions to the text through strategically soft-masking to better noise the textual data.  
+Dataset: E2E  
+
+7. Unifying Bayesian Flow Networks and Diffusion Models through Stochastic Differential Equations, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.15766)  
+Learning-Based Sampling->Score-Based Sampling  
+Dataset:text8/CIFAR-10  
 
 #### Benchmark & Dataset
 1. QQP
@@ -280,51 +282,66 @@ Dataset:text8/CIFAR-10
 1. Vector Quantized Diffusion Model for Text-to-Image Synthesis, CVPR 22 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Gu_Vector_Quantized_Diffusion_Model_for_Text-to-Image_Synthesis_CVPR_2022_paper.pdf)  
 Better Design -> Inputting Vector Quantization  
 Dataset: CUB-200/Oxford-102/MSCOCO  
+
 2. Diffusion Probabilistic Model Made Slim, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Diffusion_Probabilistic_Model_Made_Slim_CVPR_2023_paper.pdf)  
 Knowledge Distillation -> Optimization in Reverse Process  
 Dataset: ImageNet/MS-COCO  
+
 3. Effective Real Image Editing with Accelerated Iterative Diffusion Inversion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Pan_Effective_Real_Image_Editing_with_Accelerated_Iterative_Diffusion_Inversion_ICCV_2023_paper.pdf)
-Efficient Sampling -> Optimization in Reverse Process
-Dataset: AFHQ/COCO
+Efficient Sampling -> Optimization in Reverse Process  
+Dataset: AFHQ/COCO  
+
 4. Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_Zero-Shot_Contrastive_Loss_for_Text-Guided_Diffusion_Image_Style_Transfer_ICCV_2023_paper.pdf)  
 Efficient Sampling -> Optimization in Sampling Strategy  
 Dataset: FFHQ/CelebA-HQ/ImageNet/LSUN-Church/Wikiart  
-5. Würstchen: An Efficient Architecture for Large-Scale Text-to-Image Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.00637)
+
+5. Würstchen: An Efficient Architecture for Large-Scale Text-to-Image Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2306.00637)  
 Compression -> Compression  Ration Generation/Three-Stage Architecture  
 Dataset: COCO-30K  
+
 6. PixArt-α: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.00426)  
 Better Design -> Model Training Process Optimization  
 Dataset: LAION/SAM/JourneyDB  
+
 7. Directly Fine-Tuning Diffusion Models on Differentiable Rewards, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.17400)
 Efficient Sampling -> Memory Optimization in Gradient Checkpointing  
 Dataset: LAION/HPDv2  
+
 8. InstaFlow: One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation, ICLR 24 [[Paper]](https://arxiv.org/pdf/2309.06380)  
 Efficient Sampling -> Inference Sampling OptimizationOne-Step Generation, Rectified Flow  
 Dataset: MS COCO  
+
 9. Towards Consistent Video Editing with Text-to-Image Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/b6c05f8254a00709e16fb0fdaae56cd8-Paper-Conference.pdf)  
 Better Design -> Fine-coarse Frame Attention Module/Shift-Restricted Temporal Attention Module  
 Dataset: DAVIS  
+
 10. Inserting Anybody in Diffusion Models via Celeb Basis, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/e6d37cc5723e810b793c834bcb6647cf-Paper-Conference.pdf)  
 Quantization -> Sparse Neural Networks  
 Dataset: LAION/StyleGAN  
+
 11. Discrete Contrastive Diffusion for Cross-Modal Music and Image Generation, ICLR 23 [[Paper]](https://arxiv.org/pdf/2206.07771)  
 Latent Diffusion  
-Dataset: AIST++/TikTok Dance-Music
+Dataset: AIST++/TikTok Dance-Music  
+
 12. Retrieval-Augmented Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/62868cc2fc1eb5cdf321d05b4b88510c-Paper-Conference.pdf)  
 Better Design  -> External Data Enhanced  
 Dataset: MS-COCO/ImageNet
+
 13. Parallel Sampling of Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/0d1986a61e30e5fa408c81216a616e20-Paper-Conference.pdf)  
 Efficient Sampling -> Parallel Sampling  
 LSUN/Square/PushT/Franka Kitchen  
+
 14. SnapFusion: Text-to-Image Diffusion Model on Mobile Devices within Two Seconds, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/41bcc9d3bddd9c90e1f44b29e26d97ff-Paper-Conference.pdf)  
-Efficient Sampling -> Discrete Latent Space
+Efficient Sampling -> Discrete Latent Space  
 Dataset: MS-COCO  
-15. Diffusion Sampling with Momentum for Mitigating Divergence Artifacts, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.11118)
+
+15. Diffusion Sampling with Momentum for Mitigating Divergence Artifacts, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.11118)  
 Efficient Sampling -> ODE Solvers  
-Dataset: ImageNet
-16. Diffusion Sampling with Momentum for Mitigating Divergence Artifacts, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.11118), COCO
-ODE Solvers
-Dataset: ImageNet
+Dataset: ImageNet  
+
+16. Diffusion Sampling with Momentum for Mitigating Divergence Artifacts, ICLR 24 [[Paper]](https://arxiv.org/pdf/2307.11118), COCO  
+ODE Solvers  
+Dataset: ImageNet  
 
 #### Benchmark & Dataset
 1. CUB-200
@@ -341,21 +358,25 @@ Dataset: ImageNet
 ### Text-to-Audio
 
 #### Paper List
-1. Fast Timing-Conditioned Latent Audio Diffusion, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2402.04825), MusicCaps
-Latent Diffusion
-Dataset: MusicCaps/AudioCaps
-2. AudioLDM: Text-to-Audio Generation with Latent Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=6BhipYkaSV&name=pdf), AudioCaps
-Latent Diffusion
-Dataset: AudioSet/AudioCaps/Freesound/BBC Sound Effect library
-3. DiffS2UT: A Semantic Preserving Diffusion Model for Textless Direct Speech-to-Speech Translation, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2310.17570)
-Better Design -> by applying the diffusion forward process in the continuous speech representation space, while employing the diffusion backward process in the discrete speech unit space.
-Dataset: VoxPopuli-S2S/Europarl-ST
-4. DITTO: Diffusion Inference-Time T-Optimization for Music Generation, ICML 24 [[Paper]](https://arxiv.org/pdf/2401.12179)
-Better Design ->  optimizing initial noise latents   
-Dataset:  Wikifonia Lead-Sheet/MusicCaps
-5. Bespoke Non-Stationary Solvers for Fast Sampling of Diffusion and Flow Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2403.01329)
-Learning-Free Sampling->Numerical Solver Optimization
-Dataset:MS-COCO/LibriSpeech/ImageNet-64
+1. Fast Timing-Conditioned Latent Audio Diffusion, ICML 24 [[Paper]](https://www.arxiv.org/pdf/2402.04825), MusicCaps  
+Latent Diffusion  
+Dataset: MusicCaps/AudioCaps  
+
+2. AudioLDM: Text-to-Audio Generation with Latent Diffusion Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=6BhipYkaSV&name=pdf), AudioCaps  
+Latent Diffusion  
+Dataset: AudioSet/AudioCaps/Freesound/BBC Sound Effect library  
+
+3. DiffS2UT: A Semantic Preserving Diffusion Model for Textless Direct Speech-to-Speech Translation, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2310.17570)  
+Better Design -> by applying the diffusion forward process in the continuous speech representation space, while employing the diffusion backward process in the discrete speech unit space.  
+Dataset: VoxPopuli-S2S/Europarl-ST  
+
+4. DITTO: Diffusion Inference-Time T-Optimization for Music Generation, ICML 24 [[Paper]](https://arxiv.org/pdf/2401.12179)  
+Better Design ->  optimizing initial noise latents  
+Dataset:  Wikifonia Lead-Sheet/MusicCaps  
+
+5. Bespoke Non-Stationary Solvers for Fast Sampling of Diffusion and Flow Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2403.01329)  
+Learning-Free Sampling->Numerical Solver Optimization  
+Dataset:MS-COCO/LibriSpeech/ImageNet-64  
 
 #### Benchmark & Dataset
 1. MusicCaps
@@ -363,21 +384,22 @@ Dataset:MS-COCO/LibriSpeech/ImageNet-64
 
 ### Text-to-3D
 #### Paper List
-1. Texture Generation on 3D Meshes with Point-UV Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yu_Texture_Generation_on_3D_Meshes_with_Point-UV_Diffusion_ICCV_2023_paper.pdf), ShapeNet
-Better Design -> a coarse-to-fine pipeline that marries the denoising diffusion model with UV mapping to generate 3D consistent and high-quality texture images in UV space.
-Dataset: ShapeNet
+1. Texture Generation on 3D Meshes with Point-UV Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yu_Texture_Generation_on_3D_Meshes_with_Point-UV_Diffusion_ICCV_2023_paper.pdf), ShapeNet  
+Better Design -> a coarse-to-fine pipeline that marries the denoising diffusion model with UV mapping to generate 3D consistent and high-quality texture images in UV space.  
+Dataset: ShapeNet  
 
 #### Benchmark & Dataset
 1. ShapeNet
 
 ### Text-to-Motion
 #### Paper List
-1. Executing Your Commands via Motion Diffusion in Latent Space, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Executing_Your_Commands_via_Motion_Diffusion_in_Latent_Space_CVPR_2023_paper.pdf), HumanML3D/KIT/HumanAct12/UESTC
-Latent Diffusion
-Dataset:  HumanML3D/KIT/AMASS/HumanAct12/UESTC
-2. DiffCollage: Parallel Generation of Large Content With Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_DiffCollage_Parallel_Generation_of_Large_Content_With_Diffusion_Models_CVPR_2023_paper.pdf), HumanML3D
-Better Design -> This representation allows us to aggregate intermediate outputs from diffusion models defined on individual nodes to generate content of arbitrary size and shape in parallel without resorting to an autoregressive generation procedure.
-Dataset: HumanML3D
+1. Executing Your Commands via Motion Diffusion in Latent Space, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Executing_Your_Commands_via_Motion_Diffusion_in_Latent_Space_CVPR_2023_paper.pdf), HumanML3D/KIT/HumanAct12/UESTC  
+Latent Diffusion  
+Dataset:  HumanML3D/KIT/AMASS/HumanAct12/UESTC  
+
+2. DiffCollage: Parallel Generation of Large Content With Diffusion Models, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_DiffCollage_Parallel_Generation_of_Large_Content_With_Diffusion_Models_CVPR_2023_paper.pdf), HumanML3D  
+Better Design -> This representation allows us to aggregate intermediate outputs from diffusion models defined on individual nodes to generate content of arbitrary size and shape in parallel without resorting to an autoregressive generation procedure.  
+Dataset: HumanML3D  
 
 #### Benchmark & Dataset
 1. HumanML3D
@@ -387,15 +409,17 @@ Dataset: HumanML3D
 
 ### Text-to-Video
 #### Paper List
-1. DiffTAD: Temporal Action Detection with Proposal Denoising Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Nag_DiffTAD_Temporal_Action_Detection_with_Proposal_Denoising_Diffusion_ICCV_2023_paper.pdf), ActivityNet-v1.3/THUMOS14
-Better Design -> first diffusing the ground-truth proposals to random ones and then learning to reverse the noising process.
-Dataset: ActivityNet-v1.3/THUMOS14
+1. DiffTAD: Temporal Action Detection with Proposal Denoising Diffusion, ICCV 23 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Nag_DiffTAD_Temporal_Action_Detection_with_Proposal_Denoising_Diffusion_ICCV_2023_paper.pdf), ActivityNet-v1.3/THUMOS14  
+Better Design -> first diffusing the ground-truth proposals to random ones and then learning to reverse the noising process.  
+Dataset: ActivityNet-v1.3/THUMOS14  
+
 2. Efficient Video Diffusion Models via Content-Frame Motion-Latent Decomposition, ICLR 24 [[Paper]](https://arxiv.org/pdf/2403.14148)
-Latent Diffusion
-Dataset: UCF-101/WebVid-10M/MSR-VTT
+Latent Diffusion  
+Dataset: UCF-101/WebVid-10M/MSR-VTT  
+
 3. Matryoshka Diffusion Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.15111)  
 Better Design -> progressive training schedule from lower to higher resolutions  
-Dataset: ImageNet/CC12M/WebVid-10M
+Dataset: ImageNet/CC12M/WebVid-10M  
 
 #### Benchmark & Dataset
 1. ActivityNet-v1.3
@@ -403,9 +427,9 @@ Dataset: ImageNet/CC12M/WebVid-10M
 
 ### Temporal Data Modeling
 #### Paper List
-1. Non-autoregressive Conditional Diffusion Models for Time Series Prediction, ICML 23 [[Paper]](https://openreview.net/attachment?id=wZsnZkviro&name=pdf)
-Better Design -> future mixup and autoregressive initialization.
-Dataset: NorPool/Caiso/Traffic/Electricity/Weather/Exchange/ETTh1/ETTm1/Wind
+1. Non-autoregressive Conditional Diffusion Models for Time Series Prediction, ICML 23 [[Paper]](https://openreview.net/attachment?id=wZsnZkviro&name=pdf)  
+Better Design -> future mixup and autoregressive initialization.  
+Dataset: NorPool/Caiso/Traffic/Electricity/Weather/Exchange/ETTh1/ETTm1/Wind  
 
 #### Benchmark & Dataset
 1. 
@@ -431,10 +455,11 @@ Benchmark: BEAR/TD3+BC/IQL
 
 ### Trajectory Prediction
 #### Paper List
-1. Leapfrog Diffusion Model for Stochastic Trajectory Prediction, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Mao_Leapfrog_Diffusion_Model_for_Stochastic_Trajectory_Prediction_CVPR_2023_paper.pdf)
+1. Leapfrog Diffusion Model for Stochastic Trajectory Prediction, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Mao_Leapfrog_Diffusion_Model_for_Stochastic_Trajectory_Prediction_CVPR_2023_paper.pdf)  
 Efficient Sampling -> leapfrog initializer replace a large number of small denoising steps  
-Dataset: NBA/NFL/SDD/ETH-UCY
-2. Simple Hierarchical Planning with Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2401.02644)
+Dataset: NBA/NFL/SDD/ETH-UCY  
+
+3. Simple Hierarchical Planning with Diffusion, ICLR 24 [[Paper]](https://arxiv.org/pdf/2401.02644)  
 Better Design -> hierarchical planning  
 Dataset: Maze2D/AntMaze/Gym-MuJoCo/FrankaKitchen  
 
@@ -446,31 +471,34 @@ Dataset: Maze2D/AntMaze/Gym-MuJoCo/FrankaKitchen
 
 ### Graph Generation
 #### Paper List
-1. Hyperbolic Geometric Latent Diffusion Model for Graph Generation, ICML 24 [[Paper]](https://arxiv.org/pdf/2405.03188)
+1. Hyperbolic Geometric Latent Diffusion Model for Graph Generation, ICML 24 [[Paper]](https://arxiv.org/pdf/2405.03188)  
 Better Design -> an improved Gaussian noise generation method  
-Dataset: SBM/BA/Community/Ego/Barabasi-Albert/Grid/Cora/Citeseer/Polblogs/MUTAG/IMDB-B/PROTEINS/COLLAB
+Dataset: SBM/BA/Community/Ego/Barabasi-Albert/Grid/Cora/Citeseer/Polblogs/MUTAG/IMDB-B/PROTEINS/COLLAB  
+
 2. Latent 3D Graph Diffusion, ICLR 24 [[Paper]](https://openreview.net/pdf?id=cXbnGtO0NZ)  
-Graph Generation? 3D?  
 Latent Diffusion  
-Dataset: ChEMBL/PubChemQC/QM9/Drugs
-3. Efficient and Degree-Guided Graph Generation via Discrete Diffusion Modeling, ICML 23 [[Paper]](https://openreview.net/attachment?id=vn9O1N5ZOw&name=pdf)
+Dataset: ChEMBL/PubChemQC/QM9/Drugs  
+
+3. Efficient and Degree-Guided Graph Generation via Discrete Diffusion Modeling, ICML 23 [[Paper]](https://openreview.net/attachment?id=vn9O1N5ZOw&name=pdf)  
 Better Design -> use empty graphs as the convergent distribution/new generative process that only predicts edges between nodes  
 Dataset: Community/Ego/Polblogs/Cora/Road-Minnesota/PPI/QM9  
 
 ### Interdisciplinary Applications
 
 #### Paper List
-1. DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design, ICML 23 [[Paper]](https://openreview.net/attachment?id=9qy9DizMlr&name=pdf)
+1. DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design, ICML 23 [[Paper]](https://openreview.net/attachment?id=9qy9DizMlr&name=pdf)  
 Molecular Generation  
 Better Design -> decomposing the drug space with prior knowledge  
-Dataset: CrossDocked2020
+Dataset: CrossDocked2020  
+
 2. Re-Dock: Towards Flexible and Realistic Molecular Docking with Diffusion Bridge, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.11459)  
 Molecular Docking  
 Better Design  
-Dataset: PDBBind v2020
-3. Decomposed Diffusion Sampler for Accelerating Large-Scale Inverse Problems, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.05754), fastMRI knee dataset
-Learning-based Sampling
-Dataset:  fastMRI knee/AAPM 256×256
+Dataset: PDBBind v2020  
+
+3. Decomposed Diffusion Sampler for Accelerating Large-Scale Inverse Problems, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.05754), fastMRI knee dataset  
+Learning-based Sampling  
+Dataset:fastMRI knee/AAPM 256×256  
 
 ### Undecided
 1. 
