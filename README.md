@@ -190,12 +190,21 @@ Dataset: CIFAR-10/ImageNet-64
 
 
 37. Inf-DiT: Upsampling Any-Resolution Image with Memory-Efficient Diffusion Transformer, arXiv [[Paper]](https://arxiv.org/pdf/2405.04312)
+    Keywords: Unidirectional Block Attention (UniBA)， Inference process with O(N) Memory Consumption, DiT
+    Tasks: Any-Resolution Image Synthesis
 38. PipeFusion: Displaced Patch Pipeline Parallelism for Inference of Diffusion Transformer Models, arXiv [[Paper]](https://arxiv.org/pdf/2405.14430)
+    Keywords: DiT parallel approaches, inference to run on PCIe-linked GPUs
 39. Cross-view Masked Diffusion Transformers for Person Image Synthesis, ICML 24 [[Paper]](https://arxiv.org/pdf/2402.01516)
+    Keywords: Conditional Aggregation
+    Tasks: Pose-guiged Person Image Synthesis
 40. Hierarchical Integration Diffusion Model for Realistic Image Deblurring, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/5cebc89b113920dbff7c79854ba765a3-Paper-Conference.pdf)
+    Keywords: Hierarchical Integration Diffusion Model, highly compacted latent space
+    Tasks: Realistic Image Deblurring
 41. Gaussian Mixture Solvers for Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/51373b6499708b6fcc38f1e8f8f5b376-Paper-Conference.pdf)
+    Keywords: stochastic differential equations (SDEs), Gaussian Mixture Solvers
 42. Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models, NIPS 22 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/b9603de9e49d0838e53b6c9cf9d06556-Paper-Conference.pdf), LSUN/Cityscapes  
-
+    Keywords: Spatially Sparse Inference, Sparse Incremental Generative Engine, inference acceleration
+    Tasks: Image Editing
 43. Denoising MCMC for Accelerating Diffusion-Based Generative Models, ICML 23 [[Paper]](https://openreview.net/attachment?id=GOousx8DUL&name=pdf)  
 Learning-Free sampling->Numerical Solver Optimization  
 Dataset:CIFAR11/CelebA-HQ-256/FFHQ-1024  
@@ -318,16 +327,22 @@ Dataset:LSUN Bedroom/CIFAR-10/ImageNet-64/FFHQ
 ### Text-to-Text
 #### Paper List
 1. Text Diffusion Model with Encoder-Decoder Transformers for Sequence-to-Sequence Generation, NAACL 24 [[Paper]](https://aclanthology.org/2024.naacl-long.2.pdf)QQP/Wiki-Auto/Quasar-T/CCD/IWSLT14/WMT14
+   Keywords: sequence-to-sequence text generation, encoder-decoder Transformer
 2. LanguageFlow: Advancing Diffusion Language Generation with Probabilistic Flows, NAACL 24 [[Paper]](https://arxiv.org/pdf/2403.16995), E2E/NLG/ART
+   Keywords: Language rectified flow
+   Tasks: sentence attributes and structure
 3. Empowering Diffusion Models on the Embedding Space for Text Generation, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.09412), WMT14/WMT16/IWSLT4/Gigaword/QQP/Wiki-Auto/Quasar-T
+   Keywords: Noise Rescaling, anchor loss
 4. Diffusion Glancing Transformer for Parallel Sequence-to-Sequence Learning, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.10240), QQP/MS-COCO
+   Keywords: diffusion glancing transformer, modality diffusion
+   Tasks: machine translation and text generation
 5. David helps Goliath: Inference-Time Collaboration Between Small Specialized and Large General Diffusion LMs, NAACL 24 [[Paper]](https://arxiv.org/pdf/2305.14771)
-
-6. A Cheaper and Better Diffusion Language Model with Soft-Masked Noise, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2304.04746)  
+   Keywords: autoregressive LMs, specialized and contextualized diffusion LMs
+9. A Cheaper and Better Diffusion Language Model with Soft-Masked Noise, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2304.04746)  
 Better design -> design a linguistic-informed forward process which adds corruptions to the text through strategically soft-masking to better noise the textual data.  
 Dataset: E2E  
 
-7. Unifying Bayesian Flow Networks and Diffusion Models through Stochastic Differential Equations, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.15766)  
+10. Unifying Bayesian Flow Networks and Diffusion Models through Stochastic Differential Equations, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.15766)  
 Learning-Based Sampling->Score-Based Sampling  
 Dataset:text8/CIFAR-10  
 
