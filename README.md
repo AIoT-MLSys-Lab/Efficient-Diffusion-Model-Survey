@@ -595,10 +595,10 @@ Dataset:fastMRI knee/AAPM 256×256
 16. Denoising Diffusion Step-aware Models, ICLR 24 [[Paper]](https://arxiv.org/pdf/2310.03337), unconditional image generation, adapted neural network size,  CIFAR-10/CelebA-HQ-64/AFHQ/LSUN-bedroom
 17. Subspace Diffusion Generative Models, ECCV 22 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830274.pdf), unconditional image generation, efficient sampling, CIFAR-10/CelebA-256-HQ/LSUN Church
 18. DiTFastAttn: Attention Compression for Diffusion Transformer Models, arXiv [[Paper]](https://arxiv.org/pdf/2406.08552), Text-to-Image, window attention, ImageNet/MS-COCO 2017
-19. ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation, arXiv [[Paper]](https://arxiv.org/pdf/2406.02540)
-20. One-Step Diffusion Distillation via Deep Equilibrium Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/82f05a105c928c10706213952bf0c8b7-Paper-Conference.pdf)
-21. Bayesian Power Steering: An Effective Approach for Domain Adaptation of Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2406.03683)
-22. Generating Behaviorally Diverse Policies with Latent Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/180d4373aca26bd86bf45fc50d1a709f-Paper-Conference.pdf)
+19. ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation, arXiv [[Paper]](https://arxiv.org/pdf/2406.02540), Text-to-Image/Text-to-Video, quantization, VBench/UCF-101/COCO
+20. One-Step Diffusion Distillation via Deep Equilibrium Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/82f05a105c928c10706213952bf0c8b7-Paper-Conference.pdf), unconditional image generation, distillation, CIFAR-10/
+21. Bayesian Power Steering: An Effective Approach for Domain Adaptation of Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2406.03683), layout-to-Image/artistic drawing/segmentation-to-image, BPS, COCO
+22. Generating Behaviorally Diverse Policies with Latent Diffusion Models, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/180d4373aca26bd86bf45fc50d1a709f-Paper-Conference.pdf), Quality Diversity, distill several model into a single one, Humanoid/Walker2D/Halfcheetah/Ant
 
 ## Paper Related to Efficient
 1.   David helps Goliath: Inference-Time Collaboration Between Small Specialized and Large General Diffusion LMs, NAACL 24 [[Paper]](https://arxiv.org/pdf/2305.14771)
