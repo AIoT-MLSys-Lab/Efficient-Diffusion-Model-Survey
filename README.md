@@ -20,19 +20,7 @@ https://arxiv.org/pdf/2404.07771
 # Paper List
 
 ### Topic
-#### Design:
-- Classifer guidance
-- Discrete vs continuous
-- Score matching
-- Pyramidal design
-- Latent representation
 
-#### Process:
-- Training
-- Noise distribution
-- Mixing
-- Scheduling
-- Retrieval
 
 #### Efficient Sampling
 - SDE Solvers
@@ -187,7 +175,6 @@ Dataset: CIFAR-10/ImageNet-64
    Not an Efficient Method
 
 ---
-
 
 37. Inf-DiT: Upsampling Any-Resolution Image with Memory-Efficient Diffusion Transformer, arXiv [[Paper]](https://arxiv.org/pdf/2405.04312)
     Keywords: Unidirectional Block Attention (UniBA)， Inference process with O(N) Memory Consumption, DiT
