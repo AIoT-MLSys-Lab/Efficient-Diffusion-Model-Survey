@@ -58,6 +58,9 @@ https://arxiv.org/pdf/2404.07771
    
    Cooperative Training
    Dataset: CIFAR-10/ImageNet/Celeb-A
+   
+4. DeepCache: Accelerating Diffusion Models for Free, CVPR 24 [[paper]](https://arxiv.org/abs/2312.00858)
+5. Autodiffusion: Training-free optimization of time steps and architectures for automated diffusion model acceleration, ICCV 23 [[paper]](https://arxiv.org/abs/2309.10438)
 
 ## Algorithm Level
 
@@ -418,6 +421,8 @@ https://arxiv.org/pdf/2404.07771
    Dataset: CIGAR-10/LSUN-Conference
 
 ## System Level
+1. Speed Is All You Need: On-Device Acceleration of Large Diffusion Models via GPU-Aware Optimizations, CVPR 23 [[paper]](https://arxiv.org/abs/2304.11267)
+2. SDA: Low-Bit Stable Diffusion Acceleration on Edge FPGAs, FPL 2024 [[paper]](https://www.sfu.ca/~zhenman/files/C41-FPL2024-SDA.pdf)
 
 ## Application Level
 
