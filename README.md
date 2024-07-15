@@ -405,6 +405,10 @@ https://arxiv.org/pdf/2404.07771
    
    Benchmark: BEAR/TD3+BC/IQL
 
+3. Efficient and Degree-Guided Graph Generation via Discrete Diffusion Modeling, ICML 23 [[Paper]](https://openreview.net/attachment?id=vn9O1N5ZOw&name=pdf)
+
+   Dataset: Community/Ego/Polblogs/Cora/Road-Minnesota/PPI/QM9
+
 4. Decomposed Diffusion Sampler for Accelerating Large-Scale Inverse Problems, ICLR 24 [[Paper]](https://arxiv.org/pdf/2303.05754)
 
    Dataset: fastMRI knee/AAPM 256×256
@@ -475,12 +479,6 @@ https://arxiv.org/pdf/2404.07771
 
     Dataset: Objaverse
     Application Task: 3D-Object Generation
-
-11. Efficient and Degree-Guided Graph Generation via Discrete Diffusion Modeling, ICML 23 [[Paper]](https://openreview.net/attachment?id=vn9O1N5ZOw&name=pdf)
-
-    Dataset: Community/Ego/Polblogs/Cora/Road-Minnesota/PPI/QM9
-
-    Application Task: Graph Generation
 
 ## Benchmark
 
