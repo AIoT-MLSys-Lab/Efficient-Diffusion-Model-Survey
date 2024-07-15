@@ -219,7 +219,7 @@ https://arxiv.org/pdf/2404.07771
 
    Dataset: CIFAR-10/LSUN/CelebA-HQ
 
-7.  Unifying Bayesian Flow Networks and Diffusion Models through Stochastic Differential Equations, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.15766)
+7. Unifying Bayesian Flow Networks and Diffusion Models through Stochastic Differential Equations, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.15766)
 
    Dataset: text8/CIFAR-10
 
@@ -369,7 +369,7 @@ https://arxiv.org/pdf/2404.07771
 
    Dataset: COCO-30K
 
-7.  Leveraging Early-Stage Robustness in Diffusion Models for Efficient and High-Quality Image Synthesis, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/04261fce1705c4f02f062866717d592a-Paper-Conference.pdf)
+7. Leveraging Early-Stage Robustness in Diffusion Models for Efficient and High-Quality Image Synthesis, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/04261fce1705c4f02f062866717d592a-Paper-Conference.pdf)
 
    Dataset: LSUN
 
