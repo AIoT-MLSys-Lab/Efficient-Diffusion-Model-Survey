@@ -422,7 +422,9 @@ https://arxiv.org/pdf/2404.07771
 
 ## System Level
 1. Speed Is All You Need: On-Device Acceleration of Large Diffusion Models via GPU-Aware Optimizations, CVPR 23 [[paper]](https://arxiv.org/abs/2304.11267)
-2. SDA: Low-Bit Stable Diffusion Acceleration on Edge FPGAs, FPL 2024 [[paper]](https://www.sfu.ca/~zhenman/files/C41-FPL2024-SDA.pdf)
+2. DistriFusion: Distributed Parallel Inference for High-Resolution Diffusion Models [[paper]](https://arxiv.org/abs/2402.19481)
+3. Approximate Caching for Efficiently Serving Text-to-Image Diffusion Models [[paper]](https://www.usenix.org/system/files/nsdi24-agarwal-shubham.pdf)
+4. SDA: Low-Bit Stable Diffusion Acceleration on Edge FPGAs, FPL 2024 [[paper]](https://www.sfu.ca/~zhenman/files/C41-FPL2024-SDA.pdf)
 
 ## Application Level
 
