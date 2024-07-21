@@ -61,6 +61,7 @@ https://arxiv.org/pdf/2404.07771
    
 4. DeepCache: Accelerating Diffusion Models for Free, CVPR 24 [[paper]](https://arxiv.org/abs/2312.00858)
 5. Autodiffusion: Training-free optimization of time steps and architectures for automated diffusion model acceleration, ICCV 23 [[paper]](https://arxiv.org/abs/2309.10438)
+6. Improving Training Efficiency of Diffusion Models via Multi-Stage Framework and Tailored Multi-Decoder Architecture, CVPR 24 [[paper]] (https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Improving_Training_Efficiency_of_Diffusion_Models_via_Multi-Stage_Framework_and_CVPR_2024_paper.pdf)
 
 ## Algorithm Level
 
@@ -423,8 +424,10 @@ https://arxiv.org/pdf/2404.07771
 ## System Level
 1. Speed Is All You Need: On-Device Acceleration of Large Diffusion Models via GPU-Aware Optimizations, CVPR 23 [[paper]](https://arxiv.org/abs/2304.11267)
 2. DistriFusion: Distributed Parallel Inference for High-Resolution Diffusion Models, CVPR24 [[paper]](https://arxiv.org/abs/2402.19481)
-3. Approximate Caching for Efficiently Serving Text-to-Image Diffusion Models [[paper]](https://www.usenix.org/system/files/nsdi24-agarwal-shubham.pdf)
-4. SDA: Low-Bit Stable Diffusion Acceleration on Edge FPGAs, FPL 2024 [[paper]](https://www.sfu.ca/~zhenman/files/C41-FPL2024-SDA.pdf)
+3. A 28.6 mJ/iter Stable Diffusion Processor for Text-toImage Generation with Patch Similarity-based Sparsity Augmentation and Text-based Mixed-Precision [[paper]] (https://arxiv.org/pdf/2403.04982)
+4. 
+5. Approximate Caching for Efficiently Serving Text-to-Image Diffusion Models [[paper]](https://www.usenix.org/system/files/nsdi24-agarwal-shubham.pdf)
+6. SDA: Low-Bit Stable Diffusion Acceleration on Edge FPGAs, FPL 2024 [[paper]](https://www.sfu.ca/~zhenman/files/C41-FPL2024-SDA.pdf)
 
 ## Application Level
 
