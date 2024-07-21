@@ -369,31 +369,29 @@ https://arxiv.org/pdf/2404.07771
 
 2. DistriFusion: Distributed Parallel Inference for High-Resolution Diffusion Models, CVPR24 [[paper]](https://arxiv.org/abs/2402.19481)
 
-   Info: Distributed parallel inference
+3. Approximate Caching for Efficiently Serving Text-to-Image Diffusion Models, NSDI24 [[paper]](https://www.usenix.org/system/files/nsdi24-agarwal-shubham.pdf)
 
-3. SDA: Low-Bit Stable Diffusion Acceleration on Edge FPGAs, FPL 2024 [[paper]](https://www.sfu.ca/~zhenman/files/C41-FPL2024-SDA.pdf)
+   Info: Caching Technique
+
+4. SDA: Low-Bit Stable Diffusion Acceleration on Edge FPGAs, FPL 24 [[paper]](https://www.sfu.ca/~zhenman/files/C41-FPL2024-SDA.pdf)
 
    Info: On-Device Acceleration
 
-4. PipeFusion: Displaced Patch Pipeline Parallelism for Inference of Diffusion Transformer Models [[paper]](https://arxiv.org/abs/2405.14430)
+5. PipeFusion: Displaced Patch Pipeline Parallelism for Inference of Diffusion Transformer Models [[paper]](https://arxiv.org/abs/2405.14430)
 
    Info: Distributed parallel inference
 
-5. DSP: Dynamic Sequence Parallelism for Multi-Dimensional Transformers [[paper]](https://arxiv.org/abs/2403.10266)
+6. DSP: Dynamic Sequence Parallelism for Multi-Dimensional Transformers [[paper]](https://arxiv.org/abs/2403.10266)
 
    Info: Distributed parallel inference
 
-6. A 28.6 mJ/iter Stable Diffusion Processor for Text-toImage Generation with Patch Similarity-based Sparsity Augmentation and Text-based Mixed-Precision [[paper]](https://arxiv.org/pdf/2403.04982)
+7. A 28.6 mJ/iter Stable Diffusion Processor for Text-toImage Generation with Patch Similarity-based Sparsity Augmentation and Text-based Mixed-Precision [[paper]](https://arxiv.org/pdf/2403.04982)
 
    Info:  Hardware Design
 
-7. SwiftDiffusion: Efficient Diffusion Model Serving with Add-on Modules [[paper]](https://arxiv.org/abs/2407.02031s)
+8. SwiftDiffusion: Efficient Diffusion Model Serving with Add-on Modules [[paper]](https://arxiv.org/abs/2407.02031s)
 
    Info: Unsure
-
-8. Approximate Caching for Efficiently Serving Text-to-Image Diffusion Models [[paper]](https://www.usenix.org/system/files/nsdi24-agarwal-shubham.pdf)
-
-   Info: Caching Technique
 
 9. Learning-to-Cache: Accelerating Diffusion Transformer via Layer Caching [[paper]](https://arxiv.org/abs/2406.01733)
 
