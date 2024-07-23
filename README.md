@@ -71,6 +71,10 @@ https://arxiv.org/pdf/2404.07771
 
 6. DreamFusion: Text-to-3D using 2D Diffusion [[paper]](https://arxiv.org/abs/2209.14988)
 
+8. Fast Training of Diffusion Models with Masked Transformers, TMLR 24 [[paper]](https://arxiv.org/abs/2306.09305)
+
+9. MDTv2: Masked Diffusion Transformer is a Strong Image Synthesizer, ICCV 23 [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Gao_Masked_Diffusion_Transformer_is_a_Strong_Image_Synthesizer_ICCV_2023_paper.pdf)
+
 ## Algorithm Level
 
 ### 1-Efficient Sampling
