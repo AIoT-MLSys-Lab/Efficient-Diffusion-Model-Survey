@@ -369,39 +369,45 @@ https://arxiv.org/pdf/2404.07771
 
 1. Speed Is All You Need: On-Device Acceleration of Large Diffusion Models via GPU-Aware Optimizations, CVPR 23 [[paper]](https://arxiv.org/abs/2304.11267)
 
-   Info: On-Device Acceleration
+   Info: Optimized Hardware-Software Co-Design
 
 2. DistriFusion: Distributed Parallel Inference for High-Resolution Diffusion Models, CVPR24 [[paper]](https://arxiv.org/abs/2402.19481)
 
-3. Approximate Caching for Efficiently Serving Text-to-Image Diffusion Models, NSDI24 [[paper]](https://www.usenix.org/system/files/nsdi24-agarwal-shubham.pdf)
+   Info: Distributed Parallel inference
+
+3. DiffusionPipe: Training Large Diffusion Models with Efficient Pipelines, Arxiv [[paper]](https://arxiv.org/abs/2405.01248)
+
+   Info: Distributed Parallel training
+
+4. Approximate Caching for Efficiently Serving Text-to-Image Diffusion Models, NSDI24 [[paper]](https://www.usenix.org/system/files/nsdi24-agarwal-shubham.pdf)
 
    Info: Caching Technique
 
-4. SDA: Low-Bit Stable Diffusion Acceleration on Edge FPGAs, FPL 24 [[paper]](https://www.sfu.ca/~zhenman/files/C41-FPL2024-SDA.pdf)
+5. SDA: Low-Bit Stable Diffusion Acceleration on Edge FPGAs, FPL 24 [[paper]](https://www.sfu.ca/~zhenman/files/C41-FPL2024-SDA.pdf)
 
-   Info: On-Device Acceleration
+   Info: Specialized Hardware Design
 
-5. PipeFusion: Displaced Patch Pipeline Parallelism for Inference of Diffusion Transformer Models [[paper]](https://arxiv.org/abs/2405.14430)
+6. PipeFusion: Displaced Patch Pipeline Parallelism for Inference of Diffusion Transformer Models [[paper]](https://arxiv.org/abs/2405.14430)
 
-   Info: Distributed parallel inference
+   Info: Distributed Parallel inference
 
-6. DSP: Dynamic Sequence Parallelism for Multi-Dimensional Transformers [[paper]](https://arxiv.org/abs/2403.10266)
+7. DSP: Dynamic Sequence Parallelism for Multi-Dimensional Transformers [[paper]](https://arxiv.org/abs/2403.10266)
 
-   Info: Distributed parallel inference
+   Info: Distributed Parallel inference
 
-7. A 28.6 mJ/iter Stable Diffusion Processor for Text-toImage Generation with Patch Similarity-based Sparsity Augmentation and Text-based Mixed-Precision [[paper]](https://arxiv.org/pdf/2403.04982)
+8. A 28.6 mJ/iter Stable Diffusion Processor for Text-toImage Generation with Patch Similarity-based Sparsity Augmentation and Text-based Mixed-Precision [[paper]](https://arxiv.org/pdf/2403.04982)
 
-   Info:  Hardware Design
+   Info:  Specialized Hardware Design
 
-8. SwiftDiffusion: Efficient Diffusion Model Serving with Add-on Modules [[paper]](https://arxiv.org/abs/2407.02031s)
+9. SwiftDiffusion: Efficient Diffusion Model Serving with Add-on Modules [[paper]](https://arxiv.org/abs/2407.02031s)
 
    Info: Unsure
 
-9. Learning-to-Cache: Accelerating Diffusion Transformer via Layer Caching [[paper]](https://arxiv.org/abs/2406.01733)
+10. Learning-to-Cache: Accelerating Diffusion Transformer via Layer Caching [[paper]](https://arxiv.org/abs/2406.01733)
 
    Info: Caching technique
 
-10. DeepCache: Accelerating Diffusion Models for Free, CVPR 24 [[paper]](https://arxiv.org/abs/2312.00858)
+11. DeepCache: Accelerating Diffusion Models for Free, CVPR 24 [[paper]](https://arxiv.org/abs/2312.00858)
 
     Info: Caching Technique
 
