@@ -75,6 +75,8 @@ https://arxiv.org/pdf/2404.07771
 
 9. MDTv2: Masked Diffusion Transformer is a Strong Image Synthesizer, ICCV 23 [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Gao_Masked_Diffusion_Transformer_is_a_Strong_Image_Synthesizer_ICCV_2023_paper.pdf)
 
+10. BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion, ECCV24 [[paper]](https://arxiv.org/abs/2305.15798)
+
 ## Algorithm Level
 
 ### 1-Efficient Sampling
