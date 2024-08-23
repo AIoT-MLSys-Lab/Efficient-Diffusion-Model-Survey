@@ -12,6 +12,8 @@ This survey reviews the latest advancements in efficient diffusion model. This p
   - [Algorithm]
     - **Efficient Sampling**
       - **Sampling Scheduling**
+        - 1. 
+        - 2. 
       - **Data-Dependent Adaptive Priors**
       - **Partial Sampling**
     - **Noise Schedule**
