@@ -7,34 +7,63 @@ This survey reviews the latest advancements in efficient diffusion model. This p
 
 ## Outline of Survey (20-25 pages)
 - [Abstract]
+
 - [Introduction]
+
 - [Main Content]
   - [Algorithm]
     - **Efficient Sampling**
       - **Sampling Scheduling**
-        - 1. 
-        - 2. 
+        
+        - 1. Align Your Steps: Optimizing Sampling Schedules in Diffusion Models
+        - 2. Parallel Sampling of Diffusion Models
+        - 3. Simple Hierarchical Planning with Diffusion
+        - 4. Accelerating Parallel Sampling of Diffusion Models
+        - 5. A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models
+        - 6. PipeFusion: Displaced Patch Pipeline Parallelism for Inference of Diffusion Transformer Models
+        - 7. Deep Equilibrium Approaches to Diffusion Models
+        - 8. Learning to Efficiently Sample from Diffusion Probabilistic Models
+        - 9. On Fast Sampling of Diffusion Probabilistic Model
+        - 10. DistriFusion: Distributed Parallel Inference for High-Resolution Diffusion Models
+        
       - **Data-Dependent Adaptive Priors**
+      
       - **Partial Sampling**
+      
     - **Noise Schedule**
       - **Strategic Noise Schedules**
       - **Adaptive Noise Schedules**
+      
     - **SDE and ODE Solvers**
       - **SDE Solver**
+        - 1. Diffusion Normalizing Flow
+        - 2. Gaussian Mixture Solvers for Diffusion Models
+        - 3. Unifying Bayesian Flow Networks and Diffusion Models through Stochastic Differential Equations
+        - 4. SA-Solver: Stochastic Adams Solver for Fast Sampling of Diffusion Models
+        - 5. Diffusion Models with Deterministic Normalizing Flow Priors 
+      
       - **ODE Solver**
+        - 
+      
     - **SGM Optimization**
+    
     - **Latent Diffusion**
+    
     - **Compression**
       - **Quantization**
       - **Pruning**
       - **Knowledge Distillation**
+    
   - [System]
     - **Optimized Hardware-Software Co-Design**
     - **Parallel Computing**
     - **Caching Technique**
+    
   - [Application]
     - 
+  
 - [Evaluation]
+
 - [Conclusion]
 
 # Reference:
