@@ -1,6 +1,39 @@
-# Efficient Diffusion Model: A Survey
+# Efficient Diffusion Models: A Survey
 
 ddl: September 2024
+
+## Abstract
+This survey reviews the latest advancements in efficient diffusion model. This paper aims to provide a comprehensive overview of the methodologies, applications, and future directions in this burgeoning field.
+
+## Outline of Survey (20-25 pages)
+- [Abstract]
+- [Introduction]
+- [Main Content]
+  - [Algorithm]
+    - **Efficient Sampling**
+      - **Sampling Scheduling**
+      - **Data-Dependent Adaptive Priors**
+      - **Partial Sampling**
+    - **Noise Schedule**
+      - **Strategic Noise Schedules**
+      - **Adaptive Noise Schedules**
+    - **SDE and ODE Solvers**
+      - **SDE Solver**
+      - **ODE Solver**
+    - **SGM Optimization**
+    - **Latent Diffusion**
+    - **Compression**
+      - **Quantization**
+      - **Pruning**
+      - **Knowledge Distillation**
+  - [System]
+    - **Optimized Hardware-Software Co-Design**
+    - **Parallel Computing**
+    - **Caching Technique**
+  - [Application]
+    - 
+- [Evaluation]
+- [Conclusion]
 
 # Reference:
 
