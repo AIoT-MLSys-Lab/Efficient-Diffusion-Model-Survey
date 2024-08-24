@@ -14,8 +14,7 @@ This survey reviews the latest advancements in efficient diffusion model. This p
   - [Algorithm]
     - **Efficient Sampling**
       - **Sampling Scheduling**
-        
-        -  Align Your Steps: Optimizing Sampling Schedules in Diffusion Models
+        - Align Your Steps: Optimizing Sampling Schedules in Diffusion Models
         - Parallel Sampling of Diffusion Models
         - Simple Hierarchical Planning with Diffusion
         - Accelerating Parallel Sampling of Diffusion Models
@@ -45,8 +44,16 @@ This survey reviews the latest advancements in efficient diffusion model. This p
       
     - **Noise Schedule**
       - **Strategic Noise Schedules**
+        - Denoising Diffusion Probabilistic Models
+        - Improved Denoising Diffusion Probabilistic Models
+        - Imprvoed Noise Schedule for Diffusion Training
+        - A Cheaper and Better Diffusion Language Model with Soft-masked Noise
       - **Adaptive Noise Schedules**
-      
+        - Denoising Diffusion Implicit Models
+        - ResShift: Efficient Diffusion Model for Image Super-resolution by Residual Shifting
+        - Immiscible Diffusion: Accelerating Diffusion Training with Noise Assignment
+        - Text Diffusion Model with Encoder-Decoder Transformers for Sequence-to-Sequence Generation
+
     - **SDE and ODE Solvers**
       - **SDE Solver**
         - Diffusion Normalizing Flow
@@ -147,22 +154,7 @@ https://arxiv.org/pdf/2404.07771
 
 ### 1-Efficient Sampling
 
-#### 1.1-Variance Learning/Noise Scheduling
-
-1. Learning to Efficiently Sample from Diffusion Probabilistic Models, arXiv [[Paper]](https://arxiv.org/pdf/2106.03802)
-
-   Dataset: CIFAR-10/ImageNet 64x64
-2. ResShift: Efficient Diffusion Model for Image Super-resolution by Residual Shifting, NIPS 23 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/2ac2eac5098dba08208807b65c5851cc-Paper-Conference.pdf)
-
-   Dataset: ImageNet
-3. Empowering Diffusion Models on the Embedding Space for Text Generation, NAACL 24 [[Paper]](https://arxiv.org/pdf/2212.09412),
-
-   Dataset: WMT14/WMT16/IWSLT4/Gigaword/QQP/Wiki-Auto/Quasar-T
-4. A Cheaper and Better Diffusion Language Model with Soft-Masked Noise, EMNLP 23 [[Paper]](https://arxiv.org/pdf/2304.04746)
-
-   Dataset: E2E
-
-#### 1.2-Sampling Scheduling (And Mixing?)
+#### 1.1-Sampling Scheduling (And Mixing?)
 
 1. Align Your Steps: Optimizing Sampling Schedules in Diffusion Models, ICML 24 [[Paper]](https://arxiv.org/pdf/2404.14507)
 
@@ -195,7 +187,7 @@ https://arxiv.org/pdf/2404.07771
 
     Dataset: AFHQ/COCO
 
-#### 1.3-Learned Posterior Sampling
+#### 1.2-Learned Posterior Sampling
 
 1. DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design, ICML 23 [[Paper]](https://openreview.net/attachment?id=9qy9DizMlr&name=pdf)
 
@@ -207,7 +199,7 @@ https://arxiv.org/pdf/2404.07771
 
    Dataset: ShapeNet
 
-#### 1.4-Partial Sampling
+#### 1.3-Partial Sampling
 
 1. Leapfrog Diffusion Model for Stochastic Trajectory Prediction, CVPR 23 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Mao_Leapfrog_Diffusion_Model_for_Stochastic_Trajectory_Prediction_CVPR_2023_paper.pdf)
 
@@ -249,6 +241,28 @@ https://arxiv.org/pdf/2404.07771
 
     Dataset: CIFAR-10/ImageNet-64
 
+### 2-Noise Schedule
+
+#### 2.1-Strategic Noise Schedules
+
+1. Denoising Diffusion Probabilistic Models, NIPS 20 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf)
+
+2. Improved Denoising Diffusion Probabilistic Models, PMLR 21 [[Paper]](https://proceedings.mlr.press/v139/nichol21a/nichol21a.pdf)
+
+3. Improved Noise Schedule for Diffusion Training, arxiv [[Paper]](https://arxiv.org/pdf/2407.03297)
+
+4. A Cheaper and Better Diffusion Language Model with Soft-masked Noise, arxiv [[Paper]](https://arxiv.org/pdf/2304.04746)
+
+#### 2.2-Adaptive Noise Schedules
+
+1. Denoising Diffusion Implicit Models, arxiv [[Paper]](https://arxiv.org/pdf/2010.02502)
+
+2. ResShift: Efficient Diffusion Model for Image Super-resolution by Residual Shifting, NIPS 24 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/2ac2eac5098dba08208807b65c5851cc-Paper-Conference.pdf)
+
+3. Immiscible Diffusion: Accelerating Diffusion Training with Noise Assignment, arxiv [[Paper]](https://arxiv.org/pdf/2406.12303)
+
+4. Text Diffusion Model with Encoder-Decoder Transformers for Sequence-to-Sequence Generation, ACL 24 [[Paper]](https://aclanthology.org/2024.naacl-long.2.pdf)
+
 ### 2-Solver
 
 #### 2.1-SDE/ODE Theory
@@ -281,11 +295,7 @@ https://arxiv.org/pdf/2404.07771
 
    Dataset: LSUN Bedroom/CIFAR-10/ImageNet-64/FFHQ
 
-### 3-Architecture Optimization
-
-#### 3.1-DDPM Optimization (Discretization Optimization)
-
-#### 3.2-SGM Optimization
+### 3-SGM Optimization
 
 1. FP-Diffusion: Improving Score-based Diffusion Models by Enforcing the Underlying Score Fokker-Planck Equation, ICML 23 [[Paper]](https://openreview.net/attachment?id=UULcrko6Hk&name=pdf)
 
