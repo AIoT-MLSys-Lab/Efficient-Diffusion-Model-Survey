@@ -27,8 +27,21 @@ This survey reviews the latest advancements in efficient diffusion model. This p
         - DistriFusion: Distributed Parallel Inference for High-Resolution Diffusion Models
         
       - **Data-Dependent Adaptive Priors**
+        - PriorGrad: Improving Conditional Denoising Diffusion Models with Data-Dependent Adaptive Prior
+        - DiGress: Discrete Denoising diffusion for graph generation
+        - DECOMPDIFF: Diffusion Models with Decomposed Priors for Structure-Based Drug Design
+        - Leapfrog diffusion model for stochastic trajectory prediction
       
       - **Partial Sampling**
+        - On distillation of guided diffusion models
+        - Snapfusion: Text-to-image diffusion model on mobile devices within two seconds
+        - Consistent accelerated inference via confident adaptive transformers
+        - Confident adaptive language modeling
+        - A Simple Early Exiting Framework for Accelerated Sampling in Diffusion Models
+        - Semi-parametric neural image synthesis
+        - kNN-Diffusion: Image Generation via Large-Scale Retrieval
+        - Re-Imagen: Retrieval-Augmented Text-to-Image Generator
+        - ReDi: efficient learning-free diffusion inference via trajectory retrieval
       
     - **Noise Schedule**
       - **Strategic Noise Schedules**
@@ -56,6 +69,11 @@ This survey reviews the latest advancements in efficient diffusion model. This p
     
   - [System]
     - **Optimized Hardware-Software Co-Design**
+      - Speed is all you need: On-device acceleration of large diffusion models via gpu-aware optimizations
+      - SDA: Low-Bit Stable Diffusion Acceleration on Edge FPGAs
+      - A 28.6 mJ/iter Stable Diffusion Processor for Text-to-Image Generation with Patch Similarity-based Sparsity Augmentation and Text-based Mixed-Precision
+      - Efficient memory management for large language model serving with pagedattention
+      - Flightllm: Efficient large language model inference with a complete mapping flow on fpgas
     - **Parallel Computing**
     - **Caching Technique**
     
