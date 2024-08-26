@@ -7,9 +7,7 @@ This survey reviews the latest advancements in efficient diffusion model. This p
 
 ## Outline of Survey (20-25 pages)
 - [Abstract]
-
 - [Introduction]
-
 - [Main Content]
   - [Algorithm]
     - **Efficient Sampling**
@@ -41,7 +39,6 @@ This survey reviews the latest advancements in efficient diffusion model. This p
         - kNN-Diffusion: Image Generation via Large-Scale Retrieval
         - Re-Imagen: Retrieval-Augmented Text-to-Image Generator
         - ReDi: efficient learning-free diffusion inference via trajectory retrieval
-      
     - **Noise Schedule**
       - **Strategic Noise Schedules**
         - Denoising Diffusion Probabilistic Models
@@ -53,7 +50,6 @@ This survey reviews the latest advancements in efficient diffusion model. This p
         - ResShift: Efficient Diffusion Model for Image Super-resolution by Residual Shifting
         - Immiscible Diffusion: Accelerating Diffusion Training with Noise Assignment
         - Text Diffusion Model with Encoder-Decoder Transformers for Sequence-to-Sequence Generation
-
     - **SDE and ODE Solvers**
       - **SDE Solver**
         - Diffusion Normalizing Flow
@@ -61,19 +57,19 @@ This survey reviews the latest advancements in efficient diffusion model. This p
         - Unifying Bayesian Flow Networks and Diffusion Models through Stochastic Differential Equations
         - SA-Solver: Stochastic Adams Solver for Fast Sampling of Diffusion Models
         - Diffusion Models with Deterministic Normalizing Flow Priors 
-      
       - **ODE Solver**
-        - 
-      
+        - Denoising diffusion implicit models
+        - GDDIM: GENERALIZED DENOISING DIFFUSION IMPLICIT MODELS
+        - DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps
+        - FAST SAMPLING OF DIFFUSION MODELS WITH EXPONENTIAL INTEGRATOR
+        - Improved Techniques for Maximum Likelihood Estimation for Diffusion ODEs
+        - Denoising MCMC for Accelerating Diffusion-Based Generative Models
     - **SGM Optimization**
-    
     - **Latent Diffusion**
-    
     - **Compression**
       - **Quantization**
       - **Pruning**
       - **Knowledge Distillation**
-    
   - [System]
     - **Optimized Hardware-Software Co-Design**
       - Speed is all you need: On-device acceleration of large diffusion models via gpu-aware optimizations
@@ -83,12 +79,9 @@ This survey reviews the latest advancements in efficient diffusion model. This p
       - Flightllm: Efficient large language model inference with a complete mapping flow on fpgas
     - **Parallel Computing**
     - **Caching Technique**
-    
   - [Application]
     - 
-  
 - [Evaluation]
-
 - [Conclusion]
 
 # Reference:
