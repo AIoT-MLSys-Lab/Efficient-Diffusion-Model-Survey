@@ -22,7 +22,7 @@ This survey reviews the latest advancements in efficient diffusion model. This p
         - Learning to Efficiently Sample from Diffusion Probabilistic Models
         - On Fast Sampling of Diffusion Probabilistic Model
         - DistriFusion: Distributed Parallel Inference for High-Resolution Diffusion Models
-        
+
       - **Data-Dependent Adaptive Priors**
         - PriorGrad: Improving Conditional Denoising Diffusion Models with Data-Dependent Adaptive Prior
         - DiGress: Discrete Denoising diffusion for graph generation
@@ -68,8 +68,34 @@ This survey reviews the latest advancements in efficient diffusion model. This p
     - **Latent Diffusion**
     - **Compression**
       - **Quantization**
+        - **Post-Training Quantization**
+          - Post-training quantization on diffusion models
+          - Q-diffusion: Quantizing diffusion models
+          - Leveraging early-stage robustness in diffusion models for efficient and high-quality image synthesis
+          - Ptqd: Accurate post-training quantization for diffusion models
+        - **Quantization-Aware Training**
+          - Temporal dynamic quantization for diffusion models
+          - Efficientdm: Efficient quantization-aware fine-tuning of low-bit diffusion models
       - **Pruning**
+        - Structural pruning for diffusion models
+        - LD-Pruner: Efficient Pruning of Latent Diffusion Models using Task-Agnostic Insights
+        - LayerMerge: Neural Network Depth Compression through Layer Pruning and Merging
+        - Laptop-diff: Layer pruning and normalized distillation for compressing diffusion models
       - **Knowledge Distillation**
+        - **Vector Field Distillation**
+          - Knowledge distillation in iterative generative models for improved sampling speed
+          - Progressive distillation for fast sampling of diffusion models
+          - On distillation of guided diffusion models
+          - Consistency models
+          - Flow straight and fast: Learning to generate and transfer data with rectified flow
+          - Optimizing DDPM Sampling with Shortcut Fine-Tuning
+          - Fast inference in denoising diffusion models via mmd finetuning
+        - **Generator Distillation**
+          - Nerf: Representing scenes as neural radiance fields for view synthesis
+          - DreamFusion: Text-to-3D using 2D Diffusion
+          - Prolificdreamer: High-fidelity and diverse text-to-3d generation with variational score distillation
+          - Diff-instruct: A universal approach for transferring knowledge from pre-trained diffusion models
+          - 3d paintbrush: Local stylization of 3d shapes with cascaded score distillation
   - [System]
     - **Optimized Hardware-Software Co-Design**
       - Speed is all you need: On-device acceleration of large diffusion models via gpu-aware optimizations
@@ -80,9 +106,68 @@ This survey reviews the latest advancements in efficient diffusion model. This p
     - **Parallel Computing**
     - **Caching Technique**
   - [Application]
-    - 
+    - **Video Generation**
 - [Evaluation]
 - [Conclusion]
+
+## Algorithm
+### Efficient Sampling
+#### Sampling Scheduling
+
+#### Data-Dependent Adaptive Priors
+
+#### Partial Sampling
+
+### Noise Schedule
+#### Strategic Noise Schedules
+
+#### Adaptive Noise Schedules
+
+### SDE and ODE Solvers
+#### SDE Solver
+
+#### ODE Solver
+
+### Model Architecture Optimization
+#### Diffusion Process Optimization
+
+#### Pre-trained SGM Optimization
+
+#### Solver-enhanced SGM
+
+### Latent Diffusion
+
+### Compression
+#### Quantization
+##### Post-Training Quantization
+- Post-training quantization on diffusion models
+- Q-diffusion: Quantizing diffusion models
+- Leveraging early-stage robustness in diffusion models for efficient and high-quality image synthesis
+- Ptqd: Accurate post-training quantization for diffusion models
+##### Quantization-Aware Training
+- Temporal dynamic quantization for diffusion models
+- Efficientdm: Efficient quantization-aware fine-tuning of low-bit diffusion models
+#### Pruning
+- Structural pruning for diffusion models
+- LD-Pruner: Efficient Pruning of Latent Diffusion Models using Task-Agnostic Insights
+- LayerMerge: Neural Network Depth Compression through Layer Pruning and Merging
+- Laptop-diff: Layer pruning and normalized distillation for compressing diffusion models
+#### Knowledge Distillation
+##### Vector Field Distillation
+- Knowledge distillation in iterative generative models for improved sampling speed
+- Progressive distillation for fast sampling of diffusion models
+- On distillation of guided diffusion models
+- Consistency models
+- Flow straight and fast: Learning to generate and transfer data with rectified flow
+- Optimizing DDPM Sampling with Shortcut Fine-Tuning
+- Fast inference in denoising diffusion models via mmd finetuning
+##### Generator Distillation
+- Nerf: Representing scenes as neural radiance fields for view synthesis
+- DreamFusion: Text-to-3D using 2D Diffusion
+- Prolificdreamer: High-fidelity and diverse text-to-3d generation with variational score distillation
+- Diff-instruct: A universal approach for transferring knowledge from pre-trained diffusion models
+- 3d paintbrush: Local stylization of 3d shapes with cascaded score distillation
+
 
 # Reference:
 
