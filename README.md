@@ -19,9 +19,6 @@ Diffusion models have kickstart a new era in the field of artificial intelligenc
 
 We will actively maintain this repository by incorporating new research as it emerges. If you have any suggestions regarding our taxonomy, find any missed papers, or update any preprint arXiv paper that has been accepted to some venue, feel free to send us an email or submit a **pull request** using the following markdown format.
 
-```markdown
-* **[Name of Conference or Journal + Year]** Paper Name. [[Paper]](link) [[Code]](link)
-```
 
 ## 📖 Table of Contents
 <!-- TOC -->
