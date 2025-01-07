@@ -17,8 +17,6 @@ Diffusion models have kickstart a new era in the field of artificial intelligenc
 
 ## ❤️ Community Support
 
-This repository is maintained by <ins>[Hui Shen](https://github.com/NastyMarcus)</ins> (shen.1780@osu.edu), <ins>[Boning Xiong](https://github.com/jenderkieee888)</ins> (jenderkieee888@gmail.com), <ins>[Jingxuan Zhang](https://github.com/fatdove77)</ins> (fatdove0523@gmail.com), and <ins>[Rui Hu](https://github.com/MatchalatteR)</ins> (marshallrui@gmail.com). We welcome feedback, suggestions, and contributions that can help improve this survey and repository so as to make them valuable resources to benefit the entire community.
-
 We will actively maintain this repository by incorporating new research as it emerges. If you have any suggestions regarding our taxonomy, find any missed papers, or update any preprint arXiv paper that has been accepted to some venue, feel free to send us an email or submit a **pull request** using the following markdown format.
 
 ```markdown
