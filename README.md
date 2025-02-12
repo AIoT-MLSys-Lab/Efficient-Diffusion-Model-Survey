@@ -32,7 +32,7 @@ We will actively maintain this repository by incorporating new research as it em
       - [Efficient Sampling](#efficient-sampling)
       - [Compression](#compression)
     - [System](#system)
-      - [Optimized Hardware-Software Co-Design](#optimized-hardware-software-co-design)
+      - [Hardware-Software Co-Design](#hardware-software-co-design)
       - [Parallel Computing](#parallel-computing)
       - [Caching Technique](#caching-technique)
     - [Frameworks](#frameworks)
@@ -76,8 +76,12 @@ We will actively maintain this repository by incorporating new research as it em
     - **[Arxiv 2024.02]** SlimFlow: Training Smaller One-Step Diffusion Models with Rectified Flow. [[Paper]](https://arxiv.org/pdf/2407.12718?) [[Code]](https://github.com/yuanzhi-zhu/SlimFlow)
   
 #### Efficient Fine-tuning
-  - ##### Low Rank Adaptation
-
+  - ##### Low-Rank Adaptation
+    - 
+  - ##### Adapter
+    - 
+  - ##### ControlNet
+    - 
 
 #### Efficient Sampling
 
@@ -93,12 +97,12 @@ We will actively maintain this repository by incorporating new research as it em
     - **[ICML 2023]** Improved Techniques for Maximum Likelihood Estimation for Diffusion ODEs. [[Paper]](https://proceedings.mlr.press/v202/zheng23c/zheng23c.pdf) [[Code]](https://github.com/thu-ml/i-DODE)
     - **[ICML 2023]** Denoising MCMC for Accelerating Diffusion-Based Generative Models. [[Paper]](https://proceedings.mlr.press/v202/kim23z/kim23z.pdf) [[Code]](https://github.com/1202kbs/DMCMC)
 
-  - ##### Efficient Scheduling
+  - ##### Sampling Scheduling
     - **[NeurIPS 2022]** Deep Equilibrium Approaches to Diffusion Models. [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/f7f47a73d631c0410cbc2748a8015241-Paper-Conference.pdf) [[Code]](https://github.com/ashwinipokle/deq-ddim)
     - **[ICML 2024]** Accelerating Parallel Sampling of Diffusion Models. [[Paper]](https://openreview.net/pdf?id=CjVWen8aJL) [[Code]](https://github.com/TZW1998/ParaTAA-Diffusion)
     - **[NeurIPS 2023]** Parallel Sampling of Diffusion Models. [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/0d1986a61e30e5fa408c81216a616e20-Paper-Conference.pdf) [[Code]](https://github.com/AndyShih12/paradigms)
 
-  - ##### Partial Sampling
+  - ##### Truncated Sampling
     - **[EMNLP 2021]** Consistent Accelerated Inference via Confident Adaptive Transformers. [[Paper]](https://arxiv.org/pdf/2104.08803) [[Code]](https://github.com/TalSchuster/CATs)
     - **[NeurIPS 2022]** Confident Adaptive Language Modeling. [[Paper]](https://openreview.net/pdf?id=uLYc4L3C81A)
     - **[ICML 2024]** A Simple Early Exiting Framework for Accelerated Sampling in Diffusion Models. [[Paper]](https://openreview.net/pdf?id=OnOaj3g9fi) [[Code]](https://github.com/taehong-moon/ee-diffusion)
@@ -138,7 +142,7 @@ We will actively maintain this repository by incorporating new research as it em
 
 ### System
 
-#### Optimized Hardware-Software Co-Design
+#### Hardware-Software Co-Design
   - **[CVPRW 2023]** Speed Is All You Need: On-Device Acceleration of Large Diffusion Models via GPU-Aware Optimizations. [[Paper]](https://openaccess.thecvf.com/content/CVPR2023W/ECV/papers/Chen_Speed_Is_All_You_Need_On-Device_Acceleration_of_Large_Diffusion_CVPRW_2023_paper.pdf) [[Project]](https://research.google/blog/speed-is-all-you-need-on-device-acceleration-of-large-diffusion-models-via-gpu-aware-optimizations/)
   - **[FPL 2024]** SDA: Low-Bit Stable Diffusion Acceleration on Edge FPGAs. [[Paper]](https://www.sfu.ca/~zhenman/files/C41-FPL2024-SDA.pdf) [[Code]](https://github.com/Michaela1224/SDA_code)
   - **[ISCAS 2024]** A 28.6 mJ/iter Stable Diffusion Processor for Text-to-Image Generation with Patch Similarity-based Sparsity Augmentation and Text-based Mixed-Precision. [[Paper]](https://arxiv.org/pdf/2403.04982)
