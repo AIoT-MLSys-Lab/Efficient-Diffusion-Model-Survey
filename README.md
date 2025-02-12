@@ -5,7 +5,7 @@
 
    [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
    [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FNastyMarcus%2FA-Survey-of-Efficient-Diffusion-Models&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-   ![GitHub Repo stars](https://img.shields.io/github/stars/NastyMarcus/A-Survey-of-Efficient-Diffusion-Models)
+   ![GitHub Repo stars](https://img.shields.io/github/stars/AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey)
 
 </h5>
 
@@ -76,10 +76,20 @@ We will actively maintain this repository by incorporating new research as it em
     - **[Arxiv 2024.02]** SlimFlow: Training Smaller One-Step Diffusion Models with Rectified Flow. [[Paper]](https://arxiv.org/pdf/2407.12718?) [[Code]](https://github.com/yuanzhi-zhu/SlimFlow)
   
 #### Efficient Fine-tuning
+
   - ##### Low-Rank Adaptation
-    - 
+    - **[Arxiv 2024.10]** LoRA: Low-Rank Adaptation of Large Language Models. [[Paper]](https://arxiv.org/pdf/2106.09685) [[Code]](https://github.com/microsoft/LoRA)
+    - **[ECCV 2024]** Lcm-lora: A universal stable-diffusion acceleration module [[Paper]](https://arxiv.org/pdf/2311.05556) [[Code]](https://github.com/luosiallen/latent-consistency-model)
+    - **[ECCV 2024]** Concept sliders: Lora adaptors for precise control in diffusion models. [[Paper]](https://arxiv.org/pdf/2311.12092) [[Code]](https://github.com/rohitgandikota/sliders)
+    - **[Arxiv 2024.07]** LoRA-Composer: Leveraging Low-Rank Adaptation for Multi-Concept Customization in Training-Free Diffusion Models. [[Paper]](https://arxiv.org/pdf/2403.11627)  [[Code]](https://github.com/Young98CN/LoRA_Composer)
+    - **[Arxiv 2024.10]** Simple Drop-in LoRA Conditioning on Attention Layers Will Improve Your Diffusion Model [[Paper]](https://arxiv.org/pdf/2405.03958)
+
   - ##### Adapter
-    - 
+    - **[AAAI 2024]** T2i-adapter: Learning adapters to dig out more controllable ability for text-to-image diffusion models. [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/28226/28447) [[Code]](https://github.com/TencentARC/T2I-Adapter.)
+    - **[Arxiv 2023.08]** Ip-adapter: Text compatible image prompt adapter for text-to-image diffusion models. [[Paper]](https://arxiv.org/pdf/2308.06721) [[Code]](https://github.com/tencent-ailab/IP-Adapter)
+    - **[Arxiv 2024.05]** Ctrl-Adapter: An Efficient and Versatile Framework for Adapting Diverse Controls to Any Diffusion Model [[Paper]](https://arxiv.org/pdf/2404.09967) [[Code]](https://github.com/HL-hanlin/Ctrl-Adapter)
+    - **[CVPR 2024]** Simda: Simple diffusion adapter for efficient video generation [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Xing_SimDA_Simple_Diffusion_Adapter_for_Efficient_Video_Generation_CVPR_2024_paper.pdf) [[Code]](https://chenhsing.github.io/SimDA/)
+
   - ##### ControlNet
     - 
 
