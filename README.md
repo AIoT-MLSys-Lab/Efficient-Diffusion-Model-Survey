@@ -91,7 +91,16 @@ We will actively maintain this repository by incorporating new research as it em
     - **[CVPR 2024]** Simda: Simple diffusion adapter for efficient video generation [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Xing_SimDA_Simple_Diffusion_Adapter_for_Efficient_Video_Generation_CVPR_2024_paper.pdf) [[Code]](https://chenhsing.github.io/SimDA/)
 
   - ##### ControlNet
-    - 
+
+
+  - ##### ControlNet
+    - **[ICCV 2023]** Adding conditional control to text-to-image diffusion models. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Adding_Conditional_Control_to_Text-To-Image_Diffusion_Models_ICCV_2023_paper.pdf)[[Code]](https://github.com/faverogian/controlNet)
+    - **[ECCV 2025]** ControlNet++: Improving Conditional Controls with Efficient Consistency Feedback. [[Paper]](https://arxiv.org/pdf/2404.07987)[[Code]](https://github.com/liming-ai/ControlNet_Plus_Plus)
+    - **[Arxiv 2023.12]** ControlNet-XS: Rethinking the Control of Text-to-Image Diffusion Models as Feedback-Control Systems. [[Paper]](https://arxiv.org/pdf/2312.06573)[[Code]](https://github.com/vislearn/ControlNet-XS)
+    - **[Arxiv 2024.08]** ControlNext: Powerful and efficient control for image and video generation. [[Paper]](https://arxiv.org/pdf/2408.06070)[[Code]](https://github.com/dvlab-research/ControlNeXt)
+    - **[NeurIPS 2024]** Uni-ControlNet: All-in-one control to text-to-image diffusion models. [[Paper]](https://arxiv.org/pdf/2305.16322)[[Code]](https://github.com/ShihaoZhaoZSH/Uni-ControlNet)
+    - **[NeurIPS 2023]** UniControl: A unified diffusion model for controllable visual generation in the wild. [[Paper]](https://openreview.net/pdf?id=v54eUIayFh)[[Code]](https://github.com/salesforce/UniControl)
+
 
 #### Efficient Sampling
 
