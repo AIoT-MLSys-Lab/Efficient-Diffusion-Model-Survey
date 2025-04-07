@@ -136,6 +136,7 @@ We will actively maintain this repository by incorporating new research as it em
     - **[NeurIPS 2023]** Leveraging Early-Stage Robustness in Diffusion Models for Efficient and High-Quality Image Synthesis. [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/04261fce1705c4f02f062866717d592a-Paper-Conference.pdf) 
     - **[NeurIPS 2023]** PTQD: Accurate Post-Training Quantization for Diffusion Models. [[Paper]](https://arxiv.org/pdf/2305.10657) [[Code]](https://github.com/ziplab/PTQD)
     - **[NeurIPS 2023]** Temporal Dynamic Quantization for Diffusion Models. [[Paper]](https://arxiv.org/pdf/2306.02316)
+    - **[NeurIPS 2024]** BitsFusion: 1.99 bits Weight Quantization of Diffusion Model. [[Paper]](https://arxiv.org/pdf/2406.04333)
     - **[ICLR 2020]** Learned Step Size Quantization. [[Paper]](https://openreview.net/pdf?id=rkgO66VKDS) 
     - **[ICLR 2024]** EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models. [[Paper]](https://arxiv.org/pdf/2310.03270) [[Code]](https://github.com/ThisisBillhe/EfficientDM)
 
