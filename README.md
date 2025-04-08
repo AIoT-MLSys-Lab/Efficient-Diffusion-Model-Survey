@@ -93,14 +93,14 @@ We will actively maintain this repository by incorporating new research as it em
     - **[Arxiv 2024.07]** LoRA-Composer: Leveraging Low-Rank Adaptation for Multi-Concept Customization in Training-Free Diffusion Models. [[Paper]](https://arxiv.org/pdf/2403.11627)  [[Code]](https://github.com/Young98CN/LoRA_Composer)
     - **[Arxiv 2024.10]** Simple Drop-in LoRA Conditioning on Attention Layers Will Improve Your Diffusion Model [[Paper]](https://arxiv.org/pdf/2405.03958)
 
-  - ##### Adapter（OK）
+  - ##### Adapter
     - **[AAAI 2024]** T2i-adapter: Learning adapters to dig out more controllable ability for text-to-image diffusion models. [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/28226/28447) [[Code]](https://github.com/TencentARC/T2I-Adapter.)
     - **[Arxiv 2023.08]** Ip-adapter: Text compatible image prompt adapter for text-to-image diffusion models. [[Paper]](https://arxiv.org/pdf/2308.06721) [[Code]](https://github.com/tencent-ailab/IP-Adapter)
     - **[ICML 2024]** Accelerating Parallel Sampling of Diffusion Models. [[Paper]](https://openreview.net/pdf?id=CjVWen8aJL) [[Code]](https://github.com/TZW1998/ParaTAA-Diffusion)
     - **[Arxiv 2024.05]** Ctrl-Adapter: An Efficient and Versatile Framework for Adapting Diverse Controls to Any Diffusion Model [[Paper]](https://arxiv.org/pdf/2404.09967) [[Code]](https://github.com/HL-hanlin/Ctrl-Adapter)
     - **[CVPR 2024]** Simda: Simple diffusion adapter for efficient video generation [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Xing_SimDA_Simple_Diffusion_Adapter_for_Efficient_Video_Generation_CVPR_2024_paper.pdf) [[Code]](https://chenhsing.github.io/SimDA/)
 
-  - ##### ControlNet（OK）
+  - ##### ControlNet
     - **[ICCV 2023]** Adding conditional control to text-to-image diffusion models. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Adding_Conditional_Control_to_Text-To-Image_Diffusion_Models_ICCV_2023_paper.pdf)[[Code]](https://github.com/faverogian/controlNet)
     - **[ECCV 2025]** ControlNet++: Improving Conditional Controls with Efficient Consistency Feedback. [[Paper]](https://arxiv.org/pdf/2404.07987)[[Code]](https://github.com/liming-ai/ControlNet_Plus_Plus)
     - **[Arxiv 2023.12]** ControlNet-XS: Rethinking the Control of Text-to-Image Diffusion Models as Feedback-Control Systems. [[Paper]](https://arxiv.org/pdf/2312.06573)[[Code]](https://github.com/vislearn/ControlNet-XS)
@@ -109,7 +109,7 @@ We will actively maintain this repository by incorporating new research as it em
     - **[NeurIPS 2023]** UniControl: A unified diffusion model for controllable visual generation in the wild. [[Paper]](https://openreview.net/pdf?id=v54eUIayFh)[[Code]](https://github.com/salesforce/UniControl)
 
 #### Efficient Sampling
-  - ##### Solver(OK)
+  - ##### Solver
     - **[NeurIPS 2021]** Diffusion Normalizing Flow. [[Paper]](https://proceedings.neurips.cc/paper/2021/file/876f1f9954de0aa402d91bb988d12cd4-Paper.pdf)
     - **[Arxiv 2023.09]** Diffusion models with deterministic normalizing flow priors. [[Paper]](https://arxiv.org/pdf/2309.01274) [[Code]](https://github.com/MohsenZand/DiNof)
     - **[Arxiv 2021.05]** Gotta Go Fast When Generating Data with Score-Based Models. [[Paper]](https://arxiv.org/pdf/2105.14080) [[Code]](https://github.com/AlexiaJM/score_sde_fast_sampling)
@@ -123,7 +123,7 @@ We will actively maintain this repository by incorporating new research as it em
     - **[ICML 2023]** Denoising MCMC for Accelerating Diffusion-Based Generative Models. [[Paper]](https://proceedings.mlr.press/v202/kim23z/kim23z.pdf) [[Code]](https://github.com/1202kbs/DMCMC)
     - **[ICML 2023]** Improved Techniques for Maximum Likelihood Estimation for Diffusion ODEs. [[Paper]](https://proceedings.mlr.press/v202/zheng23c/zheng23c.pdf) [[Code]](https://github.com/thu-ml/i-DODE)
 
-  - ##### Sampling Scheduling(OK)
+  - ##### Sampling Scheduling
     - **[NeurIPS 2022]** Deep Equilibrium Approaches to Diffusion Models. [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/f7f47a73d631c0410cbc2748a8015241-Paper-Conference.pdf) [[Code]](https://github.com/ashwinipokle/deq-ddim)
     - **[NeurIPS 2023]** Parallel Sampling of Diffusion Models. [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/0d1986a61e30e5fa408c81216a616e20-Paper-Conference.pdf) [[Code]](https://github.com/AndyShih12/paradigms)
     - **[ICML 2024]** Accelerating Parallel Sampling of Diffusion Models. [[Paper]](https://openreview.net/pdf?id=CjVWen8aJL) [[Code]](https://github.com/TZW1998/ParaTAA-Diffusion)
@@ -133,7 +133,7 @@ We will actively maintain this repository by incorporating new research as it em
 Diffusion Probabilistic Models. [[Paper]](https://arxiv.org/pdf/2106.03802)
     - **[ICML 2024]** Align Your Steps: Optimizing Sampling Schedules in Diffusion Models. [[Paper]](https://openreview.net/pdf?id=nBGBzV4It3)
    
-  - ##### Truncated Sampling(OK)
+  - ##### Truncated Sampling
     - **[EMNLP 2021]** Consistent Accelerated Inference via Confident Adaptive Transformers. [[Paper]](https://arxiv.org/pdf/2104.08803) [[Code]](https://github.com/TalSchuster/CATs)
     - **[ICML 2024]** A Simple Early Exiting Framework for Accelerated Sampling in Diffusion Models. [[Paper]](https://openreview.net/pdf?id=OnOaj3g9fi) [[Code]](https://github.com/taehong-moon/ee-diffusion)
     - **[Arxiv 2022.04]** Semi-Parametric Neural Image Synthesis. [[Paper]](https://arxiv.org/pdf/2204.11824) [[Code]](https://github.com/lucidrains/retrieval-augmented-ddpm)
@@ -141,7 +141,7 @@ Diffusion Probabilistic Models. [[Paper]](https://arxiv.org/pdf/2106.03802)
     - **[ICLR 2023]** Re-Imagen: Retrieval-Augmented Text-to-Image Generator. [[Paper]](https://openreview.net/pdf?id=XSEBx0iSjFQ)
     - **[ICML 2023]** ReDi: Efficient Learning-Free Diffusion Inference via Trajectory Retrieval. [[Paper]](https://openreview.net/pdf?id=SP01yVIC2o) [[Code]](https://github.com/zkx06111/ReDiffusion)
 
-  - ##### Knowledge Distillation(OK)
+  - ##### Knowledge Distillation
     - **[Arxiv 2021.01]** Knowledge Distillation in Iterative Generative Models for Improved Sampling Speed. [[Paper]](https://arxiv.org/pdf/2101.02388) [[Code]](https://github.com/tcl9876/Denoising_Student)
     - **[ICLR 2022]** Progressive Distillation for Fast Sampling of Diffusion Models. [[Paper]](https://openreview.net/pdf?id=TIdIXIpzhoI) [[Code]](https://github.com/google-research/google-research/tree/master/diffusion_distillation)
     - **[CVPR 2023]** On Distillation of Guided Diffusion Models. [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Meng_On_Distillation_of_Guided_Diffusion_Models_CVPR_2023_paper.pdf)
@@ -153,7 +153,7 @@ Diffusion Probabilistic Models. [[Paper]](https://arxiv.org/pdf/2106.03802)
     - **[CVPR 2024]** 3D Paintbrush: Local Stylization of 3D Shapes with Cascaded Score Distillation. [[Paper]](https://arxiv.org/pdf/2311.09571) [[Code]](https://github.com/threedle/3d-paintbrush)
 
 #### Compression
-  - ##### Quantization(OK)
+  - ##### Quantization
     - **[CVPR 2023]** Post-training Quantization on Diffusion Models. [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.pdf) [[Code]](https://github.com/42Shawn/PTQ4DM)
     - **[ICCV 2023]** Q-Diffusion: Quantizing Diffusion Models. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf) [[Code]](https://github.com/Xiuyu-Li/q-diffusion)
     - **[ICLR 2021]** BRECQ: Pushing the Limit of Post-Training Quantization by Block Reconstruction. [[Paper]](https://arxiv.org/pdf/2102.05426) [[Code]](https://github.com/yhhhli/BRECQ)
@@ -164,25 +164,25 @@ Diffusion Probabilistic Models. [[Paper]](https://arxiv.org/pdf/2106.03802)
     - **[ICLR 2020]** Learned Step Size Quantization. [[Paper]](https://openreview.net/pdf?id=rkgO66VKDS) 
     - **[NeurIPS 2024]** BitsFusion: 1.99 bits Weight Quantization of Diffusion Model. [[Paper]](https://arxiv.org/pdf/2406.04333)
 
-  - ##### Pruning(OK)
+  - ##### Pruning
     - **[NeurIPS 2023]** Structural Pruning for Diffusion Models. [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/35c1d69d23bb5dd6b9abcd68be005d5c-Paper-Conference.pdf) [[Code]](https://github.com/VainF/Diff-Pruning)
     - **[CVPRW 2024]** LD-Pruner: Efficient Pruning of Latent Diffusion Models using Task-Agnostic Insights. [[Paper]](https://openaccess.thecvf.com/content/CVPR2024W/EDGE/papers/Castells_LD-Pruner_Efficient_Pruning_of_Latent_Diffusion_Models_using_Task-Agnostic_Insights_CVPRW_2024_paper.pdf)
     - **[ICML 2024]** LayerMerge: Neural Network Depth Compression through Layer Pruning and Merging. [[Paper]](https://openreview.net/pdf?id=uDoy7AGvEC) [[Code]](https://github.com/snu-mllab/LayerMerge)
     - **[Arxiv 2024.04]** LAPTOP-Diff: Layer Pruning and Normalized Distillation for Compressing Diffusion Models. [[Paper]](https://arxiv.org/pdf/2404.11098) 
 
 ### System
-#### Hardware-Software Co-Design(OK)
+#### Hardware-Software Co-Design
   - **[CVPRW 2023]** Speed Is All You Need: On-Device Acceleration of Large Diffusion Models via GPU-Aware Optimizations. [[Paper]](https://openaccess.thecvf.com/content/CVPR2023W/ECV/papers/Chen_Speed_Is_All_You_Need_On-Device_Acceleration_of_Large_Diffusion_CVPRW_2023_paper.pdf) [[Project]](https://research.google/blog/speed-is-all-you-need-on-device-acceleration-of-large-diffusion-models-via-gpu-aware-optimizations/)
   - **[FPL 2024]** SDA: Low-Bit Stable Diffusion Acceleration on Edge FPGAs. [[Paper]](https://www.sfu.ca/~zhenman/files/C41-FPL2024-SDA.pdf) [[Code]](https://github.com/Michaela1224/SDA_code)
   - **[ISCAS 2024]** A 28.6 mJ/iter Stable Diffusion Processor for Text-to-Image Generation with Patch Similarity-based Sparsity Augmentation and Text-based Mixed-Precision. [[Paper]](https://arxiv.org/pdf/2403.04982)
 
-#### Parallel Computing(OK)
+#### Parallel Computing
   - **[CVPR 2024]** DistriFusion: Distributed Parallel Inference for High-Resolution Diffusion Models. [[Paper]](https://arxiv.org/pdf/2402.19481) [[Code]](https://github.com/mit-han-lab/distrifuser)
   - **[Arxiv 2024.05]** PipeFusion: Displaced Patch Pipeline Parallelism for Inference of Diffusion Transformer Models. [[Paper]](https://arxiv.org/pdf/2405.14430) [[Code]](https://github.com/PipeFusion/PipeFusion?tab=readme-ov-file)
   - **[Arxiv 2024.07]** SwiftDiffusion: Efficient Diffusion Model Serving with Add-on Modules. [[Paper]](https://arxiv.org/pdf/2407.02031) 
   - **[MLSys 2024]** DiffusionPipe: Training Large Diffusion Models with Efficient Pipelines. [[Paper]](https://proceedings.mlsys.org/paper_files/paper/2024/file/45c1f6a8cbf2da59ebf2c802b4f742cd-Paper-Conference.pdf)
 
-#### Caching Technique(OK)
+#### Caching Technique
   - **[NSDI 2024]** Approximate Caching for Efficiently Serving Text-to-Image Diffusion Models. [[Paper]](https://arxiv.org/pdf/2312.04429) [[Code]](https://github.com/mit-han-lab/distrifuser)
   - **[CVPR 2024]** DeepCache: Accelerating Diffusion Models for Free. [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Ma_DeepCache_Accelerating_Diffusion_Models_for_Free_CVPR_2024_paper.pdf) [[Code]](https://github.com/horseee/DeepCache)
   - **[CVPR 2024]** Cache Me if You Can: Accelerating Diffusion Models through Block Caching. [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Wimbauer_Cache_Me_if_You_Can_Accelerating_Diffusion_Models_through_Block_CVPR_2024_paper.pdf) [[Project]](https://fwmb.github.io/blockcaching/#)
