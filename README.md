@@ -151,6 +151,7 @@ Diffusion Probabilistic Models. [[Paper]](https://arxiv.org/pdf/2106.03802)
     - **[NeurIPS 2023]** ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation. [[Paper]](https://arxiv.org/pdf/2305.16213) [[Code]](https://github.com/thu-ml/prolificdreamer)
     - **[NeurIPS 2023]** Diff-Instruct: A Universal Approach for Transferring Knowledge From Pre-trained Diffusion Models. [[Paper]](https://arxiv.org/pdf/2305.18455) [[Code]](https://github.com/pkulwj1994/diff_instruct)
     - **[CVPR 2024]** 3D Paintbrush: Local Stylization of 3D Shapes with Cascaded Score Distillation. [[Paper]](https://arxiv.org/pdf/2311.09571) [[Code]](https://github.com/threedle/3d-paintbrush)
+    - **[CVPR 2025]** MoFlow: One-Step Flow Matching for Human Trajectory Forecasting via Implicit Maximum Likelihood Estimation based Distillation [[Paper]](https://arxiv.org/pdf/2503.09950) [[Code]](https://github.com/felix-yuxiang/MoFlow)
 
 #### Compression
   - ##### Quantization
