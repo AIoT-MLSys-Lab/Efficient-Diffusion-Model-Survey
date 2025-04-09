@@ -11,9 +11,15 @@
 
 Diffusion models have kickstart a new era in the field of artificial intelligence generative content (AIGC). This repo is a curated list of papers about the latest advancements in efficient diffusion models. **This repo is being actively updated, please stay tuned!**
 
-## 📣 Update News
-
-`[2024-11-9]` We released the repository.
+## ⚡News: Our survey has been released on arXiv and is available at: [[arXiv](https://arxiv.org/abs/2502.06805)]
+```
+@article{shen2025efficient,
+  title={Efficient Diffusion Models: A Survey},
+  author={Shen, Hui and Zhang, Jingxuan and Xiong, Boning and Hu, Rui and Chen, Shoufa and Wan, Zhongwei and Wang, Xin and Zhang, Yu and Gong, Zixuan and Bao, Guangyin and others},
+  journal={arXiv preprint arXiv:2502.06805},
+  year={2025}
+}
+```
 
 ## ❤️ Community Support
 
@@ -23,7 +29,7 @@ We will actively maintain this repository by incorporating new research as it em
 ## 📖 Table of Contents
 <!-- TOC -->
 - [Efficient Diffusion Models: A Survey](#efficient-diffusion-models-a-survey)
-  - [📣 Update News](#-update-news)
+  - [⚡News: Our survey has been released on arXiv and is available at: \[arXiv\]](#news-our-survey-has-been-released-on-arxiv-and-is-available-at-arxiv)
   - [❤️ Community Support](#️-community-support)
   - [📖 Table of Contents](#-table-of-contents)
     - [Algorithm](#algorithm)
