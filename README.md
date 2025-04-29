@@ -4,14 +4,13 @@
 <h5 align="center">
 
    [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-   [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FNastyMarcus%2FA-Survey-of-Efficient-Diffusion-Models&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
    ![GitHub Repo stars](https://img.shields.io/github/stars/AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey)
 
 </h5>
 
 Diffusion models have kickstart a new era in the field of artificial intelligence generative content (AIGC). This repo is a curated list of papers about the latest advancements in efficient diffusion models. **This repo is being actively updated, please stay tuned!**
 
-## ⚡News: Our survey has been released on arXiv and is available at: [[arXiv](https://arxiv.org/abs/2502.06805)]
+## ⚡News: Our survey has been officially accepted by Transactions on Machine Learning Research (TMLR), Apr 2025. Arxiv version is available at:[[arXiv](https://arxiv.org/abs/2502.06805)]
 ```
 @article{shen2025efficient,
   title={Efficient Diffusion Models: A Survey},
