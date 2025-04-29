@@ -1,4 +1,10 @@
 # Efficient Diffusion Models: A Survey
+> **[Efficient Diffusion Models: A Survey](https://arxiv.org/abs/2502.06805)**[ [arXiv]](https://arxiv.org/abs/2502.06805) (Version 1: 02/03/2025, camera ready version of Transactions on Machine Learning Research)
+
+> *Hui Shen<sup>1</sup>, Jingxuan Zhang<sup>2</sup>, Boning Xiong<sup>3</sup>, Rui Hu<sup>4</sup>,Shoufa Chen<sup>1</sup>, Zhongwei Wan<sup>1</sup>, Xin Wang<sup>1</sup>, Yu Zhang<sup>5</sup>, Zixuan Gong<sup>5</sup>, Guangyin Bao<sup>5</sup>, Chaofan Tao<sup>6</sup>, Yongfeng Huang<sup>7</sup>, Ye Yuan<sup>8</sup>, Mi Zhang.<sup>1</sup>*
+
+> *<sup>1</sup>The Ohio State University, <sup>2</sup>Indiana University, <sup>3</sup>Fudan University, <sup>4</sup>Hangzhou City University, <sup>5</sup>Tongji University, <sup>6</sup>The University of Hong Kong, <sup>7</sup>The Chinese University of Hong Kong, <sup>8</sup>Peking University.*
+
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
 
 <h5 align="center">
