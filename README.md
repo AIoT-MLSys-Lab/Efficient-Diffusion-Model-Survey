@@ -58,8 +58,6 @@ Diffusion models have emerged as powerful generative models capable of producing
    - [Parallel Computing](#parallel-computing)
    - [Caching Technique](#caching-technique)
 - [🔧 Frameworks](#-frameworks)
-- [👍 Acknowledgement](#-acknowledgement)
-- [📑 Citation](#-citation)
 
 ## 🔢 Algorithm-Level Optimization
 ### Efficient Training
