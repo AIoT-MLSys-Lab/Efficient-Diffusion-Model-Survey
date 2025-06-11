@@ -33,24 +33,16 @@ Paper Title, <ins>Conference/Journal/Preprint, Year</ins>  [[pdf](link)] [[other
 ```
 
 ## 📖 Table of Contents
-<!-- TOC -->
-- [Efficient Diffusion Models: A Survey](#efficient-diffusion-models-a-survey)
-  - [⚡News: Our survey has been released on arXiv and is available at: \[arXiv\]](#news-our-survey-has-been-released-on-arxiv-and-is-available-at-arxiv)
-  - [❤️ Community Support](#️-community-support)
-  - [📖 Table of Contents](#-table-of-contents)
-    - [Algorithm](#algorithm)
+   - [Algorithm](#algorithm)
       - [Efficient Training](#efficient-training)
       - [Efficient Fine-tuning](#efficient-fine-tuning)
       - [Efficient Sampling](#efficient-sampling)
       - [Compression](#compression)
-    - [System](#system)
+   - [System](#system)
       - [Hardware-Software Co-Design](#hardware-software-co-design)
       - [Parallel Computing](#parallel-computing)
       - [Caching Technique](#caching-technique)
-    - [Frameworks](#frameworks)
-  - [👍 Acknowledgement](#-acknowledgement)
-  - [📑 Citation](#-citation)
-
+   - [Frameworks](#frameworks)
 
 ### Algorithm
 #### Efficient Training
