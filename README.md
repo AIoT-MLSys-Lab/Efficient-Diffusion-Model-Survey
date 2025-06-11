@@ -31,6 +31,9 @@ We will actively maintain this repository by incorporating new research as it em
 ```markdown
 Paper Title, <ins>Conference/Journal/Preprint, Year</ins>  [[pdf](link)] [[other resources](link)].
 ```
+## 📌 What is This Survey About?
+
+Diffusion models have emerged as powerful generative models capable of producing highquality contents such as images, videos, audio, and text, demonstrating their potential to revolutionize digital content generation. However, these capabilities come at the cost of their significant resource demands and lengthy generation time, underscoring the need to develop efficient techniques for practical deployment. In this survey, we provide a systematic and comprehensive review of research on efficient diffusion models. We organize the literature in a taxonomy consisting of three main categories, covering distinct yet interconnected efficient diffusion model topics from <b>algorithm</b>, <b>system</b>, and <b>framework</b> perspective, respectively. We hope our survey can serve as a valuable resource to help researchers and practitioners gain a systematic understanding of efficient diffusion model research and inspire them to contribute to this important and exciting field.
 
 ## 📖 Table of Contents
 - [Efficient Diffusion Models: A Survey](#efficient-diffusion-models-a-survey)
