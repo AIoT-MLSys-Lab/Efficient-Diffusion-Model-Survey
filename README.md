@@ -14,8 +14,6 @@
 
 </h5>
 
-Diffusion models have kickstart a new era in the field of artificial intelligence generative content (AIGC). This repo is a curated list of papers about the latest advancements in efficient diffusion models. **This repo is being actively updated, please stay tuned!**
-
 ## ⚡News: Our survey has been officially accepted by Transactions on Machine Learning Research (TMLR), May 2025.
 ```
 @article{shen2025efficient,
