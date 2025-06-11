@@ -1,5 +1,5 @@
 # Efficient Diffusion Models: A Survey
-> **[Efficient Diffusion Models: A Survey](https://arxiv.org/abs/2502.06805)**[ [arXiv]](https://arxiv.org/abs/2502.06805) (Version 1: 02/03/2025；Version 3: 06/07/2025，camera ready version of Transactions on Machine Learning Research)
+> **[Efficient Diffusion Models: A Survey](https://arxiv.org/abs/2502.06805)**[ [arXiv]](https://arxiv.org/abs/2502.06805) (Version 1: 02/03/2025；Version 3: 06/06/2025, camera ready version of Transactions on Machine Learning Research (TMLR))
 
 > *Hui Shen<sup>1</sup>, Jingxuan Zhang<sup>2</sup>, Boning Xiong<sup>3</sup>, Rui Hu<sup>4</sup>,Shoufa Chen<sup>1</sup>, Zhongwei Wan<sup>1</sup>, Xin Wang<sup>1</sup>, Yu Zhang<sup>5</sup>, Zixuan Gong<sup>5</sup>, Guangyin Bao<sup>5</sup>, Chaofan Tao<sup>6</sup>, Yongfeng Huang<sup>7</sup>, Ye Yuan<sup>8</sup>, Mi Zhang.<sup>1</sup>*
 
