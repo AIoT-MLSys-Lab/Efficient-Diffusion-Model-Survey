@@ -21,7 +21,7 @@ Diffusion models have kickstart a new era in the field of artificial intelligenc
 @article{shen2025efficient,
   title={Efficient Diffusion Models: A Survey},
   author={Shen, Hui and Zhang, Jingxuan and Xiong, Boning and Hu, Rui and Chen, Shoufa and Wan, Zhongwei and Wang, Xin and Zhang, Yu and Gong, Zixuan and Bao, Guangyin and others},
-  journal={arXiv preprint arXiv:2502.06805},
+  journal={Transactions on Machine Learning Research (TMLR)},
   year={2025}
 }
 ```
