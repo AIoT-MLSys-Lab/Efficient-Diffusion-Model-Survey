@@ -45,6 +45,7 @@ Diffusion models have emerged as powerful generative models capable of producing
       - [Low-Rank Adaptation](#low-rank-adaptation)
       - [Adapter](#adapter)
       - [ControlNet](#controlnet)
+      - [Selective Parameter Fine-tuning](#selective-parameter-fine-tuning)
    - [Efficient Sampling](#efficient-sampling)
       - [Solver](#solver)
       - [Sampling Scheduling](#sampling-scheduling)
@@ -126,6 +127,9 @@ Diffusion models have emerged as powerful generative models capable of producing
 - **[NeurIPS 2023]** UniControl: A unified diffusion model for controllable visual generation in the wild. [[Paper]](https://openreview.net/pdf?id=v54eUIayFh)[[Code]](https://github.com/salesforce/UniControl)
 - **[Arxiv 2023.12]** ControlNet-XS: Rethinking the Control of Text-to-Image Diffusion Models as Feedback-Control Systems. [[Paper]](https://arxiv.org/pdf/2312.06573)[[Code]](https://github.com/vislearn/ControlNet-XS)
 - **[ICCV 2023]** Adding conditional control to text-to-image diffusion models. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Adding_Conditional_Control_to_Text-To-Image_Diffusion_Models_ICCV_2023_paper.pdf)[[Code]](https://github.com/faverogian/controlNet)
+
+#### Selective Parameter Fine-tuning
+- Motion-aware generative frame interpolation, <ins>Science China Information Sciences, 2026</ins> [[pdf](https://arxiv.org/pdf/2501.03699)] [[journal](https://link.springer.com/article/10.1007/s11432-025-4920-3)] [[code](https://github.com/MCG-NJU/MoG-VFI)].
 
 ### Efficient Sampling
 #### Solver
